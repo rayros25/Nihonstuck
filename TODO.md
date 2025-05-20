@@ -3,6 +3,7 @@
 * Proper links (to media, to Google, to exiles)
 
 # Style issues
+* Page 20: add the links to those Con Air clips like it is in the OG
 * Page 226: lt and gt are not showing up. Also laptop is lowercase here
 * Page 228: Grimoire is normal caps
 * Page 249: ASCII is misspelled as ASCLL
