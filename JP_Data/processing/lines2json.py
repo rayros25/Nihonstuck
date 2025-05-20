@@ -29,8 +29,8 @@ with open(f'{sys.argv[1]}.jsonl', 'r') as json_file:
 final_output = {}
 
 for json_str in json_list:
-    # for eng, jpn in handleTranslations.items():
-    #     json_str = json_str.replace(eng + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
+    for eng, jpn in handleTranslations.items():
+        json_str = json_str.replace(eng + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
 
     result = json.loads(json_str)
 

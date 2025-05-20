@@ -41,7 +41,7 @@ def colorize(s):
     return res
 
 def main():
-    with open(f'{sys.argv[1]}.jsonl', 'wb') as outfile:
+    with open(f'{sys.argv[1]}.jsonl', 'w') as outfile:
         with open(f'{sys.argv[1]}.html') as file:
             with open('mspa.json', 'r') as hs:
                 text = file.read()
@@ -58,6 +58,8 @@ def main():
                     while not title:
                         title = lines.pop(0)
                     buf = []
+
+                    # print(lines[-10:])
                     while lines[0] != '----':
                         upnext = lines.pop(0)
                         if not upnext:

@@ -18,14 +18,15 @@
 * Page 934: ectobiology is written in katakana
 * Page 953: Typo. (also how should this be formatted)
 * Page 1000: What translation for ghostyTrickster?
-* Page 1071: color formatting issues
-* Page 1216: do the thing here
+* Page 1114: Off-by-one error?
+* Act 3: Add colors to birthday letters
 * Intermission: missing DZ's translator notes. Search using (１)
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
 * "Bolding" is dropped as a replacement of all caps
 * Are some of the pesterlogs missing the "began pestering" part?
 * Maybe add some furigana (e.g. page 444)
+* How do we spell Beta referring to the Homestuck beta?
 
 # Small details
 * GIFs
