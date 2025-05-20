@@ -1,4 +1,5 @@
 import json
+import sys
 
 handleTranslations = {
     "ectoBiologist": "心霊生物学者",
@@ -22,7 +23,7 @@ handleTranslations = {
 
 
 # with open('hsjp_sorted.jsonl', 'r') as json_file:
-with open('dz_intermission.jsonl', 'r') as json_file:
+with open(f'{sys.argv[1]}.jsonl', 'r') as json_file:
     json_list = list(json_file)
 
 final_output = {}
@@ -41,5 +42,5 @@ for json_str in json_list:
 json_object = json.dumps(final_output, indent=4, ensure_ascii=False).encode("utf8")
 
 # Writing to sample.json
-with open("dz_intermission.json", "wb") as outfile:
+with open(f'{sys.argv[1]}.json', "wb") as outfile:
     outfile.write(json_object)

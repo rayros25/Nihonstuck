@@ -58,6 +58,9 @@ vueHooks: [
 
     const intermission = api.readJson('./JP_Data/dz_intermission.json')
     api.logger.info(intermission)
+
+    const dzact3 = api.readJson('./JP_Data/dz_act3.json')
+    api.logger.info(dzact3)
     
     return {
       edit(archive) {
@@ -77,6 +80,15 @@ vueHooks: [
           }
           console.log(archive.mspa.story[page_num])
         }
+
+        for (const page_num in dzact3) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...dzact3[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
       }
     }
   }

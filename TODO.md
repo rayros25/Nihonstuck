@@ -20,6 +20,7 @@
 * Page 1000: What translation for ghostyTrickster?
 * Page 1071: color formatting issues
 * Page 1216: do the thing here
+* Intermission: missing DZ's translator notes. Search using (１)
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
 * "Bolding" is dropped as a replacement of all caps
