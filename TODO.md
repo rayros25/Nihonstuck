@@ -19,7 +19,7 @@
 * Page 953: Typo. (also how should this be formatted)
 * Page 1000: What translation for ghostyTrickster?
 * Page 1114: Off-by-one error?
-* Act 3: Add colors to birthday letters
+* Act 3: Add colors to birthday letters (and do the furigana thing with ghostyTrickster)
 * Intermission: missing DZ's translator notes. Search using (１)
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
