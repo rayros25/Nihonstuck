@@ -53,10 +53,10 @@ vueHooks: [
 
 
   computed(api) {
-    const translation = api.readJson('./hsjp.json')
+    const translation = api.readJson('./JP_Data/hsjp.json')
     api.logger.info(translation)
 
-    const intermission = api.readJson('./dz_intermission.json')
+    const intermission = api.readJson('./JP_Data/dz_intermission.json')
     api.logger.info(intermission)
     
     return {
