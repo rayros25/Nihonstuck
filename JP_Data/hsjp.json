@@ -609,7 +609,7 @@
     },
     "002053": {
         "title": "ＴＴ：グリストキャッシュを開く。",
-        "content": "|PESTERLOG|<br /><span style=\"color: #b536da;\">TT: 部屋を拡張したことで少し「グリスト」を消費したわ。<br/>TT: でも旋盤を設置したときは消費しなかった。<br/>TT: 多分ゲームを準備するのに必要なものは無料でダウンロードできるみたい。</span><br/><span style=\"color: #0715cd;\">EB: へー、なるほど。<br/>EB: これで何するの？</span><br/><span style=\"color: #b536da;\">TT: それは１Pであるあなたが知るべきだと思う。<br/>TT: 2Ｐの私にできることは、あなたの家の中で物を置いたり運ぶことしかないようね。</span><br/><span style=\"color: #0715cd;\">EB: どうやって動かすの？面白そう！</span><br/><span style=\"color: #b536da;\">TT: クライアントは動かせないと思うわ。サーバープログラムをインストールする必要があるわね。<br/>TT: ディスクをもう一つインストールしなければいけないの。私は両方ともパソコンに入っているわよ。</span><br/><span style=\"color: #0715cd;\">EB: そうなの？</span><br/><span style=\"color: #b536da;\">TT: もう一つの封筒は受け取った？</span><br/><span style=\"color: #0715cd;\">EB: まだ！</span><br/><span style=\"color: #b536da;\">TT: サーバーをインストールして接続したらあなたも私の周りの環境を同じ方法で操縦することができるのに。<br/>TT: 本当に持っていないの？</span><br/><span style=\"color: #0715cd;\">EB: ああもう。<br/>EB: でもそれがどこにあるかわかるかも。</span>"
+        "content": "|PESTERLOG|<br /><span style=\"color: #b536da;\">TT: 部屋を拡張したことで少し「グリスト」を消費したわ。<br/>TT: でも旋盤を設置したときは消費しなかった。<br/>TT: 多分ゲームを準備するのに必要なものは無料で置くできるみたい。</span><br/><span style=\"color: #0715cd;\">EB: へー、なるほど。<br/>EB: これで何するの？</span><br/><span style=\"color: #b536da;\">TT: それは１Pであるあなたが知るべきだと思う。<br/>TT: 2Ｐの私にできることは、あなたの家の中で物を置いたり運ぶことしかないようね。</span><br/><span style=\"color: #0715cd;\">EB: どうやって動かすの？面白そう！</span><br/><span style=\"color: #b536da;\">TT: クライアントは動かせないと思うわ。サーバープログラムをインストールする必要があるわね。<br/>TT: 両方とも別々の封筒で届いているはずだ。私は両方ともパソコンに入っているわよ。</span><br/><span style=\"color: #0715cd;\">EB: そうなの？</span><br/><span style=\"color: #b536da;\">TT: もう一つの封筒は受け取った？</span><br/><span style=\"color: #0715cd;\">EB: まだ！</span><br/><span style=\"color: #b536da;\">TT: サーバーをインストールして接続したらあなたも私の周りの環境を同じ方法で操縦することができるのに。<br/>TT: 本当に持っていないの？</span><br/><span style=\"color: #0715cd;\">EB: ああもう。<br/>EB: でもそれがどこにあるかわかるかも。</span>"
     },
     "002054": {
         "title": "==>",
@@ -625,7 +625,7 @@
     },
     "002057": {
         "title": "ＴＴ：アルケミター錬成機を設置する。",
-        "content": "|PESTERLOG|<br /><span style=\"color: #0715cd;\">EB：なんで床が揺れてるんだ？<br/>EB：僕の家になにか設置してるの？</span><br/><span style=\"color: #b536da;\">TT：ええ。巨大な装置2つ</span><br/><span style=\"color: #0715cd;\">EB：いいね！<br/>EB：このデカくて変な機械で何すればいいの？</span><br/><span style=\"color: #b536da;\">TT：多分このパンチカードで錬成に関するシステムを起動させるんじゃないかしら。</span><br/><span style=\"color: #0715cd;\">EB：んー。<br/>EB：だから何のために？<br/>EB：僕たちはこのゲームで一体何をすればいいの？</span><br/><span style=\"color: #b536da;\">TT：調査する必要があるわね。<br/>TT：行って調べて来てくれない？</span>"
+        "content": "|PESTERLOG|<br /><span style=\"color: #0715cd;\">EB：なんで床が揺れてるんだ？<br/>EB：僕の家になにか設置してるの？</span><br/><span style=\"color: #b536da;\">TT：ええ。巨大な装置2つ。</span><br/><span style=\"color: #0715cd;\">EB：いいね！<br/>EB：このデカくて変な機械で何すればいいの？</span><br/><span style=\"color: #b536da;\">TT：多分このパンチカードで錬成に関するシステムを起動させるんじゃないかしら。</span><br/><span style=\"color: #0715cd;\">EB：んー。<br/>EB：だから何のために？<br/>EB：僕たちはこのゲームで一体何をすればいいの？</span><br/><span style=\"color: #b536da;\">TT：調査する必要があるわね。<br/>TT：行って調べて来てくれない？</span>"
     },
     "002058": {
         "title": "ジョン：PDAを手に入れる。",
