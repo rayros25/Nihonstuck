@@ -25,8 +25,43 @@ pestercolors = {
     "CC": "77003c"
 }
 
-# <span style=\"color: #e00707\">TG: plz say yes</span>
-# r'<style \"color: #0000\">'
+
+spritecolors = {
+    "john": "0715cd",
+    "dave": "e00707", # TODO: choose dave spelling
+    "rose": "b536da",
+    "jade": "4ac925",
+    "nannasprite": "????",
+    "jaspersprite": "????",
+    "calsprite": "????",
+    "davesprite": "????",
+    "jadesprite": "????",
+    # "AA": "a10000",
+    # "AT": "a15000",
+    # "TA": "a1a100",
+    # "CG": "626262",
+    # "AC": "416600",
+    # "GA": "008141",
+    # "GC": "008282",
+    # "AG": "005682",
+    # "CT": "000056",
+    # "TC": "2b0057",
+    # "CA": "6a006a",
+    # "CC": "77003c"
+}
+
+def join_messages(buf):
+    res = []
+    if len(buf) == 0:
+        return res
+    curr = buf[0]
+    for m in buf[1:]:
+        if not m or m[0].isascii():
+            res.append(curr)
+            curr = m
+        else:
+            curr = curr + m
+    return res
 
 def colorize(s):
     res = s
@@ -75,6 +110,7 @@ def main():
                         buf.pop(0)
 
 
+                    buf = join_messages(buf)
                     buf = [colorize(s) for s in buf]
 
                     content = ''.join(buf)
@@ -106,7 +142,6 @@ def main():
                     if story[page_idstr]["content"].startswith("|"):
                         content = story[page_idstr]["content"][0:11] + "<br>" + content
 
-                    # print(f'{{"{page_id:06}": {{"title": "{title}", "content": "{content}"}}}}')
                     outfile.write(f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n')
 
 if __name__ == "__main__":
