@@ -537,7 +537,7 @@
     },
     "002035": {
         "title": "ジョン：ぺスターチャムをチェックする。",
-        "content": "|PESTERLOG|<br />– <ruby>tentacleTherapist<rt>触手セラピスト</rt></ruby><span style=\"color: #b536da;\">[TT]</span>が<ruby>ectoBiologist<rt>心霊生物学者</rt></ruby><span style=\"color: #0715cd;\">[EB]</span> を悩ませ始めました。 17:08 –<br/><br/><span style=\"color: #b536da;\">TT: BETA版を無事に手に入れたのね。よかった。<br/>TT: 接続してみて。</span><br/><span style=\"color: #0715cd;\">EB: うん、ところでさっき最高のプレゼントをもらったんだ。</span><br/><span style=\"color: #b536da;\">TT: うさぎ？</span><br/><span style=\"color: #0715cd;\">EB: すっごいイイだろ。</span><br/><span style=\"color: #b536da;\">TT: その哀れな動物の話は何度か聞いたわ。それに関する壮大な伝説は私の個人的な神話を集めて置くフォルダにあるの。</span><br/><span style=\"color: #0715cd;\">EB: アハハ、何の話？</span><br/><span style=\"color: #b536da;\">TT: 目先の問題に集中したらどう？</span><br/><span style=\"color: #0715cd;\">EB: ああ、ゲームね。<br/>EB: どうやるのかイマイチわからなくって。今画面に何が映ってる？</span><br/><span style=\"color: #b536da;\">TT: あなたのクライアントプログラムを実行してる。私はサーバーを動かすホストユーザーとしてあなたと繋げておいたわ。ゲームをするには必要不可欠な手順よ。</span><br/><span style=\"color: #0715cd;\">EB: わ、わかった。</span><br/><span style=\"color: #b536da;\">TT: そろそろプレイ出来そう？</span>"
+        "content": "|PESTERLOG|<br />– <ruby>tentacleTherapist<rt>触手セラピスト</rt></ruby><span style=\"color: #b536da;\">[TT]</span>が<ruby>ectoBiologist<rt>心霊生物学者</rt></ruby><span style=\"color: #0715cd;\">[EB]</span> を悩ませ始めました。 17:08 –<br/><br/><span style=\"color: #b536da;\">TT: BETA版を無事に手に入れたのね。よかった。<br/>TT: 接続してみて。</span><br/><span style=\"color: #0715cd;\">EB: うん、ところでさっき最高のプレゼントをもらったんだ。</span><br/><span style=\"color: #b536da;\">TT: うさぎ？</span><br/><span style=\"color: #0715cd;\">EB: すっごいイイだろ。</span><br/><span style=\"color: #b536da;\">TT: その哀れな動物の話は何度か聞いたわ。それに関する壮大な伝説は私の個人的な神話を集めて置くフォルダにあるの。</span><br/><span style=\"color: #0715cd;\">EB: アハハ、何の話？</span><br/><span style=\"color: #b536da;\">TT: 目先の問題に集中したらどう？</span><br/><span style=\"color: #0715cd;\">EB: ああ、ゲームね。<br/>EB: どうやるのかイマイチわからなくって。今画面に何が映ってる？</span><br/><span style=\"color: #b536da;\">TT: あなたのクライアントプログラムを実行してる。私はサーバーを動かすホストユーザーとしてあなたと繋げておいたわ。ゲームをするには必要不可欠な手順よ。</span><br/><span style=\"color: #0715cd;\">EB: ああ、わかった。</span><br/><span style=\"color: #b536da;\">TT: そろそろプレイ出来そう？</span>"
     },
     "002036": {
         "title": "ジョン：[Enter]を押す。",
@@ -549,7 +549,7 @@
     },
     "002038": {
         "title": "==>",
-        "content": "<a href=\"https://www.homestuck.com/story/138\">ゲームはこちら</a><br/><br/>[インターフェース上にマウスオーバーで表示-AH]<br/>選択 / 編集 / 展開 / 装置レジストリ / グリストキャッシュ / トーテムリスト / 錬成メニュー"
+        "content": "[インターフェース上にマウスオーバーで表示-AH]<br/>選択 / 編集 / 展開 / 装置レジストリ / グリストキャッシュ / トーテムリスト / 錬成メニュー"
     },
     "002039": {
         "title": "ＴＴ：マジックボックスを選択する。",
@@ -605,7 +605,7 @@
     },
     "002052": {
         "title": "ジョン：トーテム旋盤を調べる。",
-        "content": "これが一体何なのかはわからないがちゃんと動くようだ！"
+        "content": "これが一体何なのかはわからないがカッコよさそうだ！"
     },
     "002053": {
         "title": "ＴＴ：グリストキャッシュを開く。",
