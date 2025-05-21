@@ -19,6 +19,10 @@
 * Page 953: Typo. (also how should this be formatted)
 * Page 1000: What translation for ghostyTrickster?
 * Page 1114: Off-by-one error?
+* Page 1429: Add Spritelog colors (and for all other spritelogs)
+* Page 1525: All the ghostyTrickster stuff
+* Page 1651: More spritelog stuff
+* Page 1657: Davesprite colors (this is gonna be a headache)
 * Act 3: Add colors to birthday letters (and do the furigana thing with ghostyTrickster)
 * Intermission: missing DZ's translator notes. Search using (１)
 * Are we using the same colon throughout? I don't think it matters but

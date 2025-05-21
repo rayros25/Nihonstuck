@@ -31,9 +31,10 @@ pestercolors = {
 def colorize(s):
     res = s
     for p in pestercolors:
-        spantag = r'<span style=\"color: #^COLOR^\">'.replace('^COLOR^', pestercolors[p])
+        # these quotes get taken care of later
+        spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', pestercolors[p])
         # First is ASCII colon, second is Japanese colon
-        if res.startswith(p + ": ") or res.startswith(p + "："):
+        if res.startswith(p + ":") or res.startswith(p + "："):
             res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
             # return res
         elif "[" + p + "]" in res:
@@ -45,7 +46,7 @@ def main():
         with open(f'{sys.argv[1]}.html') as file:
             with open('mspa.json', 'r') as hs:
                 text = file.read()
-                lines = text.split("<br>\n")
+                lines = text.split("<br />\n")
 
                 story = json.load(hs)["story"]
 
@@ -85,6 +86,10 @@ def main():
                     title = title.replace('<span class="santen">', '')
                     title = title.replace('…</span>', '...')
                     title = title.replace('…', '...')
+
+                    # quote stuff, to prevent messing up jsonl and json
+                    content = content.replace('"', '\\"')
+                    title = title.replace('"', '\\"')
 
 
                     # actually render greater than (and less than)
