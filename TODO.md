@@ -4,8 +4,8 @@
 
 # Style issues
 * Page 20: add the links to those Con Air clips like it is in the OG
-* Page 226: lt and gt are not showing up. Also laptop is lowercase here
-* Page 228: Grimoire is normal caps
+* Page 226: lt and gt are not showing up. Also laptop is lowercase here (done)
+* Page 228: Grimoire is normal caps (done)
 * Page 249: ASCII is misspelled as ASCLL
 * Page 256: TT is entirely kanji here
 * Page 267: ==> is small?
