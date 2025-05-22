@@ -12,7 +12,7 @@ pestercolors = {
     "TG": "e00707",
     "TT": "b536da",
     "GG": "4ac925",
-    "AA": "a10000",
+    "AA": "a10000", # here be trolls
     "AT": "a15000",
     "TA": "a1a100",
     "CG": "626262",
@@ -23,10 +23,12 @@ pestercolors = {
     "CT": "000056",
     "TC": "2b0057",
     "CA": "6a006a",
-    "CC": "77003c"
+    "CC": "77003c",
+    ""  : "ffffff" # Doc Scratch
 }
 
 
+# TODO: aradiasprite and equius and probably the rest
 spritecolors = {
     "ジョン": "0715cd",
     "デイブ": "e00707", # TODO: choose dave spelling
@@ -38,6 +40,19 @@ spritecolors = {
     "カルスプライト": "f2a400",
     "デイヴスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
     "デイブスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
+    "アラディアスプライト": "a10000", # here be trolls
+    "アラディアボット": "a10000", # here be trolls
+    "AT": "a15000",
+    "TA": "a1a100",
+    "CG": "626262",
+    "AC": "416600",
+    "GA": "008141",
+    "GC": "008282",
+    "AG": "005682",
+    "エクィウス": "000056",
+    "TC": "2b0057",
+    "CA": "6a006a",
+    "CC": "77003c",
     "jadesprite": "????" # NOTE: comma
     # "AA": "a10000",
     # "AT": "a15000",
@@ -61,8 +76,18 @@ replacements = {
     '"': '\\"',
     '&gt;': '>',
     '&lt;': '<',
-    'デイヴ': 'デイブ'
+    'デイヴ': 'デイブ',
+    'ツインアルマゲドン': '双子のハルマゲドン',
+    '黙示録の発生': '黙示の発生',
+    'ヒ素またたび': 'ヒ素キャットニップ',
+    'ケンタウルスの精巣': 'ケンタウロスの精巣',
+    'クモの巣グリップ': 'クモの握',
+    ']　': ']', # TODO: does this mess with terezi emoticons?
+    '　[': '[',
+    # '］': ']',
+    # '［': '[',
 }
+# たく　ちく <-- japanese space
 
 def sanitize(s):
     res = s
@@ -102,6 +127,10 @@ def colorize(s):
     for p in pestercolors:
         # these quotes get taken care of later
         spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', pestercolors[p])
+
+        # Get rid of Japanese square bracket
+        res = res.replace('］', ']').replace('［', '[')
+
         # First is ASCII colon, second is Japanese colon
         if res.startswith(p + ":") or res.startswith(p + "："):
             res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
@@ -111,7 +140,10 @@ def colorize(s):
     for sp in spritecolors:
         spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
         if res.startswith(sp + ":") or res.startswith(sp + "："):
-            res = spantag + res + '</span><br>'
+            if sp:
+                res = spantag + res + '</span><br>'
+            else:
+                res = spantag + res[1:] + '</span><br>'
 
     return res
 

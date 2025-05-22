@@ -30,7 +30,12 @@ final_output = {}
 
 for json_str in json_list:
     for eng, jpn in handleTranslations.items():
+        json_str = json_str.replace(jpn + " [", jpn + "[")
         json_str = json_str.replace(eng + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
+        json_str = json_str.replace(eng + " " + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
+        json_str = json_str.replace(eng + "　" + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
+        # json_str = json_str.replace('</ruby> [' eng + "　" + jpn, f'')
+
 
     result = json.loads(json_str)
 

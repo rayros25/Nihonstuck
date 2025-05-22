@@ -28,13 +28,13 @@ vueHooks: [
             else if (/SPRITELOG/i.test(text)){
                 text = 'スプライトログ'
             }
-            // else if (/RECAP LOG/i.test(text)){
-            //     text = 'Пересказолог'
-            // }
-            // else if (/JOURNALOG/i.test(text)){
-            //     text = 'Журналог'
-            //     text = ' 日録 ' (nichiroku -> nichirogu?)
-            // }
+            else if (/RECAP LOG/i.test(text)){
+                // text = '要約ログ'
+                text = 'マトメログ'
+            }
+            else if (/JOURNALOG/i.test(text)){
+                text = '日ログ'
+            }
             // else if (/DIALOGLOG/i.test(text)){
             //     text = 'Диалоглог'
             // }
@@ -63,10 +63,16 @@ vueHooks: [
     api.logger.info(dzact3)
 
     const dzact4part1 = api.readJson('./JP_Data/dz_act4part1.json')
-    api.logger.info(dzact3)
+    api.logger.info(dzact4part1)
 
     const dzact4part2 = api.readJson('./JP_Data/dz_act4part2.json')
-    api.logger.info(dzact3)
+    api.logger.info(dzact4part2)
+
+    const dzact5part1 = api.readJson('./JP_Data/dz_act5part1.json')
+    api.logger.info(dzact5part1)
+
+    // const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
+    // api.logger.info(dzact5part2)
     
     return {
       edit(archive) {
@@ -109,6 +115,23 @@ vueHooks: [
           }
           console.log(archive.mspa.story[page_num])
         }
+
+
+        for (const page_num in dzact5part1) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...dzact5part1[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        // for (const page_num in dzact5part2) {
+        //    archive.mspa.story[page_num] = {
+        //     ...archive.mspa.story[page_num],
+        //     ...dzact5part2[page_num]
+        //   }
+        //   console.log(archive.mspa.story[page_num])
+        // }
 
       }
     }
