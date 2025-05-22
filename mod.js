@@ -64,6 +64,9 @@ vueHooks: [
 
     const dzact4part1 = api.readJson('./JP_Data/dz_act4part1.json')
     api.logger.info(dzact3)
+
+    const dzact4part2 = api.readJson('./JP_Data/dz_act4part2.json')
+    api.logger.info(dzact3)
     
     return {
       edit(archive) {
@@ -95,6 +98,14 @@ vueHooks: [
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...dzact4part1[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        for (const page_num in dzact4part2) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...dzact4part2[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
