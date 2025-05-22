@@ -84,6 +84,19 @@ def join_pestermessages(buf):
             curr = curr + m
     return res
 
+def join_spritemessages(buf):
+    res = []
+    if len(buf) == 0:
+        return res
+    curr = buf[0]
+    for m in buf[1:]:
+        if not m or (":" in m) or ("：" in m):
+            res.append(curr)
+            curr = m
+        else:
+            curr = curr + m
+    return res
+
 def colorize(s):
     res = s
     for p in pestercolors:
@@ -97,7 +110,7 @@ def colorize(s):
             res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
     for sp in spritecolors:
         spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
-        if res.startswith(sp):
+        if res.startswith(sp + ":") or res.startswith(sp + "："):
             res = spantag + res + '</span><br>'
 
     return res
@@ -115,6 +128,8 @@ def main():
                 while len(lines) > 1:
                     # TODO: check for pesterlogs, somehow
                     page_num = lines.pop(0)
+                    page_id = 1900 + int(page_num)
+                    page_idstr = f'{page_id:06}'
                     # sometimes formatting is inconsistent, so we have to do this:
                     title = ''
                     while not title:
@@ -141,6 +156,8 @@ def main():
                         is_log = True
                         if story[page_idstr]["content"].startswith("|PESTER"):
                             buf = join_pestermessages(buf)
+                        elif story[page_idstr]["content"].startswith("|SPRITE"):
+                            buf = join_spritemessages(buf)
                         buf = [colorize(s) for s in buf]
 
                     content = (story[page_idstr]["content"][0:11] + "<br>" if is_log else '') + ''.join(buf)
@@ -153,8 +170,6 @@ def main():
                     if title.startswith(">"):
                         title = title.removeprefix(">")
 
-                    page_id = 1900 + int(page_num)
-                    page_idstr = f'{page_id:06}'
 
                     outfile.write(f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n')
 
