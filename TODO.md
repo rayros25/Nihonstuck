@@ -6,7 +6,7 @@
 * Page 20: add the links to those Con Air clips like it is in the OG
 * Page 226: lt and gt are not showing up. Also laptop is lowercase here (done)
 * Page 228: Grimoire is normal caps (done)
-* Page 249: ASCII is misspelled as ASCLL
+* Page 249: ASCII is misspelled as ASCLL (done)
 * Page 256: TT is entirely kanji here
 * Page 267: ==> is small?
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
