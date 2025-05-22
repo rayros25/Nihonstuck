@@ -126,8 +126,10 @@ def main():
 
                 lines.pop(0) # just to get rid of first ----
                 while len(lines) > 1:
+                    # print("lines - ", lines[:4])
                     # TODO: check for pesterlogs, somehow
                     page_num = lines.pop(0)
+                    print(page_num)
                     page_id = 1900 + int(page_num)
                     page_idstr = f'{page_id:06}'
                     # sometimes formatting is inconsistent, so we have to do this:

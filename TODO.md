@@ -27,6 +27,7 @@
 * Page 1642: Same as above
 * Page 1651: More spritelog stuff
 * Page 1657: Davesprite colors (this is gonna be a headache)
+* Page 1942: Untranslated
 * Act 3: Add colors to birthday letters (and do the furigana thing with ghostyTrickster)
 * Act 3, Intermission, Act 4: missing DZ's translator notes. Search using (１)
 * Are we using the same colon throughout? I don't think it matters but
@@ -35,6 +36,7 @@
 * Are some of the pesterlogs missing the "began pestering" part?
 * Maybe add some furigana (e.g. page 444)
 * How do we spell Beta referring to the Homestuck beta?
+* Add Recap Log and Author Log support
 
 # Small details
 * GIFs
