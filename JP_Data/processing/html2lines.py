@@ -8,6 +8,7 @@ import sys
 
 pestercolors = {
     "EB": "0715cd",
+    "GT": "0715cd", # ghostyTrickster, not golgothasTerror
     "TG": "e00707",
     "TT": "b536da",
     "GG": "4ac925",
@@ -27,15 +28,17 @@ pestercolors = {
 
 
 spritecolors = {
-    "john": "0715cd",
-    "dave": "e00707", # TODO: choose dave spelling
-    "rose": "b536da",
-    "jade": "4ac925",
-    "nannasprite": "????",
-    "jaspersprite": "????",
-    "calsprite": "????",
-    "davesprite": "????",
-    "jadesprite": "????",
+    "ジョン": "0715cd",
+    "デイブ": "e00707", # TODO: choose dave spelling
+    "デイヴ": "e00707", # TODO: choose dave spelling
+    "ローズ": "b536da",
+    "ジェイド": "4ac925", # there better not be an alternate spelling of this
+    "ナンナスプライト": "00d5f2",
+    "ヤスパーススプライト": "f141ef",
+    "カルスプライト": "f2a400",
+    "デイヴスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
+    "デイブスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
+    "jadesprite": "????" # NOTE: comma
     # "AA": "a10000",
     # "AT": "a15000",
     # "TA": "a1a100",
@@ -50,7 +53,25 @@ spritecolors = {
     # "CC": "77003c"
 }
 
-def join_messages(buf):
+
+replacements = {
+    '<span class="santen">': '',
+    '…</span>': '...',
+    '…': '...',
+    '"': '\\"',
+    '&gt;': '>',
+    '&lt;': '<',
+    'デイヴ': 'デイブ'
+}
+
+def sanitize(s):
+    res = s
+    for k in replacements:
+        res = res.replace(k, replacements[k])
+    return res
+
+# TODO: this only works for pesterlogs, since spritelog messages NEVER start with ASCII, since they're names
+def join_pestermessages(buf):
     res = []
     if len(buf) == 0:
         return res
@@ -74,6 +95,11 @@ def colorize(s):
             # return res
         elif "[" + p + "]" in res:
             res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
+    for sp in spritecolors:
+        spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
+        if res.startswith(sp):
+            res = spantag + res + '</span><br>'
+
     return res
 
 def main():
@@ -109,28 +135,18 @@ def main():
                     while len(buf) > 0 and buf[0] == "<br /><br />":
                         buf.pop(0)
 
+                    is_log = False
+                    # only for logs
+                    if story[page_idstr]["content"].startswith("|"):
+                        is_log = True
+                        if story[page_idstr]["content"].startswith("|PESTER"):
+                            buf = join_pestermessages(buf)
+                        buf = [colorize(s) for s in buf]
 
-                    buf = join_messages(buf)
-                    buf = [colorize(s) for s in buf]
+                    content = (story[page_idstr]["content"][0:11] + "<br>" if is_log else '') + ''.join(buf)
 
-                    content = ''.join(buf)
-
-                    # get rid of santen stuff
-                    content = content.replace('<span class="santen">', '')
-                    content = content.replace('…</span>', '...')
-                    content = content.replace('…', '...')
-                    title = title.replace('<span class="santen">', '')
-                    title = title.replace('…</span>', '...')
-                    title = title.replace('…', '...')
-
-                    # quote stuff, to prevent messing up jsonl and json
-                    content = content.replace('"', '\\"')
-                    title = title.replace('"', '\\"')
-
-
-                    # actually render greater than (and less than)
-                    content = content.replace('&gt;', '>').replace('&lt;', '<')
-                    title = title.replace('&gt;', '>').replace('&lt;', '<')
+                    content = sanitize(content)
+                    title = sanitize(title)
 
                     if title.startswith("> "):
                         title = title.removeprefix("> ")
@@ -139,8 +155,6 @@ def main():
 
                     page_id = 1900 + int(page_num)
                     page_idstr = f'{page_id:06}'
-                    if story[page_idstr]["content"].startswith("|"):
-                        content = story[page_idstr]["content"][0:11] + "<br>" + content
 
                     outfile.write(f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n')
 
