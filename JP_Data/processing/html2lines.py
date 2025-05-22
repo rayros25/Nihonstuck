@@ -82,8 +82,6 @@ replacements = {
     'ヒ素またたび': 'ヒ素キャットニップ',
     'ケンタウルスの精巣': 'ケンタウロスの精巣',
     'クモの巣グリップ': 'クモの握',
-    ']　': ']', # TODO: does this mess with terezi emoticons?
-    '　[': '[',
     # '］': ']',
     # '［': '[',
 }
@@ -107,6 +105,8 @@ def join_pestermessages(buf):
             curr = m
         else:
             curr = curr + m
+    if curr:
+        res.append(curr)
     return res
 
 def join_spritemessages(buf):
@@ -120,6 +120,8 @@ def join_spritemessages(buf):
             curr = m
         else:
             curr = curr + m
+    if curr:
+        res.append(curr)
     return res
 
 def colorize(s):
@@ -130,20 +132,23 @@ def colorize(s):
 
         # Get rid of Japanese square bracket
         res = res.replace('］', ']').replace('［', '[')
+        res = res.replace(']　', ']')
+        res = res.replace('　[', '[')
 
         # First is ASCII colon, second is Japanese colon
         if res.startswith(p + ":") or res.startswith(p + "："):
-            res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
+            if p:
+                res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
+            else:
+                print("DOC SCRATCH!")
+                res = spantag + res[1:] + '</span><br>'
             # return res
         elif "[" + p + "]" in res:
             res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
     for sp in spritecolors:
         spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
         if res.startswith(sp + ":") or res.startswith(sp + "："):
-            if sp:
-                res = spantag + res + '</span><br>'
-            else:
-                res = spantag + res[1:] + '</span><br>'
+            res = spantag + res + '</span><br>'
 
     return res
 
