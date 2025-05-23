@@ -19,7 +19,8 @@
 * Page 915: sbahj?
 * Page 934: ectobiology is written in katakana
 * Page 953: Typo. (also how should this be formatted)
-* Page 1000: What translation for ghostyTrickster?
+* Page 1000: Change translation for ghostyTrickster. Also missing pesterlalert colors
+* Page 1073: Add links
 * Page 1114: Off-by-one error?
 ## Intermission
 * Missing translation notes
@@ -49,15 +50,21 @@
 * Page 2202: Handle Doc Scratch
 * Page 2253: Doc Scratch/Lord English green text missing
 * Page 2263: Terezi is missing a line at the bottom
-* Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
+* Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >, also missing Aradia's last line
 * Page 2285: Spritelog with Aradiasprite (and also trolls)
+* Page 2318: Did they forget to translate the first paragraph?
+* Page 2341: Link
+* Page 2439: Bracket replacement
+* Page 2441: Bracket replacement
+* Page 2543: Deal with memo nonsense
+* Page 2547: Deal with memo nonsense
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
 * "Bolding" is dropped as a replacement of all caps
 * Are some of the pesterlogs missing the "began pestering" part?
 * Maybe add some furigana (e.g. page 444)
 * How do we spell Beta referring to the Homestuck beta?
-* Add Recap Log and Author Log support
+* Do we put spaces between pesterhandle and initials?
 
 # Small details
 * GIFs

@@ -1,6 +1,6 @@
 import json
 
-with open('hsjp.jsonl', 'r') as json_file:
+with open('dz_act5part2.jsonl', 'r') as json_file:
     json_list = list(json_file)
 
 missing = []
@@ -16,7 +16,7 @@ for json_str in json_list:
     # print(f"result: {result}")
 
 
-for i in range(1, 1073):
+for i in range(2290, 2626):
     numb = 1900 + i
     strid = f'{numb:06}'
 

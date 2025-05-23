@@ -62,17 +62,14 @@ vueHooks: [
     const dzact3 = api.readJson('./JP_Data/dz_act3.json')
     api.logger.info(dzact3)
 
-    const dzact4part1 = api.readJson('./JP_Data/dz_act4part1.json')
-    api.logger.info(dzact4part1)
-
-    const dzact4part2 = api.readJson('./JP_Data/dz_act4part2.json')
-    api.logger.info(dzact4part2)
+    const dzact4 = api.readJson('./JP_Data/dz_act4.json')
+    api.logger.info(dzact4)
 
     const dzact5part1 = api.readJson('./JP_Data/dz_act5part1.json')
     api.logger.info(dzact5part1)
 
-    // const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
-    // api.logger.info(dzact5part2)
+    const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
+    api.logger.info(dzact5part2)
     
     return {
       edit(archive) {
@@ -100,22 +97,13 @@ vueHooks: [
           console.log(archive.mspa.story[page_num])
         }
 
-        for (const page_num in dzact4part1) {
+        for (const page_num in dzact4) {
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
-            ...dzact4part1[page_num]
+            ...dzact4[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
-
-        for (const page_num in dzact4part2) {
-           archive.mspa.story[page_num] = {
-            ...archive.mspa.story[page_num],
-            ...dzact4part2[page_num]
-          }
-          console.log(archive.mspa.story[page_num])
-        }
-
 
         for (const page_num in dzact5part1) {
            archive.mspa.story[page_num] = {
@@ -125,13 +113,13 @@ vueHooks: [
           console.log(archive.mspa.story[page_num])
         }
 
-        // for (const page_num in dzact5part2) {
-        //    archive.mspa.story[page_num] = {
-        //     ...archive.mspa.story[page_num],
-        //     ...dzact5part2[page_num]
-        //   }
-        //   console.log(archive.mspa.story[page_num])
-        // }
+        for (const page_num in dzact5part2) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...dzact5part2[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
 
       }
     }
