@@ -6,7 +6,7 @@ handleTranslations = {
     "turntechGodhead": "機械仕掛けの神性",
     "tentacleTherapist": "触手セラピスト",
     "gardenGnostic": "物知り庭師",
-    "ghostyTrickster": "お化けみたないたずら者", # 心霊奇術師
+    "ghostyTrickster": "心霊奇術師",
     "carcinoGeneticist": "カルチノ遺伝学者",
     "grimAuxiliatrix": "グリム聖母",
     "adiosToreador": "アディオス闘牛士",

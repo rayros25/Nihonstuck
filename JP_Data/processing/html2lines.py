@@ -46,8 +46,8 @@ spritecolors = {
     "TA": "a1a100",
     "CG": "626262",
     "AC": "416600",
-    "GA": "008141",
-    "GC": "008282",
+    "マザースプライト": "008141", # I'm guessing it's the same as Kanaya's color
+    "ドラゴンスプライト": "008282",
     "AG": "005682",
     "エクィウス": "000056",
     "TC": "2b0057",
@@ -74,14 +74,17 @@ replacements = {
     '…</span>': '...',
     '…': '...',
     '"': '\\"',
+    '&quot;': '\\"',
     '&gt;': '>',
     '&lt;': '<',
+    'お化けみたないたずら者': '心霊奇術師',
     'デイヴ': 'デイブ',
     'ツインアルマゲドン': '双子のハルマゲドン',
     '黙示録の発生': '黙示の発生',
     'ヒ素またたび': 'ヒ素キャットニップ',
     'ケンタウルスの精巣': 'ケンタウロスの精巣',
     'クモの巣グリップ': 'クモの握',
+    'カリギュラ水族館': 'カリギュラの水族館',
     # '］': ']',
     # '［': '[',
 }
@@ -140,9 +143,10 @@ def colorize(s):
             if p:
                 res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
             else:
-                print("DOC SCRATCH!")
                 res = spantag + res[1:] + '</span><br>'
             # return res
+
+        # TODO: Alternian style, where the whole handle is colored.
         elif "[" + p + "]" in res:
             res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
     for sp in spritecolors:
@@ -153,11 +157,13 @@ def colorize(s):
     return res
 
 def main():
+    skipped = 0
     with open(f'{sys.argv[1]}.jsonl', 'w') as outfile:
         with open(f'{sys.argv[1]}.html') as file:
             with open('mspa.json', 'r') as hs:
                 text = file.read()
                 lines = text.split("<br />\n")
+                # lines = text.split("<br>\n") # this is how Act 3's html does linebreaks
 
                 story = json.load(hs)["story"]
 
@@ -167,8 +173,17 @@ def main():
                     # TODO: check for pesterlogs, somehow
                     page_num = lines.pop(0)
                     print(page_num)
-                    page_id = 1900 + int(page_num)
+                    page_id = 1900 + int(page_num) + skipped
                     page_idstr = f'{page_id:06}'
+
+                    # I still don't know why this happens
+                    if page_idstr == '004299':
+                        page_idstr = '004300'
+                        skipped = 1
+                    elif page_idstr == '004315' and skipped == 1:
+                        page_idstr = '004314'
+                        skipped = 0
+
                     # sometimes formatting is inconsistent, so we have to do this:
                     title = ''
                     while not title:
