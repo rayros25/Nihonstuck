@@ -177,8 +177,7 @@ def colorize(s):
     alternianStyle = True # TODO: change this on and off depending if we're on Alternia or not
     res = s
     for p in pestercolors:
-        # these quotes get taken care of later
-        spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', pestercolors[p])
+        spantag = r'<span style=\"color: #^COLOR^\">'.replace('^COLOR^', pestercolors[p])
 
         # Get rid of Japanese square bracket
         res = res.replace('］', ']').replace('［', '[')
@@ -201,6 +200,7 @@ def colorize(s):
             jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
 
         if eng_colon or jpn_colon:
+            # check for Doc Scratch
             if p:
                 res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
             else:
@@ -210,13 +210,19 @@ def colorize(s):
         # TODO: Alternian style, where the whole handle is colored.
         elif "[" + p + "]" in res:
             if alternianStyle:
-                for eng, jpn in handleTranslations.items():
-                    res = res.replace(eng + jpn + "[" + p + "]", spantag + eng + jpn + "[" + p + "]" + '</span>')
+                # TRUTH NUKE
+                # for eng, jpn in handleTranslations.items():
+                # print("[" + p + "]")
+                print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
+                eng = initials[p]
+                jpn = handleTranslations[eng]
+                res = res.replace(eng + jpn + "[" + p + "]", spantag + eng + jpn + "[" + p + "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
 
     for sp in spritecolors:
-        spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
+        # TODO: consolidate with above
+        spantag = r'<span style=\"color: #^COLOR^\">'.replace('^COLOR^', spritecolors[sp])
         if res.startswith(sp + ":") or res.startswith(sp + "："):
             res = spantag + res + '</span><br>'
 
@@ -238,7 +244,7 @@ def main():
                     # print("lines - ", lines[:4])
                     # TODO: check for pesterlogs, somehow
                     page_num = lines.pop(0)
-                    print(page_num)
+                    # print(page_num)
                     page_id = 1900 + int(page_num) + skipped
                     page_idstr = f'{page_id:06}'
 
@@ -278,11 +284,19 @@ def main():
                             buf = join_pestermessages(buf)
                         elif story[page_idstr]["content"].startswith("|SPRITE"):
                             buf = join_spritemessages(buf)
-                        buf = [colorize(s) for s in buf]
+                    buf = [colorize(sanitize(s)) for s in buf]
+                        # if page_idstr == '004221':
+                        #     print("pre buf", buf)
+                        #     buf = [sanitize(s) for s in buf]
+                        #     print("sanitized buf", buf)
+                        #     buf = [colorize(s) for s in buf]
+                        #     print("colorized buf", buf)
+                        # else:
+                        #     buf = [colorize(sanitize(s)) for s in buf]
 
                     content = (story[page_idstr]["content"][0:11] + "<br>" if is_log else '') + ''.join(buf)
 
-                    content = sanitize(content)
+                    # content = sanitize(content)
                     title = sanitize(title)
 
                     if title.startswith("> "):

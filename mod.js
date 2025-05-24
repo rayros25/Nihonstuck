@@ -65,11 +65,11 @@ vueHooks: [
     const dzact4 = api.readJson('./JP_Data/dz_act4.json')
     api.logger.info(dzact4)
 
-    const dzact5part1 = api.readJson('./JP_Data/dz_act5part1.json')
-    api.logger.info(dzact5part1)
+    const dzact5act1 = api.readJson('./JP_Data/dz_act5act1.json')
+    api.logger.info(dzact5act1)
 
-    const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
-    api.logger.info(dzact5part2)
+    // const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
+    // api.logger.info(dzact5part2)
     
     return {
       edit(archive) {
@@ -105,21 +105,21 @@ vueHooks: [
           console.log(archive.mspa.story[page_num])
         }
 
-        for (const page_num in dzact5part1) {
+        for (const page_num in dzact5act1) {
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
-            ...dzact5part1[page_num]
+            ...dzact5act1[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
 
-        for (const page_num in dzact5part2) {
-           archive.mspa.story[page_num] = {
-            ...archive.mspa.story[page_num],
-            ...dzact5part2[page_num]
-          }
-          console.log(archive.mspa.story[page_num])
-        }
+        // for (const page_num in dzact5part2) {
+        //    archive.mspa.story[page_num] = {
+        //     ...archive.mspa.story[page_num],
+        //     ...dzact5part2[page_num]
+        //   }
+        //   console.log(archive.mspa.story[page_num])
+        // }
 
       }
     }

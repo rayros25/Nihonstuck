@@ -38,6 +38,7 @@ for json_str in json_list:
     result = json.loads(json_str)
 
     for key in result:
+        print(key)
         final_output[key] = result[key]
     # result is a dict
     # print(f"result: {result}")
