@@ -45,19 +45,18 @@
 * Page 2061: Terezi missing her last line again
 * Page 2086: Terezi still has that damn space in her name
 * Pages 2119-2145: Miscount nonsense
+* Page 2139: What's going on here
+* Page 2141: More links?
 * Page 2144: Look into colon nonsense (e.g. AG:::::)<br />)
 * Page 2146: Does Sollux use a different typing quirk here?
-* Page 2202: Handle Doc Scratch
 * Page 2253: Doc Scratch/Lord English green text missing
-* Page 2263: Terezi is missing a line at the bottom
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >, also missing Aradia's last line
-* Page 2285: Spritelog with Aradiasprite (and also trolls)
 * Page 2318: Did they forget to translate the first paragraph?
 * Page 2341: Link
 * Page 2439: Bracket replacement
 * Page 2441: Bracket replacement
-* Page 2543: Deal with memo nonsense
-* Page 2547: Deal with memo nonsense
+* Page 2543: Deal with memo nonsense (Partially done)
+* Page 2547: Deal with memo nonsense (Partially done)
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
 * "Bolding" is dropped as a replacement of all caps

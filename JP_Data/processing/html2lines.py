@@ -6,6 +6,47 @@ import sys
 #   grimAuxiliatrixグリム聖母 [GA][TT] (both tags colored the same)
 # Weird off-by-one errors for commands and messages
 
+
+handleTranslations = {
+    "ectoBiologist": "心霊生物学者",
+    "turntechGodhead": "機械仕掛けの神性",
+    "tentacleTherapist": "触手セラピスト",
+    "gardenGnostic": "物知り庭師",
+    "ghostyTrickster": "心霊奇術師",
+    "carcinoGeneticist": "カルチノ遺伝学者",
+    "grimAuxiliatrix": "グリム聖母",
+    "adiosToreador": "アディオス闘牛士",
+    "apocalypseArisen": "黙示の発生",
+    "twinArmageddons": "双子のハルマゲドン",
+    "arsenicCatnip": "ヒ素キャットニップ",
+    "gallowsCalibrator": "絞首台校正器",
+    "arachnidsGrip": "クモの握",
+    "centaursTesticle": "ケンタウロスの精巣",
+    "terminallyCapricious": "救いがたいほど気まぐれ",
+    "caligulasAquarium": "カリギュラの水族館",
+    "cuttlefishCuller": "イカ選定者"
+}
+
+initials = {
+    "EB": "ectoBiologist",
+    "GT": "ghostyTrickster", # ghostyTrickster, not golgothasTerror
+    "TG": "turnteachGodhead",
+    "TT": "tentacleTherapist",
+    "GG": "gardenGnostic",
+    "AA": "apocalypseArisen", # here be trolls
+    "AT": "adiosToreador",
+    "TA": "twinArmageddons",
+    "CG": "carcinoGeneticist",
+    "AC": "arsenicCatnip",
+    "GA": "grimAuxiliatrix",
+    "GC": "gallowsCalibrator",
+    "AG": "arachnidsGrip",
+    "CT": "centaursTesticle",
+    "TC": "terminallyCapricious",
+    "CA": "caligulasAquarium",
+    "CC": "cuttlefishCuller",
+}
+
 pestercolors = {
     "EB": "0715cd",
     "GT": "0715cd", # ghostyTrickster, not golgothasTerror
@@ -90,6 +131,11 @@ replacements = {
 }
 # たく　ちく <-- japanese space
 
+
+def in_memo(s):
+    return s.startswith('未来') or s.startswith('現在') or s.startswith('過去')
+
+
 def sanitize(s):
     res = s
     for k in replacements:
@@ -103,7 +149,7 @@ def join_pestermessages(buf):
         return res
     curr = buf[0]
     for m in buf[1:]:
-        if not m or m[0].isascii():
+        if not m or m[0].isascii() or in_memo(m):
             res.append(curr)
             curr = m
         else:
@@ -128,6 +174,7 @@ def join_spritemessages(buf):
     return res
 
 def colorize(s):
+    alternianStyle = True # TODO: change this on and off depending if we're on Alternia or not
     res = s
     for p in pestercolors:
         # these quotes get taken care of later
@@ -139,7 +186,21 @@ def colorize(s):
         res = res.replace('　[', '[')
 
         # First is ASCII colon, second is Japanese colon
-        if res.startswith(p + ":") or res.startswith(p + "："):
+
+        # standardize pesterhandle formatting
+        for eng, jpn in handleTranslations.items():
+            res = res.replace(eng + " " + jpn, eng + jpn)
+            res = res.replace(eng + "　" + jpn, eng + jpn)
+            res = res.replace(jpn + " [", jpn + "[")
+            res = res.replace(jpn + "　[", jpn + "[")
+
+        eng_colon = False
+        jpn_colon = False
+        for bruh in ["", "過去", "未来", "現在"]:
+            eng_colon = eng_colon or res.startswith(bruh + p + ":")
+            jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
+
+        if eng_colon or jpn_colon:
             if p:
                 res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
             else:
@@ -148,7 +209,12 @@ def colorize(s):
 
         # TODO: Alternian style, where the whole handle is colored.
         elif "[" + p + "]" in res:
-            res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
+            if alternianStyle:
+                for eng, jpn in handleTranslations.items():
+                    res = res.replace(eng + jpn + "[" + p + "]", spantag + eng + jpn + "[" + p + "]" + '</span>')
+            else:
+                res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
+
     for sp in spritecolors:
         spantag = r'<span style="color: #^COLOR^">'.replace('^COLOR^', spritecolors[sp])
         if res.startswith(sp + ":") or res.startswith(sp + "："):
