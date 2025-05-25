@@ -53,11 +53,14 @@
 * Page 2253: Doc Scratch/Lord English green text missing
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >, also missing Aradia's last line
 * Page 2318: Did they forget to translate the first paragraph?
+* Page 2328: Fix initials
 * Page 2341: Link
 * Page 2439: Bracket replacement
 * Page 2441: Bracket replacement
 * Page 2543: Deal with memo nonsense (Partially done)
 * Page 2547: Deal with memo nonsense (Partially done)
+* Page 2567: Oh God what the hell. FCG2?
+* Page 2605: What
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
 * "Bolding" is dropped as a replacement of all caps
