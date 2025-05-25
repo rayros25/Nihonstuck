@@ -10,6 +10,7 @@
 * Page 256: TT is entirely kanji here
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
 * Page 510: Links are missing?
+* Page 565: edit over bro's dumbass comic
 * Page 612: Make sure ths SBAHJ reference comes through
 * Page 655: Something going on with colons
 ## Act 3
