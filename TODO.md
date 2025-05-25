@@ -4,13 +4,10 @@
 
 # Style issues
 ## Act 1
-* Page 20: add the links to those Con Air clips like it is in the OG
-* Page 226: lt and gt are not showing up. Also laptop is lowercase here (done)
+* Page 20: Link in place, but maybe link to Japanese clip?
 ## Act 2
 * Page 256: TT is entirely kanji here
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
-* Page 510: Links are missing?
-* Page 565: edit over bro's dumbass comic
 * Page 612: Make sure ths SBAHJ reference comes through
 * Page 655: Something going on with colons
 ## Act 3
@@ -22,21 +19,13 @@
 * Page 953: Typo. (also how should this be formatted)
 * Page 1000: Change translation for ghostyTrickster. Also missing pesterlalert colors
 * Page 1073: Add links
-* Page 1114: Off-by-one error?
 ## Intermission
 * Missing translation notes
 ## Act 4
 * Missing translation notes
-* Page 1524: Multiple blank lines at end of pesterlog
-* Page 1525: All the ghostyTrickster stuff
-* Page 1624: Jaspersprite dialog missing from Spritelog
-* Page 1626: Same as above
-* Page 1642: Same as above
-* Page 1651: More spritelog stuff
 * Page 1657: Davesprite colors (this is gonna be a headache)
 * Page 1677: Mismatching parentheses
 * Page 1692: Missing initial pester alert. Also Davesprite needs his color
-* Page 1705: Add color
 * Page 1942: Untranslated
 ## Act 5
 * Missing translation notes
@@ -73,3 +62,4 @@
 * GIFs
 * Flashes
 * Page 2263: Cool GIF
+* Page 1705: Add color

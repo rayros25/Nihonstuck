@@ -207,16 +207,19 @@ def colorize(s):
                 res = spantag + res[1:] + '</span><br>'
             # return res
 
-        # TODO: Alternian style, where the whole handle is colored.
+        # TODO: [FCG2] and other nonsense
+        # Do I have to use regex? I might
         elif "[" + p + "]" in res:
             if alternianStyle:
                 # TRUTH NUKE
                 # for eng, jpn in handleTranslations.items():
                 # print("[" + p + "]")
-                print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
+                # print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
                 eng = initials[p]
                 jpn = handleTranslations[eng]
-                res = res.replace(eng + jpn + "[" + p + "]", spantag + eng + jpn + "[" + p + "]" + '</span>')
+                # TODO: does this work???
+                res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
+                res = res.replace("]", "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
 
