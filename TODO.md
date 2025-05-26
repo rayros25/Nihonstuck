@@ -6,26 +6,17 @@
 ## Act 1
 * Page 20: Link in place, but maybe link to Japanese clip?
 ## Act 2
-* Page 256: TT is entirely kanji here
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
-* Page 612: Make sure ths SBAHJ reference comes through
 * Page 655: Something going on with colons
 ## Act 3
 * Missing translation notes
-* Add colors to birthday letters (and do the furigana thing with ghostyTrickster)
-* Page 829: Pesterchum handles need furigana halfway through
-* Page 915: sbahj?
+* Page 829: Weird linebreaks for pesterhandle stuff
 * Page 934: ectobiology is written in katakana
-* Page 953: Typo. (also how should this be formatted)
-* Page 1000: Change translation for ghostyTrickster. Also missing pesterlalert colors
-* Page 1073: Add links
+* Page 953: how should this be formatted?
 ## Intermission
 * Missing translation notes
 ## Act 4
 * Missing translation notes
-* Page 1657: Davesprite colors (this is gonna be a headache)
-* Page 1677: Mismatching parentheses
-* Page 1692: Missing initial pester alert. Also Davesprite needs his color
 * Page 1942: Untranslated
 ## Act 5
 * Missing translation notes
@@ -61,5 +52,6 @@
 # Small details
 * GIFs
 * Flashes
+* Page 612: Translate this image
 * Page 2263: Cool GIF
 * Page 1705: Add color
