@@ -11,6 +11,7 @@
 ## Act 3
 * Missing translation notes
 * Page 829: Weird linebreaks for pesterhandle stuff
+* page 845: add gankra's "punch card calculator" back into the thing.
 * Page 934: ectobiology is written in katakana
 * Page 953: how should this be formatted?
 ## Intermission
@@ -55,3 +56,4 @@
 * Page 612: Translate this image
 * Page 2263: Cool GIF
 * Page 1705: Add color
+* translate rose's gamefaqs? maybe?
