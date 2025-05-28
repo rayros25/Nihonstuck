@@ -12,7 +12,7 @@
 * Missing translation notes
 * Page 829: Weird linebreaks for pesterhandle stuff
 * page 845: add gankra's "punch card calculator" back into the thing.
-* Page 934: ectobiology is written in katakana
+* Page 934: ectobiology is written in katakana.(done)
 * Page 953: how should this be formatted?
 ## Intermission
 * Missing translation notes
