@@ -23,7 +23,7 @@ handleTranslations = {
 
 
 # with open('hsjp_sorted.jsonl', 'r') as json_file:
-with open(f'{sys.argv[1]}.jsonl', 'r') as json_file:
+with open(f'JSONL/{sys.argv[1]}.jsonl', 'r') as json_file:
     json_list = list(json_file)
 
 final_output = {}
