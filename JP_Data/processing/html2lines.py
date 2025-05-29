@@ -233,8 +233,8 @@ def colorize(s):
 
 def main():
     skipped = 0
-    with open(f'{sys.argv[1]}.jsonl', 'w') as outfile:
-        with open(f'{sys.argv[1]}.html') as file:
+    with open(f'JSONL/{sys.argv[1]}.jsonl', 'w') as outfile:
+        with open(f'HTML/{sys.argv[1]}.html') as file:
             with open('mspa.json', 'r') as hs:
                 text = file.read()
                 lines = text.split("<br />\n")
@@ -273,7 +273,7 @@ def main():
                         buf.append(upnext)
 
                     lines.pop(0) # to clear the ----
-                    buf = buf[:-3]
+                    buf = buf[:-3] # :-3
 
                     # get rid of leading linebreaks
                     while len(buf) > 0 and buf[0] == "<br /><br />":
