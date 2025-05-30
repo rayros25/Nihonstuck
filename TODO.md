@@ -14,6 +14,8 @@
 * page 845: add gankra's "punch card calculator" back into the thing.
 * Page 934: ectobiology is written in katakana.(done)
 * Page 953: how should this be formatted?
+* page 1123-24: sbahj funny jokes
+* page 1128: japanify MAIL gif? that'll be a bitch to do
 ## Intermission
 * Missing translation notes
 ## Act 4
