@@ -4,7 +4,7 @@
 
 # Style issues
 ## Act 1
-* Page 110: Dave's pesterchum handle is Japanese in middle
+* Page 110: Dave's pesterchum handle is Japanese in middle (done)
 ## Act 2
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
 * Page 655: Something going on with colons
@@ -13,7 +13,7 @@
 * Page 829: Weird linebreaks for pesterhandle stuff
 * page 845: add gankra's "punch card calculator" back into the thing.
 * Page 934: ectobiology is written in katakana.(done)
-* Page 953: how should this be formatted?
+* Page 953: how should this be formatted? - removed the first line [&gt;SPADES SLICK(スペード・スリック)]<br/><br/> so it starts スペード・スリック？ I don't think we need to tell them how to read Spades Slick twice
 * page 1123-24: sbahj funny jokes
 * page 1128: japanify MAIL gif? that'll be a bitch to do
 ## Intermission
