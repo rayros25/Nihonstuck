@@ -13,12 +13,9 @@
 * Page 953: how should this be formatted? - removed the first line [&gt;SPADES SLICK(スペード・スリック)]<br/><br/> so it starts スペード・スリック？ I don't think we need to tell them how to read Spades Slick twice
 * page 1128: japanify MAIL gif? that'll be a bitch to do
 ## Intermission
-* Missing translation notes (deleted most of them)
 * All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
-* page 1284: add the sunglasses emoji back in there. idk how to do that
-* page 1288: fix link
-* page 1310: another link plus an image
-* page 1332-1333, 1349 - le sbahj
+* Page 1332 - Translate SBaHJ # 11
+* Page 1349 - Translate SBaHJ #10
 ## Act 4
 * Missing translation notes
 * Page 1942: Untranslated
