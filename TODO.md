@@ -15,6 +15,8 @@
 ## Intermission
 * Missing translation notes
 * All the colors and stuff
+* page 1284: add the sunglasses emoji back in there. idk how to do that
+* page 1288: fix link
 ## Act 4
 * Missing translation notes
 * Page 1942: Untranslated
