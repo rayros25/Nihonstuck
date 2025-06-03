@@ -14,7 +14,7 @@
 * page 1128: japanify MAIL gif? that'll be a bitch to do
 ## Intermission
 * All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
-* Page 1332 - Translate SBaHJ # 11
+* Page 1332 - Translate SBaHJ #11
 * Page 1349 - Translate SBaHJ #10
 ## Act 4
 * Missing translation notes
@@ -33,7 +33,7 @@
 * Page 2047: How do we handle caps + italics for Terezi?
 * Page 2056: Add link.
 * Page 2141: More links?
-* Page 2144: Look into colon nonsense (e.g. AG:::::)<br />)
+* Page 2144: Look into colon nonsense (e.g. `AG:::::)<br />`)
 * Page 2146: Does Sollux use a different typing quirk here?
 * Page 2253: Doc Scratch/Lord English green text missing
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
