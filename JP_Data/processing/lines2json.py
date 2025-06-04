@@ -34,6 +34,11 @@ for json_str in json_list:
         json_str = json_str.replace(eng + jpn, f'<ruby>{eng}<rt>{jpn}</rt></ruby>')
         # json_str = json_str.replace('</ruby> [' eng + "　" + jpn, f'')
 
+        # memo stuff
+        json_str = json_str.replace("現在の" + eng, "<ruby>CURRENT<rt>現在の</rt></ruby> " + eng)
+        json_str = json_str.replace("未来の" + eng, "<ruby>FUTURE<rt>未来の</rt></ruby> " + eng)
+        json_str = json_str.replace("過去の" + eng, "<ruby>PAST<rt>過去の</rt></ruby> " + eng)
+
 
     result = json.loads(json_str)
 
