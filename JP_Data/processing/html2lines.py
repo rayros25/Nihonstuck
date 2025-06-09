@@ -1,5 +1,6 @@
 import json
 import sys
+import re
 
 # TODO:
 # The pester announcement looks like this:
@@ -177,6 +178,8 @@ def colorize(s):
     alternianStyle = True # TODO: change this on and off depending if we're on Alternia or not
     res = s
     for p in pestercolors:
+        # TODO: do the mirai CG to FCG stuff here
+        # res = res.replace("")
         spantag = r'<span style=\"color: #^COLOR^\">'.replace('^COLOR^', pestercolors[p])
 
         # Get rid of Japanese square bracket
@@ -193,18 +196,32 @@ def colorize(s):
             res = res.replace(jpn + " [", jpn + "[")
             res = res.replace(jpn + "　[", jpn + "[")
 
+            res = res.replace("過去の" + eng, "<ruby>PAST<rt>過去の</rt></ruby> " + eng)
+            res = res.replace("現在の" + eng, "<ruby>CURRENT<rt>現在の</rt></ruby> " + eng)
+            res = res.replace("未来の" + eng, "<ruby>FUTURE<rt>未来の</rt></ruby> " + eng)
+
         eng_colon = False
         jpn_colon = False
-        for bruh in ["", "過去", "未来", "現在"]:
+        for bruh in ["", "過去", "未来", "現在", "F", "P", "C", "?"]:
             eng_colon = eng_colon or res.startswith(bruh + p + ":")
             jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
 
+        # this is true when its an individual pester message
         if eng_colon or jpn_colon:
             # check for Doc Scratch
             if p:
-                res = spantag + res + '</span><br>' # TODO: this may not work, leaves extra break at the end
+                # TODO: this messes with pester announcements
+                if res.startswith("現在"):
+                    res = "C" + res.removeprefix("現在")
+                elif res.startswith("過去"):
+                    res = "P" + res.removeprefix("過去")
+                elif res.startswith("未来"):
+                    res = "F" + res.removeprefix("未来")
+
+
+                res = spantag + res + '</span><br />' # TODO: this may not work, leaves extra break at the end
             else:
-                res = spantag + res[1:] + '</span><br>'
+                res = spantag + res[1:] + '</span><br />'
             # return res
 
         # TODO: [FCG2] and other nonsense
@@ -222,12 +239,27 @@ def colorize(s):
                 res = res.replace("]", "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
+        else:
+            # Doc Scratch messes everything up.
+            # TODO: this still doesnt handle numbers
+            if p:
+                res = res.replace("未来" + p, spantag + "F" + p + "</span>")
+                res = res.replace("過去" + p, spantag + "P" + p + "</span>")
+                res = res.replace("現在" + p, spantag + "C" + p + "</span>")
+                res = res.replace("F" + p, spantag + "F" + p + "</span>")
+                res = res.replace("P" + p, spantag + "P" + p + "</span>")
+                res = res.replace("C" + p, spantag + "C" + p + "</span>")
 
     for sp in spritecolors:
         # TODO: consolidate with above
         spantag = r'<span style=\"color: #^COLOR^\">'.replace('^COLOR^', spritecolors[sp])
         if res.startswith(sp + ":") or res.startswith(sp + "："):
-            res = spantag + res + '</span><br>'
+            res = spantag + res + '</span><br />'
+
+    endswithbreak = res.endswith("<br>") or res.endswith("<br/>") or res.endswith("<br />")
+        
+    if not endswithbreak:
+        res = res + "<br />"
 
     return res
 

@@ -32,7 +32,11 @@
 * Do we put spaces between pesterhandle and initials?
 * Page 2047: How do we handle caps + italics for Terezi?
 * Page 2056: Add link.
-* Page 2141: More links?
+* Page 2061: This is where adorabloodthirsty comes from (also cut the 44 = AA joke)
+* Page 2081: we need a bug version of "delirious biznasty"
+* Page 2085: Great Undoing referenced
+* Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
+* Page 2141: More links
 * Page 2144: Look into colon nonsense (e.g. `AG:::::)<br />`)
 * Page 2146: Does Sollux use a different typing quirk here?
 * Page 2253: Doc Scratch/Lord English green text missing
