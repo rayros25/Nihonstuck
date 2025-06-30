@@ -25,13 +25,14 @@ handleTranslations = {
     "centaursTesticle": "ケンタウロスの精巣",
     "terminallyCapricious": "救いがたいほど気まぐれ",
     "caligulasAquarium": "カリギュラの水族館",
-    "cuttlefishCuller": "イカ選定者"
+    "cuttlefishCuller": "イカ選定者",
+    # "": "", # TODO: this is lazy. does it even work?
 }
 
 initials = {
     "EB": "ectoBiologist",
     "GT": "ghostyTrickster", # ghostyTrickster, not golgothasTerror
-    "TG": "turnteachGodhead",
+    "TG": "turntechGodhead",
     "TT": "tentacleTherapist",
     "GG": "gardenGnostic",
     "AA": "apocalypseArisen", # here be trolls
@@ -46,6 +47,7 @@ initials = {
     "TC": "terminallyCapricious",
     "CA": "caligulasAquarium",
     "CC": "cuttlefishCuller",
+    # "": "", # TODO: this is lazy. does it even work?
 }
 
 pestercolors = {
@@ -202,7 +204,8 @@ def colorize(s):
 
         eng_colon = False
         jpn_colon = False
-        for bruh in ["", "過去", "未来", "現在", "F", "P", "C", "?"]:
+        memo_prefixes = ["", "過去", "未来", "現在", "F", "P", "C", "?"]
+        for bruh in memo_prefixes:
             eng_colon = eng_colon or res.startswith(bruh + p + ":")
             jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
 
@@ -226,17 +229,38 @@ def colorize(s):
 
         # TODO: [FCG2] and other nonsense
         # Do I have to use regex? I might
-        elif "[" + p + "]" in res:
+        # use memo_prefixes?
+        elif "[" in res:
+            # [CG], [FCG], [PCG], [CCG], [?CG], [FCG2], etc.
+
+            # yeahitsthere = False
+            # for quuux in memo_prefixes:
+            #     yeahitsthere = yeahitsthere or quuux + p in res
+
             if alternianStyle:
                 # TRUTH NUKE
                 # for eng, jpn in handleTranslations.items():
                 # print("[" + p + "]")
                 # print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
-                eng = initials[p]
-                jpn = handleTranslations[eng]
-                # TODO: does this work???
-                res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
-                res = res.replace("]", "]" + '</span>')
+
+                # print("KEY: ", p)
+
+                if p:
+                    eng = initials[p]
+                    jpn = handleTranslations[eng]
+
+                    if "[F" + p in res:
+                        res = res.replace("<ruby>", spantag + "<ruby>")
+                    elif "[C" + p in res:
+                        res = res.replace("<ruby>", spantag + "<ruby>")
+                    elif "[P" + p in res:
+                        res = res.replace("<ruby>", spantag + "<ruby>")
+                    elif "[?" + p in res:
+                        res = res.replace("<ruby>", spantag + "<ruby>")
+                    elif "[" + p in res:
+                        # TODO: does this work???
+                        res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
+                    res = res.replace("]", "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
         else:
