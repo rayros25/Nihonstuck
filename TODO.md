@@ -18,6 +18,7 @@
 * Page 1349 - Translate SBaHJ #10
 ## Act 4
 * Missing translation notes
+* page 1642: insert horrible lil cal emoji
 * Page 1942: Untranslated
 ## Act 5
 * Missing translation notes
