@@ -56,3 +56,24 @@
 * Page 2263: Cool GIF
 * Page 1705: Add color
 * translate rose's gamefaqs? maybe?
+
+# Various Bits of English
+55_2: ［チャンプ お前なら何があっても乗り越えられるだろう。 信じているよ。］
+
+69_2: has this been translated yet? i hope so
+
+126_1: small but easy
+
+158_2: has this been translated??
+
+227: seems easy
+
+238_2: again, small
+
+249_2: beeg
+
+267, 268_1
+
+272_2 very beeg
+
+301: same grimoire
