@@ -205,9 +205,16 @@ def colorize(s):
         eng_colon = False
         jpn_colon = False
         memo_prefixes = ["", "過去", "未来", "現在", "F", "P", "C", "?"]
-        for bruh in memo_prefixes:
-            eng_colon = eng_colon or res.startswith(bruh + p + ":")
-            jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
+        if ":" in res or "：" in res:
+            for bruh in memo_prefixes:
+                eng_colon = eng_colon or res.startswith(bruh + p + ":")
+                jpn_colon = jpn_colon or res.startswith(bruh + p +  "：")
+                if bruh:
+                    eng_colon = eng_colon or res.startswith(bruh + p)
+                    jpn_colon = jpn_colon or res.startswith(bruh + p)
+        # else:
+        #     eng_colon = False
+        #     jpn_colon = False
 
         # this is true when its an individual pester message
         if eng_colon or jpn_colon:
@@ -267,12 +274,13 @@ def colorize(s):
             # Doc Scratch messes everything up.
             # TODO: this still doesnt handle numbers
             if p:
-                res = res.replace("未来" + p, spantag + "F" + p + "</span>")
-                res = res.replace("過去" + p, spantag + "P" + p + "</span>")
-                res = res.replace("現在" + p, spantag + "C" + p + "</span>")
-                res = res.replace("F" + p, spantag + "F" + p + "</span>")
-                res = res.replace("P" + p, spantag + "P" + p + "</span>")
-                res = res.replace("C" + p, spantag + "C" + p + "</span>")
+                for lmao in ["2", "3", "4", "5", "6", "7", "8", "9", ""]: # surely it doesn't go above this, right?
+                    res = res.replace("未来" + p + lmao, spantag + "F" + p + lmao + "</span>")
+                    res = res.replace("過去" + p + lmao, spantag + "P" + p + lmao + "</span>")
+                    res = res.replace("現在" + p + lmao, spantag + "C" + p + lmao + "</span>")
+                    res = res.replace("F" + p + lmao, spantag + "F" + p + lmao + "</span>")
+                    res = res.replace("P" + p + lmao, spantag + "P" + p + lmao + "</span>")
+                    res = res.replace("C" + p + lmao, spantag + "C" + p + lmao + "</span>")
 
     for sp in spritecolors:
         # TODO: consolidate with above
