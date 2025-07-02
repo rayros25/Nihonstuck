@@ -19,6 +19,7 @@
 ## Act 4
 * Missing translation notes
 * page 1642: insert horrible lil cal emoji
+* page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 * Page 1942: Untranslated
 ## Act 5
 * Missing translation notes
