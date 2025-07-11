@@ -1369,7 +1369,7 @@
     },
     "002243": {
         "title": "デイブ：刀をキャプチャローグする。",
-        "content": "ニンジャソード（NINJA SWORD）（2+1+2+2+1+2+2+1+2+2=17％、10=7）は、ジュース（JUICE）（2+1+1+2+1=7％10=7）と同じ値となりジュースがシラデックスから飛び出した。<br/><br/>ジュースがターンテーブルとBETA版の上にこぼれてしまった。<br/><br/>くそっ！"
+        "content": "ニンジャソード（<span style=\"color: blue\">N</span><span style=\"color: red\">I</span><span style=\"color: blue\">NJ</span><span style=\"color: red\">A</span> <span style=\"color: blue\">SW</span><span style=\"color: red\">O</span><span style=\"color: blue\">RD</span>）（2+1+2+2+1 + 2+2+1+2+2=17％10=7）は、ジュース（<span style=\"color: blue\">J</span><span style=\"color: red\">UI</span><span style=\"color: blue\">C</span><span style=\"color: red\">E</span>）（2+1+1+2+1=7％10=7）と同じ値となりジュースがシラデックスから飛び出した。<br/><br/>ジュースがターンテーブルとBETA版の上にこぼれてしまった。<br/><br/>くそっ！"
     },
     "002244": {
         "title": "デイブ：拭き取るためのタオルを持って来よう！",
@@ -1381,11 +1381,11 @@
     },
     "002246": {
         "title": "デイブ：濡れたタオルをキャプチャローグする。",
-        "content": "濡れたタオル(DAMP TOWEL)(2+1+2+2+2+1+2+1+2=15％、10=5)をキャプチャローグすると箱（BOX)(2+1+2=5％、10=5)が飛び出した。"
+        "content": "濡れたタオル(<span style=\"color: blue\">D</span><span style=\"color: red\">A</span><span style=\"color: blue\">MP T</span><span style=\"color: red\">O</span><span style=\"color: blue\">W</span><span style=\"color: red\">E</span><span style=\"color: blue\">L </span>)(2+1+2+2+2+1+2+1+2=15％、10=5)をキャプチャローグすると箱（<span style=\"color: blue\">B</span><span style=\"color: red\">O</span><span style=\"color: blue\">X</span>)(2+1+2=5％、10=5)が飛び出した。"
     },
     "002247": {
         "title": "デイブ：トイレで濡れたタオルを絞る。",
-        "content": "少し悩んだが君は濡れたタオルを絞った。<br/><br/>水気を取るとただのタオル(TOWEL)(2+1+2+1+2=8％10=8)になった。"
+        "content": "少し悩んだが君は濡れたタオルを絞った。<br/><br/>水気を取るとただのタオル(<span style=\"color: blue\">T</span><span style=\"color: red\">O</span><span style=\"color: blue\">W</span><span style=\"color: red\">E</span><span style=\"color: blue\">L</span>)(2+1+2+1+2=8％10=8)になった。"
     },
     "002248": {
         "title": "デイブ：タオルを手に入れる。",
@@ -1393,7 +1393,7 @@
     },
     "002249": {
         "title": "デイブ：ジュースを拭き取る。",
-        "content": "こぼしたジュースをタオルで綺麗(CLEAN)(2+2+1+1+2=8)に拭き取った後、しめったBETA版の封筒をピンチではさみ窓際で乾かすことにした。"
+        "content": "こぼしたジュースをタオルで綺麗(<span style=\"color: blue\">CL</span><span style=\"color: red\">EA</span><span style=\"color: blue\">N</span>)(2+2+1+1+2=8)に拭き取った後、しめったBETA版の封筒をピンチではさみ窓際で乾かすことにした。"
     },
     "002250": {
         "title": "==>",
@@ -1529,7 +1529,7 @@
     },
     "002283": {
         "title": "デイブ：携帯を手に入れる。",
-        "content": "誰かとチャットしたい時いちいちパソコンに戻らなくてもいいように携帯電話(PHONE)(2+2+1+2+1=8％10=8)を手に入れた。ここでどんなクールなことをしていても携帯電話にテキストメッセージを送ることができる（TEXT MESSAGE)(2+1+2+2+2+1+2+2+1+2+1=18％10=8）。"
+        "content": "誰かとチャットしたい時いちいちパソコンに戻らなくてもいいように携帯電話(<span style=\"color: blue\">PH</span><span style=\"color: red\">O</span><span style=\"color: blue\">N</span><span style=\"color: red\">E</span>)(2+2+1+2+1=8％10=8)を手に入れた。ここでどんなクールなことをしていても携帯電話にテキストメッセージを送ることができる（<span style=\"color: blue\">T</span><span style=\"color: red\">E</span><span style=\"color: blue\">XT</span> <span style=\"color: blue\">M</span><span style=\"color: red\">E</span><span style=\"color: blue\">SS</span><span style=\"color: red\">A</span><span style=\"color: blue\">G</span><span style=\"color: red\">E</span>)(2+1+2+2+2+1+2+2+1+2+1=18％10=8）。"
     },
     "002284": {
         "title": "==>",
@@ -1769,7 +1769,7 @@
     },
     "002343": {
         "title": "デイブ：刀を手に入れる。",
-        "content": "刀(KATANA)(2+1+2+1+2+1=9%10=9）をキャプチャローグし兄貴のゲームディスクを取ってくる準備をする。<br/><br/>でも、多分…<br/><br/>もしかすると…"
+        "content": "刀(<span style=\"color: blue\">K</span><span style=\"color: red\">A</span><span style=\"color: blue\">T</span><span style=\"color: red\">A</span><span style=\"color: blue\">N</span><span style=\"color: red\">A</span>)(2+1+2+1+2+1=9%10=9）をキャプチャローグし兄貴のゲームディスクを取ってくる準備をする。<br/><br/>でも、多分…<br/><br/>もしかすると…"
     },
     "002344": {
         "title": "[S]デイブ：死んだ鳥を持って来る。",
@@ -2269,7 +2269,7 @@
     },
     "002468": {
         "title": "デイブ：刀をストライフ装備に移す。",
-        "content": "君はますます危険な雰囲気を感じ、刀(KATANA)(9)をストライフ装備に移動(SHIFT)(9)しなければいけないと判断した。<br/><br/>とにかく容量は空けておく方がいいだろう。この中にまだ使えるものがあるかもしれない。"
+        "content": "君はますます危険な雰囲気を感じ、刀(<span style=\"color: blue\">K</span><span style=\"color: red\">A</span><span style=\"color: blue\">T</span><span style=\"color: red\">A</span><span style=\"color: blue\">N</span><span style=\"color: red\">A</span>)(9)をストライフ装備に移動(<span style=\"color: blue\">SH</span><span style=\"color: red\">I</span><span style=\"color: blue\">FT</span>)(9)しなければいけないと判断した。<br/><br/>とにかく容量は空けておく方がいいだろう。この中にまだ使えるものがあるかもしれない。"
     },
     "002469": {
         "title": " デイブ：ミキサーで混ぜる。",
@@ -2297,23 +2297,23 @@
     },
     "002475": {
         "title": "デイブ：花火を手に入れる。",
-        "content": "シンクの中にある花火(FIREWORKS)(2+1+2+1+2+1+2+2+2+=15％10=5)をキャプチャローグする。<br/><br/>君は花火が後に役に立つのはわかっていた。でもなんでこれがシンクの中に？<br/><br/>そのうちの一つはまだ生ごみ処理機の中に埋め込まれている。"
+        "content": "シンクの中にある花火(<span style=\"color: blue\">F</span><span style=\"color: red\">I</span><span style=\"color: blue\">R</span><span style=\"color: red\">E</span><span style=\"color: blue\">W</span><span style=\"color: red\">O</span><span style=\"color: blue\">RKS</span>)(2+1+2+1+2+1+2+2+2+=15％10=5)をキャプチャローグする。<br/><br/>君は花火が後に役に立つのはわかっていた。でもなんでこれがシンクの中に？<br/><br/>そのうちの一つはまだ生ごみ処理機の中に埋め込まれている。"
     },
     "002476": {
         "title": "デイブ：手裏剣をキャプチャローグする。",
-        "content": "君は手裏剣(SHURIKENS)(5)を手に入れ…<br/><br/>危ない！物をどこに入れるかはよく考えないと。特にシラデックスを危険な物でいっぱいのダイナマイトにする考えがあれば、だ。"
+        "content": "君は手裏剣(<span style=\"color: blue\">SH</span><span style=\"color: red\">U</span><span style=\"color: blue\">R</span><span style=\"color: red\">I</span><span style=\"color: blue\">K</span><span style=\"color: red\">E</span><span style=\"color: blue\">NS</span>)(5)を手に入れ…<br/><br/>危ない！物をどこに入れるかはよく考えないと。特にシラデックスを危険な物でいっぱいのダイナマイトにする考えがあれば、だ。"
     },
     "002477": {
         "title": "==>",
-        "content": "再度キャプチャローグするために花火ボックス(BOX OF FIREWORKS)(3)をカード5に…<br/><br/>いや、明らかに3番目のカードである。それはそれでいいけど。"
+        "content": "再度キャプチャローグするために花火ボックス(<span style=\"color: blue\">B</span><span style=\"color: red\">O</span><span style=\"color: blue\">X</span> <span style=\"color: red\">O</span><span style=\"color: blue\">F F</span><span style=\"color: red\">I</span><span style=\"color: blue\">R</span><span style=\"color: red\">E</span><span style=\"color: blue\">W</span><span style=\"color: red\">O</span><span style=\"color: blue\">RKS</span>)(3)をカード5に…<br/><br/>いや、明らかに3番目のカードである。それはそれでいいけど。"
     },
     "002478": {
         "title": "デイブ：ヌンチャクを手に入れる。",
-        "content": "また考えずにヌンチャク(NUNCHAKU)(3)を手に入れた。"
+        "content": "また考えずにヌンチャク(<span style=\"color: blue\">N</span><span style=\"color: red\">U</span><span style=\"color: blue\">NCH</span><span style=\"color: red\">A</span><span style=\"color: blue\">K</span><span style=\"color: red\">U</span>)(3)を手に入れた。"
     },
     "002479": {
         "title": "==>",
-        "content": "まずボックス(BOX)(5)をキャプチャローグし、ちょうど数秒前に仕掛けた手裏剣トラップを上手く避けた。"
+        "content": "まずボックス(<span style=\"color: blue\">B</span><span style=\"color: red\">O</span><span style=\"color: blue\">X</span>)(5)をキャプチャローグし、ちょうど数秒前に仕掛けた手裏剣トラップを上手く避けた。"
     },
     "002480": {
         "title": "==>",
@@ -2321,11 +2321,11 @@
     },
     "002481": {
         "title": "デイブ：手裏剣をキャプチャローグする。",
-        "content": "手裏剣(SHURIKEN)(3)を一度に手に入れ、ヌンチャクをはじき出す。<br/><br/>でも心配はいらない。考えがあるんだ。"
+        "content": "手裏剣(<span style=\"color: blue\">SH</span><span style=\"color: red\">U</span><span style=\"color: blue\">R</span><span style=\"color: red\">I</span><span style=\"color: blue\">K</span><span style=\"color: red\">E</span><span style=\"color: blue\">N</span>)(3)を一度に手に入れ、ヌンチャクをはじき出す。<br/><br/>でも心配はいらない。考えがあるんだ。"
     },
     "002482": {
         "title": "デイブ：ヌンチャクズをキャプチャローグする。",
-        "content": "君はヌンチャクズ(NUNCHUCKS)(6)を手に入れる。これですべてが整った。<br/><br/>各武器の正式な日本の名前を使うのはクールだと思ったが、たまにはモードのために妥協してもいいはずだ。"
+        "content": "君はヌンチャクズ(<span style=\"color: blue\">N</span><span style=\"color: red\">U</span><span style=\"color: blue\">NCH</span><span style=\"color: red\">U</span><span style=\"color: blue\">CKS</span>)(6)を手に入れる。これですべてが整った。<br/><br/>各武器の正式な日本の名前を使うのはクールだと思ったが、たまにはモードのために妥協してもいいはずだ。"
     },
     "002483": {
         "title": "デイブ：フェッチモードを確認する。",

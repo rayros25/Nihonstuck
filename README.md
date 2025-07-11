@@ -1,11 +1,7 @@
-# welcome to florida
+# NIHONSTUCK // 日本スタック
 
-This is me and a friend's attempt at compiling together Japanese Homestuck translations or whatever. So yeah.
+This is me and a friend's attempt at compiling together various Japanese Homestuck translations and tweaking them a little.
 
-## i dont know what else to put here
+## Install
 
-so whatever
-
-## how to install
-
-just do it man idk
+Clone this repo into the mods folder, in the same place you store your Asset Pack.

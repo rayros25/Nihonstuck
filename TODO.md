@@ -5,7 +5,6 @@
 # Style issues
 ## Act 1
 ## Act 2
-* Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
 * Page 655: Something going on with colons
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
@@ -15,7 +14,6 @@
 * Page 1332 - Translate SBaHJ #11
 * Page 1349 - Translate SBaHJ #10
 ## Act 4
-* page 1642: insert horrible lil cal emoji
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 ## Act 5
 * Missing translation notes
@@ -41,8 +39,7 @@
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2318: Did they forget to translate the first paragraph?
 * Page 2341: Link
-* Page 2567: Oh God what the hell. FCG2?
-* Page 2605: What
+* Page 2605: What (non colored ones are from the image above)
 
 # Small details
 * GIFs
