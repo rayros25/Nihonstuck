@@ -8,19 +8,15 @@
 * Page 319: Colors are missing from "BOX". This is true for all hashing (they show up at 589)
 * Page 655: Something going on with colons
 ## Act 3
-* Missing translation notes
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
 * Page 953: how should this be formatted? - removed the first line [&gt;SPADES SLICK(スペード・スリック)]<br/><br/> so it starts スペード・スリック？ I don't think we need to tell them how to read Spades Slick twice
-* page 1128: japanify MAIL gif? that'll be a bitch to do
 ## Intermission
 * All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
 * Page 1332 - Translate SBaHJ #11
 * Page 1349 - Translate SBaHJ #10
 ## Act 4
-* Missing translation notes
 * page 1642: insert horrible lil cal emoji
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
-* Page 1942: Untranslated
 ## Act 5
 * Missing translation notes
 * Maybe think of putting spaces for nepeta, cuz right now it's AC::33
