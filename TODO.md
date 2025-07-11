@@ -45,8 +45,6 @@
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2318: Did they forget to translate the first paragraph?
 * Page 2341: Link
-* Page 2543: Deal with memo nonsense (Partially done)
-* Page 2547: Deal with memo nonsense (Partially done)
 * Page 2567: Oh God what the hell. FCG2?
 * Page 2605: What
 
@@ -54,13 +52,16 @@
 * GIFs
 * Flashes
 * Page 612: Translate this image
+* Page 2203: SBaHJ? But which?
+* Page 2204: flighty broad reference
+* Page 2211: Quotes the Vriska intro
+* Page 2220: Check the formatting on this one. Equius and Nepeta
+* Page 2223: roboslap referencing Dave pulling one on Jade
 * Page 2263: Cool GIF
 * Page 1705: Add color
 * translate rose's gamefaqs? maybe?
 
 # Various Bits of English
-55_2: ［チャンプ お前なら何があっても乗り越えられるだろう。 信じているよ。］
-
 69_2: has this been translated yet? i hope so
 
 126_1: small but easy
