@@ -8,11 +8,16 @@
 * Page 655: Something going on with colons
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
-* Page 953: how should this be formatted? - removed the first line [&gt;SPADES SLICK(スペード・スリック)]<br/><br/> so it starts スペード・スリック？ I don't think we need to tell them how to read Spades Slick twice
 ## Intermission
 * All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
-* Page 1332 - Translate SBaHJ #11
-* Page 1349 - Translate SBaHJ #10
+TODO: adjust colors (page 003070/1170 for reference)
+TODO: maybe bump up the size of middle dot for snowman?
+* Page 1261 - English in green
+* Page 1310 - In the original, "Biscuits" isn't green
+* Page 1329 - Second "Cans" isn't green
+* Page 1331 - "Oh no!" needs to be red and italicized
+* Page 1338 - English in green
+* Page 1353 - Linebreak
 ## Act 4
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 ## Act 5
@@ -72,3 +77,7 @@
 272_2 very beeg
 
 301: same grimoire
+
+1354
+
+1356
