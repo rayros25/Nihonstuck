@@ -267,12 +267,13 @@ def colorize(s):
                     elif "[" + p in res:
                         # TODO: does this work???
                         res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
+
+                    # TODO: this leads to LOTS of </span>s after a pesterlog intro
                     res = res.replace("]", "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
         else:
             # Doc Scratch messes everything up.
-            # TODO: this still doesnt handle numbers
             if p:
                 for lmao in ["2", "3", "4", "5", "6", "7", "8", "9", ""]: # surely it doesn't go above this, right?
                     res = res.replace("未来" + p + lmao, spantag + "F" + p + lmao + "</span>")
@@ -288,9 +289,7 @@ def colorize(s):
         if res.startswith(sp + ":") or res.startswith(sp + "："):
             res = spantag + res + '</span><br />'
 
-    endswithbreak = res.endswith("<br>") or res.endswith("<br/>") or res.endswith("<br />")
-        
-    if not endswithbreak:
+    if not (res.endswith("<br>") or res.endswith("<br/>") or res.endswith("<br />")):
         res = res + "<br />"
 
     return res

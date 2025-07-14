@@ -5,7 +5,7 @@
 # Style issues
 ## Act 1
 ## Act 2
-* Page 655: Something going on with colons
+* Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
 ## Intermission
@@ -16,8 +16,8 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 1310 - In the original, "Biscuits" isn't green
 * Page 1329 - Second "Cans" isn't green
 * Page 1331 - "Oh no!" needs to be red and italicized
+* Page 1337 - 3/4 fraction?
 * Page 1338 - English in green
-* Page 1353 - Linebreak
 ## Act 4
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 ## Act 5
@@ -45,6 +45,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2318: Did they forget to translate the first paragraph?
 * Page 2341: Link
 * Page 2605: What (non colored ones are from the image above)
+`</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 
 # Small details
 * GIFs
