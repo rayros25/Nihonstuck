@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Nihonstuck",
+  title: "日本スタック",
   summary: "Homestuck in Japanese",
   description: "This is a fan-translation that is only possible to the hard works of so many others.",
   author: "Shizaya et al",
@@ -7,9 +7,11 @@ module.exports = {
 
   edit: true,
 
+  footnotes: "./footnotes.json",
+
   trees: {
     "./Assets/": "assets://"
-},
+  },
 
 vueHooks: [
 {
