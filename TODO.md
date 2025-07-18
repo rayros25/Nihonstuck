@@ -51,13 +51,15 @@ TODO: maybe bump up the size of middle dot for snowman?
 * GIFs
 * Flashes
 * Page 612: Translate this image
+* Page 1705: Add color
 * Page 2203: SBaHJ? But which?
 * Page 2204: flighty broad reference
 * Page 2211: Quotes the Vriska intro
 * Page 2220: Check the formatting on this one. Equius and Nepeta
 * Page 2223: roboslap referencing Dave pulling one on Jade
-* Page 2263: Cool GIF
-* Page 1705: Add color
+* Page 2241: "Make her pay"
+* Page 2258: Addiction is a powerful thing.
+* Page 2263: Cool GIF (How do you edit Doc Scratch text effect?)
 * translate rose's gamefaqs? maybe?
 
 # Various Bits of English
