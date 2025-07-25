@@ -2,12 +2,20 @@
   "author": "Default author",
   "story": {
     "003908": [{
-      "content": "*「The Fresh Prince of Bel-Air」というのはアメリカのシットコムです。",
+      "content": "*「The Fresh Prince of Bel-Air」というのはアメリカのシットコムだ。",
       "author": "Shizaya"
     }],
     "003911": [{
       "content": "*英国のことわざ「When life hands us lemon, make lemonade!」というのは人生が私たちにレモンをくれる時、レモネードを作ろう！（生きているうちに辛い時もあるが、それを他山の石として受け入れよう。）",
       "author": "DZ"
+    }],
+    "003942": [{
+      "content": "*「カエガル」というのは、トロールのユリウス・カエサルだ。",
+      "author": "Shizaya" 
+    }],
+    "003955": [{
+      "content": "*原文はcholerbear 器官ではなくモンスターなので造語にした方が良いとアドバイスをいただきました mmmmaloさん情報提供ありがとうございます",
+      "author": "DZ" 
     }]
   }
 }]
