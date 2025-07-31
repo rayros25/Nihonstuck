@@ -1,7 +1,3 @@
-# Missing things
-* Some pages were untranslated
-* Proper links (to media, to Google, to exiles)
-
 # Style issues
 ## Act 1
 ## Act 2
@@ -12,12 +8,8 @@
 * All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
-* Page 1261 - English in green
-* Page 1310 - In the original, "Biscuits" isn't green
-* Page 1329 - Second "Cans" isn't green
-* Page 1331 - "Oh no!" needs to be red and italicized
+(WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
 * Page 1337 - 3/4 fraction?
-* Page 1338 - English in green
 ## Act 4
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 ## Act 5
@@ -51,7 +43,6 @@ TODO: maybe bump up the size of middle dot for snowman?
 * GIFs
 * Flashes
 * Page 612: Translate this image
-* Page 1705: Add color
 * Page 2203: SBaHJ? But which?
 * Page 2204: flighty broad reference
 * Page 2211: Quotes the Vriska intro
