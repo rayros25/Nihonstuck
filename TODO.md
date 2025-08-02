@@ -39,6 +39,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2341: Link
 * Page 2605: What (non colored ones are from the image above)
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
+* Page 2682: "hopy shit" references SBaHJ (which?)
 
 # Small details
 * GIFs
