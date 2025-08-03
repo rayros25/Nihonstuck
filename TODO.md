@@ -52,6 +52,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2241: "Make her pay"
 * Page 2258: Addiction is a powerful thing.
 * Page 2263: Cool GIF (How do you edit Doc Scratch text effect?)
+* Page 2762: Who's this douchebag?
+* Page 2766: shoosh pap
+* Page 2770: Insufferable Prick
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
