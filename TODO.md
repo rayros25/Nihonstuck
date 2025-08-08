@@ -30,9 +30,11 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2081: we need a bug version of "delirious biznasty"
 * Page 2085: Great Undoing referenced
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
-* Page 2141: More links
+* Page 2141: Wrong link
 * Page 2144: Look into colon nonsense (e.g. `AG:::::)<br />`)
 * Page 2146: Does Sollux use a different typing quirk here?
+* Page 2204: Some colors bleed over (check other pages for this)
+* Page 2220: Check the formatting on this one. Equius and Nepeta
 * Page 2253: Doc Scratch/Lord English green text missing
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2318: Did they forget to translate the first paragraph?
@@ -41,20 +43,26 @@ TODO: maybe bump up the size of middle dot for snowman?
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
 
-# Small details
+# Continuity/references
 * GIFs
 * Flashes
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
 * Page 2204: flighty broad reference
 * Page 2211: Quotes the Vriska intro
-* Page 2220: Check the formatting on this one. Equius and Nepeta
 * Page 2223: roboslap referencing Dave pulling one on Jade
 * Page 2241: "Make her pay"
 * Page 2258: Addiction is a powerful thing.
 * Page 2263: Cool GIF (How do you edit Doc Scratch text effect?)
+* Page 2447: B<>NP referring to BUNP
 * Page 2762: Who's this douchebag?
 * Page 2766: shoosh pap
 * Page 2770: Insufferable Prick
+* Page 2804: "bitter ass famine"
+* Page 2828: Addiction is a powerful thing.
+* Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
+* Page 3015: THIS IS STUPID
+* Page 3041: hopy shit
+* Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
