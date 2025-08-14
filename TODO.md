@@ -1,9 +1,12 @@
 # Style issues
 ## Act 1
 ## Act 2
+* Page 537: sometimes kanji furigana stuff is missing in pesterchum handles
+* Page 545: edit newspaper. Also check for already existing translations
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
+* Page 1038: Make Jade's notes Japanese in the images
 ## Intermission
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
@@ -32,9 +35,14 @@ TODO: maybe bump up the size of middle dot for snowman?
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
-* nothing so far
+* Page 3093: Terezi does a brief color swap
+* Page 3141: conksuck, sbahj #16
+* Page 3187: Sollux colors
+* Page 3249: call back to calsprite?
 
 # Continuity/references
+* Page 920: Bluh bluh
+* Page 1079: PCHOOO
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
 * Page 2211: Quotes the Vriska intro
 * Page 2223: roboslap referencing Dave pulling one on Jade
@@ -51,6 +59,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3015: THIS IS STUPID
 * Page 3041: hopy shit
 * Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
+* Page 3093: bluh bluh
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
@@ -76,3 +85,6 @@ TODO: maybe bump up the size of middle dot for snowman?
 1354
 
 1356
+
+
+oh my god all the alchemy binges
