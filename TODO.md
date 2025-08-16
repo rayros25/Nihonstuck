@@ -1,11 +1,13 @@
 # Style issues
 ## Act 1
 ## Act 2
+* Page 537: sometimes kanji furigana stuff is missing in pesterchum handles
+* Page 545: edit newspaper. Also check for already existing translations
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
+* Page 1038: Make Jade's notes Japanese in the images
 ## Intermission
-* All the colors and stuff (did the colors for the felt including snowman but may have missed a spot)
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
 (WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
@@ -13,8 +15,8 @@ TODO: maybe bump up the size of middle dot for snowman?
 ## Act 4
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 * Page 1852: Add colors to Complacency of the Learned
-## Act 5
-* Missing translation notes
+## Act 5 
+### Act 1
 * Maybe think of putting spaces for nepeta, cuz right now it's AC::33
     * Equius too, right now he's CG:D -->
     * Should we use romaji here instead?
@@ -24,37 +26,40 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Maybe add some furigana (e.g. page 444)
 * How do we spell Beta referring to the Homestuck beta?
 * Do we put spaces between pesterhandle and initials?
-* Page 2047: How do we handle caps + italics for Terezi?
-* Page 2056: Add link.
-* Page 2061: This is where adorabloodthirsty comes from (also cut the 44 = AA joke)
 * Page 2081: we need a bug version of "delirious biznasty"
 * Page 2085: Great Undoing referenced
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
-* Page 2141: More links
-* Page 2144: Look into colon nonsense (e.g. `AG:::::)<br />`)
-* Page 2146: Does Sollux use a different typing quirk here?
-* Page 2253: Doc Scratch/Lord English green text missing
+* Page 2204: Some colors bleed over (check other pages for this)
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
-* Page 2318: Did they forget to translate the first paragraph?
-* Page 2341: Link
-* Page 2605: What (non colored ones are from the image above)
+* Page 2547: Still kind of a mess.
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
+### Act 2
+* Page 3093: Terezi does a brief color swap
+* Page 3141: conksuck, sbahj #16
+* Page 3187: Sollux colors
+* Page 3249: call back to calsprite?
 
-# Small details
-* GIFs
-* Flashes
+# Continuity/references
+* Page 920: Bluh bluh
+* Page 1079: PCHOOO
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
-* Page 2204: flighty broad reference
 * Page 2211: Quotes the Vriska intro
-* Page 2220: Check the formatting on this one. Equius and Nepeta
 * Page 2223: roboslap referencing Dave pulling one on Jade
 * Page 2241: "Make her pay"
 * Page 2258: Addiction is a powerful thing.
-* Page 2263: Cool GIF (How do you edit Doc Scratch text effect?)
+* Page 2447: B<>NP referring to BUNP
 * Page 2762: Who's this douchebag?
 * Page 2766: shoosh pap
 * Page 2770: Insufferable Prick
+* Page 2771: shoosh pap
+* Page 2804: "bitter ass famine"
+* Page 2828: Addiction is a powerful thing.
+* Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
+* Page 3015: THIS IS STUPID
+* Page 3041: hopy shit
+* Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
+* Page 3093: bluh bluh
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
@@ -80,3 +85,6 @@ TODO: maybe bump up the size of middle dot for snowman?
 1354
 
 1356
+
+
+oh my god all the alchemy binges
