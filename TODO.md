@@ -43,6 +43,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 # Continuity/references
 * Page 920: Bluh bluh
 * Page 1079: PCHOOO
+* Page 1202: WHOP
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
 * Page 2211: Quotes the Vriska intro
 * Page 2223: roboslap referencing Dave pulling one on Jade
@@ -62,6 +63,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3093: bluh bluh
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
+
+# SFX
+* Page 1232: がが
 
 # Various Bits of English
 69_2: has this been translated yet? i hope so
