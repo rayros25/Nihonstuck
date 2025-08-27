@@ -61,6 +61,8 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3041: hopy shit
 * Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
 * Page 3093: bluh bluh
+* Page 3478: 0u0 wait no that looks stupid
+* Page 3549: THIS IS STUPID
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
