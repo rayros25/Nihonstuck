@@ -63,6 +63,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3093: bluh bluh
 * Page 3478: 0u0 wait no that looks stupid
 * Page 3549: THIS IS STUPID
+* Page 3590: this is stupid
+* Page 3597: hopy shit
+* Page 3616: "suckers" also appears in [S] Cascade
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 

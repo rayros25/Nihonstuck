@@ -9,14 +9,16 @@ html_repl = {
     '…': '...',
     '"': '\\"',
     '&quot;': '\\"',
+    '＝＝＞': '==>',
+    '＞＝＝＞': '>==>',
     '&gt;': '>',
     '&lt;': '<',
     '【': '[',
     '】': ']',
     '］': ']',
     '［': '[',
-    '＝＝＞': '==>',
-    '＞＝＝＞': '>==>',
+    '：': ':', # TODO: this is the right colon, right?
+
 }
 
 jpn_txt_repl = {
@@ -108,26 +110,98 @@ def main():
         text = infile.read()
         lines = text.split("<br />\n")
 
-        while len(lines) > 1:
-            # page_num = lines.pop(0)
-            # page_num = full_replace(page_num, nums)
+        expected_page_num = 2626
+        page_num = -1
+        # last_line = "[S] ACT 5 ACT 2 ==>"
+        last_line = ""
+        while len(lines) > 2:
+            curr = ""
+            body_text = ""
+            command = ""
 
             curr = lines.pop(0)
+            print(f"CURR (page num): [ {curr} ]")
+            if curr.strip().isdigit():
+                page_num = int(curr)
+                print("STARTING pg", page_num)
+            else:
+                raise Exception("Bad formatting")
 
-            curr = full_replace(curr, html_repl)
-            curr = full_replace(curr, jpn_txt_repl)
+            if page_num != expected_page_num:
+                raise Exception(f"Expected page {expected_page_num}, got {page_num}")
 
-            for name, initials in japanesenames.items():
-                curr = curr.replace(f'{initials}[{name}]', initials)
+            # clear top of extra blank lines (if any)
+            while not lines[0]:
+                print("blank pop!")
+                lines.pop(0)
 
-            outfile.write(curr + "\n")
 
+            # one-liner
+            if lines[1].strip().isdigit():
+                print("one-liner")
+                body_text = ""
+                command = lines.pop(0)
+                command = full_replace(command, html_repl)
+                command = full_replace(command, jpn_txt_repl)
+                command = command.replace("＞", ">").removeprefix(">").removeprefix("> ")
+                print(f"COMMAND: [ {command} ]")
+            # big boy
+            else:
+                print("big loop")
+                print(f"COMMAND?: [ {curr} ]")
+                maybecommand = lines.pop(0)
+                maybecommand = full_replace(maybecommand, html_repl)
+                maybecommand = full_replace(maybecommand, jpn_txt_repl)
+                while not lines[1].strip().isdigit():
+                    print(f"CURR: [ {curr} ]")
+                    curr = lines.pop(0)
 
+                    curr = full_replace(curr, html_repl)
+                    curr = full_replace(curr, jpn_txt_repl)
+
+                    for name, initials in japanesenames.items():
+                        curr = curr.replace(f'{initials}[{name}]', initials)
+
+                    # if not lines[0].isdigit():
+                    body_text += "\n" + curr
+                # get rid of extra breaks at the end
+                while body_text.endswith("\n"):
+                    body_text = body_text.removesuffix("\n")
+
+                maybecommand = maybecommand.replace("＞", ">").removeprefix(">").removeprefix("> ")
+                last_line = last_line.replace("＞", ">").removeprefix(">").removeprefix("> ")
+
+                if last_line != maybecommand:
+                    body_text = maybecommand + "\n" + body_text
+                    command = last_line
+                else:
+                    command = maybecommand
+                
+                last_line = lines.pop(0)
+                last_line = full_replace(last_line, html_repl)
+                last_line = full_replace(last_line, jpn_txt_repl)
+
+            expected_page_num += 1
+            outfile.write(f"{page_num}\nCOMMAND:{command}\n\nBODY:{body_text}\n----\n")
         # story = json.load(hs)["story"]
 
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+# prev last line
+# PAGENUM
+# command? (in question)
+#
+# woiefjoiwefjw
+# last line <-- guaranteed!
+
+# careful what you compare
+
 
 
 # PAGE NUMBER
