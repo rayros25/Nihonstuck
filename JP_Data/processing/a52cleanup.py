@@ -32,6 +32,7 @@ jpn_txt_repl = {
     'ケンタウルスの精巣': 'ケンタウロスの精巣',
     'クモの巣グリップ': 'クモの握',
     'カリギュラ水族館': 'カリギュラの水族館',
+    'ナナスプライト': 'ナンナスプライト',
 }
 
 
@@ -52,7 +53,11 @@ japanesenames = {
     "エクィウス": "CT",
     "ガムジー": "TC",
     "エリダン": "CA",
-    "フェフェリ": "CC"
+    "フェフェリ": "CC",
+    "ナンナスプライト": "ERROR",
+    "デイブスプライト": "ERROR",
+    "ヤスパーススプライト": "ERROR",
+    # "becsprite": "ERROR",
 }
 
 nums = {
@@ -144,6 +149,8 @@ def main():
                 command = full_replace(command, html_repl)
                 command = full_replace(command, jpn_txt_repl)
                 command = command.replace("＞", ">").removeprefix(">").removeprefix("> ")
+                last_line = command
+                command = ""
                 print(f"COMMAND: [ {command} ]")
             # big boy
             else:
@@ -163,13 +170,15 @@ def main():
                         curr = curr.replace(f'{initials}[{name}]', initials)
 
                     # if not lines[0].isdigit():
-                    body_text += "\n" + curr
+                    body_text += "\n" + curr.strip()
                 # get rid of extra breaks at the end
                 while body_text.endswith("\n"):
                     body_text = body_text.removesuffix("\n")
+                while body_text.startswith("\n"):
+                    body_text = body_text.removeprefix("\n")
 
-                maybecommand = maybecommand.replace("＞", ">").removeprefix(">").removeprefix("> ")
-                last_line = last_line.replace("＞", ">").removeprefix(">").removeprefix("> ")
+                maybecommand = maybecommand.replace("＞", ">").removeprefix(">").removeprefix("> ").strip()
+                last_line = last_line.replace("＞", ">").removeprefix(">").removeprefix("> ").strip()
 
                 if last_line != maybecommand:
                     body_text = maybecommand + "\n" + body_text
@@ -179,10 +188,15 @@ def main():
                 
                 last_line = lines.pop(0)
                 last_line = full_replace(last_line, html_repl)
-                last_line = full_replace(last_line, jpn_txt_repl)
+                last_line = full_replace(last_line, jpn_txt_repl).strip()
 
+
+            for n in japanesenames:
+                body_text = body_text.replace(f"[{n}]:", n + ":")
             expected_page_num += 1
-            outfile.write(f"{page_num}\nCOMMAND:{command}\n\nBODY:{body_text}\n----\n")
+            if not command:
+                command = "==>"
+            outfile.write(f"{page_num}\n{command.strip()}\n{body_text}\n----\n")
         # story = json.load(hs)["story"]
 
 
