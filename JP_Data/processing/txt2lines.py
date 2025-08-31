@@ -269,12 +269,14 @@ def colorize(s):
                         res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
 
                     # TODO: this leads to LOTS of </span>s after a pesterlog intro
-                    res = res.replace("]", "]" + '</span>')
+                    if ']</span>' not in res:
+                        res = res.replace("]", "]" + '</span>')
             else:
                 res = res.replace("[" + p + "]", spantag + "[" + p + "]" + '</span>')
         else:
             # Doc Scratch messes everything up.
             if p:
+                # TODO: add japanese numbers too
                 for lmao in ["2", "3", "4", "5", "6", "7", "8", "9", ""]: # surely it doesn't go above this, right?
                     res = res.replace("未来" + p + lmao, spantag + "F" + p + lmao + "</span>")
                     res = res.replace("過去" + p + lmao, spantag + "P" + p + lmao + "</span>")
@@ -328,6 +330,7 @@ def main():
                 upnext = lines.pop(0)
                 if not upnext:
                     upnext = "<br /><br />"
+                upnext = upnext.strip()
                 buf.append(upnext)
 
             lines.pop(0) # to clear the ----
@@ -347,7 +350,7 @@ def main():
                     buf = join_spritemessages(buf)
             buf = [colorize(sanitize(s)) for s in buf]
 
-            content = (story[page_idstr]["content"][0:11] + "<br>" if is_log else '') + ''.join(buf)
+            content = (story[page_idstr]["content"][0:11] + "<br />" if is_log else '') + ''.join(buf)
 
             # content = sanitize(content)
             title = sanitize(title)
@@ -357,8 +360,15 @@ def main():
             if title.startswith(">"):
                 title = title.removeprefix(">")
 
+            final_line = f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n'
+            final_line = final_line.replace('\\\\\"', '\\\"') # \\" ==> \"
+            final_line = final_line.replace(':]</span>', ':]')
+            final_line = final_line.replace('<br /><br /><br />', '<br /><br />') # This is so scuffed.
+            final_line = final_line.replace(':\\', ':\\\\')
+            final_line = final_line.replace('\\\\\"', '\\\"') # THIS IS STUPID
+            outfile.write(final_line)
 
-            outfile.write(f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n')
+            # GA:"yeah" ==> GA:\"yeah\" ==> 
 
 def main2():
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'r') as json_file:
@@ -367,10 +377,12 @@ def main2():
         final_output = {}
 
         # from previous, lines2json.py
-        # for json_str in json_list:
+        for json_str in json_list:
         #     for eng, jpn in handleTranslations.items():
         #         json_str = json_str.replace(jpn + " ", jpn)
 
+            # if len(json_str) > 8148:
+            #     print("json_str:", json_str[8145:8153])
             result = json.loads(json_str)
 
             for key in result:
@@ -379,11 +391,11 @@ def main2():
             # result is a dict
             # print(f"result: {result}")
 
-        json_object = json.dumps(final_output, indent=4, ensure_ascii=False).encode("utf8")
+    json_object = json.dumps(final_output, indent=4, ensure_ascii=False).encode("utf8")
 
-        # Writing to sample.json
-        with open(f'../{sys.argv[1]}.json', "wb") as outfile:
-            outfile.write(json_object)
+    # Writing to sample.json
+    with open(f'../{sys.argv[1]}.json', "wb") as outfile:
+        outfile.write(json_object)
 
 
 
