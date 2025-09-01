@@ -66,6 +66,11 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3590: this is stupid
 * Page 3597: hopy shit
 * Page 3616: "suckers" also appears in [S] Cascade
+* Page 3632: human emotion called friendship (also zoologically dubious)
+* Page 3642: stolen from previous convo with john
+* Page 3648: SBaHJ #19
+* Page 3649: Also #19 and something else?
+* Page 3658: references page 3253, karkat's "nullify the basic ability..."
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
