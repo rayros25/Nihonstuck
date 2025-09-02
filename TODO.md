@@ -39,6 +39,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3141: conksuck, sbahj #16
 * Page 3187: Sollux colors
 * Page 3249: call back to calsprite?
+* tramslate ConversationWithAVeryStupidGirl.txt
 
 # Continuity/references
 * Page 920: Bluh bluh
