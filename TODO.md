@@ -72,6 +72,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3648: SBaHJ #19
 * Page 3649: Also #19 and something else?
 * Page 3658: references page 3253, karkat's "nullify the basic ability..."
+* After Kanaya's "death": SBaHJ #23 "Are you next?"
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
