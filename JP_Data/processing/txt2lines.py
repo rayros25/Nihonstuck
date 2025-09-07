@@ -8,6 +8,7 @@ import re
 # Weird off-by-one errors for commands and messages
 
 
+# TODO: auto furigana
 handleTranslations = {
     "ectoBiologist": "心霊生物学者",
     "turntechGodhead": "機械仕掛けの神性",

@@ -4,6 +4,7 @@
 * Page 537: sometimes kanji furigana stuff is missing in pesterchum handles
 * Page 545: edit newspaper. Also check for already existing translations
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
+* Page 665: Lots of English
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
 * Page 1038: Make Jade's notes Japanese in the images
@@ -24,12 +25,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Romaji vs ASCII letters
 * Are some of the pesterlogs missing the "began pestering" part?
 * Maybe add some furigana (e.g. page 444)
-* How do we spell Beta referring to the Homestuck beta?
-* Do we put spaces between pesterhandle and initials?
 * Page 2081: we need a bug version of "delirious biznasty"
 * Page 2085: Great Undoing referenced
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
-* Page 2204: Some colors bleed over (check other pages for this)
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2547: Still kind of a mess.
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
@@ -40,8 +38,11 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3187: Sollux colors
 * Page 3249: call back to calsprite?
 * tramslate ConversationWithAVeryStupidGirl.txt
+* Earlier, forgot when: Remove the arrow. Somehow.
+* Page 3761: preserve `&gt;`
 
 # Continuity/references
+* Page 553: SWEET CATCH!
 * Page 920: Bluh bluh
 * Page 1079: PCHOOO
 * Page 1202: WHOP
@@ -55,6 +56,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2766: shoosh pap
 * Page 2770: Insufferable Prick
 * Page 2771: shoosh pap
+* Page 2774: shoosh pap
 * Page 2804: "bitter ass famine"
 * Page 2828: Addiction is a powerful thing.
 * Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
@@ -73,6 +75,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3649: Also #19 and something else?
 * Page 3658: references page 3253, karkat's "nullify the basic ability..."
 * After Kanaya's "death": SBaHJ #23 "Are you next?"
+* Page 3829: "that didn't stop being a thing"
+* Page 4047: YOUTH ROLL
+* Page 4097/8: quote the bible
 * translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
