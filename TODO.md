@@ -33,6 +33,12 @@ TODO: maybe bump up the size of middle dot for snowman?
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
+* Page 2655: Vriska YEAH!!!!! Image
+* Page 2695: Link
+* Page 2712: Link
+* Page 2713: Link
+* Page 2715: Link
+* Page 2716: Link
 * Page 3093: Terezi does a brief color swap
 * Page 3141: conksuck, sbahj #16
 * Page 3187: Sollux colors
@@ -44,6 +50,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 # Continuity/references
 * Page 553: SWEET CATCH!
 * Page 920: Bluh bluh
+* Page 948: Who's this douchebag?
 * Page 1079: PCHOOO
 * Page 1202: WHOP
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)

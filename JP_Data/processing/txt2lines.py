@@ -267,7 +267,8 @@ def colorize(s):
                         res = res.replace("<ruby>", spantag + "<ruby>")
                     elif "[" + p in res:
                         # TODO: does this work???
-                        res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
+                        # res = res.replace(eng + jpn + "[" + p, spantag + eng + jpn + "[" + p)
+                        res = res.replace(jpn + "[" + p, spantag + jpn + "[" + p)
 
                     # TODO: this leads to LOTS of </span>s after a pesterlog intro
                     if ']</span>' not in res:
@@ -379,8 +380,9 @@ def main2():
 
         # from previous, lines2json.py
         for json_str in json_list:
-        #     for eng, jpn in handleTranslations.items():
-        #         json_str = json_str.replace(jpn + " ", jpn)
+            for eng, jpn in handleTranslations.items():
+                json_str = json_str.replace(jpn + " ", jpn)
+                json_str = json_str.replace(jpn + "[", f'<ruby>{eng}<rt>{jpn}</rt></ruby>[')
 
             # if len(json_str) > 8148:
             #     print("json_str:", json_str[8145:8153])
