@@ -8,6 +8,11 @@ import re
 # Weird off-by-one errors for commands and messages
 
 
+# TODO: handle ? dates like ?GG at ?:??
+# TODO: remove extraneous <br /> at the end
+# TODO: fix weird first line issue (and by that extent, fix the whole "Extract command issue")
+
+
 # TODO: auto furigana
 handleTranslations = {
     "ectoBiologist": "心霊生物学者",
