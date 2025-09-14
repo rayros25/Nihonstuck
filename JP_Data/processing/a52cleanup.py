@@ -111,11 +111,12 @@ def full_replace(s, dic):
 
 
 def main():
-    with open(f'{sys.argv[1]}.txt', 'w')  as outfile, open(f'HTML/{sys.argv[1]}.html') as infile, open('mspa.json', 'r') as hs:
+    with open(f'TXT/{sys.argv[1]}.txt', 'w')  as outfile, open(f'HTML/{sys.argv[1]}.html') as infile, open('mspa.json', 'r') as hs:
         text = infile.read()
         lines = text.split("<br />\n")
 
-        expected_page_num = 2626
+        # expected_page_num = 2626
+        expected_page_num = 3030
         page_num = -1
         # last_line = "[S] ACT 5 ACT 2 ==>"
         last_line = ""
@@ -133,7 +134,10 @@ def main():
                 raise Exception("Bad formatting")
 
             if page_num != expected_page_num:
-                raise Exception(f"Expected page {expected_page_num}, got {page_num}")
+                if expected_page_num == 3038 or expected_page_num == 3088:
+                    expected_page_num += 1
+                else:
+                    raise Exception(f"Expected page {expected_page_num}, got {page_num}")
 
             # clear top of extra blank lines (if any)
             while not lines[0]:
@@ -160,7 +164,7 @@ def main():
                 maybecommand = full_replace(maybecommand, html_repl)
                 maybecommand = full_replace(maybecommand, jpn_txt_repl)
                 while not lines[1].strip().isdigit():
-                    print(f"CURR: [ {curr} ]")
+                    # print(f"CURR: [ {curr} ]")
                     curr = lines.pop(0)
 
                     curr = full_replace(curr, html_repl)

@@ -135,10 +135,15 @@ replacements = {
     'ケンタウルスの精巣': 'ケンタウロスの精巣',
     'クモの巣グリップ': 'クモの握',
     'カリギュラ水族館': 'カリギュラの水族館',
+    '心霊生物者': '心霊生物学者'
     # '］': ']',
     # '［': '[',
 }
 # たく　ちく <-- japanese space
+
+
+# TODO: handle CC [フェフェリ]：水中での作業は難しいからー！<br />
+# TODO: handle > ジョン、人間ではない灰色の文字に話しかけるのはすぐにやめてください。 as last line
 
 
 def in_memo(s):
@@ -183,7 +188,7 @@ def join_spritemessages(buf):
     return res
 
 def colorize(s):
-    alternianStyle = True # TODO: change this on and off depending if we're on Alternia or not
+    alternianStyle = True  # NOTE: I'm just gonna stick with this for now
     res = s
     for p in pestercolors:
         # TODO: do the mirai CG to FCG stuff here
@@ -210,7 +215,7 @@ def colorize(s):
 
         eng_colon = False
         jpn_colon = False
-        memo_prefixes = ["", "過去", "未来", "現在", "F", "P", "C", "?"]
+        memo_prefixes = ["", "過去", "未来", "現在", "F", "P", "C", "?", "？"]
         if ":" in res or "：" in res:
             for bruh in memo_prefixes:
                 eng_colon = eng_colon or res.startswith(bruh + p + ":")
