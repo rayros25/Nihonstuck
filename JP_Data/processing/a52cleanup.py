@@ -57,6 +57,7 @@ japanesenames = {
     "ナンナスプライト": "ERROR",
     "デイブスプライト": "ERROR",
     "ヤスパーススプライト": "ERROR",
+    'ジェイドスプライト': 'ERROR',
     # "becsprite": "ERROR",
 }
 
