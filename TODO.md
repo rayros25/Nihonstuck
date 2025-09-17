@@ -8,12 +8,14 @@
 ## Act 3
 * page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
 * Page 1038: Make Jade's notes Japanese in the images
+* Page 1041: SBaHJ at the end
 ## Intermission
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
 (WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
 * Page 1337 - 3/4 fraction?
 ## Act 4
+* Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 * Page 1852: Add colors to Complacency of the Learned
 ## Act 5 
@@ -53,6 +55,9 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 948: Who's this douchebag?
 * Page 1079: PCHOOO
 * Page 1202: WHOP
+* Page 1442: bluh
+* Page 1493: "three inches of fucking yarn" references Dave's prior cozy rant
+* Page 1504: reference to Rose's gamefaq
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
 * Page 2211: Quotes the Vriska intro
 * Page 2223: roboslap referencing Dave pulling one on Jade
