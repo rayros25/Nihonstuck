@@ -31,7 +31,7 @@ handleTranslations = {
     "centaursTesticle": "ケンタウロスの精巣",
     "terminallyCapricious": "救いがたいほど気まぐれ",
     "caligulasAquarium": "カリギュラの水族館",
-    "cuttlefishCuller": "イカ選定者",
+    "cuttlefishCuller": "イカ淘汰者",
     # "": "", # TODO: this is lazy. does it even work?
 }
 
@@ -138,7 +138,8 @@ replacements = {
     'クモの巣グリップ': 'クモの握',
     '蜘蛛の巣グリップ': 'クモの握',
     'カリギュラ水族館': 'カリギュラの水族館',
-    '心霊生物者': '心霊生物学者'
+    '心霊生物者': '心霊生物学者',
+    'イカ選定者': 'イカ淘汰者'
     # '］': ']',
     # '［': '[',
 }
