@@ -130,7 +130,7 @@ replacements = {
     '&lt;': '<',
     'お化けみたないたずら者': '心霊奇術師',
     'デイヴ': 'デイブ',
-    # 'ジェード': 'ジェイド',
+    'ジェード': 'ジェイド',
     'ツインアルマゲドン': '双子のハルマゲドン',
     '黙示録の発生': '黙示の発生',
     'ヒ素またたび': 'ヒ素キャットニップ',
@@ -216,6 +216,9 @@ def colorize(s):
             res = res.replace("過去の" + eng, "<ruby>PAST<rt>過去の</rt></ruby> " + eng)
             res = res.replace("現在の" + eng, "<ruby>CURRENT<rt>現在の</rt></ruby> " + eng)
             res = res.replace("未来の" + eng, "<ruby>FUTURE<rt>未来の</rt></ruby> " + eng)
+            res = res.replace("過去の" + jpn, "<ruby>PAST<rt>過去の</rt></ruby> " + jpn)
+            res = res.replace("現在の" + jpn, "<ruby>CURRENT<rt>現在の</rt></ruby> " + jpn)
+            res = res.replace("未来の" + jpn, "<ruby>FUTURE<rt>未来の</rt></ruby> " + jpn)
 
         eng_colon = False
         jpn_colon = False
@@ -352,9 +355,10 @@ def main():
             lines.pop(0) # to clear the ----
 
             # get rid of leading linebreaks
-            # TODO: clear trailing linebreaks too
             while len(buf) > 0 and buf[0] == "<br /><br />":
                 buf.pop(0)
+            while len(buf > 0) and buf[-1] == "<br /><br />":
+                buf.pop()
 
             is_log = False
             # only for logs
@@ -367,6 +371,9 @@ def main():
             buf = [colorize(sanitize(s)) for s in buf]
 
             content = (story[page_idstr]["content"][0:11] + "<br />" if is_log else '') + ''.join(buf)
+
+            while content.endswith("<br />"):
+                content.removesuffix("<br />")
 
             # content = sanitize(content)
             title = sanitize(title)

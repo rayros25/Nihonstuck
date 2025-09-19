@@ -35,12 +35,14 @@ TODO: maybe bump up the size of middle dot for snowman?
 `</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
+* Page 2629: why is this memo so rainbow-y
 * Page 2655: Vriska YEAH!!!!! Image
 * Page 2695: Link
 * Page 2712: Link
 * Page 2713: Link
 * Page 2715: Link
 * Page 2716: Link
+* Page 2852: Add unknown time support (?GG) and also figure out newline issue with Dave
 * Page 3093: Terezi does a brief color swap
 * Page 3141: conksuck, sbahj #16
 * Page 3187: Sollux colors

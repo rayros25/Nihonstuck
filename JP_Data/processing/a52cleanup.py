@@ -153,7 +153,7 @@ def main():
                 command = lines.pop(0)
                 command = full_replace(command, html_repl)
                 command = full_replace(command, jpn_txt_repl)
-                command = command.replace("＞", ">").removeprefix(">").removeprefix("> ")
+                command = command.replace("＞", ">").removeprefix("> ").removeprefix(">")
                 last_line = command
                 command = ""
                 print(f"COMMAND: [ {command} ]")
@@ -182,8 +182,8 @@ def main():
                 while body_text.startswith("\n"):
                     body_text = body_text.removeprefix("\n")
 
-                maybecommand = maybecommand.replace("＞", ">").removeprefix(">").removeprefix("> ").strip()
-                last_line = last_line.replace("＞", ">").removeprefix(">").removeprefix("> ").strip()
+                maybecommand = maybecommand.replace("＞", ">").removeprefix("> ").removeprefix(" >").strip()
+                last_line = last_line.replace("＞", ">").removeprefix("> ").removeprefix(" >").strip()
 
                 if last_line != maybecommand:
                     body_text = maybecommand + "\n" + body_text
