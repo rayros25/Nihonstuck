@@ -357,7 +357,7 @@ def main():
             # get rid of leading linebreaks
             while len(buf) > 0 and buf[0] == "<br /><br />":
                 buf.pop(0)
-            while len(buf > 0) and buf[-1] == "<br /><br />":
+            while len(buf) > 0 and buf[-1] == "<br /><br />":
                 buf.pop()
 
             is_log = False
@@ -373,7 +373,7 @@ def main():
             content = (story[page_idstr]["content"][0:11] + "<br />" if is_log else '') + ''.join(buf)
 
             while content.endswith("<br />"):
-                content.removesuffix("<br />")
+                content = content.removesuffix("<br />")
 
             # content = sanitize(content)
             title = sanitize(title)

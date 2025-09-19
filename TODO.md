@@ -32,7 +32,6 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2547: Still kind of a mess.
-`</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span>`
 * Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
 * Page 2629: why is this memo so rainbow-y
@@ -40,6 +39,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2695: Link
 * Page 2712: Link
 * Page 2713: Link
+* Page 2731: Green Sun image
 * Page 2715: Link
 * Page 2716: Link
 * Page 2852: Add unknown time support (?GG) and also figure out newline issue with Dave
