@@ -11,6 +11,7 @@ html_repl = {
     '&quot;': '\\"',
     '＝＝＞': '==>',
     '＞＝＝＞': '>==>',
+    '＞==>': '>==>',
     '&gt;': '>',
     '&lt;': '<',
     '【': '[',
@@ -110,6 +111,26 @@ def full_replace(s, dic):
         s = s.replace(n, dic[n])
     return s
 
+def commandclean(command):
+    return command.replace("＞", ">").removeprefix("> ").removeprefix(">").strip()
+
+def iscommand(s):
+    if not s:
+        return False
+    if "==>" in s:
+        return True
+    if ":" not in s:
+        return False
+    if "[S]" in s:
+        return True
+    if s[0].isascii():
+        bruh = ["WV", "PM", "WQ", "AR", "SS", "DD", "HB", "CD", "AH"]
+        for b in bruh:
+            if s.startswith(b):
+                return True
+        return False
+    return True
+    # return s[0].isascii() if s else False
 
 def main():
     with open(f'TXT/{sys.argv[1]}.txt', 'w')  as outfile, open(f'HTML/{sys.argv[1]}.html') as infile, open('mspa.json', 'r') as hs:
@@ -119,15 +140,14 @@ def main():
         # expected_page_num = 2626
         expected_page_num = 3030
         page_num = -1
-        # last_line = "[S] ACT 5 ACT 2 ==>"
-        last_line = ""
+        prevc = ""
         while len(lines) > 2:
             curr = ""
             body_text = ""
             command = ""
 
             curr = lines.pop(0)
-            print(f"CURR (page num): [ {curr} ]")
+            # print(f"CURR (page num): [ {curr} ]")
             if curr.strip().isdigit():
                 page_num = int(curr)
                 print("STARTING pg", page_num)
@@ -142,65 +162,68 @@ def main():
 
             # clear top of extra blank lines (if any)
             while not lines[0]:
-                print("blank pop!")
                 lines.pop(0)
-
 
             # one-liner
             if lines[1].strip().isdigit():
-                print("one-liner")
+                # print("one-liner")
                 body_text = ""
                 command = lines.pop(0)
                 command = full_replace(command, html_repl)
                 command = full_replace(command, jpn_txt_repl)
-                command = command.replace("＞", ">").removeprefix("> ").removeprefix(">")
-                last_line = command
-                command = ""
-                print(f"COMMAND: [ {command} ]")
+                command = commandclean(command)
+                prevc = command
+                # command = ""
             # big boy
             else:
-                print("big loop")
-                print(f"COMMAND?: [ {curr} ]")
-                maybecommand = lines.pop(0)
-                maybecommand = full_replace(maybecommand, html_repl)
-                maybecommand = full_replace(maybecommand, jpn_txt_repl)
-                while not lines[1].strip().isdigit():
-                    # print(f"CURR: [ {curr} ]")
+                buff = []
+                while not lines[0].strip().isdigit():
                     curr = lines.pop(0)
-
                     curr = full_replace(curr, html_repl)
                     curr = full_replace(curr, jpn_txt_repl)
-
                     for name, initials in japanesenames.items():
                         curr = curr.replace(f'{initials}[{name}]', initials)
-
-                    # if not lines[0].isdigit():
-                    body_text += "\n" + curr.strip()
+                    buff.append(curr.strip())
                 # get rid of extra breaks at the end
-                while body_text.endswith("\n"):
-                    body_text = body_text.removesuffix("\n")
-                while body_text.startswith("\n"):
-                    body_text = body_text.removeprefix("\n")
+                # Should these be blank now?
+                while buff[0] == "":
+                    buff.pop(0)
+                while buff[-1] == "":
+                    buff.pop()
+                # assume CURR command is on the first line,
+                # and that NEXT command is on the last line.
+                # if first line is not a command, then 
+                nextc = buff[-1]
+                nextc = commandclean(nextc)
+                buff = buff[:-1]
+                while buff and buff[-1] == "":
+                    buff.pop()
 
-                maybecommand = maybecommand.replace("＞", ">").removeprefix("> ").removeprefix(" >").strip()
-                last_line = last_line.replace("＞", ">").removeprefix("> ").removeprefix(" >").strip()
+                if buff:
+                    currc = buff[0]
+                    currc = commandclean(currc)
 
-                if last_line != maybecommand:
-                    body_text = maybecommand + "\n" + body_text
-                    command = last_line
+                    print(f"{iscommand(currc)},\tCURR: {currc}")
+                    if iscommand(currc):
+                        command = currc
+                        buff = buff[1:]
+                        while buff and buff[0] == "":
+                            buff.pop(0)
+                    else:
+                        command = prevc
                 else:
-                    command = maybecommand
-                
-                last_line = lines.pop(0)
-                last_line = full_replace(last_line, html_repl)
-                last_line = full_replace(last_line, jpn_txt_repl).strip()
+                    command = prevc
 
+                prevc = nextc
+
+                # LAST STEP
+                body_text = "\n".join(buff)
 
             for n in japanesenames:
                 body_text = body_text.replace(f"[{n}]:", n + ":")
             expected_page_num += 1
             if not command:
-                command = "==>"
+                raise Exception("Blank command")
             outfile.write(f"{page_num}\n{command.strip()}\n{body_text}\n----\n")
         # story = json.load(hs)["story"]
 
