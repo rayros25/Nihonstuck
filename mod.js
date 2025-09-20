@@ -2,6 +2,11 @@
 // let store = null
 // let text = null
 
+
+// TODO: add  meaning untranslated
+
+
+
 const innerHTMLs = {
   'Start Over' : '初めからやり直す', // TODO: check these two
   'Go Back' : '戻る',
@@ -55,35 +60,36 @@ const innerHTMLs = {
   // 'The fourth, final, and most famous of the MS Paint Adventures. While it began as a "mock-game" following reader commands like the previous adventures, they were phased out as the story unfolded into a mixed-media barrage of mid-2000\'s internet culture satire, interpersonal drama, and Weird Plot Shit [sic].': 'Четвертый, финальный и самый популярный комикс MS Paint Adventures. То, что начиналось как "mock-game", следуя командам читателей как в предыдущих приключениях, переросло в историю, раскрытую через смешанную медиа и сатиру интернета 2000 года, межличностной драмы и Странного Сюжетного Говна.',
   // 'One-upping Problem Sleuth\'s action-packed GIFs, Homestuck spiced up pivotal moments with Flash animations scored by a lively team of composers. Over time, the music team produced dozens of albums across a variety of genres.': 'Дополняя остросюжетные GIF-изображения из Problem Sleuth, Homestuck приправил ключевые моменты Flash-анимацией с музыкой созданной энергичной командой композиторов. Со временем музыкальная команда выпустила десятки альбомов в разнообразных жанрах.',
   // Homestuck misc.
-  'Homestuck BETA': 'ホームスタックBETA',
+  'Homestuck BETA': 'ホームスタックBETA（未訳）',
   // 'Homestuck was initially intended to be made exclusively in Flash. It lasted about three days.': 'Homestuck планировалось сделать эксклюзивно во Flash. Это продлилось где-то три дня.',
   'Music': '音楽',
   // 'Explore the entire discography of official Homestuck music.': 'Изучите всю дискографию официальной музыки Homestuck.<br/><br/>',
   'Sweet Bro &amp; Hella Jeff': 'スウィートブロ＆ヘラジェフ',
   'it keeps happening': 'おこりつづけるんだ',
   'The origin story.': '誕生秘話',
-  'The Blog of Dave Strider': 'デイブ・ストライダーのブログ',
+  'The Blog of Dave Strider': 'デイブ・ストライダーのブログ（未訳）',
   // 'There\'s this really cool dude, ok? He ran a blog for a while. That\'s really all there is to say on the matter.': 'Это реально крутой чувак, окей? Он вел некоторое время блог. Это всё, что можно сказать по этой теме.',
+  'Squiddles! Sing-Along': 'スクィドル！シンガロング（未訳）',
   // 'The Squiddles! Sing-Along album came with a flash animation produced by the art and music teams. <a data-v-7ea22a43="" data-v-28bc2ceb="" href="/news/8-26-10">Incredibly silly.</a>': 'Альбом "The Squiddles! Sing-Along" выпустился с Flash-анимацией сделанной командой художников и музыкантов. <a data-v-7ea22a43="" data-v-28bc2ceb="" href="/news/8-26-10">Невероятно глупо.</a>',
   // 'Date famous Namco characters in this baffling crossover directed by Andrew Hussie. Features Homestuck cameos?': 'Сходите на свидание с популярными персонажами Namco в этом странном кроссовере, написанном Эндрю Хасси. Имеются Homestuck камео?',
-  'Paradox Space': 'パラドックス宇宙',
+  'Paradox Space': 'パラドックス宇宙（未訳）',
   // 'Tales from the depths of canon.': 'Рассказы из глубин канона.',
   // 'Short-form stories written by community figures.': 'Коротенькие истории написанные участниками сообщества.',
   // 'Extra snapshots of life on Earth C. No longer canon as of The Epilogues.': 'Снапшоты жизни на Земле С. Не считается каноном после Эпилогов.<br/><br/>',
   // 'Tomorrow\'s canon, today! Homestuck still has plenty in store for you.': 'Завтрашний канон, сегодня! У Homestuck еще много для вас есть.',
   // MORE MSPA
   // Jailbreak
-  'Jailbreak': '<ruby>脱獄<rt>ジェイルブレーキ</rt></ruby>',
+  'Jailbreak': '<ruby>脱獄<rt>ジェイルブレーキ</rt></ruby>（未訳）',
   // 'A guy tries to escape from prison.': 'Парень пытается сбежать из тюрьмы.',
   // 'The very first MS Paint Adventure. Andrew Hussie ran it as a game on his personal forum, with a rule that forced him to follow the first command suggested after each post. This resulted in barely controlled chaos.': 'Самое первое MS Paint Adventure. Эндрю Хасси запустил это как игру на своем личном форуме, с правилом, которое заставляло его следовать первой команде, предложенной после каждого сообщения. Это привело к едва контролируемому хаосу.',
   // 'Jailbreak was the origin point of several long running jokes that would later return in Homestuck.': 'Jailbreak стал отправной точкой для нескольких продолжительных шуток, которые позже вернется в Homestuck.',
   // Bard Quest
-  'Bard Quest': '<ruby>吟遊詩人<rt>バード</rt></ruby>クエスト',
+  'Bard Quest': '<ruby>吟遊詩人<rt>バード</rt></ruby>クエスト（未訳）',
   // 'A young bard\'s endeavor to slay some dragons. Branching "choose your own adventure" style.': 'Юный бард пытается прикончить парочку драконов. Ветвящееся приключение в стиле "выбери сам развитие сюжета".',
   // 'The second MS Paint Adventure. The branching paths were an experiement that ultimately proved too complex to manage, dooming it to an early cancellation.': 'Второе MS Paint Adventure. Ветвящиеся пути были экспериментом, который в конечном счете оказался слишком сложным для управления, обрекая его на раннюю отмену.',
   // Problem Sleuth
-  'Problem Sleuth': '<ruby>問題<rt>プロブレム</rt>探偵<rt>スルース</rt></ruby>',
-  // 'An adventure about a hard boiled detective in his office.': 'Приключение сурового детектива в его офисе.',
+  'Problem Sleuth': '<ruby>問題<rt>プロブレム</rt>探偵<rt>スルース</rt></ruby>（未訳）',
+  'An adventure about a hard boiled detective in his office.': '事務所にいてハードボイルドな探偵の冒険。',
   // 'The third MS Paint Adventure. An absurd pastiche of adventure games and JRPG mechanics, all involving absolutely no detective work whatsoever.': 'Третье MS Paint Adventure. Абсурдная смесь приключенческих игр и механики JRPG, и все это не предполагает абсолютно никакой детективной работы.',
   // 'With its rampant escalation of chaos and the gradual inclusion of strikingly animated GIFs, Problem Sleuth proved to be MSPA\'s first major hit.': 'С его безудержной эскалацией хаоса и постепенным включением поразительно анимированных GIF, Problem Sleuth оказался первым крупным хитом MSPA.',
   // 'Unlockable Content': 'Разблокируемый Контент',
