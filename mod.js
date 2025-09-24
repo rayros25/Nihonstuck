@@ -302,6 +302,9 @@ vueHooks: [
 
 
   computed(api) {
+    const psleuth = api.readJson('./JP_Data/psleuth.json')
+    api.logger.info(psleuth)
+
     const translation = api.readJson('./JP_Data/hsjp.json')
     api.logger.info(translation)
 
@@ -328,6 +331,14 @@ vueHooks: [
     
     return {
       edit(archive) {
+        for (const page_num in psleuth) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...psleuth[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
         for (const page_num in translation) {
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
