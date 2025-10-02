@@ -71,7 +71,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2804: "bitter ass famine"
 * Page 2828: Addiction is a powerful thing.
 * Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
-* Page 3015: THIS IS STUPID
+* Page 3015: THIS IS STUPID <--
 * Page 3041: hopy shit
 * Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
 * Page 3093: bluh bluh
