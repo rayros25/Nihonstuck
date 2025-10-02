@@ -381,11 +381,15 @@
     },
     "005030": {
         "title": "立ち上がるんだ、泥棒さん。",
-        "content": "立ち上がるんだ、泥棒さん。"
+        "content": ""
     },
     "005031": {
-        "title": "----",
-        "content": "3132<br />スノー・マン:逃げる。"
+        "title": "==>",
+        "content": ""
+    },
+    "005032": {
+        "title": "スノー・マン:逃げる。",
+        "content": ""
     },
     "005033": {
         "title": "==>",
@@ -608,8 +612,12 @@
         "content": "さあ、相棒、その0_0を0u0に変えてくれ！<br /><br />待てよ<br /><br />いや......バカみたいだな。<br /><br />まあ、いいや。"
     },
     "005088": {
-        "title": "----",
-        "content": "3189<br />破滅的のデイブ:目を覚ませ。"
+        "title": "==>",
+        "content": ""
+    },
+    "005089": {
+        "title": "破滅的のデイブ:目を覚ませ。",
+        "content": ""
     },
     "005090": {
         "title": "破滅的のデイブ:テレジを悩ませる。",
@@ -817,7 +825,7 @@
     },
     "005141": {
         "title": "==>",
-        "content": "|SPRITELOG|<br /><span style=\"color: #4ac925\">ジェイド: えーっと... ジェイド?</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: わーん　しっくうえーん</span><br /><span style=\"color: #4ac925\">ジェイド:何なのこれ?</span><br /><span style=\"color: #4ac925\">ジェイド:なんで悲しんでるの?</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: アナタワタシになにしたノ??[ジェイド]</span> あなたを試作して連れ帰ったんだよ！[ジェイド｝しないほうが良かった？</span><br />[ジェイドスプライト]</span> :当たり前でショ！<br /><span style=\"color: #1f9400\">ジェイドスプライト: するべきじゃなかったんだヨ。これって圧倒的にひどイ。</span><br /><span style=\"color: #4ac925\">ジェイド: えーなんで？</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:それハ！</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:どんな感じか説明するのは難しいけド。</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: でも、私にはムリだヨ。</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:あと、太陽ガ...</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:大きすぎて眩しくて 目が離せなイ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:消えないんだヨォオオ！</span><br /><span style=\"color: #4ac925\">ジェイド:. :(</span><br /><span style=\"color: #4ac925\">ジェイド: ひどいねそれ。本当ごめん。</span><br /><span style=\"color: #4ac925\">ジェイド:私が考えなしだったね</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: 元には戻せないノ？</span><br />[ジェイド・スプライト]</span>: 友達と一緒にいたとこのほうが幸せだったナ。[ジェイドスプライト]</span> 戻りたいヨ<br /><span style=\"color: #4ac925\">ジェイド: 元に戻せない...</span><br /><span style=\"color: #4ac925\">ジェイド:と思う...:(</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: うわーーーーーーン</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: わん :'(</span><br /><span style=\"color: #4ac925\">ジェイド:. :o.</span>"
+        "content": "|SPRITELOG|<br /><span style=\"color: #4ac925\">ジェイド: えーっと... ジェイド?</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: わーん　しっくうえーん</span><br /><span style=\"color: #4ac925\">ジェイド:何なのこれ?</span><br /><span style=\"color: #4ac925\">ジェイド:なんで悲しんでるの?</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: アナタワタシになにしたノ??</span><br /><span style=\"color: #4ac925\">ジェイド:あなたを試作して連れ帰ったんだよ！</span><br /><span style=\"color: #4ac925\">ジェイド:しないほうが良かった？</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:当たり前でショ！</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:するべきじゃなかったんだヨ。これって圧倒的にひどイ。</span><br /><span style=\"color: #4ac925\">ジェイド: えーなんで？</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:それハ！</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:どんな感じか説明するのは難しいけド。</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: でも、私にはムリだヨ。</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:あと、太陽ガ...</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:大きすぎて眩しくて 目が離せなイ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:消えないんだヨォオオ！</span><br /><span style=\"color: #4ac925\">ジェイド: :(</span><br /><span style=\"color: #4ac925\">ジェイド: ひどいねそれ。本当ごめん。</span><br /><span style=\"color: #4ac925\">ジェイド:私が考えなしだったね</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:元には戻せないノ？</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:友達と一緒にいたとこのほうが幸せだったナ。</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:戻りたいヨ</span><br /><span style=\"color: #4ac925\">ジェイド: 元に戻せない...</span><br /><span style=\"color: #4ac925\">ジェイド:と思う...:(</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: うわーーーーーーン</span><br /><span style=\"color: #1f9400\">ジェイドスプライト: わん :'(</span><br /><span style=\"color: #4ac925\">ジェイド:. :o.</span>"
     },
     "005142": {
         "title": "==>",
