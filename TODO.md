@@ -13,6 +13,7 @@
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
 (WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
+* Page 1155: Furigana?
 * Page 1337 - 3/4 fraction?
 ## Act 4
 * Page 1441: translate text here
