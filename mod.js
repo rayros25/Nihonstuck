@@ -150,7 +150,7 @@ const innerHTMLs = {
   'Reach page 2627 of Homestuck to unlock!': 'Дочитайте до страницы 2627 Homestuck, для разблокировки!',
   // contextMenu
   // Разное
-  'STORIES': 'ИСТОРИЙ',
+  'STORIES': '物語',
   // Skaianet
   'Also see the <a data-v-51df9b2c="" href="http://hs.hiveswap.com/ezodiac/index.php">Extended Zodiac</a>, an official personality quiz that assigns you a zodiac symbol based on your quiz answers and the Act 2 character preview <a data-v-51df9b2c="" href="http://hs.hiveswap.com/trollcall/">Troll Call</a>, released as promotional material for the Hiveswap games.': 'Также смотрите <a href="http://hs.hiveswap.com/ezodiac/index.php">Extended Zodiac</a>, официальный тест личности, который присваивает вам символ зодиака на основе ваших ответов на викторину, и предварительный просмотр персонажей Акта 2 <a href="http://hs.hiveswap.com/trollcall/">Troll Call</a>, выпущенный в качестве рекламного материала для Hiveswap.',
   // 'Act 1': 'Акт 1',
@@ -220,7 +220,7 @@ const innerHTMLs = {
   // '<img data-v-5ff78e9b="" data-v-49c0683c="" src="assets://archive/collection/credits_art.png" alt=""><br data-v-49c0683c="">ART CREDITS': '<img data-v-5ff78e9b="" data-v-49c0683c="" src="assets://archive/collection/credits_art.png" alt=""><br data-v-49c0683c="">СОЗДАТЕЛИ АРТОВ',
   // 'Archive credits:': 'Титры архива:',
   // Error404
-  'That page doesn\'t exist!': 'Страницы не существует!',
+  'That page doesn\'t exist!': 'そのページは存在しません！',
   // Map & Log
   'DESKTOP WALLPAPERS': 'デスクトップの壁紙',
   // 'GOG': 'SUS'

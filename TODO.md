@@ -6,7 +6,7 @@
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
 * Page 665: Lots of English
 ## Act 3
-* page 845: maybe turn this (and other Rose GameFAQs) into an image (also translate link maybe)
+* Page 831: Boggle vacantly at these shenanigans
 * Page 1038: Make Jade's notes Japanese in the images
 * Page 1041: SBaHJ at the end
 ## Intermission
@@ -18,6 +18,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 ## Act 4
 * Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
+* Page 1685: Fix the Google Map thing. Should be working, dunno why it isn't
 * Page 1852: Add colors to Complacency of the Learned
 ## Act 5 
 ### Act 1
