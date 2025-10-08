@@ -123,6 +123,8 @@ def iscommand(s):
         return False
     if "[S]" in s:
         return True
+    if "[o]" in s:
+        return True
     if s[0].isascii():
         bruh = ["WV", "PM", "WQ", "AR", "SS", "DD", "HB", "CD", "AH"]
         for b in bruh:
@@ -137,8 +139,8 @@ def main():
         text = infile.read()
         lines = text.split("<br />\n")
 
-        # expected_page_num = 2626
-        expected_page_num = 3030
+        # NOTE: edit this for the first pagenum in the batch
+        expected_page_num = 3470
         page_num = -1
         prevc = ""
         while len(lines) > 2:
@@ -154,8 +156,9 @@ def main():
             else:
                 raise Exception("Bad formatting")
 
+            skipthese = [ 3038, 3088, 4100 ]
             if page_num != expected_page_num:
-                if expected_page_num == 3038 or expected_page_num == 3088:
+                if expected_page_num in skipthese:
                     expected_page_num += 1
                 else:
                     raise Exception(f"Expected page {expected_page_num}, got {page_num}")
