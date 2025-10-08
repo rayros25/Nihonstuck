@@ -5,21 +5,18 @@
 * Page 545: edit newspaper. Also check for already existing translations
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
 * Page 665: Lots of English
+* Page 713: Fix up WV's commands
 ## Act 3
 * Page 831: Boggle vacantly at these shenanigans
-* Page 1038: Make Jade's notes Japanese in the images
 * Page 1041: SBaHJ at the end
 ## Intermission
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
 (WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
 * Page 1155: Furigana?
-* Page 1337 - 3/4 fraction?
 ## Act 4
 * Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
-* Page 1685: Fix the Google Map thing. Should be working, dunno why it isn't
-* Page 1852: Add colors to Complacency of the Learned
 ## Act 5 
 ### Act 1
 * Maybe think of putting spaces for nepeta, cuz right now it's AC::33
@@ -47,7 +44,6 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3187: Sollux colors
 * Page 3249: call back to calsprite?
 * tramslate ConversationWithAVeryStupidGirl.txt
-* Earlier, forgot when: Remove the arrow. Somehow.
 * Page 3761: preserve `&gt;`
 
 # Continuity/references
