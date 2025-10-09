@@ -269,9 +269,9 @@ vueHooks: [
             // else if (/DIALOGLOG/i.test(text)){
             //     text = 'Диалоглог'
             // }
-            // else if (/SRIOUSBIZ/i.test(text)){
-            //     text = 'Серьёзный Бизнес'
-            // }
+            else if (/SRIOUSBIZ/i.test(text)){
+                text = '真面目なビジネス'
+            }
             // else if (/TRKSTRLOG/i.test(text)){
             //     text = 'Трикстерлог'
             // }
@@ -328,6 +328,9 @@ vueHooks: [
 
     const a5a2_three = api.readJson('./JP_Data/a5a2_three.json')
     api.logger.info(a5a2_three)
+
+    const scratchbanner = api.readJson('./JP_Data/scratchbanner.json')
+    api.logger.info(scratchbanner)
 
     // const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
     // api.logger.info(dzact5part2)
@@ -405,6 +408,14 @@ vueHooks: [
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...a5a2_three[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        for (const page_num in scratchbanner) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...scratchbanner[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
