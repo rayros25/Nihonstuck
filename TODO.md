@@ -17,6 +17,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 ## Act 4
 * Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
+* Page 1956: translate this page of jake's letter
 ## Act 5 
 ### Act 1
 * Maybe think of putting spaces for nepeta, cuz right now it's AC::33
@@ -44,6 +45,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3187: Sollux colors
 * Page 3249: call back to calsprite?
 * tramslate ConversationWithAVeryStupidGirl.txt
+* Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 
 # Continuity/references
@@ -55,6 +57,8 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 1442: bluh
 * Page 1493: "three inches of fucking yarn" references Dave's prior cozy rant
 * Page 1504: reference to Rose's gamefaq
+* Page 1592: BUNP
+* Page 1659: BUNP
 * Page 2203: SBaHJ? But which? (BUNP is a reference to fistbumping Lil Cal, SBaHJ #12)
 * Page 2211: Quotes the Vriska intro
 * Page 2223: roboslap referencing Dave pulling one on Jade

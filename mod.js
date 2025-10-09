@@ -326,6 +326,9 @@ vueHooks: [
     const a5a2_two = api.readJson('./JP_Data/a5a2_two.json')
     api.logger.info(a5a2_two)
 
+    const a5a2_three = api.readJson('./JP_Data/a5a2_three.json')
+    api.logger.info(a5a2_three)
+
     // const dzact5part2 = api.readJson('./JP_Data/dz_act5part2.json')
     // api.logger.info(dzact5part2)
     
@@ -393,6 +396,15 @@ vueHooks: [
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...a5a2_two[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+
+        for (const page_num in a5a2_three) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...a5a2_three[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
