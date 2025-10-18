@@ -15,6 +15,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 (WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
 * Page 1155: Furigana?
 ## Act 4
+* Page 1372: missing link
 * Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 * Page 1956: translate this page of jake's letter
@@ -65,11 +66,13 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2241: "Make her pay"
 * Page 2258: Addiction is a powerful thing.
 * Page 2447: B<>NP referring to BUNP
+* Page 2759: Who's this douchebag?
 * Page 2762: Who's this douchebag?
 * Page 2766: shoosh pap
 * Page 2770: Insufferable Prick
 * Page 2771: shoosh pap
 * Page 2774: shoosh pap
+* Page 2790: insufferable prick
 * Page 2804: "bitter ass famine"
 * Page 2828: Addiction is a powerful thing.
 * Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
