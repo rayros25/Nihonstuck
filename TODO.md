@@ -49,6 +49,11 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 
+
+
+uhhh
+* Page 003501: link this https://youtu.be/_M5FF0bcL4E
+
 # Continuity/references
 * Page 553: SWEET CATCH!
 * Page 920: Bluh bluh
