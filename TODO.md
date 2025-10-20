@@ -46,6 +46,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3187: Sollux colors
 * Page 3249: call back to calsprite?
 * tramslate ConversationWithAVeryStupidGirl.txt
+* Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 
