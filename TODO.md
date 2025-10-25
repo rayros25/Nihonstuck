@@ -44,7 +44,10 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3093: Terezi does a brief color swap
 * Page 3141: conksuck, sbahj #16
 * Page 3187: Sollux colors
+* Page 3227: Somehow make it Lord English?
+* Page 3238: Make it white
 * Page 3249: call back to calsprite?
+* Page 3272: translate the Morse code
 * tramslate ConversationWithAVeryStupidGirl.txt
 * Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
