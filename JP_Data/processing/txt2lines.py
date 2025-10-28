@@ -328,7 +328,7 @@ def main():
 
         while len(lines) > 1:
             page_num = lines.pop(0)
-            print("page_num:", page_num)
+            # print("page_num:", page_num)
             page_id = 1900 + int(page_num) + skipped
             page_idstr = f'{page_id:06}'
 
