@@ -52,6 +52,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
+* page 4096 - do this up in classical japanese eventually
 
 
 
