@@ -1,22 +1,12 @@
 # Style issues
 ## Act 1
 ## Act 2
-* Page 537: sometimes kanji furigana stuff is missing in pesterchum handles (done)
-* Page 545: edit newspaper. Also check for already existing translations (done)
+* Maybe add some furigana (e.g. page 444)
 * Page 655: Something going on with colons. Actually wait. Is this all of Act 2? (done?)
-* Page 665: Lots of English (done)
-* Page 713: Fix up WV's commands (done)
 ## Act 3
-* Page 831: Boggle vacantly at these shenanigans (done)
-* Page 1041: SBaHJ at the end (?)
+* Page 1401: SBaHJ at the end
 ## Intermission
-TODO: adjust colors (page 003070/1170 for reference)
-TODO: maybe bump up the size of middle dot for snowman?
-(WHAT PAGE NUMBER?) * Page 1310 - In the original, "Biscuits" isn't green
-* Page 1155: Furigana?
 ## Act 4
-* Page 1372: missing link
-* Page 1441: translate text here
 * page 1674: the dreaded recap log. insert corresponding links here. i dont want to do this
 * Page 1956: translate this page of jake's letter
 ## Act 5 
@@ -26,8 +16,6 @@ TODO: maybe bump up the size of middle dot for snowman?
     * Should we use romaji here instead?
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
-* Are some of the pesterlogs missing the "began pestering" part?
-* Maybe add some furigana (e.g. page 444)
 * Page 2081: we need a bug version of "delirious biznasty"
 * Page 2085: Great Undoing referenced
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
@@ -38,26 +26,17 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2629: why is this memo so rainbow-y
 * Page 2655: Vriska YEAH!!!!! Image (translate as ８ったぜ！！！！！！！！)
 * Page 2731: Green Sun image
-* Page 2715: Link
-* Page 2716: Link
 * Page 2852: Add unknown time support (?GG) and also figure out newline issue with Dave
 * Page 3093: Terezi does a brief color swap
 * Page 3141: conksuck, sbahj #16
-* Page 3187: Sollux colors
 * Page 3227: Somehow make it Lord English?
 * Page 3238: Make it white
 * Page 3249: call back to calsprite?
 * Page 3272: translate the Morse code
-* tramslate ConversationWithAVeryStupidGirl.txt (donk)
 * Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 * page 4096 - do this up in classical japanese eventually
-
-
-
-uhhh
-* Page 003501: link this https://youtu.be/_M5FF0bcL4E (done)
 
 # Continuity/references
 * Page 553: SWEET CATCH!
@@ -104,8 +83,12 @@ uhhh
 * Page 3829: "that didn't stop being a thing"
 * Page 4047: YOUTH ROLL
 * Page 4097/8: quote the bible
-* translate rose's gamefaqs? maybe?
 * SHOOSH PAP on SBaHJ #18
 
 # SFX
 * Page 1232: がが
+
+# Flash 
+* Page 665: Lots of English (done)
+* Rose pony
+* Doc Scratch click panels

@@ -621,7 +621,7 @@
     },
     "005087": {
         "title": "0_0",
-        "content": "さあ、相棒、その0_0を0u0に変えてくれ！<br /><br />待てよ<br /><br />いや......バカみたいだな。<br /><br />まあ、いいや。"
+        "content": "さあ、相棒、その<span style=\"color: red\">0</span_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！<br /><br />待てよ<br /><br />いや......バカみたいだな。<br /><br />まあ、いいや。"
     },
     "005088": {
         "title": "==>",

@@ -2215,7 +2215,7 @@ AA:まあ　いいや
 ----
 3187
 0_0
-さあ、相棒、その0_0を0u0に変えてくれ！
+さあ、相棒、その<span style=\"color: red\">0</span_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！
 
 待てよ
 
