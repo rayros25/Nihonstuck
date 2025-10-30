@@ -1,14 +1,14 @@
 # Style issues
 ## Act 1
 ## Act 2
-* Page 537: sometimes kanji furigana stuff is missing in pesterchum handles
-* Page 545: edit newspaper. Also check for already existing translations
-* Page 655: Something going on with colons. Actually wait. Is this all of Act 2?
-* Page 665: Lots of English
-* Page 713: Fix up WV's commands
+* Page 537: sometimes kanji furigana stuff is missing in pesterchum handles (done)
+* Page 545: edit newspaper. Also check for already existing translations (done)
+* Page 655: Something going on with colons. Actually wait. Is this all of Act 2? (done?)
+* Page 665: Lots of English (done)
+* Page 713: Fix up WV's commands (done)
 ## Act 3
-* Page 831: Boggle vacantly at these shenanigans
-* Page 1041: SBaHJ at the end
+* Page 831: Boggle vacantly at these shenanigans (done)
+* Page 1041: SBaHJ at the end (?)
 ## Intermission
 TODO: adjust colors (page 003070/1170 for reference)
 TODO: maybe bump up the size of middle dot for snowman?
@@ -32,7 +32,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 2085: Great Undoing referenced
 * Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
-* Page 2547: Still kind of a mess.
+* Page 2547: Still kind of a mess. 
 * Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
 * Page 2629: why is this memo so rainbow-y
@@ -48,7 +48,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 * Page 3238: Make it white
 * Page 3249: call back to calsprite?
 * Page 3272: translate the Morse code
-* tramslate ConversationWithAVeryStupidGirl.txt
+* tramslate ConversationWithAVeryStupidGirl.txt (donk)
 * Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
@@ -57,7 +57,7 @@ TODO: maybe bump up the size of middle dot for snowman?
 
 
 uhhh
-* Page 003501: link this https://youtu.be/_M5FF0bcL4E
+* Page 003501: link this https://youtu.be/_M5FF0bcL4E (done)
 
 # Continuity/references
 * Page 553: SWEET CATCH!
