@@ -621,7 +621,7 @@
     },
     "005087": {
         "title": "0_0",
-        "content": "さあ、相棒、その<span style=\"color: red\">0</span_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！<br /><br />待てよ<br /><br />いや......バカみたいだな。<br /><br />まあ、いいや。"
+        "content": "さあ、相棒、その<span style=\"color: red\">0</span>_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！<br /><br />待てよ<br /><br />いや......バカみたいだな。<br /><br />まあ、いいや。"
     },
     "005088": {
         "title": "==>",
@@ -861,7 +861,7 @@
     },
     "005147": {
         "title": "==>",
-        "content": "|SPRITELOG|<br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:黙れ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:ダメ</span><br /><span style=\"color: #4ac925\">ジェイド:やれ</span><br /><span style=\"color: #4ac925\">ジェイド:ちくしょう</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:頼むから</span><br /><span style=\"color: #4ac925\">ジェイド:一回だけ.</span><br /><span style=\"color: #4ac925\">ジェイド:クソうるさい口を閉じて</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:黙れっての</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:おい</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:この</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:クソ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:野郎</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:🥹</span>"
+        "content": "|SPRITELOG|<br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:黙れ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:ダメ</span><br /><span style=\"color: #4ac925\">ジェイド:やれ</span><br /><span style=\"color: #4ac925\">ジェイド:ちくしょう</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:頼むから</span><br /><span style=\"color: #4ac925\">ジェイド:一回だけ.</span><br /><span style=\"color: #4ac925\">ジェイド:クソうるさい口を閉じて</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:黙れっての</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:おい</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:この</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:クソ</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:うええええええん</span><br /><span style=\"color: #4ac925\">ジェイド:野郎</span><br /><span style=\"color: #1f9400\">ジェイドスプライト:<img src=\"http://www.mspaintadventures.com/storyfiles/hs2/scraps/jadespritehead.gif\" border=\"0\" /></span>"
     },
     "005148": {
         "title": "==>",
@@ -1457,7 +1457,7 @@
     },
     "005296": {
         "title": "ジョン:手紙を読む。",
-        "content": "「息子よ<br />もしこれを読んでいるなら、それは私の財布を取ったということだ。<br />あなたが大きくなったってことだな。<br />責任感と誠実さが絡み合う。<br />私は、あなたがとても誇らしい。」"
+        "content": ""
     },
     "005297": {
         "title": "ジョン:責任感に押しつぶされそうになる。",
