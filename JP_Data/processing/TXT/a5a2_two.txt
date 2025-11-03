@@ -2215,7 +2215,7 @@ AA:まあ　いいや
 ----
 3187
 0_0
-さあ、相棒、その<span style=\"color: red\">0</span_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！
+さあ、相棒、その<span style=\"color: red\">0</span>_<span style=\"color: blue\">0</span>を<span style=\"color: red\">0</span>u<span style=\"color: blue\">0</span>に変えてくれ！
 
 待てよ
 
@@ -3006,7 +3006,7 @@ WVはモニターでジョンの死を見届け、立ち上がるよう命じる
 ジェイド:クソ
 ジェイドスプライト:うええええええん
 ジェイド:野郎
-ジェイドスプライト:🥹
+ジェイドスプライト:<img src=\"http://www.mspaintadventures.com/storyfiles/hs2/scraps/jadespritehead.gif\" border=\"0\" />
 ----
 3248
 ==>
@@ -4775,11 +4775,7 @@ AH:蘇生する。
 ----
 3396
 ジョン:手紙を読む。
-「息子よ
-もしこれを読んでいるなら、それは私の財布を取ったということだ。
-あなたが大きくなったってことだな。
-責任感と誠実さが絡み合う。
-私は、あなたがとても誇らしい。」
+
 ----
 3397
 ジョン:責任感に押しつぶされそうになる。
