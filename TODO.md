@@ -11,28 +11,19 @@
 * Page 1956: translate this page of jake's letter
 ## Act 5 
 ### Act 1
-* Maybe think of putting spaces for nepeta, cuz right now it's AC::33
-    * Equius too, right now he's CG:D -->
-    * Should we use romaji here instead?
 * Are we using the same colon throughout? I don't think it matters but
 * Romaji vs ASCII letters
-* Page 2081: we need a bug version of "delirious biznasty"
-* Page 2085: Great Undoing referenced
-* Page 2138: "bugging, fussing, meddling" references the previous convo between Vriska and Tavros (also page 2143)
 * Page 2281: Equius's typing quirk is inconsistent, with both ASCII > and Japanese >
 * Page 2547: Still kind of a mess. 
-* Page 2682: "hopy shit" references SBaHJ (which?)
 ### Act 2
 * Page 2629: why is this memo so rainbow-y
 * Page 2655: Vriska YEAH!!!!! Image (translate as ８ったぜ！！！！！！！！)
 * Page 2731: Green Sun image
 * Page 2852: Add unknown time support (?GG) and also figure out newline issue with Dave
 * Page 3093: Terezi does a brief color swap
-* Page 3141: conksuck, sbahj #16
 * Page 3227: Somehow make it Lord English?
 * Page 3238: Make it white
 * Page 3249: call back to calsprite?
-* Page 3272: translate the Morse code
 * Pages 3650 - 3658: stupid sbahj bullshit ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
