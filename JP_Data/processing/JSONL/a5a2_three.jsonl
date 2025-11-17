@@ -634,8 +634,8 @@
 {"006003": {"title": "< =", "content": "|PESTERLOG|<br /><span style=\"color: #4ac925\">GG:シェービングクリーム？</span>"}}
 {"006004": {"title": "= >", "content": "|PESTERLOG|<br /><span style=\"color: #626262\">CG:シェービングクリームって何</span><br /><span style=\"color: #4ac925\">GG:それはね<span style=\"color: #626262\">カルチノ遺伝学者[CG]</span>が物知り庭師[GG]</span>を荒らしやめました</span><br /><span style=\"color: #4ac925\">GG:ねぇ!</span><br /><span style=\"color: #4ac925\">GG: ...</span><br /><span style=\"color: #4ac925\">GG:カーカット?</span>"}}
 {"006005": {"title": "= >= <<", "content": ""}}
-{"006006": {"title": " == =", "content": ""}}
-{"006007": {"title": " == =", "content": ""}}
+{"006006": {"title": "> > == =", "content": ""}}
+{"006007": {"title": "> > == =", "content": ""}}
 {"006008": {"title": "= <> >", "content": ""}}
 {"006009": {"title": "[S] カスケード。", "content": ""}}
 {"006010": {"title": "ACT5終了", "content": ""}}

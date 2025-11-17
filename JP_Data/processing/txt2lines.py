@@ -380,10 +380,11 @@ def main():
             # content = sanitize(content)
             title = sanitize(title)
 
-            if title.startswith("> "):
-                title = title.removeprefix("> ")
-            if title.startswith(">"):
-                title = title.removeprefix(">")
+            # NOTE: no longer necessary
+            # if title.startswith("> "):
+            #     title = title.removeprefix("> ")
+            # if title.startswith(">"):
+            #     title = title.removeprefix(">")
 
             final_line = f'{{"{page_idstr}": {{"title": "{title}", "content": "{content}"}}}}\n'
             final_line = final_line.replace('\\\\\"', '\\\"') # \\" ==> \"
