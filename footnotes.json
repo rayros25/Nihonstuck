@@ -2,35 +2,39 @@
   "author": "Default Author",
   "story": {
     "002600": [{
-      "content": "※MAYO（マヨ）→ MAYOR（市長）",
+      "content": "MAYO（マヨ）→ MAYOR（市長）",
       "author": "HSJP"
     }],
     "003908": [{
-      "content": "*「The Fresh Prince of Bel-Air」というのはアメリカのシットコムだ。",
+      "content": "「The Fresh Prince of Bel-Air」というのはアメリカのシットコムだ。",
       "author": "Shizaya"
     }],
     "003911": [{
-      "content": "*英国のことわざ「When life hands us lemon, make lemonade!」というのは人生が私たちにレモンをくれる時、レモネードを作ろう！（生きているうちに辛い時もあるが、それを他山の石として受け入れよう。）",
+      "content": "英国のことわざ「When life hands us lemon, make lemonade!」というのは人生が私たちにレモンをくれる時、レモネードを作ろう！（生きているうちに辛い時もあるが、それを他山の石として受け入れよう。）",
       "author": "DZ"
     }],
     "003942": [{
-      "content": "*「カエガル」というのは、トロールのユリウス・カエサルだ。",
+      "content": "「カエガル」というのは、トロールのユリウス・カエサルだ。",
       "author": "Shizaya" 
     }],
     "003955": [{
-      "content": "*原文はcholerbear 器官ではなくモンスターなので造語にした方が良いとアドバイスをいただきました mmmmaloさん情報提供ありがとうございます",
+      "content": "原文はcholerbear 器官ではなくモンスターなので造語にした方が良いとアドバイスをいただきました mmmmaloさん情報提供ありがとうございます。",
       "author": "DZ" 
     }],
     "004062": [{
-      "content": "*CTは「１００」と「％」を使う理由のは、ケンタウロスは英語で「セントール」だから「パーセント」に似てる。",
+      "content": "CTは「１００」と「％」を使う理由のは、ケンタウロスは英語で「セントール」だから「パーセント」に似てる。",
       "author": "Shizaya"
     }],
     "004097": [{
-      "content": "*So many irons in the fire (慣用具) :: 溶鉱炉に鉄を入れすぎる :: 一度にいろいろなことに手を出す",
+      "content": "So many irons in the fire (慣用具) :: 溶鉱炉に鉄を入れすぎる :: 一度にいろいろなことに手を出す。",
       "author": "DZ"
     }],
     "004447": [{
-      "content": "*「FAG」(ファグ）は同性愛者に対する軽蔑的な呼び名だ。「HAG」（ハッグ）は日本語で「ババ」だ。",
+      "content": "「FAG」(ファグ）は同性愛者に対する軽蔑的な呼び名だ。「HAG」（ハッグ）は日本語で「ババ」です。",
+      "author": "Shizaya"
+    }],
+    "004145": [{
+      "content": "ちなみに、ジョニー・ストーンは実生活ではハリー・アンダーソンが演じていた。",
       "author": "Shizaya"
     }]
   }
