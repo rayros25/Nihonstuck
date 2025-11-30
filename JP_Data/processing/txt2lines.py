@@ -13,6 +13,10 @@ import re
 # TODO: fix weird first line issue (and by that extent, fix the whole "Extract command issue")
 
 
+# NOTE: THIS IS THE THING
+isPostScratch = True
+
+
 # TODO: auto furigana
 handleTranslations = {
     "ectoBiologist": "心霊生物学者",
@@ -33,6 +37,7 @@ handleTranslations = {
     "caligulasAquarium": "カリギュラの水族館",
     "cuttlefishCuller": "イカ淘汰者",
     # "": "", # TODO: this is lazy. does it even work?
+    # TODO: the alpha kids
 }
 
 initials = {
@@ -318,6 +323,23 @@ def colorize(s):
     return res
 
 def main():
+    if isPostScratch:
+        initials["GG"] = "gutsyGumshoe"
+        initials["GT"] = "golgothasTerror"
+        initials["TG"] = "tipsyGnostalgic"
+        initials["TT"] = "timaeusTestified"
+        initials["UU"] = "uranianUmbra"
+        pestercolors["GG"] = "00d5f2"
+        pestercolors["GT"] = "1f9400"
+        pestercolors["TG"] = "f141ef"
+        pestercolors["TT"] = "f2a400"
+        pestercolors["UU"] = "929292"
+        handleTranslations["gutsyGumshoe"] = "ど根性刑事"
+        handleTranslations["golgothasTerror"] = "ゴルゴタの恐怖"
+        handleTranslations["tipsyGnostalgic"] = "ほろ酔いグノースタルジック"
+        handleTranslations["timaeusTestified"] = "ティマイオス証言"
+        handleTranslations["uranianUmbra"] = "ウラニアの本影"
+
     skipped = 0
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'w') as outfile, open(f'TXT/{sys.argv[1]}.txt') as file, open('mspa.json', 'r') as hs:
         text = file.read()
@@ -328,7 +350,7 @@ def main():
 
         while len(lines) > 1:
             page_num = lines.pop(0)
-            # print("page_num:", page_num)
+            print("page_num:", page_num)
             page_id = 1900 + int(page_num) + skipped
             page_idstr = f'{page_id:06}'
 
