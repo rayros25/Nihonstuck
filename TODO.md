@@ -75,6 +75,7 @@
 * Page 4047: YOUTH ROLL
 * Page 4097/8: quote the bible
 * SHOOSH PAP on SBaHJ #18
+* Page 4248: butler island
 
 # SFX
 * Page 1232: がが
