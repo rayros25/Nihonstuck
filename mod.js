@@ -329,8 +329,11 @@ vueHooks: [
     const a5a2_three = api.readJson('./JP_Data/a5a2_three.json')
     api.logger.info(a5a2_three)
 
-    const act6 = api.readJson('./JP_Data/act6.json')
-    api.logger.info(act6)
+    const act6act1 = api.readJson('./JP_Data/act6act1.json')
+    api.logger.info(act6act1)
+
+    const act6int1 = api.readJson('./JP_Data/act6int1.json')
+    api.logger.info(act6int1)
 
     const scratchbanner = api.readJson('./JP_Data/scratchbanner.json')
     api.logger.info(scratchbanner)
@@ -340,6 +343,19 @@ vueHooks: [
     
     return {
       edit(archive) {
+        //
+        // translations = [ psleuth, translation, intermission, dzact3, dzact4, dzact5act1, a5a2_one, a5a2_two, a5a2_three, act6act1, act6int1, scratchbanner ]
+        //
+        // for (const t in translations) {
+        //     for (const page_num in t) {
+        //        archive.mspa.story[page_num] = {
+        //         ...archive.mspa.story[page_num],
+        //         ...t[page_num]
+        //       }
+        //       console.log(archive.mspa.story[page_num])
+        //     }
+        // }
+
         for (const page_num in psleuth) {
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
@@ -415,11 +431,18 @@ vueHooks: [
           console.log(archive.mspa.story[page_num])
         }
 
-
-        for (const page_num in act6) {
+        for (const page_num in act6act1) {
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
-            ...act6[page_num]
+            ...act6act1[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        for (const page_num in act6int1) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6int1[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
@@ -431,7 +454,7 @@ vueHooks: [
           }
           console.log(archive.mspa.story[page_num])
         }
-
+        //
         // for (const page_num in dzact5part2) {
         //    archive.mspa.story[page_num] = {
         //     ...archive.mspa.story[page_num],

@@ -98,31 +98,28 @@ spritecolors = {
     "デイブスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
     "ジェイドスプライト": "1f9400",
     "アラディアスプライト": "a10000", # here be trolls
-    "アラディアボット": "a10000", # here be trolls
+    "アラディアボット": "a10000", 
+    "アラディア": "a10000", 
     "AT": "a15000",
-    "TA": "a1a100",
-    "CG": "626262",
+    "ソラックス": "a1a100",
+    "カーカット": "626262",
     "AC": "416600",
     "マザースプライト": "008141", # I'm guessing it's the same as Kanaya's color
+    "カナヤ": "008141", 
     "ドラゴンスプライト": "008282",
+    "テレジ": "008282",
     "AG": "005682",
     "エクィウス": "000056",
-    "TC": "2b0057",
+    "ガムジー": "2b0057",
     "CA": "6a006a",
     "CC": "77003c",
     "フェドラフリーク": "4b4b4b",
-    # "AA": "a10000",
     # "AT": "a15000",
-    # "TA": "a1a100",
     # "CG": "626262",
     # "AC": "416600",
     # "GA": "008141",
-    # "GC": "008282",
     # "AG": "005682",
     # "CT": "000056",
-    # "TC": "2b0057",
-    # "CA": "6a006a",
-    # "CC": "77003c"
 }
 
 
@@ -323,6 +320,7 @@ def colorize(s):
     return res
 
 def main():
+    # TODO: pagenumber safety check thing
     if isPostScratch:
         initials["GG"] = "gutsyGumshoe"
         initials["GT"] = "golgothasTerror"
