@@ -166,20 +166,26 @@ def sanitize(s):
     return res
 
 # TODO: this only works for pesterlogs, since spritelog messages NEVER start with ASCII, since they're names
+# def join_pestermessages(buf):
+#     res = []
+#     if len(buf) == 0:
+#         return res
+#     curr = buf[0]
+#     for m in buf[1:]:
+#         if not m or m[0].isascii() or in_memo(m):
+#         # if not m or in_memo(m): # different, cuz when translated handles don't start with ASCII
+#             res.append(curr)
+#             curr = m
+#         else:
+#             curr = curr + m
+#     if curr:
+#         res.append(curr)
+#     return res
+
 def join_pestermessages(buf):
-    res = []
-    if len(buf) == 0:
-        return res
-    curr = buf[0]
-    for m in buf[1:]:
-        if not m or m[0].isascii() or in_memo(m):
-            res.append(curr)
-            curr = m
-        else:
-            curr = curr + m
-    if curr:
-        res.append(curr)
-    return res
+    return buf
+# This was needed before cuz translations would include line breaks. But if it's all on the same line,
+# it should be alright?
 
 def join_spritemessages(buf):
     res = []
