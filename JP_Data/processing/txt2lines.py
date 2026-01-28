@@ -59,6 +59,7 @@ initials = {
     "CA": "caligulasAquarium",
     "CC": "cuttlefishCuller",
     # "": "", # TODO: this is lazy. does it even work?
+    # TODO: add TT* 
 }
 
 pestercolors = {
@@ -326,11 +327,13 @@ def main():
         initials["GT"] = "golgothasTerror"
         initials["TG"] = "tipsyGnostalgic"
         initials["TT"] = "timaeusTestified"
+        initials["TT*"] = "timaeusTestified"
         initials["UU"] = "uranianUmbra"
         pestercolors["GG"] = "00d5f2"
         pestercolors["GT"] = "1f9400"
         pestercolors["TG"] = "f141ef"
         pestercolors["TT"] = "f2a400"
+        pestercolors["TT*"] = "e00707"
         pestercolors["UU"] = "929292"
         handleTranslations["gutsyGumshoe"] = "ど根性刑事"
         handleTranslations["golgothasTerror"] = "ゴルゴタの恐怖"
@@ -411,6 +414,7 @@ def main():
             final_line = final_line.replace(':]</span>', ':]')
             final_line = final_line.replace('<br /><br /><br />', '<br /><br />') # This is so scuffed.
             final_line = final_line.replace(':\\', ':\\\\')
+            final_line = final_line.replace("TT*", "TT")
             final_line = final_line.replace('\\\\\"', '\\\"') # THIS IS STUPID
             outfile.write(final_line)
 
