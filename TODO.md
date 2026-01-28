@@ -28,6 +28,9 @@
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 * page 4096 - do this up in classical japanese eventually
+## Act 6
+### Act 2
+* Page 4492: Fix Dirk's orange at the bottom
 
 # Continuity/references
 * Page 553: SWEET CATCH!
