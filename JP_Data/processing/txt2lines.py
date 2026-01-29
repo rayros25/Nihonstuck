@@ -355,11 +355,29 @@ def main():
 
         story = json.load(hs)["story"]
 
+        expected_page = -1
+
         while len(lines) > 1:
             page_num = lines.pop(0)
+            if expected_page == -1:
+                expected_page = int(page_num)
+            else:
+                expected_page += 1
             print("page_num:", page_num)
+
+
+
             page_id = 1900 + int(page_num) + skipped
+            expected_page_id = 1900 + expected_page + skipped
             page_idstr = f'{page_id:06}'
+
+
+            if page_id != expected_page_id:
+                if f'{expected_page_id:06}' not in ['004299', '004938', '004988']:
+                    print(f"page_id={page_id}, expected_page_id={expected_page_id}")
+                    raise Exception(f"Expected page number {expected_page + skipped}, got page number {int(page_num) + skipped}")
+                else:
+                    expected_page += 1
 
             # I still don't know why this happens
             if page_idstr == '004299':
@@ -368,6 +386,8 @@ def main():
             elif page_idstr == '004315' and skipped == 1:
                 page_idstr = '004314'
                 skipped = 0
+
+
 
             # sometimes formatting is inconsistent, so we have to do this:
             title = ''
