@@ -335,6 +335,9 @@ vueHooks: [
     const act6act2 = api.readJson('./JP_Data/act6act2.json')
     api.logger.info(act6act2)
 
+    const act6act3 = api.readJson('./JP_Data/act6act3.json')
+    api.logger.info(act6act3)
+
     const act6int1 = api.readJson('./JP_Data/act6int1.json')
     api.logger.info(act6int1)
 
@@ -449,6 +452,14 @@ vueHooks: [
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...act6act2[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        for (const page_num in act6act3) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6act3[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
