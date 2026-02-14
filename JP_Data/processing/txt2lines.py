@@ -327,6 +327,13 @@ def colorize(s):
     return res
 
 def main():
+    actname = sys.argv[1]
+
+    if "int" in actname or actname.startswith("a5"):
+        isPostScratch = False
+    else:
+        isPostScratch = True
+
     # TODO: pagenumber safety check thing
     if isPostScratch:
         initials["GG"] = "gutsyGumshoe"
