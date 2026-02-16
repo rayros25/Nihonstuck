@@ -1,0 +1,235 @@
+<sburb><classes>
+
+<action class='doorTalk2' sprite='meenah' command='talk' name='ドアを開ける'><args>
+      @meenah_talk ミーナ: ヴァンタス　パスワードをくれ
+      @karkat_what カーカット: (はぁ？)
+      @meenah_talk ミーナ: ここがアンタのドアだろう
+      @karkat_talk カーカット: (なんでそんなこと言うんだ。)
+      @meenah_annoyedtalk ミーナ: ドアのシンボルがアンタのクソみたいなシャツと同じだヨー
+      @meenah_annoyedtalk:#プシューーーッ ミーナ: ほら　そんなにエダが込まねーんだ
+      @karkat_sullen カーカット: (わかった、これはオレのだ。もしかしたらオレのプライベートな記憶をうろつくクソ野郎にうんざりしたのかもしれない。)
+      @meenah_talk ミーナ: もうひそひそ話さなくていいヨー　周りに誰もいねーから
+      @karkat_idle カーカット: ああ
+      @meenah_happytalk ミーナ: じゃあパスワード)(何だ
+      @karkat_talk カーカット: どけ、 オレが入力する。
+      @meenah_angrytalk ミーナ: いやだ　叫びくん言えヨー！！！ 
+      @karkat_shout カーカット: マジかよ、そんなの理不尽すぎる。自分でパスワードを入力させてくれないなんて、この世で一番理不尽なことじゃないか？？？
+      @meenah_fish ミーナ: おい　カンクリにまた見つかって嫌ほど言いくるめられたいのか
+      @karkat_horror:#最悪だ カーカット: 嫌だ！！！絶対にさせてやるものか。
+      @karkat_yell カーカット: ああ、わかった教えてやるよ。
+      @karkat_yell カーカット: とにかく、余計なことは言うなよ。
+      @karkat_talk カーカット: パスワードは...
+      @karkat_eyeroll1~dialogimg_karkat1  
+      @meenah_idle:#？ ミーナ: 何
+      @karkat_eyeroll2~dialogimg_karkat1 
+      @meenah_wut2 ミーナ: もっと声を出しな
+      @karkat_shout:#耳が聞こえないのかよ カーカット: そんなに自分を嫌がってるなら自分と嫌婚しろよ！！！！！！！
+      @meenah_wut ミーナ: それがアンタのパスか
+      @meenah_annoyedtalk ミーナ: 一体何のことかぶくぶく
+      @karkat_yell カーカット: 何でもない。オマエの知ったことじゃない。
+      @karkat_sullen カーカット: 昔の友達を思い出すものだ。それでいいか！？そろそろ行こう。
+      @meenah_happier ミーナ: ファックイエー！こっちだ叫びくん
+      @meenah_creepytalk ミーナ: アタイの大船を乗ったのを後悔しないぜ
+      @karkat_facepalm カーカット: 
+      <!-- open the door -->
+</args>
+<action command='removeSprite'>
+	<args>thirdRoomDoor,thirdRoom</args>
+	<action command='addWalkable' noDelay='true'>
+		<args>thirdRoomDoorWalkable,thirdRoom</args>
+		<action command='playSound' noDelay='true'>
+			<args>openSound2</args>
+		</action>
+	</action>
+</action>
+</action>
+
+   <!-- if meenah talks to karkat (while kankri is away)-->
+<action class='karkatTalk2' sprite='meenah' command='talk' name='カーカットと話す'>
+	<args>
+      @meenah_idle ミーナ: (ねぇ！)
+      @meenah_happy ミーナ: (おい　ヴァンタス)
+      @karkat_idle カーカット: (なんだ。)
+      @meenah_happytalk ミーナ: (今がチャンスだ)
+      @meenah_creepytalk:#ナマズらかる...#まあいいか ミーナ: (ナマズらかろうぜ)
+      @karkat_sullen カーカット: (あぁ...)
+      @karkat_talk カーカット: (そうしてるべきじゃないと思うんだが。)
+      @meenah_talk ミーナ: (あのつまんないオタクに操られてちゃだめだヨー叫びくん)
+      @meenah_annoyedtalk ミーナ: (一日中あいつのエラそうな自己中な主張ばっかり聞きながら立ってタイのかヨー)
+      @karkat_eyeroll1:#エラそうな？立ってタイ！？#クソ水棲トロールだ カーカット: (立ってたいわけないだろ。)
+      @meenah_creepy ミーナ: (立ってたいわけないだろ。)
+      <!-- karkat then follows -->
+	</args>
+	<action command='follow'>
+		<args>karkat,meenah</args>
+		<action command='removeAction'>
+			<args>thirdRoomDoor,Open door.</args>
+			<action command='removeAction'>
+				<args>karkat,Talk to Karkat.</args>
+				<action command='addActions'>
+					<args>thirdRoomDoor,
+						<action class='doorTalk2'/>
+					</args>
+				</action>
+			</action>
+		</action>
+	</action>
+</action>
+
+<action class='meenahTalk1' sprite='latula' command='talk' name='ミーナと話す'><args>
+      @latula_happytalk ラテュラ: 4ー4ー、ぺ～ちぇす！
+      @meenah_idle ミーナ: やあ　テュラ
+      @meenah_talk:#しょぼいイカした名前を付けて回る ミーナ: んたがどれだけイカしてるニックネームを使いまわすのか忘れてた
+      @meenah_fish ミーナ: ペ～ってュラ: そうだぜ! あた４もそれ好き。ぺ～に４４う。ハ１ターッチ！！！
+      @meenah_angry:#痛い ミーナ: いや　やめｙイッターイ
+      @latula_idle3:#>8( ラテュラ: あ、ごめんね？ケガ３せちゃった？？？
+      @meenah_idle ミーナ: ち...違う　こういう意味だった
+      @meenah_happier:#うん#それ ミーナ: イイイェーイって
+      @meenah_ohyes ミーナ:「イェーイやばいタッチだったな」って感じの
+      @latula_happier:#すげええ ラテュラ: ま３にそう！すご１、あんた戻ってきたんじゃん。
+      @meenah_idle ミーナ: そりゃいいけど
+      @meenah_talk:#須義#うん魚ジョークにしては無理がある#でもカウントする ミーナ: アタイラの前までの関係をちょっと言い須義じゃないか
+      @latula_annoyedtalk:#ビッグスラム#すげえ死比喩 ラテュラ: まあそうかもねー。でもくたばる前もくたばった後も考える時間はたっぷりあったで４ょ。
+      @latula_annoyedtalk ラテュラ: それで、とんでもな１ひらめきが起きたぜ、あんたのことって、むしろあた４たちのこと。あんたにつ１てまったく間違って考えてた。
+      @latula_angry ラテュラ: あた４達が知り合ってからずっとあた４ってこう思ってたわけ。「なんでグループにあんなに１カつ１女子が二人も１なきゃ１けな１の？」って。
+      @latula_talk ラテュラ: やりすぎだろ？
+      @meenah_idle:#アンタまじイカ ミーナ: ふーーん
+      @latula_talk ラテュラ: あんたをラ１バル視４てたんだぜ！女子二人のラッド対決って１うか！もちろん、心の中じゃあた４が全部勝ってるって思ってたけど。でもほら、全部間違ってたぜ！！！！
+      @meenah_idle ミーナ: そうか
+      @latula_happytalk ラテュラ: そう！ ほら、あた４はチームのラッドガールで、あんたはチームのバッドガールだって！全部完璧に理にかなってる！正確で４ょ？
+      @meenah_annoyed ミーナ: それな
+      @meenah_wut2:#ダッセーなテュラ ミーナ: 今まで聞いた中でどんな理屈言ったって無駄な最低の愚痴だヨー
+      @latula_laugh ラテュラ: ぺ～しぇす見てる？あた４の無神経なしゃべりに、あんたなら当然皮肉を言うって信じてた４。あんた最高だぜ！！！
+      <!--  -->
+</args></action>
+
+<action class='meenahTalk2' sprite='porrim' command='talk' name='ミーナと話す'><args>
+      @porrim_talk ポリム: そんなに急いで殺しに行きたいの+？
+      @meenah_idle ミーナ: )(ぁ
+      @porrim_annoyed:#生意気なガキの+特権 ポリム: 時間の+支配者か。実は、カンクリにずっと言おうとしてたことの+いい例なんだけど、彼は信じてくれないの+。
+      @porrim_talk ポリム: スクラッチ後も、私たちの+世界は表面的な母系社会の+ままだったけど、ずっとずっと裏では隠れた形の+父権制の+専制政治に支配されていたの+よ。
+      @meenah_idle ミーナ: 何言ってんだヨー
+      @porrim_talk:#優秀な主人 ポリム: スクラッチ後の+あなたは女帝にまで成長したけど、実はずっとロードの+しもべだったの+よ。長い統治の+間、ロードの+狡猾な従者によって水面下では操られていたの+。
+      @porrim_talk ポリム: そして、種族が滅亡した後は、彼女は正式にロードの+召使になって、その+後ずっとロードの+命令に従ったの+よ。
+      @meenah_angry ミーナ: なんだって！！！！！
+      @porrim_talk:#今回は結果がすこし違ったけどね ポリム: 彼はダマラにも同じことをしたの+。彼に忠実な時間の+魔女で、彼がこの+世界を悪夢へと変えるの+を手伝った。役目が尽きると、彼はあなたと彼女を敵対させた。これは、あなたたち過去の+対立をゆがめた再現と言えるでしょう。
+      @meenah_angrytalk ミーナ: おい　めちゃくちゃだ！
+      @porrim_angrytalk ポリム: 要するに、奴はあらゆる面で最悪なだけではなく、特に女に意地悪するの+が好きなようね。
+      @porrim_surprisetalk ポリム: もし彼が亡くなった「姉さん」の+幽霊を追いかけてるの+が本当なら、心の+底から気の+毒に思うわ。
+      @meenah_angrytalk:#ううううううっ ミーナ: そりゃ最悪だ！
+      @meenah_angrytalk:#)(あああああああ ミーナ: あのブサイクな筋肉モンスターをぶっ殺してやる
+      @meenah_angrytalk:#ううううう)(ああああああ ミーナ: 奴のクソったれのコートを盗んでアタイが玉座で着てやる
+      @meenah_angrytalk:#)(あああああうぐぐぐぐぐ)(あああああ ミーナ: 奴のドクロ骨を)(ぎ取って金メッキしてアタイの王冠としてかぶって奴の血まみれの緑色の胴体がアタイの前で土下座してるのを見てやるヨー
+      @porrim_surprise:#わお ポリム: えっと、
+      @porrim_annoyedtalk ポリム: 頑張ってね。
+      <!--  -->
+</args></action>
+
+<action class='meenahTalk3' sprite='kankri' command='talk' name='ミーナと話す'><args>
+      @kankri_talk カンクリ: わっ、ミーナ。入ってきたことに気が付かなかった。挨拶に来て９れればよかったのに。
+      @meenah_idle ミーナ: あっ
+      @meenah_talk:#話したり話しかけたり近くにいたりもやりたくない ミーナ: ああね　アンタと叫ぶ好きなヴァンタスに邪魔やりたくなんてなかったから
+      @kankri_talk:#本当にた９さん カンクリ: 大丈夫だ。カーカットと俺はこれからきっとた9さんのセッションを共にすることになるだろうが、最初のセッションを終えるまであと数時間しかなかった。
+      @kankri_talk2 カンクリ: 俺と君は話し合うべきことが山ほどある。い9つかの問題点を本当に明確にできた。エタニティのおかげで、実際には存在しない集団でさえも少しは前進することができた。
+      @kankri_talk4:#この９ソみたいな毛皮の獣どもをまとめるなんて#本当にめんど９さい奴らだ カンクリ: 考える時間がた９さんあった。それと、俺たち自身、つまりチームの事、そしておそら９は幸運だったかもしれない俺たちが犯した過ちについてな。君は戦略と実行で、事実上のリーダーだと主張しているが、俺たちは意見の相違があったことはわかっている。一方俺はグループの紛れもない精神的な牧人として仲間内で目立つ存在として頭角をあらわしている。
+      @meenah_annoyed ミーナ: あ
+      @meenah_happy:#紛れもない精神的な牧人か#アハハハハハハ ミーナ: どうでもいい
+      @kankri_talk2 カンクリ: 兵を募集しているって聞いたぞ。また大胆な試みだな。でも別に驚くことじゃない。始める前に少な９とも時間をとって俺の話を...
+      @meenah_idle ミーナ: おいヴァンタス
+      @meenah_talk:#握りって寿司みたいに#魚#38) ミーナ: アンタのくだらない話を手に汗を握って聞きたいヨー
+      @meenah_talk ミーナ: アンタにはわかんないだろうけど本当に本当に懐かしかった
+      @meenah_talk ミーナ: でももうイカなきゃ
+      @meenah_idle:#うん#そうだ ミーナ: 何かをやる
+      @meenah_happy ミーナ: 素早く
+      @kankri_idle カンクリ: ああ。
+      @meenah_talk ミーナ: 待っててくれる
+      @meenah_talk ミーナ: ちょうどこの辺りで
+      @meenah_talk ミーナ: まさにここで
+      @meenah_idle ミーナ: ちょっとだけ
+      @kankri_idle カンクリ: もち６ん！
+      @kankri_talk4 カンクリ: 本当に、急がなくていいよ。この長期にわたる演説をより文脈に沿って話せるように、冒頭の宣言を少し準備してお９。友好的なおしゃべりとしてな。
+      @meenah_creepy ミーナ: すぐ戻るぜ
+      <!-- then "Be Meenah?" prompt -->
+</args></action>
+
+<action class='aradiaTalk1' command='talk' name='話す'><args>
+      @aradia_happy アラディア: どうも！
+      @aradia_happytalk アラディア: あなたが来た時からずっと挨拶しようと思っていた
+      @meenah_idle ミーナ: ...
+      @meenah_angrytalk:#いや-ま魚 ミーナ: メギド？？？？？
+      @aradia_talk アラディア: そうだけどあなたが考えている方じゃない
+      @meenah_talk ミーナ: じゃあどっち
+      @aradia_talk:#あの世って#知っている？ アラディア: うちは自分０この場所の世話人みたいな存在だと思っている
+      @aradia_laugh:#:D アラディア: うちは分の事０優秀な主人だと言いたいけど　なんだか意味深な言い方になってしまったね
+      @meenah_talk ミーナ: メギドみたいだけど
+      @meenah_annoyedtalk ミーナ: だがアタイの知ってるメギドと)(全然違う口調だな
+      @aradia_idle アラディア: そうじゃないといいんだね！
+      @aradia_talk:#「時間」というのはここでは比喩表現に過ぎないけど アラディア: とにかく　現実の保存に関心のあるうち達はずっとこの時０待ち望んでいた
+      @meenah_wut:#空が割れたんだぞ#バカな妖精 ミーナ: なぜこんなことを待ってたんだヨー
+      @aradia_talk アラディア: この壊滅的な状況じゃなくて　あなたの到着だよ
+      @aradia_happytalk アラディア: なんか大きな計画があったんだよね？
+      @meenah_annoyed:#たぶん ミーナ: ...
+      @meenah_annoyedtalk ミーナ: アンタ)(文句あるのか
+      @aradia_talk アラディア: 全然！ただ形式的な歓迎のお礼０しただけだ
+      @aradia_talk アラディア: さあ　行け！友達０探して
+      @aradia_talk アラディア: だから宮殿から出たんでしょ？
+      @meenah_idle ミーナ: ああ
+      @meenah_annoyedtalk:#だがアンタに目をつけてるよ#メギドみたいな妖精 ミーナ: じゃあ行くね
+      @aradia_happy アラディア: じゃ！
+      <!--  -->
+</args></action>
+
+<action class='aradiaTalk2' command='talk' name='話す'><args>
+@aradia_idle アラディア: 道に迷った？
+      @meenah_annoyed ミーナ: えっと
+      @meenah_annoyed ミーナ: 道を間違えたんだ
+      @aradia_talk アラディア: そう　そちらは行き止まりね
+      @aradia_talk アラディア: 行きたい方角は
+      @aradia_point アラディア: あっちよ
+      @aradia_wink:#二丁拳銃#そして;) アラディア: (うんうん)
+      @meenah_annoyed ミーナ: あざっす
+      @meenah_annoyed ミーナ: 変人
+</args></action>
+
+<action class='andrewTalk1' command='talk' name='話す'>
+	<args>
+			@meenah_idle ミーナ: おい　オレンジ色のヤツ
+			@meenah_idle ミーナ: それか
+			@meenah_idle:#カボチャ色？ ミーナ: 黄色い奴
+			@! .............
+			@meenah_idle:#このエイトボール)(何だ ミーナ: どうしたんだ
+			@meenah_idle ミーナ: ええと
+			@meenah_idle:#気まずい ミーナ: 泣いてるのか？
+			@! 静かに。
+			@! ウマを連れてきてくれたら俺は永遠にお前についていく。
+			<!--  -->
+	</args>
+</action>
+
+<action class='andrewTalk2' command='talk' name='話す'>
+	<args>
+			@! あ、あ、あぁ...まさか...
+      @!:#やったのか？ まさか......
+      @! _やったのか！_
+      @! ウマを連れてきてくれたんだな！？
+      @! 見ろ、この素晴らしい結び目だかけのホースヒッチャーを。今までにもらったプレゼントの中で一番素敵なものだ。一生大切にする。
+      @! それで、あの...
+      @!:#ヴリスカって誰だ？？？？？ お茶でも飲まない？
+      @meenah_wut2 ミーナ: マアジかよ
+      @! まあ、約束は約束だ。
+      @! 今はお前の命令に従おう。
+      @meenah_wut ミーナ: なんで...
+      @meenah_wut ミーナ: なんでこのアホにそのホースヒッチャーを連れてきたんだろ
+      <!--  -->
+	</args>
+	<action command='removeAction'>
+		<args>andrew,Talk.</args>
+		<action command='follow'>
+			<args>andrew,meenah</args>
+			<action command='deltaSprite'>
+				<args>questSwitch,20,0</args>
+			</action>
+		</action>
+	</action>
+</action>
+</classes></sburb>
