@@ -1,0 +1,635 @@
+<sburb description="first room">
+
+<dependencies>
+	<dependency>chars/meenah.xml</dependency>
+	<dependency>chars/mituna.xml</dependency>
+	<dependency>chars/bicyclops.xml</dependency>
+	<dependency>chars/seahorsedad.xml</dependency>
+	<dependency>chars/cronus.xml</dependency>
+	<dependency>chars/kankri.xml</dependency>
+	<dependency>chars/andrew.xml</dependency>
+</dependencies>
+
+<assets>
+
+	<asset name='megaDoorClosed' type='graphic'>objects/door_closed.png</asset>
+	<asset name='megaDoorOpen' type='graphic'>objects/door_open.png</asset>
+	
+	<asset name='megaDoorWalkable' type='path'>2106,600;2181,600;2181,650;2106,650</asset>
+	
+	<asset name='spadeKeyOverlay' type='graphic'>objects/doorkey_spade.png</asset>
+	<asset name='diamondKeyOverlay' type='graphic'>objects/doorkey_diamond.png</asset>
+	<asset name='clubKeyOverlay' type='graphic'>objects/doorkey_club.png</asset>
+	<asset name='heartKeyOverlay' type='graphic'>objects/doorkey_heart.png</asset>
+	
+	<asset name='obj01' type='graphic'>objects/items/obj01.png</asset>
+	<asset name='obj02' type='graphic'>objects/items/obj02.png</asset>
+	<asset name='obj03' type='graphic'>objects/items/obj03.png</asset>
+	<asset name='obj04' type='graphic'>objects/items/obj04.png</asset>
+	<asset name='obj05' type='graphic'>objects/items/obj05.png</asset>
+	<asset name='obj06' type='graphic'>objects/items/obj06.png</asset>
+	<asset name='obj07' type='graphic'>objects/items/obj07.png</asset>
+	<asset name='obj08' type='graphic'>objects/items/obj08.png</asset>
+	
+	
+
+	<asset name='firstRoomBG_0_0' type='graphic'>backgrounds/slices/firstRoomBG_0_0.png</asset>
+<asset name='firstRoomBG_0_1' type='graphic'>backgrounds/slices/firstRoomBG_0_1.png</asset>
+<asset name='firstRoomBG_0_2' type='graphic'>backgrounds/slices/firstRoomBG_0_2.png</asset>
+<asset name='firstRoomBG_10_0' type='graphic'>backgrounds/slices/firstRoomBG_10_0.png</asset>
+<asset name='firstRoomBG_10_1' type='graphic'>backgrounds/slices/firstRoomBG_10_1.png</asset>
+<asset name='firstRoomBG_10_2' type='graphic'>backgrounds/slices/firstRoomBG_10_2.png</asset>
+<asset name='firstRoomBG_1_0' type='graphic'>backgrounds/slices/firstRoomBG_1_0.png</asset>
+<asset name='firstRoomBG_11_0' type='graphic'>backgrounds/slices/firstRoomBG_11_0.png</asset>
+<asset name='firstRoomBG_11_1' type='graphic'>backgrounds/slices/firstRoomBG_11_1.png</asset>
+<asset name='firstRoomBG_11_2' type='graphic'>backgrounds/slices/firstRoomBG_11_2.png</asset>
+<asset name='firstRoomBG_1_1' type='graphic'>backgrounds/slices/firstRoomBG_1_1.png</asset>
+<asset name='firstRoomBG_12_0' type='graphic'>backgrounds/slices/firstRoomBG_12_0.png</asset>
+<asset name='firstRoomBG_12_1' type='graphic'>backgrounds/slices/firstRoomBG_12_1.png</asset>
+<asset name='firstRoomBG_12_2' type='graphic'>backgrounds/slices/firstRoomBG_12_2.png</asset>
+<asset name='firstRoomBG_1_2' type='graphic'>backgrounds/slices/firstRoomBG_1_2.png</asset>
+<asset name='firstRoomBG_2_0' type='graphic'>backgrounds/slices/firstRoomBG_2_0.png</asset>
+<asset name='firstRoomBG_2_1' type='graphic'>backgrounds/slices/firstRoomBG_2_1.png</asset>
+<asset name='firstRoomBG_2_2' type='graphic'>backgrounds/slices/firstRoomBG_2_2.png</asset>
+<asset name='firstRoomBG_3_0' type='graphic'>backgrounds/slices/firstRoomBG_3_0.png</asset>
+<asset name='firstRoomBG_3_1' type='graphic'>backgrounds/slices/firstRoomBG_3_1.png</asset>
+<asset name='firstRoomBG_3_2' type='graphic'>backgrounds/slices/firstRoomBG_3_2.png</asset>
+<asset name='firstRoomBG_4_0' type='graphic'>backgrounds/slices/firstRoomBG_4_0.png</asset>
+<asset name='firstRoomBG_4_1' type='graphic'>backgrounds/slices/firstRoomBG_4_1.png</asset>
+<asset name='firstRoomBG_4_2' type='graphic'>backgrounds/slices/firstRoomBG_4_2.png</asset>
+<asset name='firstRoomBG_5_0' type='graphic'>backgrounds/slices/firstRoomBG_5_0.png</asset>
+<asset name='firstRoomBG_5_1' type='graphic'>backgrounds/slices/firstRoomBG_5_1.png</asset>
+<asset name='firstRoomBG_5_2' type='graphic'>backgrounds/slices/firstRoomBG_5_2.png</asset>
+<asset name='firstRoomBG_6_0' type='graphic'>backgrounds/slices/firstRoomBG_6_0.png</asset>
+<asset name='firstRoomBG_6_1' type='graphic'>backgrounds/slices/firstRoomBG_6_1.png</asset>
+<asset name='firstRoomBG_6_2' type='graphic'>backgrounds/slices/firstRoomBG_6_2.png</asset>
+<asset name='firstRoomBG_7_0' type='graphic'>backgrounds/slices/firstRoomBG_7_0.png</asset>
+<asset name='firstRoomBG_7_1' type='graphic'>backgrounds/slices/firstRoomBG_7_1.png</asset>
+<asset name='firstRoomBG_7_2' type='graphic'>backgrounds/slices/firstRoomBG_7_2.png</asset>
+<asset name='firstRoomBG_8_0' type='graphic'>backgrounds/slices/firstRoomBG_8_0.png</asset>
+<asset name='firstRoomBG_8_1' type='graphic'>backgrounds/slices/firstRoomBG_8_1.png</asset>
+<asset name='firstRoomBG_8_2' type='graphic'>backgrounds/slices/firstRoomBG_8_2.png</asset>
+<asset name='firstRoomBG_9_0' type='graphic'>backgrounds/slices/firstRoomBG_9_0.png</asset>
+<asset name='firstRoomBG_9_1' type='graphic'>backgrounds/slices/firstRoomBG_9_1.png</asset>
+<asset name='firstRoomBG_9_2' type='graphic'>backgrounds/slices/firstRoomBG_9_2.png</asset>
+
+<asset name='firstRoomFG_0_0' type='graphic'>backgrounds/slices/firstRoomFG_0_0.png</asset>
+<asset name='firstRoomFG_0_1' type='graphic'>backgrounds/slices/firstRoomFG_0_1.png</asset>
+<asset name='firstRoomFG_10_1' type='graphic'>backgrounds/slices/firstRoomFG_10_1.png</asset>
+<asset name='firstRoomFG_10_2' type='graphic'>backgrounds/slices/firstRoomFG_10_2.png</asset>
+<asset name='firstRoomFG_11_2' type='graphic'>backgrounds/slices/firstRoomFG_11_2.png</asset>
+<asset name='firstRoomFG_1_1' type='graphic'>backgrounds/slices/firstRoomFG_1_1.png</asset>
+<asset name='firstRoomFG_1_2' type='graphic'>backgrounds/slices/firstRoomFG_1_2.png</asset>
+<asset name='firstRoomFG_2_0' type='graphic'>backgrounds/slices/firstRoomFG_2_0.png</asset>
+<asset name='firstRoomFG_2_1' type='graphic'>backgrounds/slices/firstRoomFG_2_1.png</asset>
+<asset name='firstRoomFG_2_2' type='graphic'>backgrounds/slices/firstRoomFG_2_2.png</asset>
+<asset name='firstRoomFG_3_0' type='graphic'>backgrounds/slices/firstRoomFG_3_0.png</asset>
+<asset name='firstRoomFG_3_1' type='graphic'>backgrounds/slices/firstRoomFG_3_1.png</asset>
+<asset name='firstRoomFG_3_2' type='graphic'>backgrounds/slices/firstRoomFG_3_2.png</asset>
+<asset name='firstRoomFG_4_0' type='graphic'>backgrounds/slices/firstRoomFG_4_0.png</asset>
+<asset name='firstRoomFG_4_2' type='graphic'>backgrounds/slices/firstRoomFG_4_2.png</asset>
+<asset name='firstRoomFG_5_0' type='graphic'>backgrounds/slices/firstRoomFG_5_0.png</asset>
+<asset name='firstRoomFG_5_1' type='graphic'>backgrounds/slices/firstRoomFG_5_1.png</asset>
+<asset name='firstRoomFG_5_2' type='graphic'>backgrounds/slices/firstRoomFG_5_2.png</asset>
+<asset name='firstRoomFG_6_0' type='graphic'>backgrounds/slices/firstRoomFG_6_0.png</asset>
+<asset name='firstRoomFG_6_1' type='graphic'>backgrounds/slices/firstRoomFG_6_1.png</asset>
+<asset name='firstRoomFG_7_0' type='graphic'>backgrounds/slices/firstRoomFG_7_0.png</asset>
+<asset name='firstRoomFG_7_1' type='graphic'>backgrounds/slices/firstRoomFG_7_1.png</asset>
+
+	<asset name='firstRoomFG' type='graphic'>backgrounds/firstRoomFG.png</asset>
+	<asset name='firstRoomMap' type='graphic'>backgrounds/firstRoomMap.png</asset>
+	
+	<asset name='firstRoomStairs1' type='path'>1387,707;1720,997;1720,1036;1387,771</asset>
+	<asset name='firstRoomStairs2' type='path'>4245,882;4390,732;4389,846;4245,990</asset>
+	<asset name='firstRoomStairs3' type='path'>5136,738;5281,880;5281,988;5136,859</asset>
+
+</assets>
+
+<character class='mituna' x='4534' y='670'>	
+	<action class='mitunaTalk1'/>
+	<action class='mitunaTalk2'/>
+	<action class='mitunaTalk5'/>
+	<action class='beMituna'/>
+</character>
+
+<sprite depthing='3' name='obj01'>
+<animation x='-50' y='-50'  sheet='obj01'/>
+</sprite>
+<sprite depthing='3' name='obj02'>
+<animation x='-50' y='-50'  sheet='obj02'/>
+</sprite>
+<sprite depthing='3' name='obj03'>
+<animation x='-50' y='-50'  sheet='obj03'/>
+</sprite>
+<sprite depthing='3' name='obj04'>
+<animation x='-50' y='-50'  sheet='obj04'/>
+</sprite>
+<sprite depthing='3' name='obj05'>
+<animation x='-50' y='-50'  sheet='obj05'/>
+</sprite>
+<sprite depthing='3' name='obj06'>
+<animation x='-50' y='-50'  sheet='obj06'/>
+</sprite>
+<sprite depthing='3' name='obj07'>
+<animation x='-50' y='-50'  sheet='obj07'/>
+</sprite>
+<sprite depthing='3' name='obj08'>
+<animation x='-50' y='-50'  sheet='obj08'/>
+</sprite>
+
+
+<character class='andrew' x='1190' y='1000'/>
+
+
+
+<sprite name='spadeKeyOverlay' x='2124' y='644'>
+  <animation sheet='spadeKeyOverlay' x='-60' y='-144'/>
+</sprite>
+<sprite name='heartKeyOverlay' x='2124' y='644'>
+  <animation sheet='heartKeyOverlay' x='-60' y='-144'/>
+</sprite>
+<sprite name='clubKeyOverlay' x='2124' y='644'>
+  <animation sheet='clubKeyOverlay' x='-60' y='-144'/>
+</sprite>
+<sprite name='diamondKeyOverlay' x='2124' y='644'>
+  <animation sheet='diamondKeyOverlay' x='-60' y='-144'/>
+</sprite>
+
+
+<rooms>
+  <room name='firstRoom' walkableMap='firstRoomMap' mapScale='2'>
+  	<triggers>
+  	
+  		<trigger>
+  			<args>inBox2,char,3874,1056,4302,1141</args>
+  			<action command='changeRoomRemote'>rooms/secondRoom.xml,secondRoom,559,94</action>
+  		</trigger>
+  		
+  		<trigger>
+  			<args>inBox2,char,2106,600,2181,620</args>
+  			<action command='goBack'>
+  				<args>char</args>
+  				<action class='notForYou' />
+  			</action>
+  		</trigger>
+  		
+  		<trigger>
+  			<args>inBox2,meenah,2106,600,2181,620</args>
+  			<action command='goBack'>
+  				<args>char</args>
+  				<action command='changeRoomRemote'>rooms/fifthRoom.xml,fifthRoom,606,746</action>
+  			</action>
+  		</trigger>
+  		
+  		<trigger>
+  			<args>inBox2,char,5116,0,5580,66</args>
+  			<action class='notForYou' />
+  		</trigger>
+  		
+  		<trigger>
+  			<args>inBox2,meenah,5116,0,5580,66</args>
+  			<action command='goBack'>
+  				<args>char</args>
+  				<action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,520,2544</action>
+  			</action>
+  		</trigger>
+  		
+  		<trigger detonate='true'>
+  			<args>spriteProperty,char,x &gt; 5300</args>
+  			<action command='waitFor'>
+  				<args>noActions</args>
+  				<action command='addSprite' noWait='true'>
+  					<args>mituna,firstRoom</args>
+  					<action command='depthSprite' noWait='true'>
+							<args>mituna,2</args>
+							<action command='playSound' noWait='true'>
+								<args>grindSound</args>
+								<action command='changeFocus' noWait='true'>
+									<args>mituna</args>
+									<action command='deltaSprite' noWait='true' for='30'>
+										<args>mituna,16,0</args>
+										<action command='deltaSprite' noWait='true' for='18'>
+											<args>mituna,12,-12</args>
+											<action command='deltaSprite' noWait='true' for='15'>
+												<args>mituna,18,18</args>
+												<action command='playAnimation' noWait='true' noDelay='true'>
+													<args>mituna,crash</args>
+													<action command='playSound' noWait='true' noDelay='true'>
+														<args>hitPowerfulSound</args>
+														<action command='depthSprite' noWait='true'>
+															<args>mituna,1</args>
+															<action command='waitFor' noWait='true'>
+																<args>time,60</args>
+																<action command='changeFocus'>
+																	<args>char</args>
+																</action>
+															</action>
+														</action>
+													</action>
+												</action>
+											</action>
+										</action>
+									</action>
+								</action>
+							</action>
+						</action>
+  				</action>
+  			</action>
+  		</trigger>
+  		
+  		<trigger detonate='true'>
+  			<args>gameState,spadeKeyUsed=true</args>
+  			<args>gameState,heartKeyUsed=true</args>
+  			<args>gameState,clubKeyUsed=true</args>
+  			<args>gameState,diamondKeyUsed=true</args>
+  			<action command='startAnimation'>
+  				<args>megaDoor,open</args>
+  				<action command='playSound' noDelay='true'>
+						<args>closeSound</args>				
+						<action command='removeSprite' noDelay='true'>
+							<args>spadeKeyOverlay,firstRoom</args>
+							<action command='removeSprite' noDelay='true'>
+								<args>heartKeyOverlay,firstRoom</args>
+								<action command='removeSprite' noDelay='true'>
+									<args>clubKeyOverlay,firstRoom</args>
+									<action command='removeSprite' noDelay='true'>
+										<args>diamondKeyOverlay,firstRoom</args>
+										<action command='addWalkable'>
+											<args>megaDoorWalkable,firstRoom</args>
+										</action>
+									</action>
+								</action>
+							</action>
+						</action>
+					</action>
+  			</action>
+  		</trigger>
+  		
+  		<trigger detonate='true'>
+  			<args>gameState,meenahGone=true</args>
+  			<args>spriteProperty,cronus,x &gt; 5300</args>
+  			<action command='talk'>
+  				<args>@!:#相変わらずだ#たぶんキャプテン・ヘルメットのせいだ#あいつをしかるべきだ 待って...ミーナどこ行った？しまった。また捨てられたらしい。</args>
+  				<action command='setGameState'>
+  					<args>meenahGone,false</args>
+  					<action command='removeActions'>
+  						<args>mituna,Talk to Mituna.,Talk to Mituna.</args> <!-- yes, twice! -->
+  						<action command='removeActions'>
+								<args>cronus,Talk to Cronus.,Ask Cronus to join.,Where's Karkat?,Talk to Cronus.</args> <!-- yes, twice! -->
+								<action command='addAction'>
+									<args>mituna,
+										<action class='mitunaTalk6'>
+											<action command='addSprite'>
+												<args>meenah,firstRoom</args>
+												<action command='startAnimation'>
+													<args>meenah,walkFront</args>
+													<action command='moveSprite' noDelay='true'>
+														<args>meenah,2150,800</args>
+														<action command='addActions' noDelay='true'>
+															<args>mituna,
+																<action class='mitunaTalk4'/>
+																<action class='mitunaTalk7'/>
+																<action class='beMituna'/>
+															</args>
+															<action command='removeAction' noDelay='true'>
+																<args>mituna,Grill Mituna.</args>
+																<action command='addActions' noDelay='true'>
+																	<args>cronus,
+																		<action class='cronusTalk5'/>
+																		<action class='cronusTalk8'/>
+																		<action sprite='mituna' class='beCronus'/>
+																	</args>
+																	<action command='addActions' noDelay='true'>
+																		<args>meenah,
+																			<action class='meenahTalk2' />
+																		</args>
+																	</action>
+																</action>
+															</action>
+														</action>
+													</action>      	
+												</action>
+											</action>
+										</action>
+									</args>
+								</action>
+							</action>
+						</action>
+  				</action>
+  			</action>
+  		</trigger>
+  		
+  		<trigger>
+  			<args>gameState,horseLook=true</args>
+  			<action command='setGameState' noDelay='true'>
+  				<args>horseLook,false</args>
+					<action command='talk' name='調べる'>
+						<args>
+						@!:#タツノオトシパパ ホバリングしている海洋性のスタリオンは、厳めしくて親父らしいヒヒーンを言う。
+						<!--  -->
+						</args>
+					</action>
+				</action> 
+  		</trigger>
+  		
+  		<trigger detonate='true'>
+  			<args>gameState,horseLook=true</args>
+  			<args>spriteProperty,char,name=cronus</args>
+  			<args>gameState,hussieFollow=true</args>
+  			<action command='setGameState' noDelay='true'>
+  				<args>horseLook,false</args>
+					<action command='talk'>
+						<args>
+						@! 悪い、兄ちゃん、この美しい浮かんでるタツノオトシゴに近づくためお前を使ってただけだ！
+	    			@!:#ヒヒーン 出発だ、タツノオトシゴパパ！進め～！
+						</args>
+						<action command='waitFor'>
+  						<args>noActions</args>
+  						<action command='removeSprite' noDelay='true'>
+  							<args>andrew,firstRoom</args>
+  							<action command='startAnimation' noDelay='true'>
+  								<args>seahorsedad,ride</args>
+  								<action command='unfollow' noDelay='true'>
+  									<args>andrew</args>
+										<action command='deltaSprite' for='170' noWait='true'>
+  										<args>seahorsedad,-2,-2</args>
+  										<action command='removeSprite' noWait='true'>
+  											<args>seahorsedad,firstRoom</args>
+  											<action command='talk' noWait='true'>
+  												<args>@cronus_sad2 クロナス: まさにオｗレの感情にとって最悪のシナリオだ。</args>
+  											</action>
+  										</action>
+  									</action>
+  								</action>
+  							</action>
+  						</action>
+						</action> 	
+					</action>
+				</action>
+  		</trigger>
+  		
+  		
+  		
+  	</triggers>
+  
+  	<paths>
+  		<motionpath path='firstRoomStairs1' xtox='0.7' xtoy='0.7' />
+  		<motionpath path='firstRoomStairs2' xtox='0.7' xtoy='-0.7' />
+  		<motionpath path='firstRoomStairs3' xtox='0.7' xtoy='0.7' />
+  	</paths>
+  	
+  	<character class='meenah' x='427' y='458' >
+  		<action class='meenahTalk1'/>
+  		<action class='meenahTalk3'/>
+			<action class='meenahTalk4'/>
+			<action class='meenahTalk5'>
+				<action command='presentActions'>
+					<args>
+						<action class='beMeenah' name='はい'/>
+						<action command='cancel' name='いいえ'/>
+					</args>
+				</action>
+			</action>
+			<action class='beMeenah'/>
+  	</character>
+  	
+  	<character class='cronus' x='2022' y='958' >
+  		<action class='cronusTalk1'/>
+			<action class='cronusTalk2'/>
+			<action class='cronusTalk3'/>
+			<action class='cronusTalk4'/>
+			<action class='cronusTalk7'>
+				<action command='presentActions'>
+					<args>
+						<action name='はい' class='beCronus'>
+							<action command='playSong'>
+								<args>violetPrinceSong</args>
+								<action command='setGameState'>
+									<args>meenahGone,true</args>
+									<action command='removeSprite'>
+										<args>meenah,firstRoom</args>
+										<action command='removeActions'>
+											<args>mituna,Be Mituna.</args>
+										</action>
+									</action>
+								</action>
+							</action>
+						</action>
+						<action name='いいえ' command='cancel'/>
+					</args>
+				</action>
+			</action>
+  	</character>
+  	
+  	<sprite class='seahorsedad' x='1702' y='844' >
+			<action command='setGameState' name='調べる'>
+				<args>horseLook,true</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite class='bicyclops' x='5173' y='627' >
+			<action command='talk' name='調べる'>
+						<args>
+						@!:#バイクロプスパパ この管理者が本当にあいつのお世話で苦労するね。その恐ろしいモンスターはちょっとかわいそう。
+						@!:#でもクロナスだったら？#それを気にしないでね 君は今ミーナにしている限り、そういう発言だ。ミトゥナにしているなら、君のデカいペアレントをマインドハ二―をくれという強請る。その巨人はぶつぶつ断ってヘルメットを軽くに打つ。君は転んで癇癪を起こる。
+						<!--  -->
+						</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='firstRoomDoor1' x='620' y='324' width='80' height='20' >
+  		<action command='talk' name='調べる'>
+		    <args>
+		    @! ドアがかかっている。ノックをするけど、誰も答えない。
+		    @! アルターニアの町らしい。暴力は別として、アルターニアの文化は結構べフォーラスの生活によく似ている、芝輪ごと。けど、家出したお姫様として、あまり郊外で時間を過ごさなかったから、君知らないだろう。
+		    <!--  -->
+		    </args>
+			</action>
+  	</sprite>
+		
+		<sprite name='firstRoomGarbage' x='372' y='306' width='50' height='30' >
+  		<action command='talk' name='調べる'>
+				<args>
+				@! 普通の家庭内のカス櫃だ。臭いゴミいっぱいだけど、芝輪外まで引きずられなかった。ゴミ集めドローンが今夜回収を予定しない？
+				<!--  -->
+				</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='firstRoomHose' x='237' y='308' width='100' height='38' >
+			<action command='talk' name='調べる'>
+				<args>
+				@! アルターニアの立派な子トロールは干した、水やりなかった芝輪を保つわけではない。ハイブの外の草を黄色にさせるのは淘汰させてくれっという要求だ。厳しいけど、至当だと思う。マジで、アルターニアの生活本当に素晴らしかった。
+				<!--  -->
+				</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='firstRoomPlant' x='1118' y='304' width='100' height='40' >
+			<action command='talk' name='調べる'>
+						<args>
+						@! 放っておいた方がいい。トロール狂犬病かな。
+						<!--  -->
+						</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='firstRoomGrub' x='2576' y='578' width='115' height='100' >
+			<action command='talk' name='調べる'>
+						<args>
+						@! はぁ？？不注意な奴が、このかわいそうなグラブを独りで放置して、自力で生き延びさせてしまったのだ！
+						@! つまり、アルターニアすべてのグラブとすべて同じだ。大したことない。
+						<!--  -->
+						</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='firstRoomDoor2' x='3348' y='298' width='100' height='40' >
+			<action command='talk' name='調べる'>
+						<args>
+						@! バンバンバン！誰もいないか？？？と言う。でももちろん誰もいない、なぜならこれらのハイブは大体記憶の幻に過ぎない。
+						<!--  -->
+						</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite name='megaDoor' x='2124' y='644' width='100' height='60'>
+  		<animation name='closed' sheet='megaDoorClosed' x='-60' y='-144'/>
+  		<animation name='open' sheet='megaDoorOpen' x='-60' y='-144'/>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest1' x='1230' y='208'>
+			<action command='openChest' name='開ける'>
+					<args>firstRoomChest1,obj01,
+						@! アルターニアのソフトドリンクを手に入れた！
+						@! 君はアルターニアの歴史に詳しくないようだけど、どうやらある時、女帝はジョーカ圧政者によるソーダ市場の支配にうんざりし、ヤベーエリクサーそのものよりも砂糖がたっぷり入っているという飲み物を発売したらしい。しかし、ハイブラッドたちはそのようなマーケティング報道を冒涜的な嘘だと考えていた。そして正しかった。その飲み物は実際にはゼロカロリーで、女帝はスリムな体型を維持するために密かにそれを義務付けていたんだ。しかし、下品な低血は何も知らずに何十億ドルもの缶を飲み干し、狡猾なコンデスは金を巻き上げたんだ。
+						@! 誰かがこのストーリーを実際に教えてくれたら、次の十分を床で空想するだろう。
+					</args>
+			</action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest2' x='1194' y='1090'>
+			<action sprite='!cronus' command='talk' name='開ける'>
+				<args> @! 開けられない！他人で一緒に試してみたら...</args>
+			</action>
+			
+			<action sprite='cronus' command='openChest' name='開ける'>
+				<args>firstRoomChest2,obj02,
+				  @! おい、エリダン！あるいは名前が何であれ！デートするよ！！！
+				  @cronus_surprised クロナス: そうなの？
+				  @! もちろん。お前を魅力的だと思うし、性格は基本的に俺にとって許容できるものだ。
+				  @cronus_huh クロナス: ええと...いいよ。選り好みできないな。
+				</args>
+				<action command='addSprite'>
+					<args>andrew,firstRoom</args>
+					<action command='follow' noDelay='true'>
+						<args>andrew,cronus</args>
+						<action command='setGameState' noDelay='true'>
+							<args>hussieFollow,true</args>
+							<action command='removeAction' noDelay='true'>
+								<args>firstRoomChest1,開ける</args>
+							</action>
+						</action>
+					</action>
+				</action>
+    	</action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest3' x='2274' y='658'>
+			<action command='openChest' name='開ける'>
+				<args>firstRoomChest3,obj03,
+				  @! ダイヤモンド鍵を手に入れた！
+				</args>
+				<action command='addAction'>
+  				<args>megaDoor,
+  					<action name='ダイヤモンド鍵を使う' command='removeAction'>
+  						<args>megaDoor,ダイヤモンド鍵を使う</args>
+  						<action command='setGameState'>
+  							<args>diamondKeyUsed,true</args>
+  							<action command='addSprite'>
+  								<args>diamondKeyOverlay,firstRoom</args>
+  								<action command='playSound' noDelay='true'>
+										<args>openSound2</args>
+									</action>
+  							</action>
+  						</action>
+  					</action>
+  				</args>
+  			</action>
+		  </action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest4' x='2364' y='236'>
+			<action command='openChest' name='開ける'>
+				<args>firstRoomChest4,obj04,
+					@! カニ鎌を手に入れた！
+					@!:#それで、#それもね 海を思わせるこのアイテムが、すごく気に入っている。また、このようなアイテムを収集することは、ますます熱狂的になっていくカーカットへの執着をうまく引き立ててくれるだろう。
+				</args>
+    	</action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest5' x='3106' y='290'>
+			<action command='openChest' name='開ける'>
+				<args>firstRoomChest5,obj05,
+				  @! 海の住人の宝飾を山ほど手に入れた！
+				  @! あれら全部クロナスの物だってことは明らかだ。ただ今は身に着けていない。王族としての地位を大したことだとは思っていないと皆に思わせるためだ。あいつは実際そう思っているのだが。
+				  @! でも、君は最高額の入札者にこの物を売ることに何の問題もない。くすくす笑いながら、派手な戦利品をポケットに入れる。
+				</args>
+		  </action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest6' x='3950' y='230' width='100' height='100' collidable='false'>
+			<action command='openChest' name='開ける'>
+				<args>firstRoomChest6,obj06,
+				  @! エイハブのクロスヘアを手に入れた！
+				  @! この素敵な伝説の武器を天に掲げて、それが少し輝くのを眺めて...
+				  @! 狂ったように笑いながら、膝の上にそれを叩きつけて真っ二つに折ろうとした。その時、アンポラの方からくぐもったすすり泣きが聞こえた。
+				</args>
+		  </action>
+  	</sprite>
+  	
+  	<sprite class='chest2' name='firstRoomChest7' x='4300' y='1024'>
+			<action command='openChest' name='開ける'>
+				<args>firstRoomChest7,obj07,
+				  @! ゲーム・グラブのマガジンを手に入れた！
+				  @! この雑誌は、独占公開のグラブ漏洩で滴ってる。実はかなり気持ち悪い。
+				</args>
+		  </action>
+  	</sprite>
+  	
+  	
+  	
+  	<sprite class='chest2' name='firstRoomChest8' x='5936' y='146'>
+			 <action command='openChest' name='開ける'>
+				<args>firstRoomChest8,obj08,
+				  @! クラブ鍵を手に入れた！
+				</args>
+				<action command='addAction'>
+  				<args>megaDoor,
+  					<action name='クラブ鍵を使う' command='removeAction'>
+  						<args>megaDoor,クラブ鍵を使う</args>
+  						<action command='setGameState'>
+  							<args>clubKeyUsed,true</args>
+  							<action command='addSprite'>
+  								<args>clubKeyOverlay,firstRoom</args>
+  								<action command='playSound' noDelay='true'>
+										<args>openSound2</args>
+									</action>
+  							</action>
+  						</action>
+  					</action>
+  				</args>
+  			</action>
+		  </action>
+  	</sprite>
+
+		<sprite name='firstRoomBG'>
+			<animation sheet='firstRoomBG' sliced='true' colSize='500' rowSize='500' numCols='13' numRows='3'/>
+		</sprite>
+
+		<sprite name='firstRoomFG' depthing='2'>
+  		<animation sheet='firstRoomFG'  sliced='true' colSize='500' rowSize='500' numCols='13' numRows='3'/>
+  	</sprite>
+  </room> 
+</rooms>
+</sburb>

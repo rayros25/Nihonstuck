@@ -1,0 +1,184 @@
+<sburb description='mituna dialogs'>
+	<classes>
+		<action sprite='meenah' class='mitunaTalk1' command='talk' name='ミトゥナと話す'> <args>
+      @meenah_happy ミーナ: よお　ツナ
+      @meenah_happytalk ミーナ: かっこいいスタントだった
+      @meenah_happytalk:#約３メートルの差で ミーナ: )(イタッチを供したけどアンタちょっと外れたヨー
+      @mituna_agitated%alttextbox_4chan:#フフフフフフッフフッｓフクソ ミトゥナ: わああファッ９　９ソ９ソ９ソ
+      @meenah_wut ミーナ: ええと　いいんだよ落ち着いて
+      @meenah_talk ミーナ: また後でな
+      @meenah_happy ミーナ: 未来にも)(イタッチあるんだろう？
+      @mituna_angry%alttextbox_4chan ミトゥナ: １や８６うぜ
+      @mituna_angry2%alttextbox_4chan ミトゥナ: ９ッソ
+      @mituna_fall%alttextbox_4chan:#LKGH;V451D4031NJDN01GP3 ミトゥナ: ９ソーまたこ６んだ４
+      @meenah_annoyed ミーナ: ええ　やめヨーマジで
+      @meenah_annoyedtalk ミーナ: )(イタッチ忘れろ　アンタ自分をケガ付いたら責任取りたくないから
+      @mituna_talk%alttextbox_4chan ミトゥナ: ジブンのアナを８メて
+      @meenah_annoyedtalk ミーナ: おい　アンタ相変わらずキモくて嫌らしい
+      @meenah_annoyedtalk ミーナ: 死んだらちょっと頭冷やすだろうと思ったけど違うヨーな
+      @mituna_agitated%alttextbox_4chan ミトゥナ: 漏れの１やなトソネルをチ　ュー４ろこのアフォ８ろうどもが
+      @meenah_wut2 ミーナ: おい　なんで憎しむ必要あるのか
+      @meenah_talk:#少なくともタグする ミーナ: あとその悪口を気を付けてね
+      @meenah_talk ミーナ: カンクリに来て欲しくない限り
+      @mituna_sad%alttextbox_4chan ミーナ: ５メン orz
+      @meenah_idle ミーナ: 早く終わらせる
+      @meenah_idle ミーナ: 一つだけ頼む
+      @meenah_fish ミーナ: アンタ神級なのか　ツナくん
+      @mituna_talk%alttextbox_4chan ミトゥナ: ｎなぁ２
+      @mituna_sad%alttextbox_4chan ミトゥナ: ぢがう
+      @mituna_facepalm%alttextbox_4chan ミトゥナ: １やたぷん
+      @mituna_spaz2%alttextbox_4chan:#??/??/////5 ミトゥナ: 知らな４らな
+      @meenah_idle ミーナ: そう～か
+      @meenah_creepy ミーナ: ほら　そのイカしたシャツちょっと脱いで羽があるのか見せて
+      @mituna_laugh%alttextbox_4chan ミトゥナ: えへへhehええへへｈ　４っ４ゃ
+      @mituna_happytalk%alttextbox_4chan ミトゥナ: ｋｔｋｒ
+      @mituna_agitated%alttextbox_4chan:#３リョ９#マ～#クソ ミトゥナ: このビッチ漏れの３リョ９０カンガエナオ４タ　このカスどもだぉ！
+      @mituna_spaz1%alttextbox_4chan:#!!!!!!!!!! ミトゥナ: まて　だすけて
+      @mituna_facepalm%alttextbox_4chan:#8( ミトゥナ: たすけって　どう８ってヌグのだっけ？
+      @meenah_annoyedtalk ミーナ: ああそのシャツ保持してね　アンタ)(そのやり取りをひどいものにした
+      @mituna_sad%alttextbox_4chan ミトゥナ: ５メンな３１
+      @meenah_talk ミーナ: 他に密かに神級の奴ら知ってるか
+      @mituna_happytalk%alttextbox_4chan ミトゥナ: な１けど漏れ８バぶル的なストリ　ップ３ーチ０仕切れるぜ
+      @mituna_laugh%alttextbox_4chan:#エロ１ェーーー１！！！！！！！！！！！！！！！ ミトゥナ: まず８おまえでハジまろうろ　ええへへｈえへ
+      @meenah_idle ミーナ: アンタ
+      @meenah_annoyed ミーナ: 最低
+      @mituna_shine~dialogimg_mituna1%alttextbox_4chan 
+       </args>
+</action>
+
+<action sprite='meenah' class='mitunaTalk2' command='talk' name='ミトゥナに仲間になるよう頼む'> <args>
+      @meenah_creepylaugh ミーナ: おいツナ　アタイを手伝ってやりたい　)()()(真面目にこの質問終われねー
+      @mituna_talk%alttextbox_4chan ミトゥナ: ちがうが漏れヤリた１の８
+      @mituna_agitated%alttextbox_4chan ミトゥナ: 漏れのエグ１ボードでアブナ９てもほ　ぼおｋバランスを保つことだぉ
+      @mituna_idle%alttextbox_4chan:##スポルノーツ ミトゥナ: な２かの上２スベルとか
+      @meenah_idle ミーナ:　何の上に滑るか
+      @mituna_idle%alttextbox_4chan ミトゥナ: 漏れのテ１アん８
+      @mituna_idle%alttextbox_4chan ミトゥナ: それ０
+      @mituna_happy%alttextbox_4chan ミトゥナ: ０まえ２すっる
+      @meenah_wut ミーナ: 気持ち悪いヨー
+      @meenah_annoyed ミーナ: どうやってラテュラがアンタを我慢できるのか
+      @mituna_sad%alttextbox_4chan ミトゥナ: ５面
+      @mituna_idle%alttextbox_4chan ミトゥナ: でも
+      @mituna_spaz1%alttextbox_4chan:#! ミトゥナ: この９ソファッ８ファッ９おまえのDQNハメハメジブンの　たんでヌレテル４ューターこのビッチジュポジュポふぁっ９ファッキンファッ９ファッ９ファッ９
+      @meenah_idle ミーナ: ウオォ
+      @meenah_idle:#少なくとも実際の言葉という部分 ミーナ: すげぇんだよ　大体
+      @meenah_talk ミーナ: あのさ　あの世が人々を直せる)(ずだろ
+      @meenah_idle ミーナ: 分からない
+      @meenah_talk ミーナ: なんでパイロープがまだ嗅ぐことできない
+      @meenah_talk:#まさかレイヨーンがまだ聾者か ミーナ: そしてアンタ)(まだひどい脳の問題あるんだ
+      @meenah_talk ミーナ: 実存的な謎を解明すること諦めた
+      @mituna_idle%alttextbox_4chan ミトゥナ: 池沼
+      @meenah_angrytalk ミーナ: おい　クソクラゲ！！！
+      @kankri_talk カンクリ: 俺はこの行動に介入しなきゃいけない、もしこれがさらにエスカレートし、取り消せないという憎しみに満ちたレトリッ９を振り回し始める前に。
+      @meenah_wut2:#ああなんてタコとだ ミーナ: 
+      @kankri_talk:#下品#中傷的#苦し６#放射状#善意#皆認識#問題 カンクリ: ミトゥナ、君がこれによ９苦しんでいることは知っているけど、君は非常に下品で傷つけるようなカースト特有の中傷的な言葉を使った。たぶん知っているように、この言葉はかつては俺たちの社会の海の住人、特に抑圧的なフ９シャ権力構造の推進に加担していた陸に住６カーストを蔑６ためにのみ使われていた。もち６ん、６イヤルなバイオレットや、ミーナのようなさらに高い地位にある稀な少数の人々は、貴族階級のメンバーとして他の人々よりも大きな特権を享受しており、したがって、彼らに対するそのような言葉による侵害を、恵まれない人々を標的にした侵害と同等に見ることはできないということを、俺たちは皆認識しなきゃいけない。しかし、そのような放射状の言葉は、他の人々が決定的に有益な問題について真摯な対話を追求しようとしているときに、最悪の言葉であることを指摘する必要がある。
+      @mituna_facepalm%alttextbox_4chan ミトゥナ: .................、....
+      @kankri_talk4:#障害者差別#特権#餌#溺れる#水生の用語が役に立つ？ カンクリ: ミーナ、どんな状況でも言葉による攻撃を受けることへの苛立ちは理解できるけど、ミトゥナにはある程度の特別な配慮と、少しの忍耐以上のものが必要だということを、君に思い出させてあげなければならない。どうか彼の餌を取らないようにして９れ。彼の攻撃は、おそら９善意（？）からのものだ６う。なぜなら、その攻撃の意図が、君を、障害者差別的な表現、中傷、そして許されないほど抑制されていない障害者差別的な特権のその他の表現に満ちたやり取りへと溺らされるから。
+      @meenah_annoyed ミーナ: ヴァンタスなんでここに
+      @meenah_annoyed ミーナ: どうやってこのチャットに入ったんだヨーー
+      @meenah_annoyed ミーナ: アタイラと物理的にまったく別の場所にイルカらどうしてこの会話に飛び込んできたのか全然分かんない
+      @meenah_fish:#行っちまエビ ミーナ: 消えてくれる？
+      @kankri_idle カンクリ: 一方、正直に言えば、ミトゥナの存在そのものが、障害者差別の進歩と全般的な認識、そしてそれが障害者にもたらす様々な痛ましい結果に対する、かなり問題のある障害だと俺は感じている。率直に言って、吃音はな９てもいいし、彼の多量の偏屈と敵意には賛成できない。そこへ行９と、人として、そして友人として、彼には敏感でありたい。しかし、彼の行動はどんなメッセージを送っているのだ６うか？そして率直に言って、ヘルメットにも気に入らない。
+      @mituna_sad%alttextbox_4chan ミトゥナ: 漏れのハメルットな２が　ワル１ 8(
+      @kankri_talk2 カンクリ: 何もない、友達よ。すご９かっこいいし君には似合っている。しかし、君と同じ障害を持つ人全員が、転倒して頻繁に頭を打つため、同様にこのようなヘッドギアを必要とすると想定していいのだ６うか？
+      @mituna_sad%alttextbox_4chan ミトゥナ: でっも漏れは４４こ６んでアタｍあをウツけど４
+      @kankri_talk4 カンクリ: ああ、それ知っている、安全のために被り続けた方がいいと思う。特に、君がその危険なおもちゃでもがき続けるなら。６し６、君の人格や存在の特定の側面で、君が全体的に送っている不幸なメッセージに過ぎない。それだけ。
+      @mituna_sad%alttextbox_4chan ミトゥナ: ５めんな３１
+      @kankri_talk3 カンクリ: 友人として、君だけを変えたいとは思っていない。まあ、ほとんど何も変えた９ない。俺が言いたいのは、全９無害な特性や癖の集まりで、同じように不利な立場にある人たちと、君自身を顔を潰さない方がいいと思う。でも、もう一度言うけど、これは十分に配慮して言っている。
+      @meenah_talk ミーナ: ヴァンタスこのクソ野郎　そいつについてそんな風に言うなヨー
+      @kankri_talk カンクリ: とにか９、気をそらしたつもりはない。俺は帰るよ。話を続けて、どうか俺が説明した問題を頭に入れて９ださい。
+      @meenah_wut2 ミーナ: アタイの友達全員クソ大嫌い
+  </args>
+</action>
+
+
+<!--@ MITUNA AFTER MEENAH RETURNS-->
+
+<action sprite='meenah' class='mitunaTalk4'  command='talk' name='ミトゥナと話す'><args>
+      @meenah_happytalk ミーナ: ヘイタ―どもに負けるな　ツナ
+      @mituna_agitated%alttextbox_4chan ミトゥナ: フ１ッ４ュファッ９９ソ０ｎなビっチ
+      @meenah_annoyedtalk ミーナ: まあ　アンタに優しくしようとしなかったとは言えないだろう
+      @mituna_shine~dialogimg_mituna3%alttextbox_4chan
+      @meenah_angry ミーナ: エイ！
+      @meenah_angrytalk ミーナ: 何その上から皮肉か！そのパントミームでアンタが言うな
+      @meenah_annoyedtalk ミーナ: アンタのガチでひどいノイローゼを考えたら
+      @meenah_annoyedtalk ミーナ: アンタカメっちゃ腹立たしいぞキャプター
+      @meenah_wut2 ミーナ: 本気でこのクソエリアを捨ててこの冒険を続けなきゃ
+</args>
+</action>
+
+<action sprite='cronus' class='mitunaTalk5' command='talk' name='ミトゥナと話す'><args>
+      @cronus_talk クロナス: おお、忘ｗレる所だった。曲を取り組んでた、あレｗたがたぶレｗ...
+      @mituna_agitated%alttextbox_4chan ミトゥナ: ０まえのキョ９が９ソそ４て０まえダ１キラ１だ４
+      @cronus_surprised クロナス: わあ、ははは。負けた。
+      @cronus_huh クロナス: ホレｗト、けっこうだ。言葉で表現できないほど傷ついたけど、けっこう。
+      @cronus_talk:#魔法界マジで終わった クロナス: でも本気でここで待って。オｗレの「魔法」でペイシェスを口説き落とすぞ。もちろレｗ文字通りの魔法じゃない、なぜなら青春に経験した衝撃的な一連の出来事を通してオｗレが学レｗだように、魔法は本当じゃない。
+      @cronus_talk クロナス: 待って、転ばないようにして、そして何よりも、人目につかないように気を付け。
+      @mituna_happy%alttextbox_4chan ミトゥナ: ０ッkー
+      </args>
+</action>
+
+
+<!--@ MITUNA AFTER MEENAH RETURNS-->
+
+<action sprite='cronus' class='mitunaTalk7' command='talk' name='ミトゥナと話す'>
+      @cronus_sad クロナス: そｗレでは。
+      @cronus_sad クロナス: ミーナとまたやっちまった、今回はたぶレｗ直らない。
+      @mituna_laugh%alttextbox_4chan:#ワ６タ#ワロ草タ#クソワロ草タｗ#ｗｗワ６#ｗｗワ６ｗ草た６ ミトゥナ: あ８あ８あ８８ああ８
+      @cronus_bored クロナス: ゴースト自殺をまた企てるかな。
+      @cronus_bored クロナス: もちろレｗつまり、同情ポイレｗトを獲得するためにそうしたを言うね。
+      @mituna_idle%alttextbox_4chan ミトゥナ: そｒは　うま９１９の
+      @cronus_bored クロナス: あまりない。
+      @mituna_happytalk%alttextbox_4chan ミトゥナ: ８って３た　ら
+      @cronus_huh クロナス: 何だ...あレｗたに？
+      @mituna_happy%alttextbox_4chan ミトゥナ: そぅ４
+      @cronus_bored クロナス: まあ、こｗレ明らかにバカげているが、ニェ～、仕方ないな。
+      @cronus_bored クロナス: ミトゥナ、もう我慢できない。オｗレはゴースト自殺やろうと思う。
+      @mituna_spaz1%alttextbox_4chan ミトゥナ: うわぉ０ セ９６スやろうぜ！！！！！
+      @cronus_surprised クロナス: 待って...
+      @cronus_surprised クロナス: 本当に？
+      @mituna_agitated%alttextbox_4chan:#ファッキューファッキューファッキューファッキューファッキュー ミトゥナ: チガう　１ッテヨシこのヴォケ９ズヤ６ウ
+      @cronus_sad2 クロナス: そうか。
+      <!--  -->
+</action>
+
+<!--@ MITUNA AFTER DISCOVERING MEENAH MISSING-->
+
+<action sprite='cronus' class='mitunaTalk6' command='talk' name='ミトゥナをしかる'><args>
+      @cronus_angry クロナス: おい！動くなと言っただろ。
+      @mituna_angry%alttextbox_4chan ミトゥナ: な２だ２ｎ？
+      @cronus_angry クロナス: まさにこの場所に留まるように言ったのに。
+      @mituna_idle%alttextbox_4chan:#o ミトゥナ: ４たｙ
+      @cronus_bored クロナス: まあ、ミーナがいなかったよ。誰かあいつを怖がらせたに間違いない。
+      @cronus_bored クロナス: きっとあレｗたはぼレｗやりして、ちょっとの間、オｗレたちの中に入り込レｗだのだろう。ミーナがあレｗたを一目見て、すぐに立ち去ったな。
+      @mituna_happy%alttextbox_4chan ミトゥナ: ９６ナスが言ったトオ　リここでトどまったの２
+      @cronus_bored クロナス: 素晴らしい。こｗレはまさにオｗレが必要としていたものだ。最近オｗレの感情が乱れていたのに。本当にありがとうな、"相棒"。
+      @mituna_sad%alttextbox_4chan ミトゥナ: ５めんな３１
+      @cronus_angry クロナス: ごめレｗじゃねーよ。あレｗた嘘をついてるだろ。
+      @cronus_angry クロナス: その二股の態度は本当に嘘だよな。半分の時間は有害で理解不能だが、残りの半分は穏やかで反省ってことか？ そうだそうだ、"ダチ"？
+      @cronus_angry クロナス: オｗレを騙さｗレるものか。女子にもっと好かｗレようと謝ってるふりしてるだけ。パイロープは確かにその策略に引っかかるね。そういう戦術はよく知らないもレｗか。そｗレについて本を書いた誰だと思う？？
+      @mituna_talk%alttextbox_4chan ミトゥナ: ダレが本をカ１たのか知らな１
+      @cronus_angry クロナス: 黙ｗレ。あレｗたの声本当に大嫌い。
+      @cronus_sad2 クロナス: あレｗたが茂みから這い出て人前で宇宙服をちびったのせいで、オｗレはミーナともう一度チャレｗスできるまでには何世紀もかかるかもよ。
+      @mituna_sad%alttextbox_4chan ミトゥナ: ５めんな３１
+      @cronus_angry クロナス: 黙ｗレと言っただろ。あレｗたみたいなマスタード血野郎が、アルターニアでこレｗな風に話しかけてきたら、オｗレみたいな階級の男がどうするか、想像できる？ 正直に言うと、間違った体だけじゃなくて、オｗレは間違った宇宙で生まｗレたレｗじゃないかって思うことがあるレｗだ。
+      @cronus_angry クロナス: あレｗたのようにオｗレの額の傷跡すら数えらｗレない野郎にふさわしくない尊厳をもって扱うふりしてることにうレｗざりだ。あレｗたに好きな数字は何かと聞いても答えらｗレねーレｗだ。
+      @mituna_happytalk%alttextbox_4chan ミトゥナ: ２！！１１！！！！１１１！！！！！１１１１１１１
+      @cronus_angry クロナス: 話終わってない。あレｗたひどい友達で、ひどい人だ。
+      @mituna_sad~dialogimg_mituna2%alttextbox_4chan  
+      @cronus_angry クロナス: ラテュラは同情心からあレｗたと一緒だけだ。あレｗたに対して本当の気持ちを持ってないレｗだ。誰も持っていない。
+      @mituna_sad~dialogimg_mituna2%alttextbox_4chan 
+      @cronus_angry クロナス: あレｗたは落第生だらけのチームの精薄の落第生だ。落第生の中の落第生。もしこの言葉がべフォーラスで持つべき意味を持っていたら、オｗレは自分であレｗたを淘汰しただろう。
+      @meenah_fish ミーナ: ゴホン
+      @cronus_surprised クロナス: おお　ええと
+      @cronus_surprised クロナス: ミーナ！
+      @cronus_surprised クロナス: おお...うーレｗ。
+      @cronus_surprised クロナス: うーレｗ
+      @cronus_huh クロナス: いつから...
+      @cronus_happy クロナス: そこにいたの？
+      @meenah_annoyed%alttextbox_4chan ミーナ: クソ野郎
+      </args>
+</action>
+
+	</classes>
+</sburb>

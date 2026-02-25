@@ -1,0 +1,142 @@
+<sburb description='meulin dialogs'>
+	<classes>
+		<action sprite='meenah' class='meulinTalk1' command='talk' name='ミューリンと話す'>
+      <args>
+      @meenah_idle ミーナ: ヨー　ミュー
+      @meulin_happier ミューリン: (=｀ω´=) &lt; キャーーーーーーー！！！！！！！！！！
+      @meulin_happiertalk:#マ#ジ#カ ミューリン: (^・ω・^ ) &lt; ジマジマジマジマジマジマジマジマジマ。ジマ！！！
+      @meenah_idle ミーナ: おいレイヨーン
+      @meenah_talk ミーナ: アンタの餅
+      @meenah_talk ミーナ: 今すぐウニその餅つけ
+      @meulin_worry ミューリン: (^・x・^) &lt; ニャだ。
+      @meulin_talk ミューリン: (=^･^=) &lt; 餅をつかない。
+      @meulin_talk2 ミューリン: ヽ(=^･ω･^=)丿 &lt; ワイルドで嬉々餅ついてないままにするよ、なぜなら、繰り返し:
+      @meulin_happier ミューリン: (^･o･^)ﾉ &lt; ジマ。
+      @meenah_idle ミーナ: 島
+      @meulin_talk ミューリン: (=^･^=) &lt; ジマ、ミーニャ。
+      @meulin_happier:#:33 ミューリン: ~(=^‥^)ノ &lt; _ジマ_！！！！！！！！！
+      @meenah_annoyed ミーナ: 分かんない
+      @meulin_happy:#正しく書いてない限り ミューリン: (^./_.^)ﾉ &lt; ミーニャ。ジマはこれ以上分かりやすくならないよ。
+      @meenah_annoyedtalk ミーナ: ジマって何だ
+      @meenah_talk ミーナ: 待て　「マジ」ってことか
+      @meulin_oops ミューリン: (=^･ω･^=) &lt; (=^-ω-^=)
+      @meenah_annoyed ミーナ: どうでもいい
+      @meenah_annoyed ミーナ: アンタの耳障りな腐女叫び声の音量を物理的に監視できないとわかっているけど抑えるようにしてくれ
+      @meenah_annoyed ミーナ: 一度だけ普通にワクワクしてくれる
+      @meulin_wut ミューリン: (^./_.^)
+      @meenah_idle ミーナ: あるいは
+      @meenah_talk ミーナ: というか
+      @meenah_happy:#3;) ミーナ: "ニャクニャク"
+      @meulin_happier:#SO-MANY-33'S ミューリン: (=^ω^=) &lt; キャーーーーーーーーーーーーーーーーーーーーーーーーーー！！！！！！！！！
+      @meulin_happiertalk ミューリン: (^･o･^) &lt;  ミーニャ、めーーーーっちゃ会いたかったにゃぁぁぁぁぁぁぁ〜！生きてた時、どうして一緒に遊ばなかったんだにゃん？？？
+      @meulin_worrytalk ミューリン: (=^‥^=) &lt; じっくり考える時間はたっぷりあったしミューリンの最大の後悔のひとつだにゃ。
+      @meenah_talk ミーナ: たぶんアタイのことあまり好きじゃなかったからだろう
+      @meenah_talk ミーナ: 別にいいんだよ　誰も好きじゃなかった
+      @meulin_talk2:#ミューリンの最高のカップリングに関わった！ ミューリン: (=^･ｪ･^=) &lt; 何ぃぃ。そんなことないにゃ！きっとミーナのこと好きだった！違う？
+      @meenah_talk ミーナ: まあ　何回かアンタを殺そうとした
+      @meulin_wut ミューリン: (^・x・^) &lt; そう？覚えていないにゃ...
+      @meenah_talk ミーナ: 覆血盆に返らず
+      @meulin_idle ミューリン:  (^･o･^) &lt; そう！！！
+      @meulin_worrytalk ミューリン: (^./_.^)ﾉ  &lt; でも、うーん、ミューリンを殺そうとしたなら、ミューリンがそう言うべきじゃない？
+      @meenah_idle ミーナ: ...
+      @meenah_talk:#その餅をつかないようにしてもいい ミーナ: レイレイ　黙ってまたアタイに会えてワクワクし戻ったらどう
+      @meulin_happier ミューリン: (=ＴェＴ=)  &lt; キャーーーーーーーーーーーーーーーーーーーーーーーーーーーー！！！！！！！！！！
+      @meulin_mime4~meme1  
+      @meulin_mime3~meme2  
+      @meulin_mime2~meme3  
+      @meenah_annoyedtalk ミーナ: でもクソみたいなパントミームやめてくれるか
+      @meenah_annoyedtalk:#本当に最悪のコミュニケーションだ ミーナ: マジでアンタが言いたいこと半分分かんない
+      @meulin_talk:#「あぶれる」#釣りのように！#ねぇミーナの友達だよね！！！ ミューリン: (=^･ω･^=) &lt; ミーナがいない間に本当にたくさんあぶれたから追いつかなきゃ！
+      @meenah_idle ミーナ: 本当か
+      @meenah_talk ミーナ: 正直に言えばそれってガチでウナさそう
+      @meenah_annoyedtalk:#一応アタイは「アタイ」じゃない会話にも ミーナ: 信じられないほどブクブク大口の連中と退屈な会話を頑張って乗り越えたんだ
+      @meulin_happy:#永遠はネコジョークへの情熱をさらに強めた！！！#:33 ミューリン: (=^･^=) &lt; 見逃したよぉ。死んだゴロゴロからみんなでたくさんあったにゃ。個人的な問題に対処し古い相違を乗りネ越えることに大進歩を遂げたと思うにゃん。
+      @meenah_talk ミーナ: 戦闘スキルにあまり時間かけてねーようだな
+      @meenah_annoyedtalk ミーナ: アンタラ*もう一度*死ぬ間際にいるかも気づいただろ？
+      @meulin_happier ミューリン: (=^･ｪ･^=) &lt; そしてカップリング！！！！！！！！！
+      @meulin_happiertalk ミューリン: ＼(=^‥^)// &lt; マジでミーニャ、カップリングゥゥゥゥゥゥゥ！ (=；ェ；=)  ヾ(=ﾟ･ﾟ=)ﾉ  (^・ω・^ ) 
+      @meulin_happiertalk ミューリン: (^・ω・^ ) &lt; 何周期もかけて誰がカプしたのか_信じられない_でしょ。四分円！ペアにした四分円..._心を揺さぶるでしょ。_
+      @meulin_oops:#にゃばい#ミューリンが... ミューリン: (=^･^=) &lt; ミューリンが伝えられない...しんどい...
+      @meulin_worry:#にゃ#それにゃ ミューリン: (^・x・^) &lt; ムリ。
+      @meulin_talk2:#理はまさに無 ミューリン: └(=^‥^=)┐ &lt; 今ミューリンは完全にムリだ。
+      @meenah_wut2 ミーナ: 38|
+      @meulin_worrytalk ミューリン: (=；ェ；=)  &lt; 理解しない、ミーニャ。情緒がにゃばい。
+      @meulin_happiertalk:#パントミーム上げ潮！！！ ミューリン: (=ＴωＴ=) &lt; ジュウチョォォォォォォォ～！！！！！！！！！
+      @meulin_mime3~meme4  
+      @meulin_mime2~meme5  
+      @meulin_mime4~meme6  
+      @meenah_talk ミーナ: これ誰が誰とヤったかというウワサ話に発展するのと疑ってた
+      @meenah_talk:#携番はこう#ここで携タイあるだろうな ミーナ: いつか本当に重要なこと話したいなら知らせて
+      @meenah_talk ミーナ: 一声かけてくれぜミュミュ
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='meenah' class='meulinTalk2' command='talk' name='ミューリンに仲間になるように頼む'>
+      <args>
+      @meenah_idle ミーナ: じゃあ　どうだ
+      @meenah_talk ミーナ: なんでロード・悪人を戦わないアンタのクソみたい理由はなんだ
+      @meulin_wut ミューリン: (^./_.^) &lt; ミーニャと_あいつ_を戦って欲しいの？？？
+      @meulin_worrytalk ミューリン: (^･o･^) &lt; おお　それニャり得ないと思うけど...
+      @meenah_annoyed ミーナ: ドカ～ン
+      @meulin_talk2 ミューリン: (=^‥^=) &lt; 案を完全に尾ろそかにしたくないけど、最近猫の手も借りたいにゃ！
+      @meulin_happy ミューリン: ＼(=^‥^)// &lt; たくさんの可能なカップルを取り組まなきゃ。忙しいマッチメーカーの仕事は終われない！
+      @meenah_talk ミーナ: それホントの責任と全く似てないすらもんだ
+      @meulin_talk ミューリン: (=^･ｪ･^=) &lt; ミーニャをナメてると考えさせないけど、ただミューリンがあまり役立たないと思うニャ！
+      @meulin_happy ミューリン: ~(=^‥^)ノ &lt; ところで、「ナメる」は微妙なネコジョークだった。
+      @meenah_talk ミーナ: 分かんないけどウェットなカップリングやネコ的なやつを言ってることイガイ何も気にしないに聞こえる
+      @meenah_happytalk:#あと#「イガイ」は貝#そして「ヨー」ってアタイがいつも言うことだな ミーナ: ところで「ウェット」は水に関わって微妙なジョークだったヨー
+      @meulin_talk ミューリン: (^・ω・^ )  &lt; ミーニャったらぁぁぁぁ、また格闘しに行く前ちょっとだけゆっくりしたくないの？
+      @meulin_talk ミューリン: (^･o･^) &lt; カンクリの先祖に興味があると３３にしたにゃん。
+      @meenah_wut ミーナ: クソ
+      @meulin_happiertalk:#ンンン？？？？？？？？ ミューリン: ヽ(^‥^=ゞ) &lt; どう、ミーニャ？本当なの？
+      @meenah_annoyedtalk ミーナ: 本当にしても
+      @meenah_angry ミーナ: まさにホントじゃないけど
+      @meenah_annoyedtalk:#文字通り聞くことじゃない#アンタの耳で#意味分かるだろ ミーナ: 一体どうやってそんなこともう聞いたんだ
+      @meulin_laugh ミューリン: (=^ω^=) &lt; キャーーーーー！本当だ、間違いない！！！！！！！！！
+      @meulin_dies:#（墓に入った） ミューリン: (=ｘェｘ=) &lt; _死ぬ_
+      @meenah_annoyed ミーナ: うん　それをやってくれ
+      @meulin_idle ミューリン: ヾ(=ﾟ･ﾟ=)ﾉ &lt; 彼と紹介して欲しいにゃ？却下する前に、ミューリンのロマンチック学術の力をナメないで勧めるにゃん。
+      @meulin_happy ミューリン: (^･o･^)ﾉ &lt; ミーニャが長い間つんぼ桟敷だったから、心の魔術師が行った奇跡全然分からないにゃ！
+      @meulin_talk2 ミューリン: (=^-ω-^=) &lt; じゃ、ミューリンの魔法をする前に、一つだけ明らかにしよう。ミーニャの憧れは赤か、黒か？
+      @meulin_wink ミューリン: (=ＴωＴ=) &lt; 確かに分かるために尋ねってるだけ、でもミューリンが間違いないと思う。騒々しくて、若いカンクリに赤く感じている、にゃ～んんんんんん？
+      @meenah_idle ミーナ: レイヨーン
+      @meenah_talk ミーナ: 読話してるのか
+      @meenah_talk ミーナ: 聞こえてアンタの猫耳が痛いほどこうを言ってるふりして
+      @meenah_talk ミーナ: やぁぁぁぁかぁぁぁぁまぁぁぁしいぃぃぃぃ
+      @meulin_oops ミューリン:  (^･ω･^)
+      @meenah_annoyedtalk:#ツナ#&lt;&lt;すげぇ魚ジョークだぜ#最港 ミーナ: 誰にもアタイを紹介ツンナ
+      @meenah_annoyedtalk ミーナ: アンタの同人にそのままで留め置け
+      @meenah_angrytalk ミーナ: アタイラがヤってること好きに書いていいけど黙れヨー
+      @meulin_idle ミューリン: (^･o･^) &lt; オオオ。ゴーーッド。マイイイ。
+      @meulin_happiertalk ミューリン: (=^･^=) &lt; そういう同人_最高_のアイデアあるにゃ。
+      @meulin_happy ミューリン: ~(=^‥^)ノ &lt; でも気にすにゃ、多情なネタでミューリンのシッポリシーは相変わらずにゃん。ミーニャにも若いヴァンタスにも見せて、二人賛するまでに誰にも見せない。約束にゃ！！！
+      @meenah_creepytalk:#キンキラキンなフクシャと金魚色のペンで ミーナ: やった　また無意味な会話を書き上げた！
+      @meenah_idle ミーナ: サバヨーー
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='kurloz' class='meulinTalk3' command='talk' name='ミューリンと話す'>
+      <args>
+      @kurloz_bye カーロズ: :o) 
+      @meulin_wut ミューリン: ヾ(=ﾟ･ﾟ=)ﾉ &lt; ふぅ...
+      @meulin_wut ミューリン: (^./_.^) &lt; カーロッチ、頭がすごくもやもや気分だ。
+      @meulin_wut:#何かひどいニップでも吸っちゃったの？ ミューリン: (^./_.^) &lt; 何あったにゃ？ここまで歩いてきたことすら覚えてないにゃん。
+      @kurloz_mime1~kurmeme6:#:o)  
+      @meulin_laugh ミューリン: (=^ω^=) &lt; ふふふ！！！そうだにゃ、気にしない方がいい。
+      @meulin_mime4~meme15  
+      @kurloz_mime2~kurmeme7:#:o)  
+      @meulin_mime5~meme16  
+      @kurloz_mime3~kurmeme8:#:o)  
+      @meulin_mime3~meme17  
+      @kurloz_bye カーロズ: :o) 
+      @meulin_wut ミューリン: ~(=^‥^) &lt; 何？用事をあるにゃ？
+      @meulin_happy ミューリン: (=^-ω-^=) &lt; オッケー、言ってらシャーい
+      @kurloz_smile~kurmeme9 
+      <!--  -->
+      </args>
+</action>
+
+	</classes>
+</sburb>

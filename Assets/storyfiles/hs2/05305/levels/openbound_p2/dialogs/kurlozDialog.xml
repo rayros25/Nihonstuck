@@ -1,0 +1,107 @@
+<sburb description='kurloz dialogs'>
+	<classes>
+		<action sprite='meenah' class='kurlozTalk1' command='talk' name='カーロズと話す'>
+      <args>
+      @meenah_idle ミーナ: ヨー気違い　アタイのこと覚えてるか
+      @kurloz_smile:#:o) カーロズ: 
+      @meenah_idle ミーナ: じゃ
+      @meenah_talk ミーナ: それでどんな会話をしたら奇妙で気まずくならないだろうか
+      @kurloz_smile:#:o) カーロズ: 
+      @meenah_idle ミーナ: ナルトど
+      @meenah_talk ミーナ: 不気味な目とキモい縫い合わせた笑顔以外には何もなイカ
+      @kurloz_smile:#:o) カーロズ: 
+      @meenah_talk ミーナ: 邪悪は最近どうだい
+      @kurloz_finger:#:o) カーロズ: 
+      @meenah_annoyed ミーナ: 寒いな　ピエロダチ
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk2' command='talk' name='カーロズに仲間になるように頼む'>
+      <args>
+      @meenah_talk ミーナ: アタイの軍隊入りたいだろ
+      @meenah_idle ミーナ: たぶん
+      @meenah_talk ミーナ: 気まぐれになりすぎたりバカなピエロ奴をやったりしないと約束するなら
+      @kurloz_no:#:o) カーロズ: 
+      @meenah_talk ミーナ: 少なくともアンタ正直だ
+      @meenah_talk ミーナ: ケルブを殺すためのおかしいウフッブードゥー呪術的なアドバイスあるのか
+      @kurloz_shrug:#:o) カーロズ: 
+      @meenah_idle ミーナ: じゃ
+      @meenah_talk ミーナ: 相変わらず何も言わないな
+      @kurloz_zip:#:o) カーロズ: 
+      @meenah_talk ミーナ: いい会話
+      <!--  -->
+      </args>
+		</action>
+
+		<action sprite='meenah' class='kurlozTalk3' command='talk' name='カーロズになる'>
+      <args>
+      @! こんな変わり者になるなんて、どうやって始めればいいのかさえわからないだろう。放っておいた方がいい。
+      <!--  -->
+      </args>
+		</action>
+
+
+		
+		
+		<action sprite='meulin' class='kurlozTalk5' command='talk' name='カーロズと話す'>
+      <args>
+      @meulin_mime4~meme10  
+      @kurloz_mime1~kurmeme1:#:o)  
+      @meulin_mime2~meme11  
+      @kurloz_mime2~kurmeme2:#:o)  
+      @meulin_mime3~meme12  
+      @kurloz_mime3~kurmeme3:#:o)  
+      @meulin_mime5~meme13  
+      @meulin_mime5~meme14  
+      @kurloz_mime1~kurmeme4:#:o)  
+      @kurloz_mime2~kurmeme5:#:o)  
+      @! カーロズにコッドピースを渡す？
+      <!-- y/n -->
+      </args>
+		</action>
+		
+		<action class='kurlozTalk6' command='talk'>
+			<args>
+			@kurloz_hypno2%kurbox~kurtalk1  
+      @kurloz_hypno2%kurbox~kurtalk2  
+      @kurloz_hypno2%kurbox~kurtalk3  
+      @meulin_hypno%kurbox:#推しのメシア#ライダーやニンジャレペゼン ミューリン: (=ﾟ･ﾟ=) &lt; 唯一の真のメシアを讃えよ。
+      @kurloz_hypno2%kurbox~kurtalk4  
+      @meulin_hypno%kurbox:#ピエロ愛をこめて ミューリン: (=ﾟ･ﾟ=) &lt; 吟遊詩人の陽気なウフッブードゥー呪術が、カリボーンを倒そうとする者全てに悪夢を吹き込むように。そして、莫大なプップの明るさが、シャングリワラウの果てまで、大音量で、そしてとんでもなくマザーファッキン真実に響き渡るように。
+      @kurloz_hypno1%kurbox~kurtalk5  
+      @kurloz_hypno1%kurbox~kurtalk6  
+      @meulin_hypno%kurbox ミューリン: (=ﾟ･ﾟ=) &lt; このバカげたショートパンツが彼の神聖な使命を手伝い、その新鮮なフクラミに不当な視線をミュけるすべてをネ困惑させるように。
+      @kurloz_hypno1%kurbox~kurtalk7  
+      <!--  --> 
+      </args>
+		</action>
+		
+		<action class='kurlozTalk7' command='talk' >
+		  <args>
+		  @kurloz_angry%kurbox~kurtalk8  
+		  @kurloz_annoyed%kurbox~kurtalk9  
+		  @kurloz_dead%kurbox~kurtalk10  
+		  @kurloz_fist%kurbox~kurtalk11  
+		  @kurloz_hypno2%kurbox~kurtalk12  
+		  <!--  -->
+		  </args>
+		</action>
+		
+		<action class='kurlozTalk8' command='talk'>
+      <args>
+      @kurloz_angry%kurbox~kurtalk13  
+      @kurloz_angry%kurbox~kurtalk14  
+      @kurloz_angry%kurbox~kurtalk15  
+      @kurloz_angry%kurbox~kurtalk16  
+      @kurloz_angry%kurbox~kurtalk17  
+      @kurloz_angry%kurbox~kurtalk18  
+      @kurloz_smile%kurbox~kurtalk19:#:o)  
+      @gamzee_idle%kurbox ガムジー: まざーふぁっきん口を閉じてこっどぴーすを出せ
+      @kurloz_zip%kurbox カーロズ:
+      <!--  -->
+      </args>
+		</action>
+		
+	</classes>
+</sburb>

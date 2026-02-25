@@ -1,0 +1,11 @@
+<sburb name="Openbound_p2" version="1.1" char='meenah' bgm='hateYouSong' description="first area" scale='2' levelPath='assets://storyfiles/hs2/05305/levels/openbound_p2' resourcePath='assets://storyfiles/hs2/05305/resources/openbound_p2'>
+
+	<dependencies>
+		<dependency>etc/ui.xml</dependency>
+		<dependency>etc/standardTemplates.xml</dependency>
+		<dependency>etc/sfx.xml</dependency>
+		<dependency>rooms/firstRoom.xml</dependency>
+	</dependencies>
+
+	
+</sburb>

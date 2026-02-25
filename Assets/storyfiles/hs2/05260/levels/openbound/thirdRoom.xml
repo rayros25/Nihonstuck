@@ -602,7 +602,7 @@
     <sprite class='chest4' name='thirdRoomChest5' x='1794' y='1150'>
     	<action command='openChest' name='開ける'>
     		<args>thirdRoomChest5,obj27,@!:#もっとお金#3B) 大量のブーンドルを手に入れた！
-      @!:#DWI ミーナじゃないと意味不明なメッセージもあるけど、そんなことは気にするな。</args>
+      @!:#文句言うな ミーナじゃないと意味不明なメッセージもあるけど、そんなことは気にするな。</args>
     	</action>
     </sprite>
     <sprite class='chest4' name='thirdRoomChest6' x='1959' y='1150'>
