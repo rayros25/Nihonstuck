@@ -1,0 +1,86 @@
+<sburb>
+    <classes>
+  		<action class='porrimTalk1' sprite='meenah' command='talk' name='会話に聞く'>
+		      <args>
+		      @porrim_talk ポリム: あら、お客さんがいるらしい。そろそろ終わりにしようね！
+		      @porrim_happytalk ポリム: 私を見に来てくれて嬉しいわ。言ったことを心に残ったらいい。
+		      @kanaya2_happytalk カナヤ: うん　間違いなく　そうする
+		      @kanaya2_happytalk カナヤ: 私も　嬉しい
+		      @kanaya2_happy カナヤ: 会えて
+		      @kanaya2_smirktalk カナヤ: そう
+		      @porrim_happytalk ポリム: あなたはこれから重要な仕事があるわ。種族の+未来をあなたに任せるよ。
+		      @porrim_happytalk ポリム: 私を誇りに思わせてくれて知っている。
+		      @kanaya2_smirklaugh カナヤ: ありがとう
+		      <!--  -->
+		      </args>
+		</action>
+		<action class='porrimTalk2' sprite='meenah' command='talk' name='パスワードはカナヤに聞く'>
+      <args>
+      @meenah_talk ミーナ: おおヤ貝　ポポ・マグロヤムとマリャムっぽいガキだ
+      @meenah_happytalk ミーナ: アンタたちこ湖で何の話
+      @kanaya2_bored カナヤ: 別に　私が　行くところだった
+      @meenah_talk ミーナ: そうか　どこへ
+      @meenah_talk ミーナ: アンタの隕石に戻るつもりか　だからアタイもそこへ行ってるぜ
+      @meenah_talk ミーナ: ドアを開けないけど
+      @meenah_happytalk ミーナ: パスワードくれる
+      @kanaya2_idle カナヤ: すみませんが
+      @kanaya2_idle カナヤ: 嫌だ
+      @meenah_happy ミーナ: お願い
+      @porrim_annoyed2 ポリム: ミーナ、何を知っているの+？プライベートな情報を求めて悩ませないで。失礼でしょ。
+      @meenah_creepy ミーナ: おね貝いいいいいいい
+      @meenah_happier ミーナ: 親切に頼んでるんだ
+      @kanaya2_bored カナヤ: 本当か
+      @meenah_angrytalk ミーナ: 微笑んでるだろ？？？
+      @kanaya2_talk カナヤ: まあ　何れにせよ　入るつもりだった
+      @kanaya2_talk カナヤ: パスワードを　教えないけど　付いてきていい　と思う
+      @kanaya2_talk カナヤ: しかし　私が　添乗している限り　残っていい
+      @meenah_wut ミーナ: 何だそりゃ
+      @meenah_wut ミーナ: なんでだヨー
+      @kanaya2_talk カナヤ: あなたを　信頼しないから
+      @meenah_wut2 ミーナ: そんな
+      @meenah_annoyed ミーナ: アタイかっこいいのに
+      @meenah_fish ミーナ: 考え直してアタイがかっこいいと思い始めるべきだ
+      @kanaya2_bored:#ニンゲン皮肉 カナヤ: 確かに　そんなすごい　売り文句で　あなたの　交際を　欲しくないなら　バカだね
+      @meenah_annoyedtalk ミーナ: アタイ何が悪いんだ　マリャムクローン
+      @kanaya2_idle カナヤ: あなたは　たぶん　反社会的だ　と思う
+      @kanaya2_bored カナヤ: そういう感じの　人物に　十分の　時間を　無駄にしたわ
+      @meenah_fish ミーナ: アタイを誤解してるんだ
+      @meenah_talk ミーナ: アンタの友達になるために何をしなきゃいけないのか　マリャム続
+      @kanaya2_facepalm カナヤ: 名前は　カナヤだよ！
+      @meenah_talk ミーナ: わかったわかった　カナヤ
+      @meenah_talk ミーナ: ある日それを言うためにいい魚ジョークを考えておく
+      @meenah_happytalk ミーナ: そうすればアタイラの友情がガチでツエエと分かるだろう
+      @kanaya2_cry カナヤ:
+      @meenah_happytalk ミーナ: 案内してくれ　アタイ)(大人しくしてそしてアンタの心をつかむぜ
+      @meenah_creepy ミーナ: 今に見ていろ
+      @! カナヤになる？
+      <!-- y/n -->
+      </args>
+</action>
+
+<action class='porrimTalk3' sprite='kanaya' command='talk' name='ポリムと話す'>
+      <args>
+      @porrim_happytalk ポリム: 連絡を取り合おう、カナヤ。いつでも夢の+中に私を見に来てね。
+      @porrim_happytalk ポリム: そしてその+人をあまり視界からとおざけすぎないように。
+      @meenah_annoyedtalk ミーナ: ふシャケんな
+      @meenah_annoyedtalk ミーナ: 最近アンタラ王族を尊敬しないしアタイはもう限貝だぜ
+      @porrim_annoyedtalk ポリム: 何それ。起こっていないでしょ。ただもっと魚ダジャレを使う言い訳欲しかったね。
+      @meenah_annoyedtalk ミーナ: マグロヤム　その鋭い人柄判断やめてくれ
+      <!--  -->
+      </args>
+</action>
+
+<action class='porrimTalk4' sprite='damara' command='talk' name='立ち聞く'>
+      <args>
+      @porrim_angrytalk ポリム: ダマラ、いいか？ここでプライベートな話しているわ。
+      @damara_idle ダマラ:
+      @porrim_angrytalk ポリム: お願い。放っといてくれ。後で話すわ、いい？
+      @kanaya2_idle カナヤ: ...
+      @kanaya2_talk カナヤ: (私を　少し　嫌な　気分だ)
+      @porrim_talk ポリム: (彼女の+専門だわ。彼女が去るまでに無視してね。)
+      <!--  -->
+      </args>
+</action>
+
+	</classes>
+</sburb>

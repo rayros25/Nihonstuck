@@ -1,0 +1,77 @@
+<sburb desc="Standard Template Resources">
+	<dependencies>
+		
+	</dependencies>
+	
+	<assets>
+  		<!--<asset name='teleporterPad' type='graphic'>objects/teleporterpad.png</asset>
+  		<asset name='teleportSheet' type='graphic'>effects/teleportSheet.png</asset>-->
+  		
+  		<asset name='chest7OpenSheet' type='graphic'>objects/chests/chest7o.png</asset>
+  		<asset name='chest7ClosedSheet' type='graphic'>objects/chests/chest7.png</asset>
+  		<asset name='chest8OpenSheet' type='graphic'>objects/chests/chest8o.png</asset>
+  		<asset name='chest8ClosedSheet' type='graphic'>objects/chests/chest8.png</asset>
+  		
+  		
+  		<asset name='blueBubbleSheet' type='graphic'>objects/bluebubble.png</asset>
+	</assets>
+
+	<classes>
+	
+		<sprite class='chest7' width='40' height='20' depthing='1' collidable='true'>
+				<animation name='closed' sheet='chest7ClosedSheet' x='-48' y='-40' />
+				<animation name='open' sheet='chest7OpenSheet' x='-48' y='-40' loopNum='0' followUp='opened'/>
+				<animation name='opened' sheet='chest7OpenSheet' x='-48' y='-40' loopNum='0'/>
+		</sprite>
+		
+		<sprite class='chest8' width='40' height='20' depthing='1' collidable='true'>
+				<animation name='closed' sheet='chest8ClosedSheet' x='-48' y='-40' />
+				<animation name='open' sheet='chest8OpenSheet' x='-48' y='-40' loopNum='0' followUp='opened'/>
+				<animation name='opened' sheet='chest8OpenSheet' x='-48' y='-40' loopNum='0'/>
+		</sprite>
+		
+		<!--
+		<sprite class='teleporter' width='110' height='60'>
+		  <animation sheet='teleporterPad' x='-66' y='-120'/>
+	  </sprite>
+	  
+	  <effects>
+  		<animation name='teleportEffect' x='-66' y='-110' sheet='teleportSheet' colSize='132' rowSize='165' length='6' frameInterval='2' loopNum='0'/>
+	</effects>
+	  -->
+	  
+	  <sprite class='blueBubble' width='20' height='20' depthing='1' collidable='true'>
+  		<animation sheet='blueBubbleSheet' x='-20' y='-40' />
+  	</sprite>
+  	
+  	<action class='notForYou' command='goBack'>
+			<args>char</args>
+			<action command='talk'>
+				<args>@!:#ナイストライ 一体どこへ行くつもりなんだ？これはミーナがあの世を巡るインタラクティブクエストだ。このエリアから出られるのは、ミーナの姿でいる時だけだ！</args>
+			</action>
+		</action>
+
+	  <action class='finish' command='goBack'>
+			<args>char</args>
+			<action command='talk'>
+				<args>@! これでゲームは終了だ。本当にここで終了する？</args>
+				<action command='presentActions'>
+					<args>
+						<action command='fadeOut' name='はい'>
+							<action command='presentActions'>
+								<args>
+									<action command='loadStateFile' name='やり直す'>
+											<args>../init.xml,false</args>
+									</action>
+								</args>
+							</action>
+						</action>
+						<action command='cancel' name='いいえ'/>
+					</args>
+				</action>
+			</action>
+		</action>
+	</classes>
+	
+	
+</sburb>

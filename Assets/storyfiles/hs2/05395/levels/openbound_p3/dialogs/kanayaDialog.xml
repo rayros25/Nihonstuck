@@ -1,0 +1,109 @@
+<sburb>
+<classes>
+<action class='kanayaTalk1' sprite='rose' command='talk' name='カナヤと話す'>
+      <args>
+      @rose_concern ローズ: この問題にこだわるつもりはないけど、
+      @rose_concern ローズ: 今、自由につけて消してできるから、どのくらいの頻度でリン光に頼ると思うの？
+      @kanaya2_talk カナヤ: 分からない
+      @kanaya2_talk カナヤ: あなた　どう思う
+      @rose_talk ローズ: まあ、どちらの状態がより快適でしょうか？
+      @kanaya2_talk カナヤ: どっちでも　いいわ
+      @kanaya2_talk カナヤ: 暗い　廊下を　歩いたら　つけるかもしれない
+      @kanaya2_talk カナヤ: 今　考えると
+      @kanaya2_smirktalk カナヤ: 暗闇の　中に　いることさえ　できなくなってから　長い　時間が　経った
+      @kanaya2_happytalk カナヤ: たぶん　しばらく　消したままで　非照明の　経験を　再認識するかしら
+      @rose_idle ローズ: なるほどね。
+      @rose_talk ローズ: 他のトロールに共通する生物学的特徴なのでしょうか？
+      @kanaya2_idle カナヤ: うーん
+      @rose_talk ローズ: ごめん。本当に悩ませているよね？
+      @rose_talk ローズ: それについて話したことはない。丁寧にしようとしていたけど、本当に知りたかったわ。
+      @kanaya2_talk カナヤ: ううん　大丈夫
+      @kanaya2_talk カナヤ: 私の　カーストの　員に　限った　特徴だ　と言われた
+      @kanaya2_talk カナヤ: 介卵の　洞窟で　多くの　時間を　過ごす　傾向が　あり　そこには　便利な　光源が　しばしばあった
+      @kanaya2_talk カナヤ: それ　分かるけど　この特典に　伴う渇望の　進化上の　目的が　何だったのか　私には　全く分からない
+      @kanaya2_talk カナヤ: 私には　奇妙な　負担だと　思えるけど　知らない
+      @rose_concern ローズ: おそらく、捕食者を怖がらせて無実のグラブを守るためかしら？
+      @kanaya2_idle カナヤ: そうかもしれない
+      @kanaya2_talk カナヤ: あるいは　それは　補助者を　厳しく　管理するために
+      @kanaya2_bored カナヤ: 私たちに　課せられた　計画的な　欠陥だったの　かもしれない
+      @rose_talk ローズ: 私は、優れた陰謀論には常に魅了されてきたという理由で、その評価に同意する。
+      @kanaya2_talk カナヤ: この状態は　文学作品の　中で　しばしば　美化されてきた
+      @kanaya2_talk カナヤ: でも　あまり　大したことはない
+      @kanaya2_talk カナヤ: 一部の　低血者が　持つ超能力のような　他の　能力ほど　有用ではない
+      @kanaya2_talk カナヤ: けどね　誰かが　お腹に　穴を　殴り出した後に　計画を　守りたいなら　結構　便利だ
+      @rose_talk ローズ: それがいかにして便利な世界をもたらすかが見えるわ。
+      @rose_happytalk ローズ: 計画といえば、この後で暇？
+      @kanaya2_idle カナヤ: 別に
+      @rose_happytalk ローズ: 今ちょっと仕事中だけど、後で、あなたがお客さんを案内終わったら、一緒に何かしようか？
+      @kanaya2_idle カナヤ: いいわよ
+      @kanaya2_talk カナヤ: 特に　念頭に　置いているの
+      @rose_talk ローズ: あまりないわ。ただの遊びだけ。もし欲しかったら！
+      @kanaya2_happytalk カナヤ: うん　それは　よさそうだわ
+      @meenah_annoyed ミーナ: (マアジでホテルでやれ)
+      <!--  -->
+      </args>
+</action>
+<action class='kanayaTalk2' sprite='dave' command='talk' name='カナヤと話す'>
+      <args>
+      @dave_talk デイブ: (最遠の環を砕いたけどお前のラップのほうが切れ)
+      @dave_talk デイブ: (デバステーション放題からもう一敗飲め)
+      @dave_huh デイブ: (待って)
+      @dave_talk デイブ: (パペット持っててもお前の業最低)
+      @dave_huh デイブ: (何)
+      @dave_huhtalk デイブ: (パペットか...一体どこから来た)
+      @dave_talk デイブ: (デイブ: (最遠の環を砕いたけどお前のラップのほうが切れ)
+      @dave_talk DAVE: デイブ: (お前のフロウはまるであったかいミルクと昼寝)
+      @dave_smug デイブ: (ははよっしゃ)
+      @dave_talk デイブ: (モイレールやろうぜお前が「シュー」だったら俺は「パッ」)
+      @dave_huhtalk デイブ: (ちょ　それ全然意味ないんだ)
+      @dave_huhtalk デイブ: (ミルクのセリフのままでいい)
+      @dave_talk デイブ: (タイムのロードだと主張)
+      @dave_talk デイブ: (お前のライムがクソつまんないだろう)
+      @dave_huhtalk デイブ: (悪くないかな)
+      @dave_huhtalk デイブ: (ここにパペットを使いたいけど)
+      @dave_huhtalk デイブ: (なぜかわかんない)
+      @dave_madtalk デイブ: (パペットと何のライムがいい)
+      @dave_idle デイブ: (あ)
+      @dave_huh デイブ: (スマペット)
+      @dave_madtalk デイブ: (何だそれデイブ　クソ同じことだ)
+      @dave_idle デイブ: (マペット)
+      @dave_huh デイブ: (なんてこった)
+      @dave_huh デイブ: (パペットの韻を踏むやつは他の種類のパペットしかないんだ！！！)
+      @kanaya2_idle カナヤ: ...
+      @dave_huh デイブ: おい
+      @dave_huh デイブ: あのさ
+      @dave_huhtalk デイブ: それどれくらい聞こえた
+      @kanaya2_talk カナヤ: 質問の　論調によって　あなたが　好きよりも　多いと思う
+      @dave_madtalk デイブ: それはすべて仕掛品だ
+      @dave_madtalk デイブ: まだ準備してない
+      @dave_madtalk デイブ: なんで立ち聞いてたんだ
+      @kanaya2_idle カナヤ: していないわ
+      @kanaya2_talk カナヤ: 普通に　立っていて　あなたが　ゆっくりと　全く忘れがちな　　喪神で　ここまで　ぶらついたよ
+      @kanaya2_talk カナヤ: ライムを　ぶつぶつ独り言言っていて　私の　ちょうど前に　歩いて　今まで　気づいなかった
+      @dave_huh デイブ: クソ
+      @dave_huh デイブ: そうなのか
+      @dave_huhtalk デイブ: すまん　ラップに夢中しまったらしい
+      @meenah_ohyes ミーナ: もっとやれ！
+      @dave_huh デイブ: 何
+      @dave_huh デイブ: いやだ
+      @dave_huhtalk デイブ: できない　ライムがまだ拙速だ
+      @meenah_creepy ミーナ: お願い
+      @dave_madtalk デイブ: いやひどいだろう
+      @dave_idle デイブ: まあ
+      @dave_talk デイブ: ちょっとフリースタイルでいいかも
+      @dave_talk デイブ: 今ライブできるのかわかんないけど
+      @dave_talk デイブ: ビートを落としたらうまくいくかも
+      @dave_smug デイブ: やばいビートあったらできるかも
+      @meenah_talk ミーナ: ゴホホン...
+      @meenah_fishtalk:#待って待って... ミーナ: ばんばんプシュ　ばばんばんプシュ
+      @meenah_fishtalk ミーナ: ばんばんフィッシュ　ばばんばんフィッシュ
+      @dave_smug デイブ: そう～だぜ
+      @dave_smug デイブ: フィッシュビート盛り上がってるぞ
+      @dave_concern デイブ: その調子だよ
+      @dave_madtalk デイブ: 落ち着いてマザーファッカーズ　行くぞ
+      @kanaya2_talk カナヤ: 二人は　その後　パラドックス空間史上曖昧な　評価の　ラップ対決を　繰り広げた　その間に　私が　傍観して　中立てきに　見ていた
+      </args>
+</action>
+
+</classes>
+</sburb>

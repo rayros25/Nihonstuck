@@ -1,0 +1,159 @@
+<sburb description="fifth room">
+
+<dependencies>
+  <dependency>dialogs/hussieDialog.xml</dependency>
+</dependencies>
+
+<assets>
+	<asset name='fifthRoomBG_0_0' type='graphic'>backgrounds/slices/fifthRoomBG_0_0.png</asset>
+<asset name='fifthRoomBG_0_1' type='graphic'>backgrounds/slices/fifthRoomBG_0_1.png</asset>
+<asset name='fifthRoomBG_0_2' type='graphic'>backgrounds/slices/fifthRoomBG_0_2.png</asset>
+<asset name='fifthRoomBG_0_3' type='graphic'>backgrounds/slices/fifthRoomBG_0_3.png</asset>
+<asset name='fifthRoomBG_0_4' type='graphic'>backgrounds/slices/fifthRoomBG_0_4.png</asset>
+<asset name='fifthRoomBG_0_5' type='graphic'>backgrounds/slices/fifthRoomBG_0_5.png</asset>
+<asset name='fifthRoomBG_1_0' type='graphic'>backgrounds/slices/fifthRoomBG_1_0.png</asset>
+<asset name='fifthRoomBG_1_1' type='graphic'>backgrounds/slices/fifthRoomBG_1_1.png</asset>
+<asset name='fifthRoomBG_1_2' type='graphic'>backgrounds/slices/fifthRoomBG_1_2.png</asset>
+<asset name='fifthRoomBG_1_3' type='graphic'>backgrounds/slices/fifthRoomBG_1_3.png</asset>
+<asset name='fifthRoomBG_1_4' type='graphic'>backgrounds/slices/fifthRoomBG_1_4.png</asset>
+<asset name='fifthRoomBG_1_5' type='graphic'>backgrounds/slices/fifthRoomBG_1_5.png</asset>
+<asset name='fifthRoomBG_2_0' type='graphic'>backgrounds/slices/fifthRoomBG_2_0.png</asset>
+<asset name='fifthRoomBG_2_1' type='graphic'>backgrounds/slices/fifthRoomBG_2_1.png</asset>
+<asset name='fifthRoomBG_2_2' type='graphic'>backgrounds/slices/fifthRoomBG_2_2.png</asset>
+<asset name='fifthRoomBG_2_3' type='graphic'>backgrounds/slices/fifthRoomBG_2_3.png</asset>
+<asset name='fifthRoomBG_2_4' type='graphic'>backgrounds/slices/fifthRoomBG_2_4.png</asset>
+<asset name='fifthRoomBG_2_5' type='graphic'>backgrounds/slices/fifthRoomBG_2_5.png</asset>
+<asset name='fifthRoomFG_0_0' type='graphic'>backgrounds/slices/fifthRoomFG_0_0.png</asset>
+<asset name='fifthRoomFG_0_1' type='graphic'>backgrounds/slices/fifthRoomFG_0_1.png</asset>
+<asset name='fifthRoomFG_0_2' type='graphic'>backgrounds/slices/fifthRoomFG_0_2.png</asset>
+<asset name='fifthRoomFG_0_3' type='graphic'>backgrounds/slices/fifthRoomFG_0_3.png</asset>
+<asset name='fifthRoomFG_0_4' type='graphic'>backgrounds/slices/fifthRoomFG_0_4.png</asset>
+<asset name='fifthRoomFG_0_5' type='graphic'>backgrounds/slices/fifthRoomFG_0_5.png</asset>
+<asset name='fifthRoomFG_1_0' type='graphic'>backgrounds/slices/fifthRoomFG_1_0.png</asset>
+<asset name='fifthRoomFG_1_2' type='graphic'>backgrounds/slices/fifthRoomFG_1_2.png</asset>
+<asset name='fifthRoomFG_1_4' type='graphic'>backgrounds/slices/fifthRoomFG_1_4.png</asset>
+<asset name='fifthRoomFG_1_5' type='graphic'>backgrounds/slices/fifthRoomFG_1_5.png</asset>
+<asset name='fifthRoomFG_2_0' type='graphic'>backgrounds/slices/fifthRoomFG_2_0.png</asset>
+<asset name='fifthRoomFG_2_1' type='graphic'>backgrounds/slices/fifthRoomFG_2_1.png</asset>
+<asset name='fifthRoomFG_2_2' type='graphic'>backgrounds/slices/fifthRoomFG_2_2.png</asset>
+<asset name='fifthRoomFG_2_3' type='graphic'>backgrounds/slices/fifthRoomFG_2_3.png</asset>
+<asset name='fifthRoomFG_2_4' type='graphic'>backgrounds/slices/fifthRoomFG_2_4.png</asset>
+<asset name='fifthRoomFG_2_5' type='graphic'>backgrounds/slices/fifthRoomFG_2_5.png</asset>
+
+	<asset name='fifthRoomMap' type='graphic'>backgrounds/fifthRoomMap.png</asset>
+
+  <asset name='vriskaSheet' type='graphic'>objects/vriska.png</asset>
+  <asset name='jovrosSheet' type='graphic'>objects/jovros.png</asset>
+  <asset name='andrewSheet' type='graphic'>objects/andrew.png</asset>
+
+  <asset name='fifthRoomStairs' type='path'>1100,1252;1100,1282;922,1142;920,1096</asset>
+  
+  <asset name='item15' type='graphic'>objects/items/item15.png</asset>
+  <asset name='item16' type='graphic'>objects/items/item16.png</asset>
+  <asset name='item17' type='graphic'>objects/items/item17.png</asset>
+  <asset name='item18' type='graphic'>objects/items/item18.png</asset>
+
+  <asset name='dialogimg_ks' type='graphic'>interface/backgrounds/dialogimg_ks.png</asset>
+  <asset name='vristavSong' type='audio'>audio/music/VrisTavLoop.oga;audio/music/VrisTavLoop.mp3</asset>
+</assets>
+
+<sprite depthing='3' name='item15'>
+  <animation sheet='item15' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item16'>
+  <animation sheet='item16' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item17'>
+  <animation sheet='item17' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item18'>
+  <animation sheet='item18' x='-50' y='-50'/>
+</sprite>
+
+<rooms>
+  <room name='fifthRoom' walkableMap='fifthRoomMap' mapScale='2'>
+  	<triggers>
+  		<trigger>
+  			<args>inBox2,char,1336,696,1432,420</args>
+  			<action command='changeRoomRemote'>
+          <args>rooms/fourthRoom.xml,fourthRoom,279,405</args>
+          <action command='playSong'>elevatorStuck,10.895</action>
+        </action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox,char,1024,2020,1000,1000</args>
+        <action class='finish'/>
+      </trigger>
+
+  	</triggers>
+
+    <paths>
+      <motionpath path='fifthRoomStairs' xtox='0.7' xtoy='0.7' />
+    </paths>
+
+    <sprite name='vriska' x='1126' y='2238' width='40' height='24'  collidable='true' depthing='1'>
+      <animation sheet='vriskaSheet' x='-26' y='-92'/>
+    </sprite>
+
+    <sprite name='jovros' x='1130' y='2338' width='150' height='26' collidable='true' depthing='1'>
+      <animation sheet='jovrosSheet' x='-84' y='-94'/>
+    </sprite>
+
+    <sprite name='andrew' x='668' y='2090' width='130' height='80' depthing='1' collidable='true'>
+      <animation sheet='andrewSheet' x='-66' y='-86'/>
+      <action class='andrewTalk1'/>
+    </sprite>
+
+    <sprite class='chest7' name='fifthRoomChest15' x='440' y='540'>
+      <action command='openChest' name='開ける'>
+        <args>fifthRoomChest15,item15,
+        @! 壊れた８ボールを手に入れた！
+      @! 前にもこういうのたくさん見た覚えがあるけど、どんな文脈だったっけ？ 長々と変な会話をたくさんしたせいで、もうごちゃ混ぜになってる。
+      @! これを見ているだけで、不吉な気がして、茂みの中に投げ捨てる。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='fifthRoomChest16' x='672' y='756'>
+      <action command='openChest' name='開ける'>
+        <args>fifthRoomChest16,item16,
+         @!:#プシューーーズ ロケットブーツを手に入れた！
+      @! なんでゴーストがロケットブーツが必要なのか？ゴーストが全員飛べるだろう？
+      @! それとも、死んだ神級の奴らはもう基本的に空を飛べるから、そういう人たちのことなのかな？それとも、死んだドリームセルフ？実際のところ、君は飛べるルールなんて知らないし、そんなことは気にしていない。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='fifthRoomChest17' x='608' y='756'>
+      <action command='openChest' name='開ける'>
+        <args>fifthRoomChest17,item17,
+          @! 貴重な宝物が山ほど手に入れた！
+      @! へっ。宝箱の中に本当の宝物だ。
+      @! 信じられない。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='fifthRoomChest18' x='828' y='1532'>
+      <action command='openChest' name='開ける'>
+        <args>fifthRoomChest18,item18,
+           @! フローライト・オクテットを手に入れた！
+      @!:#:::;) 運がいいと思ってるか？？？？？？？？
+        </args>
+      </action>
+    </sprite>
+  	
+  	<sprite name='fifthRoomBG'>
+  		<animation sheet='fifthRoomBG' sliced='true' colSize='500' rowSize='500' numCols='3' numRows='6'/>
+  	</sprite>
+  	<sprite name='fifthRoomFG' depthing='2'>
+  		<animation sheet='fifthRoomFG' sliced='true' colSize='500' rowSize='500' numCols='3' numRows='6'/>
+  	</sprite>
+  </room> 
+</rooms>
+
+</sburb>

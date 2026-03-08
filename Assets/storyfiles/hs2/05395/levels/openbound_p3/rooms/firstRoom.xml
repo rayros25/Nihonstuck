@@ -1,0 +1,529 @@
+<sburb description="first room">
+
+<dependencies>
+	<dependency>chars/meenah.xml</dependency>
+	<dependency>chars/horuss.xml</dependency>
+	<dependency>chars/rufioh.xml</dependency>
+	<dependency>chars/damara.xml</dependency>
+	<dependency>chars/mituna.xml</dependency>
+  <dependency>chars/kankri.xml</dependency>
+  <dependency>chars/latula.xml</dependency>
+  <dependency>chars/kanaya.xml</dependency>
+</dependencies>
+
+<classes>
+  
+</classes>
+
+<assets>
+	
+	<asset name='firstRoomBG_0_0' type='graphic'>backgrounds/slices/firstRoomBG_0_0.png</asset>
+<asset name='firstRoomBG_0_1' type='graphic'>backgrounds/slices/firstRoomBG_0_1.png</asset>
+<asset name='firstRoomBG_0_2' type='graphic'>backgrounds/slices/firstRoomBG_0_2.png</asset>
+<asset name='firstRoomBG_0_3' type='graphic'>backgrounds/slices/firstRoomBG_0_3.png</asset>
+<asset name='firstRoomBG_1_0' type='graphic'>backgrounds/slices/firstRoomBG_1_0.png</asset>
+<asset name='firstRoomBG_1_1' type='graphic'>backgrounds/slices/firstRoomBG_1_1.png</asset>
+<asset name='firstRoomBG_1_2' type='graphic'>backgrounds/slices/firstRoomBG_1_2.png</asset>
+<asset name='firstRoomBG_1_3' type='graphic'>backgrounds/slices/firstRoomBG_1_3.png</asset>
+<asset name='firstRoomBG_2_0' type='graphic'>backgrounds/slices/firstRoomBG_2_0.png</asset>
+<asset name='firstRoomBG_2_1' type='graphic'>backgrounds/slices/firstRoomBG_2_1.png</asset>
+<asset name='firstRoomBG_2_2' type='graphic'>backgrounds/slices/firstRoomBG_2_2.png</asset>
+<asset name='firstRoomBG_2_3' type='graphic'>backgrounds/slices/firstRoomBG_2_3.png</asset>
+<asset name='firstRoomBG_3_0' type='graphic'>backgrounds/slices/firstRoomBG_3_0.png</asset>
+<asset name='firstRoomBG_3_1' type='graphic'>backgrounds/slices/firstRoomBG_3_1.png</asset>
+<asset name='firstRoomBG_3_2' type='graphic'>backgrounds/slices/firstRoomBG_3_2.png</asset>
+<asset name='firstRoomBG_3_3' type='graphic'>backgrounds/slices/firstRoomBG_3_3.png</asset>
+<asset name='firstRoomBG_4_0' type='graphic'>backgrounds/slices/firstRoomBG_4_0.png</asset>
+<asset name='firstRoomBG_4_1' type='graphic'>backgrounds/slices/firstRoomBG_4_1.png</asset>
+<asset name='firstRoomBG_4_2' type='graphic'>backgrounds/slices/firstRoomBG_4_2.png</asset>
+<asset name='firstRoomBG_4_3' type='graphic'>backgrounds/slices/firstRoomBG_4_3.png</asset>
+<asset name='firstRoomBG_5_0' type='graphic'>backgrounds/slices/firstRoomBG_5_0.png</asset>
+<asset name='firstRoomBG_5_1' type='graphic'>backgrounds/slices/firstRoomBG_5_1.png</asset>
+<asset name='firstRoomBG_5_2' type='graphic'>backgrounds/slices/firstRoomBG_5_2.png</asset>
+<asset name='firstRoomBG_5_3' type='graphic'>backgrounds/slices/firstRoomBG_5_3.png</asset>
+<asset name='firstRoomFG_0_1' type='graphic'>backgrounds/slices/firstRoomFG_0_1.png</asset>
+<asset name='firstRoomFG_0_2' type='graphic'>backgrounds/slices/firstRoomFG_0_2.png</asset>
+<asset name='firstRoomFG_0_3' type='graphic'>backgrounds/slices/firstRoomFG_0_3.png</asset>
+<asset name='firstRoomFG_1_1' type='graphic'>backgrounds/slices/firstRoomFG_1_1.png</asset>
+<asset name='firstRoomFG_1_2' type='graphic'>backgrounds/slices/firstRoomFG_1_2.png</asset>
+<asset name='firstRoomFG_1_3' type='graphic'>backgrounds/slices/firstRoomFG_1_3.png</asset>
+<asset name='firstRoomFG_2_0' type='graphic'>backgrounds/slices/firstRoomFG_2_0.png</asset>
+<asset name='firstRoomFG_2_1' type='graphic'>backgrounds/slices/firstRoomFG_2_1.png</asset>
+<asset name='firstRoomFG_2_2' type='graphic'>backgrounds/slices/firstRoomFG_2_2.png</asset>
+<asset name='firstRoomFG_2_3' type='graphic'>backgrounds/slices/firstRoomFG_2_3.png</asset>
+<asset name='firstRoomFG_3_0' type='graphic'>backgrounds/slices/firstRoomFG_3_0.png</asset>
+<asset name='firstRoomFG_3_1' type='graphic'>backgrounds/slices/firstRoomFG_3_1.png</asset>
+<asset name='firstRoomFG_3_3' type='graphic'>backgrounds/slices/firstRoomFG_3_3.png</asset>
+<asset name='firstRoomFG_4_0' type='graphic'>backgrounds/slices/firstRoomFG_4_0.png</asset>
+<asset name='firstRoomFG_4_1' type='graphic'>backgrounds/slices/firstRoomFG_4_1.png</asset>
+<asset name='firstRoomFG_4_2' type='graphic'>backgrounds/slices/firstRoomFG_4_2.png</asset>
+<asset name='firstRoomFG_4_3' type='graphic'>backgrounds/slices/firstRoomFG_4_3.png</asset>
+<asset name='firstRoomFG_5_0' type='graphic'>backgrounds/slices/firstRoomFG_5_0.png</asset>
+<asset name='firstRoomFG_5_1' type='graphic'>backgrounds/slices/firstRoomFG_5_1.png</asset>
+<asset name='firstRoomFG_5_2' type='graphic'>backgrounds/slices/firstRoomFG_5_2.png</asset>
+<asset name='firstRoomFG_5_3' type='graphic'>backgrounds/slices/firstRoomFG_5_3.png</asset>
+
+	<asset name='firstRoomMap' type='graphic'>backgrounds/firstRoomMap.png</asset>
+	
+	<asset name='qwartz' type='graphic'>backgrounds/qwartz.png</asset>
+  <asset name='tinkerbull' type='graphic'>objects/items/tinkerbull.png</asset>
+  <asset name='fidusspawneggs' type='graphic'>objects/items/fidusspawneggs.png</asset>
+  <asset name='horsaponi' type='graphic'>objects/horsaponi.png</asset>
+  <asset name='plush1' type='graphic'>objects/plush1.png</asset>
+  <asset name='plush2' type='graphic'>objects/plush2.png</asset>
+	
+	<asset name='firstRoomStairs1' type='path'>888,621;1101,456;1101,507;897,675</asset>
+	<asset name='firstRoomStairs2' type='path'>1509,468;1509,507;1890,207;1890,159</asset>
+	<asset name='firstRoomStairs3' type='path'>1191,1350;1191,1392;996,1545;996,1509</asset>
+	<asset name='firstRoomWalkable' type='path'>1540,1500;1700,1500;1700,1680;1540,1680</asset>
+
+  <asset name='item1' type='graphic'>objects/items/item1.png</asset>
+  <asset name='item2' type='graphic'>objects/items/item2.png</asset>
+  <asset name='item3' type='graphic'>objects/items/item3.png</asset>
+  <asset name='item4' type='graphic'>objects/items/item4.png</asset>
+  <asset name='item5' type='graphic'>objects/items/item5.png</asset>
+  <asset name='item6' type='graphic'>objects/items/item6.png</asset>
+
+  <asset name='latula' type='graphic'>objects/latula.png</asset>
+</assets>
+
+<sprite depthing='3' name='item1'>
+  <animation sheet='item1' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item2'>
+  <animation sheet='item2' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item3'>
+  <animation sheet='item3' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item4'>
+  <animation sheet='item4' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item5'>
+  <animation sheet='item5' x='-50' y='-50'/>
+</sprite>
+
+<sprite depthing='3' name='item6'>
+  <animation sheet='item6' x='-50' y='-50'/>
+</sprite>
+
+<sprite name='latula' x='2356' y='252' width='40' height='30' collidable='true' depthing='1'>
+  <animation sheet='latula' x='-39' y='-78'/>
+</sprite>
+
+<sprite name='plush2' x='1219' y='529' width='77' height='40'>
+  <animation sheet='plush2' x='-48' y='-55'/>
+  <action command='talk' name='調べる'>
+        <args>
+        @!:#優しく泣きながら、フィドゥスポーンのＯＰを歌う。 ゲッ。なんて気持ち悪くて、フレンドリーなザマだ。しかし、この犠牲は無駄ではなかった。新しい友が生まれるために、内部から残忍に殺されたのだ。
+        </args>
+  </action>
+</sprite>
+
+<sprite name='horsaponi' x='1408' y='533' width='123' height='20' depthing='1' collidable='true'>
+  <animation sheet='horsaponi' length='8' x='-70' y='-84'/>
+  <action command='talk' name='調べる'>
+        <args>
+        @! 実に見事な標本ね。でも、ホーサポニをしっかり訓練すれば、いつかホーサロニになれるかもしれない。つまり、少し大きくなるだけで、戦闘で目立ったアドバンテージは得られない。ただし、餌はもっと与えなければなりない。
+        <!--  -->
+        </args>
+  </action>
+  <action command='removeSprite' name='ホーサポニをホーラスまで連れて行く'>
+    <args>horsaponi,firstRoom</args>
+    <action command='removeAction' noDelay='true'>
+      <args>horsaponi, ホーサポニをホーラスまで連れて行く</args>
+      <action command='addAction' noDelay='true'>
+        <args>
+          horuss,
+          <action name='ホーサポニをホーラスに渡す' command='addSprite'>
+            <args>horsaponi,firstRoom</args>
+            <action command="moveSprite" noDelay='true'>
+              <args>horsaponi,1755,702</args>
+              <action command="talk">
+                <args>@horuss_smiletalk ホーラス: 8=D &lt; やりましたね！立派な、若いスタリオンをお持ちくださいました！
+      @horuss_smiletalk ホーラス: 8=D &lt; なんて素晴らしい友情のしるしです。私めは想像できないほど○○嬉しいです。
+      @horuss_crossed2 ホーラス: （;≧皿≦） &lt; お○と、汚い言葉を向こう見ずその顔を使ってはいけませんと忘れましたほど嬉しいですね。
+      @horuss_crossed2 ホーラス:  (;¬д¬) &lt; もちろん、宜しければいつでも私になっていただいても構いません。
+      @! ホーラスになる？
+                </args>
+                <action command='removeAction'>
+                  <args>horuss,ホーラスになる,ホーサポニをホーラスに渡す</args>
+                  <action command='removeAction'>
+                    <args>horsaponi,Examine.</args>
+                    <action command='addAction'>
+                      <args>horsaponi,
+                        <action command='talk' name='調べる'>
+                              <args>
+                              @!:#ヒヒーン かわいい、愛しの、美しい、かわいい、尊い、愛しの、愛しの、かわいい、愛しのホーサポニ。
+                              <!--  -->
+                              </args>
+                        </action>
+                      </args>
+                      <action command='addAction'>
+                        <args>horuss,
+                          <action class='beHoruss'/>
+                        </args>
+                        <action command='presentActions'>
+                          <args>
+                            <action class='beHoruss' name='はい'/>
+                            <action command='cancel' name='いいえ'/>
+                          </args>
+                        </action>
+                      </action>
+                    </action>
+                  </action>
+                </action>
+              </action>
+            </action>
+          </action>
+        </args>
+      </action>
+    </action>
+  </action>
+</sprite>
+
+<sprite name='tinkerbull' depthing='3'>
+  <animation sheet='tinkerbull' length='4' x='-30' y='-50'/>
+</sprite>
+
+<sprite name='fidusspawneggs' depthing='3'>
+  <animation sheet='fidusspawneggs' x='-50' y='-50'/>
+</sprite>
+
+<rooms>
+  <room name='firstRoom' walkableMap='firstRoomMap' mapScale='2'>
+  	<triggers>
+  		<trigger>
+        <args>inBox2,meenah,2607,1701,2478,1146</args>
+        <action command='goBack'>
+          <args>meenah</args>
+          <action command='changeRoomRemote'>
+            <args>rooms/secondRoom.xml,secondRoom,340,502</args>
+            <action command='try' >
+              <args>
+                <trigger>
+                  <args>gameState,followingKanaya=true</args>
+                  <action class='beKanaya'>
+                    <action command='goBack'>
+                      <args>kanaya</args>
+                      <action command='moveSprite'>
+                        <args>kanaya,400,502</args>
+                          <action command='follow'>
+                          <args>meenah,kanaya</args>
+                        </action>
+                      </action>
+                    </action>
+                  </action>
+                </trigger>
+              </args>
+            </action>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,damara,2607,1701,2478,1146</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/secondRoom.xml,secondRoom,340,502</args>
+          <action command='moveSprite'>
+            <args>kanaya,1760,622</args>
+            <action command='playAnimation'>
+              <args>kanaya,walkRight</args>
+            </action>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger operator='OR'>
+        <args>inBox2,rufioh,2607,1701,2478,1146</args>
+        <args>inBox2,horuss,2607,1701,2478,1146</args>
+        <action class='notForYou'/>
+      </trigger>
+
+      <trigger>
+        <args>spriteProperty,char,name=damara</args>
+        <args>gameState,isDamara!=true</args>
+        <action silent='true' command='setGameState'>
+          <args>isDamara,true</args>
+          <action command='addSprite'>
+            <args>latula,firstRoom</args>
+          </action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>spriteProperty,char,name!=damara</args>
+        <args>gameState,isDamara=true</args>
+        <action silent='true' command='setGameState'>
+          <args>isDamara,false</args>
+          <action command='removeSprite'>
+            <args>latula,firstRoom</args>
+          </action>
+        </action>
+      </trigger>
+  	</triggers>
+  	
+  	<paths>
+  		<motionpath path='firstRoomStairs1' xtox='0.7' xtoy='-0.7' />
+  		<motionpath path='firstRoomStairs2' xtox='0.7' xtoy='-0.7' />
+  		<motionpath path='firstRoomStairs3' xtox='0.7' xtoy='-0.7' />
+  	</paths>
+  	
+  	<character class='meenah' x='404' y='692' >
+      <action class='meenahTalk1'/>
+      <action class='meenahTalk2'/>
+      <action class='meenahTalk3'/>
+      <action class='beMeenah' sprite='rufioh'/>
+      <action class='beMeenah' sprite='horuss'/>
+      <action class='beMeenah' sprite='damara'/>
+    </character>
+  	
+  	<character class='mituna' x='2394' y='285' state='crash'>
+      <action sprite='!damara' command='talk' name="ミトゥナだ！">
+          <args>
+          @!:#転ぶのは大変だね！ へぇ、ブレイン木の下で疲れきたらしい。
+          <!--  -->
+          </args>
+      </action>
+      <action sprite='damara' command='talk' name="ミトゥナだ！">
+          <args>
+          @latula_happier ラテュラ: やあ、ダマ！！！！
+          @latula_happytalk ラテュラ: 彼に近づ１たら、あんたぶっ殺す４！
+          <!--  -->
+          </args>
+      </action>
+    </character>
+  	
+    <character class='rufioh' x='771' y='733' >
+      <action class='rufiohTalk1'/>
+      <action class='rufiohTalk2'/>
+      <action class='rufiohTalk3'/>
+      <action class='rufiohTalk4'/>
+      <action class='rufiohTalk5'/>
+    </character>
+  	
+    <character class='horuss' x='1794' y='828' >
+      <action class='horussTalk1'/>
+      <action class='horussTalk2'/>
+      <action class='horussTalk3'/>
+      <action class='horussTalk4'/>
+      <action class='horussTalk5'/>
+    </character>
+  	
+    <character class='damara' x='453' y='1548' >
+      <action class='damaraTalk1'/>
+      <action class='damaraTalk2'/>
+      <action class='damaraTalk3'/>
+      <action class='damaraTalk4'/>
+      <action class='damaraTalk5'/>
+      <action class='damaraTalk6'/>
+      <action class='beDamara' sprite='rufioh'>
+        <action command='removeAction'>
+          <args>damara,ダマラになる,ダマラになる,ダマラになる</args>
+          <action command='addAction'>
+            <args>damara,
+              <action class='beDamara'/>
+            </args>
+          </action>
+        </action>
+      </action>
+    </character>
+  	
+  	<sprite name='qwartz' x='1566' y='1155'>
+  		<animation sheet='qwartz'/>
+  	</sprite>
+  	
+  	<sprite name='firstRoomOrb' class='blueBubble' x='1536' y='1518'>
+      <action sprite='!damara' command='talk' name='バブルを調べる'>
+            <args>
+            @! このバブルにデカい石英の障害物というダマラの記憶が入っている。ダマラしか除けない。あの魔女め。あいつ決して簡単にはやらせないよね？
+            <!--  -->
+            </args>
+      </action>
+  		<action sprite='damara' command='removeSprite' name='石英氷河を外す'>
+  			<args>qwartz,firstRoom</args>
+  			<action command='addWalkable'>
+  				<args>firstRoomWalkable,firstRoom</args>
+          <action command='removeActions'>
+            <args>firstRoomOrb,バブルを調べる,石英氷河を外す</args>
+            <action command='playSound'>
+              <args>hitPowerfulSound</args>
+            </action>
+          </action>
+  			</action>
+  		</action>
+      <action command='talk' name="ああ何をすべき全然わかんない">
+        <args>
+        @! ヒントのためにゲームの下の「地図」というリンクをクリックしろ！！
+        </args>
+      </action>
+  	</sprite>
+
+    <sprite class='chest8' name='firstRoomChest1' x='618' y='778'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest1,item1,
+          @! フィドゥスポーンのカードを手に入れた！フィドゥスポーンゲットだぜ!
+          @! たくさんのフィドゥスポーンを這わせたいなら、そのスローガンに従って。でも安全のため、メーカーは少量にゲットすることを推奨する。
+        </args>
+      </action>
+    </sprite>
+    
+    <sprite class='chest8' name='firstRoomChest2' x='1422' y='422'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest2,item2,
+          @! 壊れたロボットの頭を手に入れた！
+      @! かつて、ホーラスが入念な求愛の過程を経て、スパーリングのためにルフィヨに自身の複製ロボットの部分少しずつ送ったという噂が広まっていた。最後に送ったのは頭部だったらしい。
+      @! これはほぼ間違いなく作り話だ。ホーラスはかなり変わった男だが、そんなことをするなんて、よほどの狂人でなければ話にならない。この逸話は信憑性を欠いている。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest8' name='firstRoomChest3' x='1984' y='134'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest3,item3,
+          @! ダットンのバブルゴーグルを手に入れた！
+      @! 永遠を見通すことができる。永遠を。
+      @! まさにチャールズ・ダットンが望んでいた通りだ。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='firstRoomChest4' x='2122' y='560'>
+      <action sprite='horuss' command='openChest' name='開ける'>
+        <args>firstRoomChest4,item4,
+          @! 貴重な美術作品を手に入れた！！！
+      @! 君はこの素晴らしい古典彫刻の芸術的価値を厳粛に思いながら数分間過ごす。
+      @horuss_horsedick_blur1 
+      @! 待って、いや...
+      @! ちょっと、動くな。モザイクが目的を失っている...
+      @horuss_horsedick_blur2 
+      @! 畜生！まだ違う...落ち着いて。
+      @horuss_horsedick_blur3 
+      @! 完璧だ！ふぅ、危機は回避された。危ういところだった。
+      @! 君はウマのペニスをちらりと見てしまい、泣き出しそうになった。
+        </args>
+        <action command='removeAction'>
+          <args>firstRoomChest4,Open.</args>
+        </action>
+      </action>
+      <action sprite='!horuss' command='talk' name='開ける'>
+        <args>
+        @! この宝箱には非常に複雑な鍵がかかっているようだ。開ける方法はない。ガジェットに詳しい人を見つける必要だ。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest8' name='firstRoomChest5' x='1082' y='1106'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest5,item5,
+          @! もっとブーンドルを手に入れた！
+      @! 少し前にこの金を稼いだら嬉しかったけど、今これが君には小銭に過ぎない。
+      @! 君はその哀れな金額を軽蔑し、指の間から下の森へと滑り落ちさせる。乞食や農民に拾わせてやればいい。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest8' name='firstRoomChest6' x='629' y='1447'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest6,fidusspawneggs,
+          @! フィドゥスポーンの卵を手に入れた！！！
+      @! これをそこのホストぬいぐるみに使える！正直に子供っぽい時間の無駄に聞こえるけど、フィドゥスポーンの主要顧客層が君の年齢層であることを君は知らない。
+        </args>
+        <action command='addAction'>
+          <args>
+            plush1,
+            <action name='フィドゥスポーンの卵をホストぬいぐるみに使う' command='removeSprite'>
+              <args>plush1,firstRoom</args>
+              <action command='addSprite' noDelay='true'>
+                <args>plush2,firstRoom</args>
+                <action command='addSprite' noDelay='true'>
+                  <args>horsaponi,firstRoom</args>
+                  <action command='playSound' noDelay='true'>
+                    <args>hitWeakSound</args>
+                  </action>
+                </action>
+              </action>
+            </action>
+          </args>
+        </action>
+      </action>
+    </sprite>
+
+    <sprite class='chest7' name='firstRoomChest7' x='360' y='1544'>
+      <action command='openChest' name='開ける' sprite='horuss'>
+        <args>firstRoomChest7,tinkerbull,
+                @! ルフィヨのルーサスを手に入れた！
+              @! かわいそうなやつは息を切らしてた。誰がここに閉じ込めたのか？誰がそんなに残酷なことをしたのか？
+              @! 君は疑わしげにダマラを一瞥する。彼女が目を向けることもなく、もう一服する。
+        </args>
+        <action command='addAction'>
+          <args>rufioh,
+            <action command='talk' name='ルフィヨにルーサスを渡す'>
+              <args>@rufioh_happytalk ルフィヨ: おお○○！見つけった...本当にありがとう！！！
+      @rufioh_happytalk ルフィヨ: すごく緊張した...でも今戻ってきた、そしてうれし１ことも。
+      @rufioh_happytalk ルフィヨ: 今では自信がいっぱいだ...ねぇ、ボクになりたい？ボクの自尊心は、それに完全に応えられるわよ！！！
+      @! ルフィヨになる？
+              </args>
+              <action command='addAction' noDelay='true'>
+                <args>rufioh,
+                  <action class='beRufioh'/>
+                </args>
+                <action command='removeActions' noDelay='true'>
+                  <args>rufioh,ルフィヨにルーサスを渡す,ルフィヨになる</args>
+                  <action command='presentActions'>
+                    <args>
+                      <action class='beRufioh' name='はい'/>
+                      <action command='cancel' name='いいえ'/>
+                    </args>
+                  </action>
+                </action>
+              </action>
+            </action>
+          </args>
+          <action command='removeAction'>
+            <args>firstRoomChest7,開ける</args>
+          </action>
+        </action>
+      </action>
+      <action sprite='!horuss' command='talk' name='開ける'>
+        <args>
+          @! その音は何だ？君は宝箱に耳を傾ける。中には何かバタバタしていると聞こえる。気密のようだ。中に何であれゴースト酸素がすぐなくなるだろう。
+      @! この宝箱には非常に複雑な鍵がかかっているようだ。開ける方法はない。ガジェットに詳しい人を見つける必要だ。
+        </args>
+      </action>
+    </sprite>
+
+    <sprite class='chest8' name='firstRoomChest8' x='2288' y='1292'>
+      <action command='openChest' name='開ける'>
+        <args>firstRoomChest8,item6,
+          @! 東べフォーラスの巻物を手に入れた！
+          @!:#/decode/damaramegido ミステリアスなルーンだらけだ。このバカげたチンプンカンプンを分かる方法あったらいいな。(翻訳者からの注意:下のリンクは原文だから、ミーナなどは英語で話して、そしてダマラが日本語で話す。ただし、クソみたいな日本語だ。ごめん。)
+        </args>
+      </action>
+    </sprite>
+
+    <sprite name='plush1' x='1237' y='511' width='61' height='30'>
+      <animation sheet='plush1' x='-34' y='-50'/>
+      <action command='talk' name='調べる'>
+            <args>
+            @!:#君はフィドゥスポーンのOPを口ずさみ始める。 嬉しそうなホストぬいぐるみだ！近くにフィドゥスポーン卵を孵ったら嬉しくないよ。もっと探したら卵を見つかるかもしれない。それで本当の楽しみが始まる。
+            <!--  -->
+            </args>
+      </action>
+    </sprite>
+
+		<sprite name='firstRoomBG'>
+			<animation sheet='firstRoomBG' sliced='true' colSize='500' rowSize='500' numCols='6' numRows='4'/>
+		</sprite>
+
+		<sprite name='firstRoomFG' depthing='2'>
+  		<animation sheet='firstRoomFG' sliced='true' colSize='500' rowSize='500' numCols='6' numRows='4'/>
+  	</sprite>
+
+  </room> 
+</rooms>
+</sburb>

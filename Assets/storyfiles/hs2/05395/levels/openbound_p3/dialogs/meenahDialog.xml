@@ -1,0 +1,102 @@
+<sburb>
+      <assets>
+            <asset name='dialogimg_kankri' type='graphic'>interface/backgrounds/dialogimg_kankri.png</asset>
+            <asset name='dialogimg_sneak' type='graphic'>interface/backgrounds/dialogimg_sneak.png</asset>
+      </assets>
+
+      <sprite name='dialogimg_sneak'>
+            <animation sheet='dialogimg_sneak' length='2' frameInterval='30'/>
+      </sprite>
+
+    <classes>
+<action class='meenahTalk1' sprite='rufioh' command='talk' name='ミーナと話す'>
+      <args>
+      @rufioh_happytalk \nルフィヨ: 〇〇...ルーサス戻ってきてよかったな...ちびっこなしでどうするのかわかんな１！
+      @meenah_talk ミーナ: あいつはええと
+      @meenah_idle ミーナ: 「本当」か
+      @meenah_idle ミーナ: というか
+      @meenah_talk ミーナ: 本当のルーサスのゴーストとか
+      @rufioh_sheepish \nルフィヨ: ええ...実はね？わかんな１よ、ミーナちゃん！
+      @rufioh_happytalk \nルフィヨ: 記憶の幻かもしれない。あるいは本当のゴーストか...
+      @rufioh_happytalk \nルフィヨ: ダマラが大昔飯トランクを彼に落としてしまった時...小っちゃ１体を潰した...１つかあの世でまた会えると信じた。
+      @rufioh_sheepish \nルフィヨ: それで彼をここで見た時...あまり考えてなかったね？ただ会えてよかったと思って１た。
+      @rufioh_talk:#わかるだろうね...初歩？ \nルフィヨ: ボクのうれし１ことだからね。ルーサスいなければあまり何もできな１...飛ぶこととか...戦うこととか...鳴くこととか...
+      @meenah_idle ミーナ: たしか
+      @rufioh_surprisetalk \nルフィヨ: 幼い頃を覚えてる...ただのチビ、世界で成功しようと努力して１た...羽が生えて１たから人々がボクを変な目で見た、すごくビビったよ！
+      @rufioh_sadtalk \nルフィヨ: だから、ボクはすごく自己意識が強くなって、あそこで落ち着けなくなった...みんながボクをじっと見つめていたので...
+      @rufioh_surprisetalk \nルフィヨ: だからルーサスが森に連れて行った...
+      @rufioh_talk:#理解できな１ほど大声でバンガラン叫んだ！ \nルフィヨ: 〇〇すげーツリーハウスとロープのはしごの村を見つけて、すげーかっこよかった！
+      @rufioh_happytalk \nルフィヨ: それでロスト・オタクズの正式メンバーになった。
+      @meenah_annoyed ミーナ: ああ　あのさ...
+      @meenah_annoyedtalk ミーナ: ガチでロスト・オタクズについて話さなくていいのか
+      @meenah_annoyedtalk ミーナ: やらない話だったらいいのか
+      @rufioh_offended \nルフィヨ: ええ...
+      @meenah_annoyedtalk ミーナ: 聞いてルフ　アンタの話かっこいいけどアタイが我慢できないほどバカなことがあるんだヨー
+      @rufioh_sheepish \nルフィヨ: うん、１１よ...へっ。
+      @rufioh_happytalk \nルフィヨ: とにかく、ボクの仲間だった...これ以上良１仲間は望めな１だろう、トロールアニメについてしゃべって...そういうことすべて。
+      @meenah_wut2:#やだ ミーナ: ああマアジかヨー
+      @rufioh_happytalk \nルフィヨ: そこで最初にダマラと会った時...ヤ〇１頃だった！
+      @rufioh_happytalk \nルフィヨ: ボクにとって形成周期だった...今でも愛して１ることをたくさん発見した。
+      @rufioh_surprisetalk \nルフィヨ: ここだけの話だけど...ダマラと一緒にトロールアニメにつ１て話し合える時懐かし１ね...でも今は...わかるよね...
+      @meenah_annoyedtalk ミーナ: ほら　なんでアンタラダサいオタクはそんなことを「トロールアニメ」呼ぼことにこだわるのか
+      @meenah_annoyed ミーナ: 聞いて
+      @meenah_annoyedtalk ミーナ: トロール文化のコンテキストの中で言葉の始まりに「トロール」を言うなんてクソ冗長だって気づいてないのか
+      @meenah_annoyed ミーナ: 普通にアニメって呼んだらいいだろ
+      @rufioh_surprise:#意味深１... \nルフィヨ: ああ...それわかるね。考えたことな１...へっ。
+      @rufioh_sheepish \nルフィヨ: 平気だよ、ボクが好きなものみんなが好きわけじゃな１とわかるよ。
+      @rufioh_sheepish \nルフィヨ: ウジ虫遊びだと言われるけど...１つか成長するだろうと思って１たけど、そうしなかっただろうね？
+      @rufioh_surprisetalk \nルフィヨ: けどね...みんな死んでしまって...ボクたち本当に永遠に若１よね...
+      @rufioh_surprisetalk \nルフィヨ: ロスト・オタクズの預言が言った通りだ...
+      @rufioh_notalk \nルフィヨ: うお、怖１...１つもそんなことウソだけだと思った！！！
+      @meenah_talk ミーナ: おっと　またロスト・オタクズ言ってしまったヨー　それでアンタ会話失敗だぜ
+      @meenah_talk ミーナ: 故人である偉大なミューリン・レイヨーンの不滅の手振り言葉で
+      @meenah_fish ミーナ: マジでムリにゃ
+      <!--  -->
+      </args>
+</action>
+
+<action class='meenahTalk2' sprite='horuss' command='talk' name='ミーナと話す'>
+      <args>
+      @meenah_idle ミーナ: ホーザク
+      @meenah_talk ミーナ: ガチの質問だ
+      @horuss_idle2talk ホーラス:  (ノಠ益ಠ)ノ &lt; 何でしょう、比類なき、崇高な猊下様よ？
+      @meenah_happytalk ミーナ: アンタ自分がいつウマだと決めたのか
+      @kankri_whistle カンクリ: (ピピーーーーーーーーーー！！！)
+      @kankri_talk2 カンクリ: ちょっと待ってよ、ミーナ。聞いたばかり質問は実際に種族性同一性障害の深い苦悩に苛まれている人々に対する、深刻な微視的攻撃。君の質問は十分にナイーブだったので、私はまだトリガーシェイミングという危険な道に行９つもりはない。しかし、ミーナ、おやおや、君が今言ったことは壊滅的にトリガーになった。君の無思慮な質問のせいで、かわいそうなホーラスは今後数週間トリガーを感じ続けるだ６う。いや、俺自身も少しトリガーを感じている、しかも、自分がウマだという印象さえ受けていない。俺の耳にいる全員がトリガーを感じたと思う。君はトリガーを感じているよね、ホーラス？
+      @horuss_laugh ホーラス: (ｏ皿ｏ;) &lt; トリガーは蹄獣として素晴らしい名前に聞こ％る。
+      @kankri_talk カンクリ: ほらね？完全にトリガー感じている。じゃ、癒しを始めよう。
+      @meenah_annoyed:#ガチで終わった ミーナ: 38(
+      @kankri_talk4 カンクリ: ミーナ、ホーラスが実際に雄大な蹄獣であるという信念は、彼の選択とはみなされない。実際、それは信念ですらない。それは事実であり、私たちはそれを事実として尊重するよう努めなければならない。それは、彼のそれに対する超重要な感情によるとこ６が大きい。人々の批判的な感情を事実として捉えることは、問題解決の重要な課題であり、それを怠れば、教育、癒し、そして修辞的に圧倒するために行使される、破壊的な倫理的行為の犠牲が解き放たれることになるだ６う。
+      @kankri_talk3 カンクリ: 君は「アンタ自分がいつウマだと決めたのか」と尋ねたとき、ホーラスが自分のアイデンティティの面をわざと作６うとしたとほのめかした。６し６、ホーラスは内部の獣に、そして悲劇的に体が拒否した長いゴースト鼻面の呼び声に深９耳を傾け、幻ウマのような尻の微妙なうずきを感じていた。
+      @horuss_smiletalk ホーラス: 8=D &lt; 確かにそうだ、友達よ。其方の知恵は、退廃的で少し吐き気を催すようなミュータントの血を真に超越している。
+      @kankri_talk2 カンクリ: ありがとう、じゃあ、議論を逸らすのは嫌いだけど、今回の件は、このテーマに対する厳し９容赦ない教育を要求していると思う。さて、この繊細なテーマについて、俺の痛烈な演説を始める:
+      @kankri_talk4~dialogimg_kankri
+      @!~dialogimg_sneak
+      <!--  -->
+      </args>
+</action>
+
+<action class='meenahTalk3' sprite='damara' command='talk' name='ミーナと話す'>
+      <args>
+      @damara_talk ダマラ: 你挑战时间之主。
+      @damara_talk ダマラ: 你那可怜的军队必败无疑。
+      @damara_talk ダマラ: 他会吞噬你的亡灵，因为他吞噬现实本身。
+      @meenah_idle ミーナ: それ...
+      @meenah_idle ミーナ: なんか...
+      @meenah_talk ミーナ: これからの戦いで頑張って言ってくれてる？
+      @meenah_happytalk ミーナ: ありがとなメギド
+      @meenah_happytalk ミーナ: アンタを誤解したかな
+      @damara_smile ダマラ: 不，你没有。
+      @meenah_happytalk ミーナ: もう　たぶん理由もなアンタにクソひどかったな
+      @meenah_happytalk ミーナ: その暗い歴史を忘れヨーうか
+      @meenah_happytalk ミーナ: なぁハグしてみろ
+      @meenah_angrytalk ミーナ: おい　その手気を付けヨー！！！
+      @damara_smoke ダマラ: 我一点也不后悔。
+      @meenah_talk ミーナ: 許してあげる
+      @meenah_talk ミーナ: あのさ　そのデカい石英氷河まだ動かしたか
+      @meenah_fish ミーナ: アタイちょっと急いでる
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>

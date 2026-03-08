@@ -1,0 +1,216 @@
+<sburb>
+<classes>
+<action class='daveTalk1' sprite='kanaya' command='talk' name='デイブと話す'>
+      <args>
+      @dave_idle デイブ: よお
+      @dave_talk デイブ: 待って何これ
+      @dave_talk デイブ: 隕石がまたドリームバブルに通っているか
+      @kanaya2_idle カナヤ: そう
+      @kanaya2_talk カナヤ: それだから　私の　後を　追っているゴースト
+      @dave_huh デイブ: おお
+      @dave_huh デイブ: やあ
+      @meenah_wink ミーナ:
+      @dave_huhtalk デイブ: もう話せないのか？
+      @dave_smug デイブ: 先お前はけっこうぴちぴちだっただろ　どうした
+      @kanaya2_talk カナヤ: この見学の　間に　大人しく　している
+      @kanaya2_happytalk カナヤ: 今まで　意外と　うまく　やっているわ
+      @dave_idle デイブ: へいへい
+      @dave_talk デイブ: それでドリームバブルを通るたびにもう気にしないのか
+      @dave_talk デイブ: 注意やアラートや仮戦闘配置へ行けってないだろ
+      @dave_huh デイブ: まあ　別に知らないけど
+      @dave_huhtalk デイブ: 今度たぶん部屋から出ることさえないだろう
+      @dave_talk デイブ: 実際にゴーストちょっとうんざりだ
+      @dave_smug デイブ: 悪気ないよ　海トロール
+      @meenah_fish ミーナ: (角のない汚れスクレーパー野郎)
+      @kanaya2_idle カナヤ: シー！
+      @meenah_wut2 ミーナ: 38(
+      @kanaya2_happytalk カナヤ: じゃあ　私が　邪魔したまで　ここで　何を　ぶつぶつ独り言　言っているの
+      @dave_talk デイブ: ただのラップだ
+      @dave_talk デイブ: ラップに取り組んでた
+      @dave_talk デイブ: 俺のラップ聞いただろうな
+      @dave_talk デイブ: ラップ聞きたいか
+      @kanaya2_idle カナヤ: ...
+      @dave_huhtalk デイブ: 待て　ラップって知ってる
+      @dave_talk デイブ: ビートを落として思い切り言葉を吐くというかっけー人間習慣だ
+      @dave_talk デイブ: フロウがやばくてライムがドープだったら　近い警察官が銃を抜くだろう
+      @dave_talk デイブ: しょうがないんだ　反射的みたい
+      @dave_talk デイブ: そうなったらうまくやってると知ってるだろ
+      @kanaya2_talk カナヤ: ラップが　何なのか　知っているわ　基本的に　アルターニアの　スラムポエムという　古代な　芸術と　同じだ
+      @kanaya2_talk カナヤ: けど　より未開で　一般的に　見上げるような　筋肉隆々の　家畜　についての　歌詞が　少ない
+      @dave_idle デイブ: スラムポエム
+      @dave_madtalk デイブ: なんで教えてくれなかった
+      @kanaya2_talk カナヤ: 分からないけど　この件に対して　あまり興味は　ないわ
+      @dave_mad デイブ: そうだけど
+      @dave_madtalk デイブ: 自然に言い出せたはずだ
+      @dave_huhtalk デイブ: 待って　今考えると
+      @dave_huhtalk デイブ: 一度なんか変なトロールが俺にラップやってた
+      @kanaya2_idle カナヤ: それで　そういうことね
+      @dave_talk デイブ: だって　最初からラップについて話せたのに
+      @dave_talk デイブ: 俺たちね
+      @dave_talk デイブ: もっと話し合ったら自然に言い出せたな
+      @dave_talk デイブ: 俺たちあまり話さないよ　本当に一緒に話そうよ
+      @dave_talk デイブ: ガチで
+      @dave_talk デイブ: ビジネスに取り掛かる
+      @dave_talk デイブ: 二人だけで
+      @dave_talk デイブ: 会話的に
+      @kanaya2_idle カナヤ: ええと
+      @dave_idle デイブ: マジで
+      @dave_smug デイブ: このダイナミックを探ろう
+      @dave_smug デイブ: 何があるのか見ろ
+      @dave_madtalk デイブ: この石から血をクソ絞ろう
+      @dave_concern デイブ: この気まずくに静かなゴーストロールは俺の証人である
+      @kanaya2_talk カナヤ: 地質学的　物質から　血液を　抽出することに　成功した場合　もらっていい　かしら
+      @dave_smug デイブ: やばい
+      @dave_smug デイブ: ちょっと自嘲的な冗談だよな　いい調子だ気に入ってる
+      @kanaya2_talk カナヤ: どれほど　誠実に　話しているのか　分からないわ
+      @kanaya2_talk カナヤ: おそらく　ちょっとだけでしょ　ルールは　すべてが　少なくとも　やや冗談に　しなければいけないからね
+      @dave_idle デイブ: その通り
+      @kanaya2_talk カナヤ: でも　私たちの　各自の　文化に対して　実際に　話して　意見を交流したいなら　それで　いいと思う
+      @kanaya2_happytalk カナヤ: 有名な　スラムポエムの　詩人の　古典的な　テキストを　掘り出すことが　できるかもしれない
+      @dave_idle デイブ: よぉ　お願い
+      @dave_talk デイブ: そりゃクソ最高だろう
+      @kanaya2_happytalk カナヤ: 調べてみるわ
+      @dave_talk デイブ: バカなトロール語を俺に読んでくれなきゃ
+      @dave_talk デイブ: カーカットのストーリータイムと同じだ
+      @dave_idle デイブ: カナヤ版
+      @kanaya2_smirklaugh カナヤ: へっ　いいわよ
+      @dave_smug デイブ: 言葉をラップしなきゃ
+      @kanaya2_facepalm カナヤ: あら
+      @dave_smug デイブ: ベースを盛り上げて　マイクを殺せ
+      @dave_madtalk デイブ: そのスラムポエムを感じたい
+      @kanaya2_bored カナヤ: 身を　引くこと　もう遅いかしら
+      @meenah_happy ミーナ: そうだ
+      <!--  -->
+      </args>
+</action>   
+<action class='daveTalk2' sprite='rose' command='talk' name='デイブと話す'>
+      <args>
+      @dave_huhtalk デイブ: カナヤを追ってる魚チンピラトロールは何だ
+      @rose_talk ローズ: 通っているらしい。カナヤは彼女がトラベルを引き起こして欲しくない。
+      @dave_huh デイブ: トラベルを引き起こすって
+      @dave_madtalk デイブ: あいつはここで一体何をできるか
+      @dave_madtalk デイブ: 古いゴミの山を蹴倒して属性値をどん底よりも低くなる
+      @dave_smug デイブ: 自由に歩かせていいだろ
+      @rose_talk ローズ: カナヤに気軽に言い出してね。
+      @rose_annoyedtalk ローズ: でもひっくり返す権限を与えたら、私の化学テーブルに近づかないでするよ。
+      @dave_idle デイブ: ああ
+      @dave_talk デイブ: バイアルを床に落としちゃダメだろうな
+      @dave_talk デイブ: 落とす許可持ってる奴が俺しかいないぜ
+      @rose_annoyed ローズ: ダサい。
+      @dave_mad デイブ: ヘイトすんな
+      @dave_madtalk デイブ: 俺のクソ芸を完璧にやってるぜ
+      @rose_annoyedtalk : わかってるわ。同じ部屋では先の数時間に、あなたがあそこでリリックを独り言っていたと聞こえていたよ。
+      @dave_huhtalk デイブ: ローズ　何が最悪なのか知ってるか
+      @rose_idle ローズ: うん。
+      @rose_talk ローズ: 何の最悪なことに対して言及しているの？
+      @dave_talk デイブ: 思い浮かんだ
+      @dave_talk デイブ: いつまでもイルなバースを吐いていた間に
+      @dave_talk デイブ: 奇妙な気分がした　俺がもしかして
+      @dave_huh デイブ: 古臭くなった？
+      @rose_coy ローズ: テレジが文句言ったの？
+      @dave_huh デイブ: 何
+      @dave_mad デイブ: 違う違う
+      @dave_madtalk デイブ: 俺が何言いたいのか分かるだろう　生意気な言葉娘
+      @dave_huhtalk デイブ: ちょっと時代遅れ
+      @dave_talk デイブ: 重いポップカルチャー恐竜みたい
+      @dave_talk デイブ: 俺たち二人２００９年に閉じ込められた
+      @dave_talk デイブ: だから俺はポップカルチャー的にその時代に凍結された
+      @dave_talk デイブ: 俺の言及はすべてちょっと陳腐になってる気がする
+      @dave_talk デイブ: 地球が終わってその時点の後でともかくカルチャーないけど
+      @dave_talk デイブ: それでも
+      @dave_talk デイブ: そう感じる
+      @dave_talk デイブ: 骨の髄まで
+      @dave_talk デイブ: 仮想に続いてた地球上で俺がつまらなくなってきていることがわかる
+      @dave_talk デイブ: 俺たちしかいないから誰も気にしないとわかるけど
+      @dave_talk デイブ: 俺が気にする
+      @dave_madtalk デイブ: アーティストとして節操の問題だ
+      @dave_madtalk デイブ: ２００８年のクソみたいなデイン・クック映画についてラップしてカーカットを怒らせたりそんなくだらないことをしたら
+      @dave_huhtalk デイブ: わかんない
+      @dave_huhtalk デイブ: インチキのように感じ始める
+      @dave_huhtalk デイブ: 俺が干上がってるかもしれないローズ
+      @dave_madtalk デイブ: でも俺のせいじゃないよ　俺完全に二度と前進まないフリーズドライの文化的ゴミのバックログの人質になっているよ
+      @dave_madtalk デイブ: だからクソみたいな墓泥棒のようにゴミ漁りしながら生意気なラッパーふり続けなきゃ
+      @dave_smug デイブ: 過去のクソ野郎ども
+      @dave_concern デイブ: くたばれって感じ
+      @dave_huhtalk デイブ: すでにくたばったのに　死んだカエル宇宙のどこかの集団墓地で
+      @dave_madtalk デイブ: お前らのメディアについてレペゼンやってるぜ
+      @dave_huhtalk デイブ: 自分を落ち込んでる
+      @dave_talk デイブ: ただ　フレッシュなネタあったらいいなだけって言ってる
+      @dave_talk デイブ: 知りたいから
+      @dave_talk デイブ: 今何年であれ　俺たちの世界がどうなっているか
+      @dave_talk デイブ: ２０１１年だろうね
+      @dave_huhtalk デイブ: え　２０１１か　マジで
+      @dave_huh デイブ: やばい
+      @dave_talk デイブ: 何があっただろうか知りたいd
+      @dave_talk デイブ: 準備していたことは山ほどある
+      @dave_talk デイブ: ワクワクするだろうのに
+      @dave_talk デイブ: バラック・オバマが大統領になったこととか　それ覚えてる
+      @dave_talk デイブ: あいつ経済を立て直せたかどうかはわからなかっただろう
+      @dave_talk デイブ: 経済を立て直してくれるかどうか知りたくてたまらなかったことを覚えてる　毎日聞いてたよ
+      @dave_talk デイブ: 冗談だ　誰もそんなこと気にしてなかった
+      @dave_huh デイブ: でもね
+      @dave_huhtalk デイブ: スティラー映画の次のバッチを調べたかったしどれだけひどいものを嘲笑できるかどうか知りたかった
+      @dave_huhtalk デイブ: ミッドナイト・クルーのアドベンチャーがどうやって終わったのか知らなかった
+      @dave_mad デイブ: 実際に終わったら
+      @dave_huh デイブ: ローズ
+      @dave_concern デイブ: ローズ？？
+      @dave_concern デイブ: マジかよ
+      @dave_concern デイブ: クソかっけースプーチ中なのにボトルのことに戻ったなんて
+      @dave_concern デイブ: 何それ
+      @dave_concern デイブ: そう
+      @dave_concern デイブ: そうだよ
+      @dave_concern デイブ: そう　実際に戻って欲しいよ
+      @dave_madtalk デイブ: 待ってるぜ
+      @rose_annoyed ローズ: わかった。ただいま。
+      @dave_madtalk デイブ: ほら　難しくないだろ
+      @dave_madtalk デイブ: これが文明人のすることだローズ　本当にお互いの近所で話す
+      @rose_annoyedtalk ローズ: あなたはけっこうしゃべり続ける傾向あるわ。ストライダー的な談話の伝統的なぶつぶつ独白の段階に進んだのだと私は思った。
+      @dave_madtalk デイブ: それクソだ
+      @dave_madtalk デイブ: 俺本当に
+      @dave_huhtalk デイブ: お前の意見欲しかった
+      @rose_idle ローズ: 何の意見かしら。
+      @dave_huhtalk デイブ: わかんないよ
+      @dave_huhtalk デイブ: ジョンならきっと話あるよ
+      @dave_huhtalk デイブ: 俺と同じように２００９年凍り付いたクソ穴居人症候群を経験してるのかも
+      @dave_smug デイブ: っていうか何言ってるんだ俺　あいつ１９９７年からの穴居人だぞ
+      @dave_smug デイブ: はははケイジのＤＶＤさえあればあいつ全然気にしないだろうな
+      @rose_happytalk ローズ: あら！そういえば、先夜ジョンを見たよ。
+      @dave_concern デイブ: 何
+      @rose_happytalk ローズ: 夢の中で。すごく短くて、数分間だけだ。彼に手を振って、そして目を覚めた。
+      @dave_huhtalk デイブ: おいジョン何をしてたんだ
+      @rose_happytalk ローズ: ジャックと戦っていた。実は、結構うまくいっていたよ！
+      @dave_huh デイブ: マジかよ
+      @dave_smug デイブ: すべて教えなきゃ
+      @rose_talk ローズ: そうする。後でね。仕事に戻りたいよ。
+      @dave_idle デイブ: いつ
+      @dave_idle デイブ: 今夜？
+      @rose_talk ローズ: 今夜計画あるわ。明日はどう。
+      @dave_huh デイブ: 計画
+      @dave_huh デイブ: 何の計画
+      @rose_idle ローズ: ただの計画だけだよ。
+      @dave_huh デイブ: 俺も来ていい
+      @rose_annoyed ローズ: 嫌だ！
+      @dave_mad デイブ: クソ　わかった
+      @dave_mad デイブ: それで明日
+      @dave_smug デイブ: 今夜俺自分のジョン夢を見て　一緒にお前なしですごい時間を過ごすだろう　それどう思うんだよ
+      @rose_laugh ローズ: ...
+      @dave_mad デイブ: くたばれ
+      <!--  -->
+      </args>
+</action>   
+<action class='daveTalk3' sprite='damara' command='talk' name='デイブと話す'>
+      <args>
+      @dave_idle デイブ: おい
+      @dave_talk デイブ: お前誰だ
+      @dave_talk デイブ: ここにいるはずじゃないと思う 
+      @damara_smile ダマラ: トテモ嬉シイアル。 
+      @damara_smile ダマラ: ニンゲン合ウ。
+      @damara_smile ダマラ: タクサン喜ビ言ウ。
+      @dave_talk デイブ: まあ　害のないそうだな
+      @dave_talk デイブ: 俺別に気にしてない
+      @dave_talk デイブ: 好きにやれ　チャイナガールトロール
+      <!--  -->
+      </args>
+</action>
+</classes>
+</sburb>

@@ -1,0 +1,108 @@
+<sburb>
+    <classes>
+<action class='roseTalk1' sprite='kanaya' command='talk' name='ローズと話す'>
+      <args>
+      @rose_concern ローズ: 何あった！
+      @kanaya2_idle カナヤ: 何
+      @rose_concern ローズ: もう輝いていない！
+      @kanaya2_happy カナヤ: あれか
+      @kanaya2_smirktalk カナヤ: 先祖との　会話に　すごく夢中に　したほど　教えてくれたと　もう忘れた
+      @kanaya2_happy カナヤ: その消し方
+      @rose_talk ローズ: あら、それでに彼女と話しに行ったの？
+      @kanaya2_happy カナヤ: そう
+      @rose_happytalk ローズ: いいね！どうだった？
+      @kanaya2_happy カナヤ: かなり　よかったわ
+      @kanaya2_happytalk カナヤ: とても　優しくて　私が　想像していたほど　素敵だわ
+      @kanaya2_happytalk カナヤ: でも　そんなに　怖くない
+      @rose_happytalk ローズ: 勇気を出して話しかけたら、後悔しないって分かってたわ。
+      @rose_concern ローズ: 吸血鬼同士が肌を黒くするコツ以外に、彼女は何を言ったの？
+      @kanaya2_happy カナヤ: 多くの　ことだわ
+      @kanaya2_happytalk カナヤ: 主に　種族に対する　私の　以前義務を　果たすように　励ましてくれる
+      @rose_idle ローズ: そう？
+      @kanaya2_happytalk カナヤ: ポリムが　かつて　役名を　激しく　避けたと言った
+      @kanaya2_happytalk カナヤ: ジェイド血の　カーストの　業務は　どっちの世界にも　かなり限定的だったらしい
+      @kanaya2_happytalk カナヤ: だから　完全に　放棄して　異なる人生が　欲しかった
+      @kanaya2_happytalk カナヤ: でもね
+      @kanaya2_happytalk カナヤ: 彼女が　その役割を　完全に　拒否する　必要は　なかったことに　気づいた
+      @kanaya2_happytalk カナヤ: 私にも　そうだわ
+      @kanaya2_happytalk カナヤ: 自分が　自由だと　知っている限り
+      @kanaya2_happytalk カナヤ: そして　もし私が　自分の　道を　受け入れる決断を　するなら　それは　強さの　源と　なるだろう
+      @rose_concern ローズ: じゃあ、もう一度種族を復活やってみたいの？
+      @rose_concern ローズ: あなたがその可能性に希望が失ったと思い始めた。
+      @kanaya2_talk カナヤ: 確かに　マザーオーブは　もうない
+      @kanaya2_talk カナヤ: とても　難しいかもしれない　と言った
+      @kanaya2_smirktalk カナヤ: でも　やってみないなら　希望はない
+      @rose_idle ローズ: そうだね。
+      @kanaya2_talk カナヤ: どうやって　すればいいのか　まだ分からないわ
+      @kanaya2_talk カナヤ: けど　それは　冒険の　性質ね
+      @kanaya2_talk カナヤ: 冒険に　怖がるのは　ダメだ
+      @kanaya2_happytalk カナヤ: 今　ワクワクしていると　思うわ
+      @rose_happy ローズ: それわかるわ。
+      @rose_happytalk ローズ: 到着する時、一緒に取り組んでみよう。すぐに探検するセッションには答えがあるかもしれない。
+      @kanaya2_happy カナヤ: そうだったら　いいね
+      @rose_concern ローズ: あのさ、
+      @rose_sad ROSE: ローズ: あなた、もう永久に輝きを失ったわけではないよね？
+      @kanaya2_talk カナヤ: いや　また付けることが　できるわ
+      @kanaya_idle カナヤ: ほらね
+      @kanaya2_talk カナヤ: 結局
+      @kanaya_happytalk カナヤ: ばかげた　生物学的な　隠し芸
+      @rose_talk ローズ: あら、よかった。ちょっと緊張していた。
+      @kanaya2_idle カナヤ: ごめん
+      @kanaya2_talk カナヤ: あなたが　いい光源　確かに　好きだよね
+      @rose_happytalk ローズ: 光が私の気に入るものの一つだ。
+      @rose_coytalk ローズ: これを挑発的な言葉として受け取らないで、でも、私のアスペクトは単純に最高だ。
+      <!--  -->
+      </args>
+</action>
+<action class='roseTalk2' sprite='dave' command='talk' name='ローズと話す'>
+      <args>
+      @dave_madtalk デイブ: ローズ　ここのカランカランやめろ　ラップに集中できない
+      @dave_madtalk デイブ: このビンで一体何をしてるんだ
+      @rose_talk ローズ: ただの錬金術だわ。
+      @dave_huh デイブ: 錬金術
+      @dave_huhtalk デイブ: このガラクタで何のクソを錬金してる
+      @dave_huhtalk デイブ: ビンと他のビンと錬金して　なんか
+      @dave_huhtalk:#ドリームボトル デイブ: スパービンを作るためか
+      @rose_annoyedtalk ローズ: 違うわ。信じられないかもしれないが、実際にビンの内容に集中している。
+      @dave_talk デイブ: 錬成機から離れてるだろ
+      @rose_talk ローズ: 私が練習している錬金術はもうちょっとレトロ。
+      @rose_talk ローズ: 大昔地球では、錬金術は大きいなデバイスがゲームアセットを使って虚空からオブジェクトを現ることではなかった。
+      @rose_talk ローズ: 錬金術師はかつて様々な物質で実験して、より貴重な物に偏移させた。
+      @rose_talk ローズ: より平凡で科学的に信頼できる親戚は化学と呼ばれ、それは混ぜ合わせることを表す専門用語でしょうね。
+      @rose_talk ローズ: それは私がしていることをより正確に説明するわね。
+      @dave_talk デイブ: それで　今科学してるか
+      @dave_talk デイブ: 自分の母だと思ってるか
+      @dave_huhtalk デイブ: またダサいディスに聞こえてる
+      @dave_huhtalk デイブ: お前のお母さんについて話すたびにディスに聞こえる
+      @dave_smug デイブ: 俺の母だと思ってるか
+      @dave_huh デイブ: 待って　それを忘れ
+      @dave_huhtalk デイブ: あいつを自分の母さんとして語り始めると　いつも話が雪だるま式に膨れ上がりバカな会話スキー場を滑り降りて　突然シーグムンド・フロイドとオイディプス王がなんか堕落したセクシーママパーティーでお互いのセクシーママをヤリ始めてしまうんだ
+      @rose_annoyedtalk ローズ: イメージありがとうね。ほとんど意味が不明と同じようにアダルトだった。
+      @dave_talk デイブ: それで　何を作ってる
+      @rose_happy ローズ: 飲み物。
+      @dave_talk デイブ: 飲み物　何の飲み物
+      @rose_happytalk ローズ: 美味しい飲み物だと祈っている。
+      @dave_concern デイブ: リンゴジュース？？？
+      @dave_concern デイブ: リンゴジュースなるようにリンゴジュースなるようにリンゴジュースなるように
+      @rose_talk ローズ: やってみるわ。
+      @dave_idle デイブ: マジか
+      @dave_idle:#マジか デイブ: マジか
+      @dave_smug デイブ: やぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁったぜ～
+      <!--  -->
+      </args>
+</action>
+<action class='roseTalk3' sprite='damara' command='talk' name='ローズと話す'>
+      <args>
+      @rose_talk ローズ: こんにちは。私たち会ったことないでしょう？
+      @damara_huh ダマラ:
+      @rose_talk ローズ: 混乱しているらしい。迷っているかしら？
+      @rose_annoyedtalk ローズ: ここで歩き回していない方がいいかもしれない。
+      @damara_smile ダマラ: オ願イ。スミマセンアル。
+      @damara_smile ダマラ: 邪魔。シタクナイ。
+      @rose_happytalk ローズ: あら。あなたいい人のようだね。
+      @rose_happytalk ローズ: どうぞ、自由に残っていいわ。
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>

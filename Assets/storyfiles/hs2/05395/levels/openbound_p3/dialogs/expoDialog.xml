@@ -1,0 +1,234 @@
+<sburb>
+    <classes>
+<action sprite='meenah' class='expoTalk1' command='talk' name='状況報告'>
+      <args>
+      @meenah_annoyed ミーナ: よし
+      @meenah_annoyedtalk:#サメだ ミーナ: 完全にダメだ
+      @meenah_annoyedtalk ミーナ: 軍にゴースト一人でも入りなかった
+      @meenah_wut2 ミーナ: 一人の奴イガイ　でも眠ってた
+      @aranea_happytalk アラネア: 希望を失わないで！うちの友達グループ８モチベーション低いだと知っているけど、まだたくさんの魂いるわ。
+      @aranea_happytalk アラネア: ただ肝っ玉いっぱいの人を探さなき８。そしてきっともっとが追ってくる。
+      @aranea_happytalk アラネア: もしかして、もっと探検したら、そういう人がすぐ目の前になるだろう！
+      @meenah_talk ミーナ: 先より軍の計画についてワクワクしてるそうだ
+      @meenah_talk ミーナ: なんで心川り
+      @aranea_happytalk アラネア: あなたが８っているの８重要だと思い始めた。ただの感じだ。
+      @aranea_happytalk:#いわば、フォークの先端。 アラネア: ケルブを探すクエストと同じように重い可能性があるわ。すべて関係があると思う。脚が所定の位置にないと立たない椅子のようなものだ。
+      @meenah_talk ミーナ: そういえば　ケルブクエスト)(どうだ
+      @aranea_think アラネア: ええと...悪くない。
+      @aranea_think アラネア: 私８ちょっと........夢中だった。
+      @meenah_idle ミーナ: 何それ
+      @meenah_talk ミーナ: アンタ事実で奴らを困らせるためにそのしゃべりスタンドをどこにも引きずってただろう
+      @aranea_surprised アラネア: これ８最後のセッションだ、本当に！！！！！！！！
+      @aranea_talk アラネア: この後、私８説明ブースを永久に撤去することを心に約束した。もしかしたら売りに出して、運営にかかった多額の損失の一部を回収しようかと思っている。
+      @meenah_talk ミーナ: アラネア　アタイラ本当に失敗者だ
+      @meenah_talk ミーナ: なんで二人のゴージャスでセクシーな失敗者だヨー
+      @aranea_happytalk アラネア: 分からないけど、諦めち８ダメだ！
+      @aranea_happytalk アラネア: ここで店を閉めたら、あのケルブを見つけるためにまた努力するつもり。
+      @aranea_happytalk アラネア: 最初８、名前を知らなき８いけない。すごく気が狂いそうなほどとらえどころのないもので、まるで誰かが記憶であれ現実であれ、パラドックス空間全体でそれに関するあらゆる言及を注意深く調べているかのようだ。
+      @meenah_talk ミーナ: じゃあ　それどうだ
+      @meenah_talk ミーナ: アタイ新人に漁獲している間に手がかりのために耳傾けておく
+      @meenah_talk ミーナ: そしてアンタがどこかケルブ狩りしてる間　小っちゃいコンデスの新しいかっけぇ帝国軍に勤務したいやつを尋ね
+      @meenah_idle ミーナ: それ)(
+      @meenah_happy ミーナ: チームフォーク
+      @aranea_happier アラネア: すばらしい計画に聞こえるわ！
+      @aranea_happier アラネア: さあ、急いで始めよう。私に残された貴重なブーンバックと引き換えに、何を話しようか？
+      <!--  -->
+      </args>
+</action>
+
+
+<action sprite='meenah' class='expoTalk2' command='talk' name='ルフィヨ・ナイトラムについて教えて'>
+      <args>
+      @aranea_happytalk アラネア: 息の義賊８うちのグループに常にとても人気あるな員だった。最も人気かもしれない。そういう意味で８私の反対ね。どっちに転んでも恋愛の誘いを受けるタイプ。そういう意味で８クロナスの反対。
+      @meenah_creepylaugh ミーナ: やるじゃねぇか　かっけーアンポラディスだぜ　)(イタッチ
+      @aranea_happytalk アラネア: そうね。しかし、突然変異によってルフィヨ８追放された。翼が彼を取り囲む望ましくない注目を避けるため、森に避難し、自分との違いを受け入れてくれる人々のもとで暮らし、彼らの生き方を学んだ。
+      @aranea_happytalk アラネア: ロスト・オタクズ８木の上で暮らす若きトロールのオタク集団だった。殴り合い、空を飛ぶこと、そして様々な異国情緒あふれる東洋演劇に情熱を燃やす。悪意に満ちた敵にとっては災厄であり、船乗り階級にとっては天罰で...
+      @meenah_fish ミーナ: いやだ～
+      @meenah_fishtalk ミーナ: これ聞かないヨー　ギャーギャーブクブクブクブク
+      @aranea_annoyedtalk アラネア: #77003c (ブクブクブクブク)## ケモノミミ族との何世紀にもわたる争い #77003c (ブクブクブクブクギャーギャーブクブクブクブク)## 儀式用のたいまつヤオイ祭り #77003c (ギャーギャーブクブクブギャーギャー)## ンデレ四分円の揺れ動き #77003c (ブクブクブゥゥブクブクブブクブクゥゥゥゥ)## 集団の最高セメに挑むために短剣槍を投げ捨てた #77003c (いやいやいやいやいやいやいや)## シツジ・アイランドのショウネンのように食わされた。
+      @meenah_annoyed ミーナ: おい　サーケット
+      @meenah_annoyedtalk ミーナ: アンタ二度と口に出さないように)(いくら払えばいいんだヨー
+      @aranea_happier アラネア: そういうサービスなら、あなたの宮殿にある大きな金の像以外８何も要求しない。どれのことかお分かりでしょう。
+      @meenah_annoyedtalk ミーナ: きついな　サーッキ
+      @meenah_annoyed ミーナ: だが受け取ぜ
+      <!--  -->
+      </args>
+</action>
+
+
+<action sprite='meenah' class='expoTalk3' command='talk' name='ホーラス・ザハークについて教えて'>
+      <args>
+      @aranea_happytalk アラネア: 虚空のペイジ８自習した力学のマスター、熱心な美術愛好家、ボディビルダー、アーチ８ー、アンブロシアコレクター、そして蒸気大工だった。詩人、学者、戦士、そして恋人。そのカーストが求める全て、そしてそれ以上の存在だった。まさにトロール総合者。彼の名前８「筋肉獣とともに忍び寄る者」という意味。
+      @aranea_happytalk アラネア: その能力８すべて苦労して獲得したもので、アスペクトが示唆するように、空白の石板から生み出されたもので、クラスと同様にゆっくりとしたペースで進歩していた。しかし、彼８自己実現のためにあらゆる努力を重ねたにもかかわらず、ほとんど何も成し遂げられなかった。英雄的行為にも悪行にも関与せず、ホーラス８ただ盤外へ動かされる駒の一つに過ぎなかった。人生を支配するアスペクト８、常に彼の存在意義を弱めようと企んでいた。
+      @aranea_happytalk アラネア: 虚空は間違いなく最も神秘的なアスペクトであり、本質的に理解を拒絶するもの。だからこそ、私のような光のプレイ８ーにとって、虚空８特に魅力的であると同時に、同時に苛立たしい。何もないものに光を当てること自体が無駄だ。なぜなら、虚空を真に知るということ８、逆説的に、虚空を存在しないということだから！
+      @aranea_happytalk アラネア: 虚空のプレイ８ーの役目８、どうにかして無を受け入れ、一体となる。しかし、それと８全く矛盾するが、無がもたらす力を活用し、意義ある役割を果たすために８、無を克服する方法を見つけなければならない！虚無の中に無限の可能性を見出すこと。無の中に全てを見出し、それを存在へと導くこと。
+      @aranea_annoyed #77003c ミーナ: zzzzzzzzzzzzz##
+      @aranea_angrytalk アラネア: ちょっと！！！！！！！！
+      @meenah_wut2 ミーナ: なんだ
+      @aranea_annoyedtalk アラネア: これ８まさに、虚空のプレイ８ーの軌跡に関する好例だ。ホーラスの物語が何にも関係しそうにないため、あなた８眠り込んでしまい、一言も聞こえなかった。
+      @meenah_annoyed ミーナ: ああそれいいじゃん
+      @meenah_annoyed ミーナ: 金どこだ
+      @aranea_facepalmtalk アラネア: ないわ。眠りにより取引８無効になった。
+      @meenah_wut ミーナ: クソ
+      <!--  -->
+      </args>
+</action>
+
+
+<action sprite='meenah' class='expoTalk4' command='talk' name='ダマラ・メギドについて教えて'>
+      <args>
+      @aranea_happytalk アラネア: 時間の魔女８かつてパーティーの最大のトラブルメーカーじ８なかった。よく覚えたら、あなた８長い間その栄誉に浴していたわ。 ::::)
+      @meenah_annoyed ミーナ: へいへい
+      @aranea_happytalk アラネア: かつて８、どこまでもおとなしい少女だった。東の地方出身で、海を渡ってルフィヨのギルドが隠れている森の近くに定住した。二人はすっかり意気投合し、多くの趣味を共有するようになった。
+      @aranea_happytalk アラネア: ダマラが何も知らないと思い込み、密かに他の人と付き合い始めた。しかしルフィヨの不貞を常に疑い、時が経つにつれてひどく取り乱した。でも、その悲しみ８決して怒り８悪意に変わりなかった。あなたが...関わってくるまで８。
+      @meenah_annoyedtalk ミーナ: ゲッ　この話マジで必要か
+      @aranea_happytalk アラネア: 金を稼ぎたいなら、そうだよ！
+      @meenah_annoyed ミーナ: )(ぁ　わかった
+      @aranea_happytalk アラネア: ゲームを始めた後に、あなた８すぐに、私たちのグループで勝利８厳しい戦いになるだろうと判断した。皆、人関係の問題に気を取られていて、誰も大きな戦いに臨む気力がないように見えた。どこかで聞いたことあるかしら？
+      @meenah_talk ミーナ: すげぇデジャヴだぜ　サーッキ
+      @aranea_happytalk アラネア: だからあなた８、ありとあらゆる方法で集団を煽ろうとしたんだね。不安につけ込み、敵意を煽り、ライバル意識を煽り...できる限り誰かを挑発して、他者と対立させようとした。あなたの理論８、全員の攻撃性を高めることで、ゲームをより有利に進められるというものだった。そして、確かにその通りだった！ しかし、アルターニア人がそれを証明したわ。残念ながら、我々のグループに８無理だった。
+      @aranea_happytalk アラネア: このいじめ戦術の矢先を受けたかわいそうなダマラ・メギド。ダマラのメイトスピリットの裏切りを煽り立て、彼女をさらに惨めな気分にさせ、ルフィヨをダマラのライバルの腕の中に押し込み続けた。ついに我を忘れた。ルフィヨを襲撃し、首から下を麻痺させた。ついに、あなたが求めていた激しい対決を手に入れたね。ところが残念なことに、あなた自身も予想していなかった何かを解き放ち、彼女と自ら対峙しなければならなくなった。長く血みどろの決闘の末、ダマラがあなたを殺した。そして、私がいなければ、死んだままだったでしょうね！
+      @aranea_happytalk アラネア: 私に決して聞かなかったわ。結局代償を払ったまで、挑発し、騒ぎ立て、干渉し続けた。そして、私があなたを救い出さなければならなくなったのだ。
+      @meenah_wut2 ミーナ: (ああっ　どれほどこのバカな金欲しいのか...)
+      @aranea_happytalk アラネア: それ以来、ダマラ８気が狂ったままだ。暴力的な傾向が強まったことで、ゲーム内での手伝いとなる代わりに、危険人物となり、タイムライン全体の重要な瞬間に恣意的に現れて私たちを妨害するようになった。
+      @aranea_happytalk アラネア: 性格の変化はあまりにも劇的で、あなたの煽動のせいだけだと信じるのは難しい。ダマラの行動８一見無計画に見えても、何か不可解な意図に基づいているかのように、常に何か別の力が働いているように思えた。もちろん、調子の良い日でさえ彼女の言っていることが理解しにくいのも、状況を悪化させる。
+      @aranea_happytalk アラネア: 奇妙なことに、熱心に協力してくれたの８、スクラッチを開始する準備をしていた時だけだった。そうしてくれたの８良かった。カーディナル・ムーブメントにあれほどのダメージを与え、そのエネルギーを解放できる者８他にいなかっただろうからね。
+      @aranea_happytalk アラネア: スクラッチの計画にとても喜んで従う様子８、少し不気味なほどだった。ルフィヨ８ダマラが何を言ったっけ？「皆がついに報いを受ける」みたいなことを言っていたような...
+      @aranea_happytalk アラネア: 当時８、ぞっとするような話だと思った。でも、実際に８二つの見方があるね。一つ８、スクラッチが私たちの世界を混沌とした状態に陥れ、最終的に宇宙の消滅に至ったという見方。もう一つ８、私たちは皆、アルターニアで大人として、思い描いた壮大なファンタジーを現実にできるチ８ンスを得たということ！
+      @aranea_happytalk アラネア: 少なくとも、私とあなたがそうしたね。ダマラが同意だと疑いないわ。
+      @meenah_idle ミーナ: それで
+      @meenah_idle ミーナ: 終わった？
+      @aranea_happier アラネア: 終わったよ！
+      @meenah_talk ミーナ: 今までで一番苦労して稼いだ５バックだ
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk1' command='talk' name='SAY WHAAAAAAAAAAAAAAT?'>
+      <args>
+      @! Damara!!! What the hell are you doing this deep into the game! Good grief, you are such a teen delinquent. I never should have let you out of Doc Scratch's pervert chamber in the alternate universe.
+      @damara_smilemeantalk DAMAR#000000 WHOOPS, nooooooooo no no no.##
+      @! I'm not gonna let you respond. You're just going say something totally filthy in Japanese again and make everyone uncomfortable.
+      @damara_lewd #000000 WHOA CUT THAT OUT!##
+      @! Sheesh. I guess this is what happens when you don't have a proper upbringing by a decent guardian. Or at least one who isn't a four foot tall asshole in suspenders, who's kind of like a creepy puppet uncle.
+      @! Look, let's all just chill out here. No more lewd Asian shenanigans, got it?? You may notice I bought a new franchise recently.
+      @! Cost me a fortune! I had to pawn a ring that used to belong to some dirtbag just to make the down payment.
+      @! But I should be able to recoup the losses, if I just tweak the business model a little. Hear me out. Instead of giving people money to listen to my shit? I think I might actually start CHARGING people for the service. Crazy, I know, right?
+      @! I've been thinking of dividing up my offers into a series of handsomely priced explanation bundles called EXPOSITION PAKS where I would...
+      @damara_fu3 DAMARA:
+      @! Oh kaaay, guess you're not down with that? 
+      @! What would you pay for an explanation? Want to make an offer?
+      @! Yeah you're not gonna pay me a goddamn penny, are you.
+      @damara_smoke DAMARA:
+      @! Ok fine. I'll give you these explanations for free. Let's call it a loss leader. You'll tell your friends, maybe they'll tell their friends, then the dead presidents start rolling in.
+      @! Yes? Yes???
+      @damara_huh DAMARA:
+      @! Aw fuck it. Just tell me what you wanna know.
+      @! But just a heads up, these stories are gonna be pretty shitty! I ain't no light player.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk2' command='talk' name='Hey, before we start...'>
+      <args>
+      @! Did you get here with Damara before you got here with Meenah? If you did I think I'm going to flip my shit. That is one cracked way of going through this game. Stop talking to me right now and go come back as Meenah.
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk3' command='talk' name='Tell me about Damara Megido.'>
+      <args>
+      @! You want me to tell you about YOU??? Talk about self absorbed, but alright.
+      @! You say stuff in Japanese, and when people who actually speak Japanese read it they probably laugh because the Japanese is so shitty. Sorry to burst your bubble Damara but the things you say started out in English, went through the google translator, and then out again so that it vaguely makes sense when translated back to English. So you aren't really authentic troll Japanese, you're fake troll Japanese.
+      @damara_fu2 DAMARA:
+      @! Whoa don't kill the messenger! Relax. Everyone thinks you're great. In fact, there's probably someone out there RIGHT NOW drawing some weird porn of you.
+      @damara_huh DAMARA: ???
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk4' command='talk' name='Tell me about Mituna Captor.'>
+      <args>
+      @! Mega Man Sollux has some problems. He falls down and stuff and talks on a 4chan background, because of 4chan. But in spite of that, he's brave and does his best and everyone loves him. Also no one can read a damn thing he says. His quirk is the least legible of all quirks, with Damara's coming in at a close second.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk5' command='talk' name='Tell me about Rufioh Nitram.'>
+      <args>
+      @! With apologies to Dante Basco. Dante, I'm sorry about this. All of this. I am so, so sorry. You were leading the regular, modest life of a Hollywood superstar, then this shit happened. Everything is broken forever. I liked your work in The Last Airbender. You know what's funny is how there are probably some people who are reading this right now who have no idea what the fuck I'm talking about. But you know what? What the FUCK else is even new.
+      @! Anyway. Bangarang, dude.
+      @!:#rufiozuko.tumblr.com Bangarang.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk6' command='talk' name='Tell me about Kankri Vantas.'>
+      <args>
+      @! Did you know: it is a Homestuck fact that 99 percent of all readers didn't read or care about anything Kankri said. So in other words, he is exactly like all terrible social justice bloggers. Some social justice bloggers get angry at the joke that he is, but those are the terrible ones, and being terrible is why they get angry. They want to be terrible in peace without being mocked. That is what it is like to be a justified target of ridicule. You feel sad and angry all the time and you don't know why. 
+      @! Kankri wears a cute red sweater and is otherwise fairly adorable. Porrim acts like his mom which is also cute as hell.
+      <!--  -->
+      </args>
+</action>
+  
+<action sprite='damara' class='expo2Talk7' command='talk' name='Tell me about Meulin Leijon.'>
+      <args>
+      @! Meulin is the deaf Nepeta in this kickass smorgasbord of disabled characters. She speaks in ASL to say memes which are called mimes because it's one letter away and therefore a play on words. But you can't actually use ASL to say animated tumblr gifs, you can only say words. She otherwise reads lips, which is funny because her bff sewed his damn mouth shut so they just sign memes to each other all day while stoned. It is implied that they smoke catnip together, as if it were marijuana, which is an especially amusing notion to people who like drugs. Moving on??
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk8' command='talk' name='Tell me about Latula Pyrope.'>
+      <args>
+      @! Latula is the gamegrl to Mituna's gamebro. Gamebros and gamegrls aren't really "types of people" so much as they are hollow cliches which are patronizing to multiple groups of people on multiple levels. So in other words, perfect attributes for some 1.5 dimensional NPC-caliber characters stocking a fun jrpg style walkaround game. Wait what was I talking about? Oh yeah Latula.
+      @! Latula's so rad but she can't smell. I think I agree with Karkat, that's not a disability. That's just like having a cold all the time, but without any actual symptoms or problems. Who cares. Latula likes to high five people all the time, but doesn't like to be left hanging. That's a pun, because Redglare liked to hang people with nooses. Mindfang ultimately left Redglare hanging that way too. I'm explaining jokes here. What? I told you these stories would suck. You get what you pay for.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk9' command='talk' name='Tell me about Porrim Maryam.'>
+      <args>
+      @! Porrim is better at social justice than Kankri because she isn't a boring asshole. Some social justice people should try looking into that. Porrim wants there to be equality for ladies. Not everybody cares about that though, which makes it hard for people like Porrim. That's the way it is in the real world. CHALLENGES. But in any case, she is a vampire with cool tattoos. End of story.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk10' command='talk' name='Tell me about Aranea Serket.'>
+      <args>
+      @! Aranea is a blabbermouth, just like Mindfang. She says long things both as a teen and as a sexy pirate adult that make people ask what am I even reading? It's about time I took over this exposition stand. The way I describe shit is a million times better. She sure charged me enough for it. God I took a bath on this thing. Why was it so expensive??? IT'S MADE OF FUCKING CARDBOARD.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk11' command='talk' name='Tell me about Horrus Zahhak.'>
+      <args>
+      @! This dude is just Equius on horse steroids. The end.
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk12' command='talk' name='Tell me about Kurloz Makara.'>
+      <args>
+      @! He chewed off his tongue and sewed his mouth shut because he's a weirdo in cahoots with Gamzee and English. Who even knows what they're up to. It's probably just a lot of stupid bullshit. Meaningless, clownish nonsense. Want to know why they're assembling the wicked ensemble? They probably just think it's funny. Kurloz speaks in bones when he does his clown hypnosis shit but otherwise he mimes everything because get this: he's pretty much literally a mime. Also a juggalo. Because that's exactly what Homestuck needed. Another fucking juggalo. Homestuck needed another juggalo like it needed... 
+      @! Well, another twelve trolls I guess. 
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk13' command='talk' name='Tell me about Cronus Ampora.'>
+      <args>
+      @! Cronus is the worst character in Homestuck by a nautical mile. Any questions?
+      <!--  -->
+      </args>
+</action>
+
+<action sprite='damara' class='expo2Talk14' command='talk' name='Tell me about Meenah Peixes.'>
+      <args>
+      @! Meenah is kind of throwing a bone to the pisces people who got stuck with Feferi. Feferi didn't really do anything and then she died. Meenah is a cool sassy punk who has more important stuff to do than Feferi ever did. You just spent like the last three hours playing through these games from her POV so obviously you know that. You're probably sick of fish puns by now. After a while you start running out of fish puns. You can overdo it with fish puns, much like you can overfish the ocean. You start literally running out of fucking fish. Be careful out there.
+      @! Meenah discovered that raising and army is hard. But you know what's really hard? What's really hard is making games. Games disguise the effort that go into them probably like few other crafts. In order to make a game that is even slightly better than mediocre, someone probably had to die in the process. Like building pyramids. Nobody actually died while making these games though, hence they were just ok. But still if you add up all the work done collectively on these last three games, it probably was comparable to the manhours that went into [S] Cascade. You know what that is? That's a silly ass fact.
+      <!--  -->
+      </args>
+</action>
+
+
+  	</classes>
+</sburb>

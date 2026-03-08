@@ -1,0 +1,215 @@
+<sburb description="sixth room">
+
+<dependencies>
+	<dependency>chars/karkat.xml</dependency>
+  <dependency>chars/terezi.xml</dependency>
+</dependencies>
+
+<assets>
+<asset name='sixthRoomBG_0_0' type='graphic'>backgrounds/slices/sixthRoomBG_0_0.png</asset>
+<asset name='sixthRoomBG_0_1' type='graphic'>backgrounds/slices/sixthRoomBG_0_1.png</asset>
+<asset name='sixthRoomBG_0_2' type='graphic'>backgrounds/slices/sixthRoomBG_2_1.png</asset>
+<asset name='sixthRoomBG_1_0' type='graphic'>backgrounds/slices/sixthRoomBG_1_0.png</asset>
+<asset name='sixthRoomBG_1_1' type='graphic'>backgrounds/slices/sixthRoomBG_1_1.png</asset>
+<asset name='sixthRoomBG_1_2' type='graphic'>backgrounds/slices/sixthRoomBG_2_1.png</asset>
+<asset name='sixthRoomBG_2_0' type='graphic'>backgrounds/slices/sixthRoomBG_2_0.png</asset>
+<asset name='sixthRoomBG_2_1' type='graphic'>backgrounds/slices/sixthRoomBG_2_1.png</asset>
+<asset name='sixthRoomBG_2_2' type='graphic'>backgrounds/slices/sixthRoomBG_2_1.png</asset>
+	<asset name='sixthRoomMap' type='graphic'>backgrounds/sixthRoomMap.png</asset>
+
+  <asset name='gamzeeSheet' type='graphic'>objects/gamzee.png</asset>
+  <asset name='tereziSit' type='graphic'>objects/terezi_sit.png</asset>
+  <asset name='gamzee_idle' type='graphic'>dialogs/gamzee/gamzee_idle.png</asset>
+  <asset name='snooze' type='graphic'>objects/snooze.png</asset>
+
+</assets>
+
+<hud>
+  <dialogsprites>
+    <animation name='gamzee_idle' sheet='gamzee_idle' x='-220' y='-420'/>
+  </dialogsprites>
+</hud>
+
+<character class='karkat' x='792' y='638'>
+      <action sprite='dave' command='talk' name='カーカットと話す'>
+        <args>
+        @karkat_talk カーカット: ああ、今これはクソバカバカしい。
+        @dave_idle デイブ: 何が
+        @karkat_talk カーカット: 眠ってるが、隕石が物理的に夢を見てるバブルに通ってるかな？
+        @karkat_talk カーカット: それでオレの「ドリームまぼろし」それともこの自分を呼ぶのか何であれ、オレの眠ってる体と実際に物理的な場所で立ってる。
+        @karkat_yell カーカット: オレが自分自身をホーン山で眠ってると見ているんだ。正式だ。フクラミが遠くなるような愚かさの臨界閾値を超えたぜ。
+        @dave_huh デイブ: へ
+        @karkat_yell カーカット: 眠っている自分のインスタンス、何と呼ぶのか？「ドリームセルフ」は別のやつだ。ダースかプロスピットの自分バージョンだ。
+        @karkat_yell カーカット: だがそりゃ肉体的、本当の自分だ、ただバックアップライフとして機能したんだ。こりゃ全く違う、変なホログラムみたいな。
+        @karkat_what カーカット: おい、オレがオマエ有体なのか？
+        @dave_huh デイブ: え
+        @karkat_idle カーカット: オレを触ってみて。
+        @dave_huh デイブ: 何
+        @karkat_eyeroll1 カーカット: ただ突いて。
+        @dave_mad デイブ: やだ
+        @karkat_talk カーカット: そんな風にやるな、男らしくオレを触れ。手の甲でオレの頬を優しく撫でるとか。何か一義的にプラトニック。
+        @dave_mad デイブ: やだ　クソくらえ
+        @dave_madtalk デイブ: お前のドリームまぼろしを撫でないよ
+        @karkat_facepalm カーカット: お前本当に悲しく探求心の欠如だよ、デイブ。これ科学のためだ。オマエに科学が任せられたら、ジンルイはかつてのようにかろうじて達成できた情けない劣等感のレベルにまで近づくことは決してなかっただろう。
+        @dave_talk デイブ: お前本当に眠そう
+        @dave_talk デイブ: お前のドリームまぼろしがホーン山の眠っている肉体と一緒に寝た方がいいかも
+        @karkat_shout カーカット: ああ、もしかしてそれをやろうか、このクソ野郎！
+        @dave_idle デイブ: それで
+        @dave_idle デイブ: さっさとやれ
+        @karkat_sullen カーカット: いやだ。オマエが見ているならやらない。
+        @dave_idle デイブ: マジで
+        @dave_talk デイブ: 俺たちの会話恥ずかしいよな
+        @dave_talk デイブ: ほぼプライベートにするのはよかったな
+        @karkat_eyeroll1 カーカット: ああ
+        @karkat_eyeroll2 カーカット: そうだな
+        <!--  -->
+        </args>
+      </action>
+    </character>
+
+    <sprite name='gamzee' x='422' y='624' width='40' height='24' collidable='true' depthing='1'>
+      <animation sheet='gamzeeSheet' x='-30' y='-90'/>
+      <action sprite='rose' command='talk' name='ガムジーと話す'>
+            <args>
+            @rose_talk ローズ: カナヤがあなたをここに見つかったら危ないわ。
+            @rose_talk ローズ: 彼女はまだあなたのこと大嫌いだよ。
+            @rose_talk ローズ: そして「その意味」ではない。本当にあなたを殺したいと思う。
+            @gamzee_idle ガムジー: ああ、もうそれまざーふぁっきん知ってやるぜ。
+            @rose_concern ローズ: 気になってた、混乱しているでしょう？プラトニックな敵意とブラックロマンスを見分けること？
+            @gamzee_idle ガムジー: 違ウ。
+            @gamzee_idle ガムジー: 何の四分円でもあのぴかぴかちぇんそーくそ女に興味あるものか。
+            @gamzee_idle ガムジー: ソレニ、他ノマザーファッカーデブラックロマンスヤッテルゼ。
+            @gamzee_idle ガムジー: まざーふぁっきん影の中で誰かと付き合ってるよ。けっこう嫌らしいぜ。へいと幸福という暗いみらくるを体験やってる。
+            @rose_concern ローズ: 待って、本当に？
+            @rose_annoyed ローズ: 誰と？
+            @gamzee_idle ガムジー: :o)
+            @rose_idle ローズ: カーカット？
+            @gamzee_idle ガムジー: 違う。
+            @rose_laugh ローズ: デイブ？？
+            @gamzee_idle ガムジー: 違ウ。
+            @rose_sad ローズ: まさか...市長さん？？？
+            @gamzee_idle ガムジー: 違う。
+            @rose_concern ローズ: ちょっと...
+            @rose_concern ローズ: テレジ？
+            @gamzee_idle ガムジー: プップ。
+            @rose_talk ローズ: 本気なの？
+            @gamzee_idle ガムジー: おれっちがまざーふぁっかーと冗談言う奴にまざーふぁっきん見えるか？
+            @rose_idle ローズ: 私...
+            @rose_annoyedtalk ローズ: 何か意味があることとしてその関係を理解できないわ。
+            @rose_annoyed ローズ: 何...
+            @gamzee_idle ガムジー: 簡単ダゼ。
+            @gamzee_idle ガムジー: まざーふぁっかー。
+            @gamzee_idle ガムジー: オレッチノコト大嫌イニナッテ。当然ノコトダ、オレッチガドンナニ卑劣ナピエロ野郎ヲ考エレバ。
+            @gamzee_idle ガムジー: だが、おれっちを殺したいほど大嫌いじゃないぜ。 :o)
+            @rose_talk ローズ: 本当に驚くべき掲示だよね。
+            @rose_talk ローズ: 大逆転だ。
+            @gamzee_idle ガムジー: オイ。
+            @gamzee_idle ガムジー: 誰にもこれ伝えるな。
+            @gamzee_idle ガムジー: カーカットガマザーファッキン気ヅイテヤッタラ...
+            @gamzee_idle ガムジー: おれっちをまじで殺したくなる。 :o(
+            @rose_talk ローズ: うん、窮地見えるわ。
+            @rose_talk ローズ: 四分円がいっぱいにしたらあなたたちの社会的なダイナミックが本当に複雑になるでしょうね？
+            @gamzee_idle ガムジー: マザーファッキンソウダゼ。
+            @rose_talk ローズ: 気にしないで。秘密守るわ。
+            @rose_talk ローズ: さて、行け。見つかった前に風通しシステムへ。
+            <!--  -->
+            </args>
+      </action>
+    </sprite>
+
+    <sprite name='terezi' x='422' y='624' width='40' height='24' collidable='true' depthing='1'>
+      <animation sheet='tereziSit' x='-30' y='-90'/>
+      <action command='talk' name="テレジだ！" sprite='damara'>
+          <args>
+          @terezi_idle テレジ: やあ、ダマ！！！！
+          @terezi_idle ラテュラ: 彼に近づ１たら、あんたぶっ殺す４！
+          @damara_fu2 ダマラ:
+          <!--  -->
+          </args>
+      </action>
+    </sprite>
+
+<rooms>
+  <room name='sixthRoom' walkableMap='sixthRoomMap' mapScale='2'>
+  	<triggers>
+
+  		<trigger>
+  			<args>inBox2,kanaya,751,998,503,900</args>
+  			<action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,1668,378</action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox2,dave,751,998,503,900</args>
+        <action command='removeSprite'>
+          <args>karkat,sixthRoom</args>
+          <action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,1668,378</action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,rose,751,998,503,900</args>
+        <action command='removeSprite'>
+          <args>gamzee,sixthRoom</args>
+          <action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,1668,378</action>
+        </action>
+      </trigger>
+
+      <trigger>
+        <args>inBox2,damara,751,998,503,900</args>
+        <action command='removeSprite'>
+          <args>terezi,sixthRoom</args>
+          <action command='changeRoomRemote'>rooms/thirdRoom.xml,thirdRoom,1668,378</action>
+        </action>
+      </trigger>
+
+  	</triggers>
+
+    
+
+    <sprite name='snooze' x='570' y='450' >
+      <animation sheet='snooze' length='4' frameInterval='10'/>
+    </sprite>
+
+    <sprite name='sleepKat' x='602' y='589' width='224' height='100'>
+      <action sprite='kanaya' command='talk' name='眠っているカーカットを調べる'>
+            <args>
+            @meenah_idle ミーナ: ！！！！！
+            @! ねぇ、君が新しく採用されたグランド・首扱き役人だ！前回話した時と同じ昼寝からまだ起きていないみたい。きっとかなり疲れていたんでしょうね。
+            @! なんでこのデカいホーン山で寝ているのか？居心地よくなさそうだ。彼を起こした方がいいかもしれない。そして荷物をまとめて戦争に向かう準備ができているかどうか確認するね。
+            @! ちょっと待って。マリャムが君を怪しい目で見ている。君の計画に気づいていないわよね？どうして知っているの？この女、本当に邪魔しているわ。振りほどこうとするかもしれないけど、レインボードリンカーとしては、とんでもない攻撃速度かもしれない。
+            @kanaya2_talk カナヤ: 何を　するつもりでも　やってみないでよ
+            @meenah_wut ミーナ: 何だヨー！！！
+            @meenah_wut2 ミーナ: 何のつもり)(ねぇ
+            @kanaya2_talk カナヤ: 進めよう
+            <!--  -->
+            </args>
+      </action>
+      <action sprite='rose' command='talk' name='眠っているカーカットを調べる'>
+            <args>
+            @! 陽気なピエロアクセサリーの山積みの上から「ZZZZZZZZZZZZZ」ってカーカットが言った。
+            <!--  -->
+            </args>
+      </action>
+      <action sprite='dave' command='talk' name='眠っているカーカットを調べる'>
+            <args>
+            @! ホーンが多すぎるんだ。なんでこの逃げ上手なジャガロトロールがなんでこんなにホーンが要るのか、いつも気になってた。なんか問題があるかも。あと、なんでトロールがこの変なホーン山に眠る傾向があるんだろう？昼寝のためにより不快な場所さえ想像できない。決して理解できないことたくさんある。
+            </args>
+      </action>
+      <action sprite='damara' command='talk' name='何これ？'>
+            <args>
+            @damara_smilemean ダマラ: ..............
+            <!--  -->
+            </args>
+      </action>
+    </sprite>
+
+    
+  	
+  	<sprite name='sixthRoomBG'>
+  		<animation sheet='sixthRoomBG' sliced='true' colSize='500' rowSize='500' numCols='3' numRows='3'/>
+  	</sprite>
+
+  </room> 
+</rooms>
+
+</sburb>

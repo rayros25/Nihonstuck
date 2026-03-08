@@ -1,0 +1,141 @@
+<sburb description="fourth room">
+
+<dependencies>
+  <dependency>chars/aranea.xml</dependency>
+  <dependency>dialogs/expoDialog.xml</dependency>
+</dependencies>
+
+<assets>
+	<asset name='fourthRoomBG_0_0' type='graphic'>backgrounds/slices/fourthRoomBG_0_0.png</asset>
+<asset name='fourthRoomBG_0_1' type='graphic'>backgrounds/slices/fourthRoomBG_0_1.png</asset>
+<asset name='fourthRoomBG_0_2' type='graphic'>backgrounds/slices/fourthRoomBG_0_2.png</asset>
+<asset name='fourthRoomBG_1_0' type='graphic'>backgrounds/slices/fourthRoomBG_1_0.png</asset>
+<asset name='fourthRoomBG_1_1' type='graphic'>backgrounds/slices/fourthRoomBG_1_1.png</asset>
+<asset name='fourthRoomBG_1_2' type='graphic'>backgrounds/slices/fourthRoomBG_1_2.png</asset>
+<asset name='fourthRoomBG_2_0' type='graphic'>backgrounds/slices/fourthRoomBG_2_0.png</asset>
+<asset name='fourthRoomBG_2_1' type='graphic'>backgrounds/slices/fourthRoomBG_2_1.png</asset>
+<asset name='fourthRoomBG_2_2' type='graphic'>backgrounds/slices/fourthRoomBG_2_2.png</asset>
+<asset name='fourthRoomBG_3_0' type='graphic'>backgrounds/slices/fourthRoomBG_3_0.png</asset>
+<asset name='fourthRoomBG_3_1' type='graphic'>backgrounds/slices/fourthRoomBG_3_1.png</asset>
+<asset name='fourthRoomBG_3_2' type='graphic'>backgrounds/slices/fourthRoomBG_3_2.png</asset>
+<asset name='fourthRoomBG_4_2' type='graphic'>backgrounds/slices/fourthRoomBG_4_2.png</asset>
+<asset name='fourthRoomFG_0_0' type='graphic'>backgrounds/slices/fourthRoomFG_0_0.png</asset>
+<asset name='fourthRoomFG_0_1' type='graphic'>backgrounds/slices/fourthRoomFG_0_1.png</asset>
+<asset name='fourthRoomFG_0_2' type='graphic'>backgrounds/slices/fourthRoomFG_0_2.png</asset>
+<asset name='fourthRoomFG_1_0' type='graphic'>backgrounds/slices/fourthRoomFG_1_0.png</asset>
+<asset name='fourthRoomFG_1_1' type='graphic'>backgrounds/slices/fourthRoomFG_1_1.png</asset>
+<asset name='fourthRoomFG_1_2' type='graphic'>backgrounds/slices/fourthRoomFG_1_2.png</asset>
+<asset name='fourthRoomFG_2_0' type='graphic'>backgrounds/slices/fourthRoomFG_2_0.png</asset>
+<asset name='fourthRoomFG_2_1' type='graphic'>backgrounds/slices/fourthRoomFG_2_1.png</asset>
+<asset name='fourthRoomFG_2_2' type='graphic'>backgrounds/slices/fourthRoomFG_2_2.png</asset>
+<asset name='fourthRoomFG_3_0' type='graphic'>backgrounds/slices/fourthRoomFG_3_0.png</asset>
+<asset name='fourthRoomFG_3_1' type='graphic'>backgrounds/slices/fourthRoomFG_3_1.png</asset>
+<asset name='fourthRoomFG_3_2' type='graphic'>backgrounds/slices/fourthRoomFG_3_2.png</asset>
+<asset name='fourthRoomFG_4_2' type='graphic'>backgrounds/slices/fourthRoomFG_4_2.png</asset>
+
+	<asset name='fourthRoomMap' type='graphic'>backgrounds/fourthRoomMap.png</asset>
+  <asset name='araneaStandSheet' type='graphic'>objects/aranea_stand.png</asset>
+  <asset name='andrewStandSheet' type='graphic'>objects/ah_stand.png</asset>
+
+  <asset name='item14' type='graphic'>objects/items/item14.png</asset>
+  <asset name='elevatorStuck' type='audio'>audio/music/ElevatorstuckLoopQuiet.oga;audio/music/ElevatorstuckLoopQuiet.mp3</asset>
+</assets>
+
+<sprite depthing='3' name='item14'>
+  <animation sheet='item14' x='-50' y='-50'/>
+</sprite>
+
+<rooms>
+  <room name='fourthRoom' walkableMap='fourthRoomMap' mapScale='2'>
+  	<triggers>
+  		<trigger>
+  			<args>inBox2,meenah,2013,492,1944,304</args>
+  			<action command='changeRoomRemote'>
+          <args>rooms/thirdRoom.xml,thirdRoom,459,720</args>
+          <action class='beKanaya'>
+            <action command='goBack'>
+              <args>kanaya</args>
+              <action command='follow'>
+                <args>meenah,kanaya</args>
+              </action>
+            </action>
+          </action>
+        </action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox2,damara,2013,492,1944,304</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/thirdRoom.xml,thirdRoom,459,720</args>
+          <action command='playSong'>
+            <args>damaraSong,8.01</args>
+          </action>
+        </action>
+      </trigger>
+
+  		<trigger>
+  			<args>inBox2,meenah,186,279,228,492</args>
+  			<action command='changeRoomRemote'>
+          <args>rooms/fifthRoom.xml,fifthRoom,1228,552</args>
+          <action command='playSong'>
+            <args>vristavSong</args>
+          </action>
+        </action>
+  		</trigger>
+
+      <trigger>
+        <args>inBox2,damara,186,279,228,492</args>
+        <action command='changeRoomRemote'>
+          <args>rooms/firstRoom.xml,firstRoom,2403,1528</args>
+          <action command='playSong'>
+            <args>damaraSong,8.01</args>
+          </action>
+        </action>
+      </trigger>
+  	</triggers>
+  	
+    <sprite name='araneaStand' x='1004' y='418' width='100' height='30' collidable='true' depthing='1' state='aranea'>
+      <animation name='aranea' sheet='araneaStandSheet' x='-44' y='-100'/>
+      <animation name='andrew' sheet='andrewStandSheet' x='-44' y='-100'/>
+      <action class='expoTalk1'/>
+      <action class='expoTalk2'/>
+      <action class='expoTalk3'/>
+      <action class='expoTalk4'/>
+      <action class='expo2Talk1'/>
+      <action class='expo2Talk2'/>
+      <action class='expo2Talk3'/>
+      <action class='expo2Talk4'/>
+      <action class='expo2Talk5'/>
+      <action class='expo2Talk6'/>
+      <action class='expo2Talk7'/>
+      <action class='expo2Talk8'/>
+      <action class='expo2Talk9'/>
+      <action class='expo2Talk10'/>
+      <action class='expo2Talk11'/>
+      <action class='expo2Talk12'/>
+      <action class='expo2Talk13'/>
+      <action class='expo2Talk14'/>
+      
+    </sprite>
+
+    <sprite class='chest7' name='fourthRoomChest14' x='568' y='424'>
+      <action command='openChest' name='開ける'>
+        <args>fourthRoomChest14,item14,
+                   @! アルターニアの日記を手に入れた！
+      @! ちょっと言葉が長いね。実は、内容によっては、かなりきわどいと感じられる部分もある。というか...かなり多いんだ。
+      @! 君は、後で読むために、こっそりと書き込んだ日記をポケットに入れる。
+
+        </args>
+      </action>
+    </sprite>
+
+  	<sprite name='fourthRoomBG'>
+  		<animation sheet='fourthRoomBG' sliced='true' colSize='500' rowSize='500' numCols='5' numRows='3'/>
+  	</sprite>
+  	<sprite name='fourthRoomFG' depthing='2'>
+  		<animation sheet='fourthRoomFG' sliced='true' colSize='500' rowSize='500' numCols='5' numRows='3'/>
+  	</sprite>
+  </room> 
+</rooms>
+
+</sburb>

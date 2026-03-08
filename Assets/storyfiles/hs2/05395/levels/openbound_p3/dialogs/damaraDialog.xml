@@ -1,0 +1,160 @@
+<sburb>
+    <classes>
+<action class='damaraTalk1' sprite='meenah' command='talk' name='ダマラと話す'>
+      <args>
+      @meenah_idle ミーナ: なぁぁぁ
+      @meenah_idle ミーナ: メギド
+      @meenah_idle ミーナ: 久しブリ
+      @meenah_annoyed ミーナ: だな
+      @damara_squint ダマラ: 
+      @meenah_annoyedtalk ミーナ: この再会がアタイと同じくらいアンタにとって気まずいだと言ってくれ
+      @damara_squint ダマラ: 
+      @meenah_talk ミーナ: 何も言わないのか
+      @meenah_talk ミーナ: アンタそこに立ってこの寒い沈黙の中でアタイを針にかけたまま身もだえさせるつもりなんだ
+      @meenah_angrytalk ミーナ: おいこのイカれた女　せめて何かして打ち解けさせてくれ
+      @damara_fu3 ダマラ: 
+      @meenah_happier ダマラ: ありがとヨー
+      @meenah_talk ミーナ: ちなみに　ルフィヨのルーサスを連れ去ったのか
+      @meenah_talk ミーナ: あるいはあいつのオタクっぽいフィドゥスポーングッズを盗んだ
+      @meenah_talk ミーナ: もう終わったと思ったのに
+      @meenah_annoyedtalk ミーナ: まさか永遠が過ぎてもまだあいつを苦しめてる
+      @damara_talk ダマラ: 拿上你的双叉子。自慰两次。
+      @meenah_wut ミーナ: アタイのダブル何でアタイ二回自分自身に何をする？？
+      @meenah_annoyedtalk ミーナ: 相川らずアンタの奇妙なアクセント濃厚だな
+      @damara_talk ダマラ: 它不够粗，无法给你带来性快感。
+      @damara_squinttalk ダマラ: 你还要继续用你的话语让我感到厌烦吗？还是你会脱掉我的衣服？
+      @damara_smilemeantalk ダマラ: 我想感受你的牙齿咬住我的乳头。
+      @meenah_wut2 ミーナ: )(ぁ
+      @meenah_annoyedtalk ミーナ: 何かを噛んでって言われたか
+      @meenah_annoyed ミーナ: クソ諦めた
+      @meenah_annoyedtalk ミーナ: 言語の壁きついんだブク
+      @damara_smoke ダマラ: 
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk2' sprite='meenah' command='talk' name='ダマラを仲間ように頼む'>
+      <args>
+      @meenah_happier ミーナ: あのな！軍を作ろうｔア)()()()()(
+      @meenah_creepylaugh:#つまり#海の大草原 ミーナ: 大海草原
+      @meenah_talk ミーナ: アンタ裏切らなくて現実を救うことに気にしするものか
+      @damara_idle ダマラ: 很公平。
+      @meenah_talk ミーナ: 半分冗談だけど
+      @meenah_talk ミーナ: 何か考えてた
+      @meenah_talk ミーナ: あの時
+      @meenah_talk ミーナ: お互いにぶっ壊した時
+      @meenah_talk ミーナ: あの復讐の連鎖のせいで
+      @meenah_talk ミーナ: アタイが死んで神級に上ったし
+      @meenah_idle ミーナ: 覚えてるだろ
+      @damara_smilemean ダマラ: 我记得。
+      @damara_smiletalk ダマラ: 有时我会对着那段回忆自慰。
+      @meenah_annoyedtalk ミーナ: ああヨーくわんなかったけどもっと変なスケベな生意気さだろうな
+      @meenah_talk ミーナ: 知りたいの)(
+      @meenah_talk ミーナ: 戦いの後
+      @meenah_talk ミーナ: 十分にケガしてそしてもしかして
+      @meenah_talk ミーナ: どこかに這い出て死んだのか
+      @meenah_wink ミーナ: クエストマユの中に
+      @damara_idle ダマラ: ...
+      @meenah_happytalk ミーナ: もしかしてアタイのフォークで血まみれだった
+      @meenah_happytalk ミーナ: そしてもしかして　あらゆる面で騙されたのにクソ恨みを抱くことができないような無力な友人が
+      @meenah_happytalk ミーナ: 新しいロボホース体で駆けて来てアンタの血まみれの体を乗せて
+      @meenah_creepytalk ミーナ: アンタのマユまで走って石板にアンタを落としてもとどめを刺す勇気は出なかった
+      @meenah_creepylaugh:#そのクソバカな頭にあるか ミーナ: 思い出したかな
+      @damara_huhtalk ダマラ: 你他妈在胡说八道些什么？蠢货。
+      @meenah_angrytalk ミーナ: アンタが神級なのか聞いてるこの不可貝なクソ女だヨーーーー
+      @meenah_annoyedtalk ミーナ: マアジでアンタから情報を得るなんてまるでヤリマン殺人ハマグリから真珠をこじ開けるようなもんだ
+      @damara_squinttalk ダマラ: 蛤蜊不产珍珠。你对海洋一无所知。
+      @meenah_angrytalk ミーナ: ハマグリが真珠作んないってわかってる！！！ただ言い間違えたんだ性急なディスだった
+      @meenah_angrytalk ミーナ: だが海についてアタイの権威を疑うなダメギ　アタイが水っぽいやつらのこと知ってるぜ
+      @meenah_fishtalk ミーナ: その浜チュアたわごとでアタイをキレさせると思うか
+      @damara_smoke ダマラ: 你看上去很生气。冷静点。我们来互相抚摸一下。跟我一起抽大麻。
+      @meenah_wut2 ミーナ: もうわかんないってば
+      @meenah_wut ミーナ: チルアウトして何をする...？
+      @meenah_annoyedtalk ミーナ: できるだけ簡単にもう一度聞いてみる
+      @meenah_angrytalk ミーナ: メギドアンタ)(魔法の不滅時間秘密の蝶々羽のフェアリーウィッチか！答えヨー！
+      @damara_talk ダマラ: 到底多少？你想知道？水婊子。
+      @meenah_idle ミーナ: ダマラ
+      @meenah_talk ミーナ: ひどい会話がゲームだったらアンタ)(本当にラスボスだ
+      @meenah_talk ミーナ: さあアラネアとそのおしゃべりスタンド)(どこだ　もうこのクソを終わらせようぜ
+      <!--  -->
+      </args>
+</action>
+
+
+<action class='damaraTalk3' sprite='meenah' command='talk' name='ダマラになる'>
+      <args>
+      @damara_talk ダマラ: 你想成为我吗？
+      @damara_talk ダマラ: 你不能这样对我。如果你不能理解我。
+      @damara_talk ダマラ: 而且，你不能这样对我。如果你不能和我上床的话。
+      @meenah_talk ミーナ: ええと　何言ったのか全然わかんない
+      @meenah_talk ミーナ: アンタのチンプンカンプンができる奴が聞かなきゃな
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk4' sprite='rufioh' command='talk' name='ダマラと話す'>
+      <args>
+      @rufioh_offendedtalk \nルフィヨ: ね、ダマラちゃん...ボクのルーサスの最近の消失、関係あるでしょうね？
+      @damara_talk ダマラ: 当然不是。你的指控简直荒谬至极。
+      @rufioh_offended \nルフィヨ: うん...そうだな...あるわけな１じゃん！
+      @rufioh_talk \nルフィヨ: キミの悪ふざけまだわかって１な１ものか...
+      @damara_huhtalk ダマラ: 闭嘴。好吧。你和他分手了吗？
+      @rufioh_sadtalk \nルフィヨ: ううん...まだだ...
+      @rufioh_sheepish \nルフィヨ: やってみたけど...できなかったよ...つら１だろう？
+      @damara_meantalk ダマラ: 你是什​​么意思？是那种被爱人背叛的感觉吗？是的，我知道。
+      @rufioh_sadtalk \nルフィヨ: や〇１...冷た１ね。なんで昔のこと忘れっちゃダメなの？
+      @rufioh_offended \nルフィヨ: とにかく...ホーラスと別ける勇気を出せる時...キミのチャンスだと思うなよ！
+      @rufioh_sheepish \nルフィヨ: ボクたちはもう終わったよ...当たり前の理由で...だからただの友達だよ、わかる？
+      @damara_fiendish ダマラ: 好的，我们会向您展示。
+      @rufioh_happytalk \nルフィヨ: はは、キミそう言うだろうと予想したね。
+      @rufioh_surprisetalk \nルフィヨ: とにかく、ミーナがこのバブル通して行かなきゃ...キミ１つも邪魔にするのが好きだけど...
+      @rufioh_surprisetalk \nルフィヨ: そこの〇〇デカ１氷山を消してくれる？
+      @damara_idle ダマラ: 绝对不可能。
+      @rufioh_sheepish \nルフィヨ: へぇ、お願１...ボクのためにね、ダマラ？
+      @damara_smilemeantalk ダマラ: 好吧。但你欠我一个人情。性方面的恩惠。
+      @rufioh_laugh \nルフィヨ: はははは...わお...わかった...かも？もう行ってくれ...
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk5' sprite='horuss' command='talk' name='ダマラと話す'>
+      <args>
+      @horuss_smiletalk ホーラス: 8=D &lt; あら、こんにちは、ダマラ。ここのチェストでなんか機械的な問題があるそうだ。見ていい？
+      @damara_talk ダマラ: 你可以随时观看我的胸部。
+      @horuss_smiletalk ホーラス: 8=D &lt; いいよ...って言ったでしょ？ごめん、其方の下品な低血アクセントに本当に苦労する。
+      @damara_talk ダマラ: 把牛奶倒在我的乳房上。
+      @horuss_smiletalk ホーラス: 8=D &lt; それもよく分かりなかった。ミルクについて？特別な方法で提供されたいこと？
+      @horuss_hmmtalk ホーラス: 8=D &lt; ああ、ミルク欲しかったら、後で持って来られるよ。ガラスを割らずに渡すには、蒸気で動くキョウ度低下手袋を装備しなきゃ。
+      @damara_talk ダマラ: 不，别戴手套。我喜欢粗暴的。碾碎我的身体。骑手。
+      @horuss_hmmtalk ホーラス: 8=D &lt; もっとまともな会話ができるように、１００能翻訳機を完成させないと。蒸気動力に頼るとなると、回路を正常に動作させるのが本当に難しいんだ。
+      @damara_squinttalk ダマラ: 你要确保我幽灵般的生殖器获得性高潮，你必须用你那幻影般的马阴茎来完成这件事。
+      @horuss_smiletalk ホーラス: 8=D &lt; 私の何で其方の何に何して欲しい？
+      @damara_smiletalk ダマラ: 你汗津津的脸蹭我的光屁股。
+      @horuss_idle ホーラス: 8=D &lt; うーん。私...
+      @horuss_sweat_bashful ホーラス: 8=D &lt; はい？
+      @damara_smilemeantalk ダマラ: 我是你的亚洲女学生。你可以把我的衣服撕成碎片。你必须取悦我。用你的喇叭。
+      @horuss_sweat_grin ホーラス: 8=D &lt; 其方の女子高生の制服に何をする？
+      @horuss_sweat_talk ホーラス: 8=D &lt; 台無しにしたくないけど。素敵なんだ。
+      @horuss_hmmtalk ホーラス: 8=D &lt; でも、もしかしたら、其方のファッションセンスを真似したロボットアバターを作れるかもしれない。実際、もっと理解やすい音声アルゴリズムもインストールできる。
+      @damara_mean ダマラ: 别出声。闭嘴，操我。
+      @horuss_sweat_idle ホーラス: 8=D &lt; うーん。(ゴホン。)
+      @damara_meantalk ダマラ: 进入我的身体，否则我将毁灭你。
+      @horuss_sweat_bashful ホーラス: 8=D &lt; ダマラ、早合点して結論を​​出しているようですみませんけど、其方の謎めいた発言の性質は...まあ...
+      @horuss_oops ホーラス: 8=D &lt; 少し下品なものになっていない？
+      @damara_lewd ダマラ:
+      <!--  -->
+      </args>
+</action>
+
+<action class='damaraTalk6' sprite='horuss' command='talk' name='ダマラになる'>
+      <args>
+      @damara_talk ダマラ: 你想成为我吗？
+      @damara_talk ダマラ: 你不能这样对我。如果你不能理解我。
+      @damara_talk ダマラ: 而且，你不能这样对我。如果你不能和我上床的话。
+      @horuss_sweat_grin ホーラス: 8=D &lt; ごめん？
+      @horuss_sweat_grin ホーラス: 8=D &lt; ルフィヨが尋ねる方がいいかもしれない。いつも其方の下品な１００姓の言葉をわかる人はいつも彼しかない。
+      <!--  -->
+      </args>
+</action>
+  	</classes>
+</sburb>
