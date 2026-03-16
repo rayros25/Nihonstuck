@@ -344,6 +344,10 @@ vueHooks: [
     const act6int2 = api.readJson('./JP_Data/act6int2.json')
     api.logger.info(act6int2)
 
+    // NOTE: only variable that doesn't match filepath
+    const act6int3to4 = api.readJson('./JP_Data/act6int3-4.json')
+    api.logger.info(act6int3to4)
+
     const scratchbanner = api.readJson('./JP_Data/scratchbanner.json')
     api.logger.info(scratchbanner)
 
@@ -476,6 +480,15 @@ vueHooks: [
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...act6int2[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+
+        for (const page_num in act6int3to4) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6int3to4[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
