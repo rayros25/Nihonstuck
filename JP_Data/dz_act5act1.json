@@ -1182,10 +1182,10 @@
     },
     "004185": {
         "title": "エクィウス：プレゼントを渡す。",
-        "content": "|SPRITELOG|<br><span style=\"color: #a10000\">アラディアスプライト:いい見た目ですね</span><br /><span style=\"color: #000056\">エクィウス: D --> そうだろう</span><br /><span style=\"color: #000056\">エクィウス: D --> すべてにおいて完璧だ</span><br /><span style=\"color: #a10000\">アラディアスプライト:げこっ</span><br /><span style=\"color: #000056\">エクィウス: D --> 其方は</span><br /><span style=\"color: #000056\">エクィウス: D --> どこかに綺麗なタオルは持っていないか</span>"
+        "content": "|SPRITELOG|<br><span style=\"color: #a10000\">アラディアスプライト：いい見た目ですね</span><br /><span style=\"color: #000056\">エクィウス: D --> そうだろう</span><br /><span style=\"color: #000056\">エクィウス: D --> すべてにおいて完璧だ</span><br /><span style=\"color: #a10000\">アラディアスプライト：げこっ</span><br /><span style=\"color: #000056\">エクィウス: D --> 其方は</span><br /><span style=\"color: #000056\">エクィウス: D --> どこかに綺麗なタオルは持っていないか</span>"
     },
     "004186": {
-        "title": "アラディアスプライト:ソウルボットに入る。",
+        "title": "アラディアスプライト：ソウルボットに入る。",
         "content": ""
     },
     "004187": {
@@ -1598,7 +1598,7 @@
     },
     "004289": {
         "title": "======>",
-        "content": "|SPRITELOG|<br><span style=\"color: #008141\">マザースプライト:よしよし、私の愛おしい子よ。</span>"
+        "content": "|SPRITELOG|<br><span style=\"color: #008141\">マザースプライト：よしよし、私の愛おしい子よ。</span>"
     },
     "004290": {
         "title": "======>",
@@ -2321,7 +2321,7 @@
     },
     "004471": {
         "title": "======>",
-        "content": "|SPRITELOG|<br><span style=\"color: #008282\">ドラゴンスプライト:くんくん</span><br /><span style=\"color: #008282\">ドラゴンスプライト:やあテレジ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト:やああああああああああ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト:ねええええテレジ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト:ねえええええええええええええええ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト:くんくんくん</span><br /><span style=\"color: #008282\">ドラゴンスプライト:へへへへへへへへへへへへへへへ！</span>"
+        "content": "|SPRITELOG|<br><span style=\"color: #008282\">ドラゴンスプライト：くんくん</span><br /><span style=\"color: #008282\">ドラゴンスプライト：やあテレジ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト：やああああああああああ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト：ねええええテレジ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト：ねえええええええええええええええ！</span><br /><span style=\"color: #008282\">ドラゴンスプライト：くんくんくん</span><br /><span style=\"color: #008282\">ドラゴンスプライト：へへへへへへへへへへへへへへへ！</span>"
     },
     "004472": {
         "title": "======>",
