@@ -114,7 +114,10 @@ spritecolors = {
     "ガムジー": "2b0057",
     "エリダン": "6a006a",
     "フェフェリ": "77003c",
-    "フェドラフリーク": "4b4b4b",
+    "フェドラフリーク": "4b4ob4b",
+    "エリソルスプライト": "",
+    "フェフェタスプライト": "",
+    "自答クィウスプライト": "",
 }
 
 
@@ -446,6 +449,7 @@ def main():
             final_line = final_line.replace(':\\', ':\\\\')
             final_line = final_line.replace("TT*", "TT")
             final_line = final_line.replace('\\\\\"', '\\\"') # THIS IS STUPID
+            final_line = final_line.replace('38\\', '38\\\\') # i hate you fefetasprite
             outfile.write(final_line)
 
             # GA:"yeah" ==> GA:\"yeah\" ==> 
@@ -464,7 +468,12 @@ def main2():
 
             # if len(json_str) > 8148:
             #     print("json_str:", json_str[8145:8153])
-            result = json.loads(json_str)
+            try:
+                result = json.loads(json_str)
+            except:
+                print("SOMETHING WENT WRONG.")
+                print(json_str)
+            
 
             for key in result:
                 print(key)
