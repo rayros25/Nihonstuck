@@ -114,7 +114,10 @@ spritecolors = {
     "ガムジー": "2b0057",
     "エリダン": "6a006a",
     "フェフェリ": "77003c",
-    "フェドラフリーク": "4b4b4b",
+    "フェドラフリーク": "4b4ob4b",
+    "エリソルスプライト": "",
+    "フェフェタスプライト": "",
+    "自答クィウスプライト": "",
 }
 
 
@@ -336,17 +339,20 @@ def main():
         initials["TT"] = "timaeusTestified"
         initials["TT*"] = "timaeusTestified"
         initials["UU"] = "uranianUmbra"
+        initials["uu"] = "undyingUmbrage"
         pestercolors["GG"] = "00d5f2"
         pestercolors["GT"] = "1f9400"
         pestercolors["TG"] = "f141ef"
         pestercolors["TT"] = "f2a400"
         pestercolors["TT*"] = "e00707"
         pestercolors["UU"] = "929292"
+        pestercolors["uu"] = "323232"
         handleTranslations["gutsyGumshoe"] = "ど根性刑事"
         handleTranslations["golgothasTerror"] = "ゴルゴタの恐怖"
         handleTranslations["tipsyGnostalgic"] = "ほろ酔いグノースタルジック"
         handleTranslations["timaeusTestified"] = "ティマイオス証言"
         handleTranslations["uranianUmbra"] = "ウラニアの本影"
+        handleTranslations["undyingUmbrage"] = "不滅の怒り"
 
     skipped = 0
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'w') as outfile, open(f'TXT/{sys.argv[1]}.txt') as file, open('mspa.json', 'r') as hs:
@@ -443,6 +449,7 @@ def main():
             final_line = final_line.replace(':\\', ':\\\\')
             final_line = final_line.replace("TT*", "TT")
             final_line = final_line.replace('\\\\\"', '\\\"') # THIS IS STUPID
+            final_line = final_line.replace('38\\', '38\\\\') # i hate you fefetasprite
             outfile.write(final_line)
 
             # GA:"yeah" ==> GA:\"yeah\" ==> 
@@ -461,7 +468,12 @@ def main2():
 
             # if len(json_str) > 8148:
             #     print("json_str:", json_str[8145:8153])
-            result = json.loads(json_str)
+            try:
+                result = json.loads(json_str)
+            except:
+                print("SOMETHING WENT WRONG.")
+                print(json_str)
+            
 
             for key in result:
                 print(key)
