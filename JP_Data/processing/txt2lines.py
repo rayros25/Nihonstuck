@@ -115,9 +115,14 @@ spritecolors = {
     "エリダン": "6a006a",
     "フェフェリ": "77003c",
     "フェドラフリーク": "4b4ob4b",
-    "エリソルスプライト": "",
-    "フェフェタスプライト": "",
-    "自答クィウスプライト": "",
+    "エリソルスプライト": "4ac925",
+    "フェフェタスプライト": "b536da",
+    "自答クィウスプライト": "e00707",
+    "TODO:tavrissprite": "0715cd",
+    "ジェーン": "00d5f2",
+    "ロクシー": "f141ef",
+    "ジェイク": "1f9400",
+    "ダーク": "f2a400", 
 }
 
 
@@ -353,6 +358,11 @@ def main():
         handleTranslations["timaeusTestified"] = "ティマイオス証言"
         handleTranslations["uranianUmbra"] = "ウラニアの本影"
         handleTranslations["undyingUmbrage"] = "不滅の怒り"
+        pestercolors[")(IC"] = "77003c"
+        initials[")(IC"] = ")(er Imperious Condescension"
+        handleTranslations[")(er Imperious Condescension"] = "見下し女帝陛下"
+
+        # TODO: trickster colors are slightly different
 
     skipped = 0
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'w') as outfile, open(f'TXT/{sys.argv[1]}.txt') as file, open('mspa.json', 'r') as hs:

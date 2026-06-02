@@ -266,15 +266,15 @@ vueHooks: [
             else if (/JOURNALOG/i.test(text)){
                 text = '日ログ'
             }
-            // else if (/DIALOGLOG/i.test(text)){
-            //     text = 'Диалоглог'
-            // }
+            else if (/DIALOGLOG/i.test(text)){
+                text = '対話ログ'
+            }
             else if (/SRIOUSBIZ/i.test(text)){
                 text = '真面目なビジネス'
             }
-            // else if (/TRKSTRLOG/i.test(text)){
-            //     text = 'Трикстерлог'
-            // }
+            else if (/TRKSTRLOG/i.test(text)){
+                text = 'トリックスターログ'
+            }
             return text + state
 	    }
     }
