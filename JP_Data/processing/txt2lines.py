@@ -13,9 +13,7 @@ import re
 # TODO: fix weird first line issue (and by that extent, fix the whole "Extract command issue")
 
 
-# NOTE: THIS IS THE THING
 isPostScratch = True
-
 
 # TODO: auto furigana
 handleTranslations = {
@@ -42,11 +40,12 @@ handleTranslations = {
 
 initials = {
     "EB": "ectoBiologist",
-    "GT": "ghostyTrickster", # ghostyTrickster, not golgothasTerror
+    "GT": "ghostyTrickster",
     "TG": "turntechGodhead",
     "TT": "tentacleTherapist",
     "GG": "gardenGnostic",
-    "AA": "apocalypseArisen", # here be trolls
+    # Here be trolls
+    "AA": "apocalypseArisen", 
     "AT": "adiosToreador",
     "TA": "twinArmageddons",
     "CG": "carcinoGeneticist",
@@ -58,17 +57,16 @@ initials = {
     "TC": "terminallyCapricious",
     "CA": "caligulasAquarium",
     "CC": "cuttlefishCuller",
-    # "": "", # TODO: this is lazy. does it even work?
-    # TODO: add TT* 
 }
 
 pestercolors = {
     "EB": "0715cd",
-    "GT": "0715cd", # ghostyTrickster, not golgothasTerror
+    "GT": "0715cd",
     "TG": "e00707",
     "TT": "b536da",
     "GG": "4ac925",
-    "AA": "a10000", # here be trolls
+    "AA": "a10000", 
+    # Here be trolls
     "AT": "a15000",
     "TA": "a1a100",
     "CG": "626262",
@@ -87,16 +85,14 @@ pestercolors = {
 # TODO: aradiasprite and equius and probably the rest
 spritecolors = {
     "ジョン": "0715cd",
-    "デイブ": "e00707", # TODO: choose dave spelling
-    "デイヴ": "e00707", # TODO: choose dave spelling
+    "デイブ": "e00707",
     "ローズ": "b536da",
-    "ジェイド": "4ac925", # there better not be an alternate spelling of this
+    "ジェイド": "4ac925",
     "ナンナスプライト": "00d5f2",
     "pipefan413": "00d5f2",
     "ヤスパーススプライト": "f141ef",
     "カルスプライト": "f2a400",
-    "デイヴスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
-    "デイブスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
+    "デイブスプライト": "f2a400",
     "ジェイドスプライト": "1f9400",
     "アラディアスプライト": "a10000", # here be trolls
     "アラディアボット": "a10000", 
@@ -105,7 +101,7 @@ spritecolors = {
     "ソラックス": "a1a100",
     "カーカット": "626262",
     "ネペタ": "416600",
-    "マザースプライト": "008141", # I'm guessing it's the same as Kanaya's color
+    "マザースプライト": "008141",
     "カナヤ": "008141", 
     "ドラゴンスプライト": "008282",
     "テレジ": "008282",
@@ -119,10 +115,14 @@ spritecolors = {
     "フェフェタスプライト": "b536da",
     "自答クィウスプライト": "e00707",
     "TODO:tavrissprite": "0715cd",
+    # Alpha kids
     "ジェーン": "00d5f2",
     "ロクシー": "f141ef",
     "ジェイク": "1f9400",
     "ダーク": "f2a400", 
+    # Misspellings
+    "デイヴ": "e00707",
+    "デイヴスプライト": "f2a400", 
 }
 
 
@@ -147,15 +147,12 @@ replacements = {
     '心霊生物者': '心霊生物学者',
     'イカ選定者': 'イカ淘汰者',
     'ヤスパースプライト': 'ヤスパーススプライト'
-    # '］': ']',
-    # '［': '[',
 }
 # たく　ちく <-- japanese space
 
 
 # TODO: handle CC [フェフェリ]：水中での作業は難しいからー！<br />
 # TODO: handle > ジョン、人間ではない灰色の文字に話しかけるのはすぐにやめてください。 as last line
-
 
 def in_memo(s):
     return s.startswith('未来') or s.startswith('現在') or s.startswith('過去')
@@ -271,18 +268,7 @@ def colorize(s):
         elif "[" in res:
             # [CG], [FCG], [PCG], [CCG], [?CG], [FCG2], etc.
 
-            # yeahitsthere = False
-            # for quuux in memo_prefixes:
-            #     yeahitsthere = yeahitsthere or quuux + p in res
-
             if alternianStyle:
-                # TRUTH NUKE
-                # for eng, jpn in handleTranslations.items():
-                # print("[" + p + "]")
-                # print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
-
-                # print("KEY: ", p)
-
                 if p:
                     eng = initials[p]
                     jpn = handleTranslations[eng]
@@ -368,7 +354,7 @@ def main():
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'w') as outfile, open(f'TXT/{sys.argv[1]}.txt') as file, open('mspa.json', 'r') as hs:
         text = file.read()
         lines = text.split("\n")
-        # lines = text.split("<br>\n") # this is how Act 3's html does linebreaks
+        # Act 3's html does "<br>\n" as linebreaks instead of just "\n"
 
         story = json.load(hs)["story"]
 
@@ -382,12 +368,9 @@ def main():
                 expected_page += 1
             print("page_num:", page_num)
 
-
-
             page_id = 1900 + int(page_num) + skipped
             expected_page_id = 1900 + expected_page + skipped
             page_idstr = f'{page_id:06}'
-
 
             if page_id != expected_page_id:
                 if f'{expected_page_id:06}' not in ['004299', '004938', '004988']:
@@ -404,15 +387,12 @@ def main():
                 page_idstr = '004314'
                 skipped = 0
 
-
-
-            # sometimes formatting is inconsistent, so we have to do this:
+            # Sometimes formatting is inconsistent, so we have to do this:
             title = ''
             while not title:
                 title = lines.pop(0)
             buf = []
 
-            # print(lines[-10:])
             while lines[0] != '----':
                 upnext = lines.pop(0)
                 if not upnext:
@@ -462,8 +442,6 @@ def main():
             final_line = final_line.replace('38\\', '38\\\\') # i hate you fefetasprite
             outfile.write(final_line)
 
-            # GA:"yeah" ==> GA:\"yeah\" ==> 
-
 def main2():
     with open(f'JSONL/{sys.argv[1]}.jsonl', 'r') as json_file:
         json_list = list(json_file)
@@ -476,20 +454,15 @@ def main2():
                 json_str = json_str.replace(jpn + " ", jpn)
                 json_str = json_str.replace(jpn + "[", f'<ruby>{eng}<rt>{jpn}</rt></ruby>[')
 
-            # if len(json_str) > 8148:
-            #     print("json_str:", json_str[8145:8153])
             try:
                 result = json.loads(json_str)
             except:
                 print("SOMETHING WENT WRONG.")
                 print(json_str)
             
-
             for key in result:
                 print(key)
                 final_output[key] = result[key]
-            # result is a dict
-            # print(f"result: {result}")
 
     json_object = json.dumps(final_output, indent=4, ensure_ascii=False).encode("utf8")
 

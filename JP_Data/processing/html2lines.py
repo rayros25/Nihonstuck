@@ -2,11 +2,6 @@ import json
 import sys
 import re
 
-# TODO:
-# The pester announcement looks like this:
-#   grimAuxiliatrixグリム聖母 [GA][TT] (both tags colored the same)
-# Weird off-by-one errors for commands and messages
-
 
 handleTranslations = {
     "ectoBiologist": "心霊生物学者",
@@ -26,7 +21,6 @@ handleTranslations = {
     "terminallyCapricious": "救いがたいほど気まぐれ",
     "caligulasAquarium": "カリギュラの水族館",
     "cuttlefishCuller": "イカ選定者",
-    # "": "", # TODO: this is lazy. does it even work?
 }
 
 initials = {
@@ -47,7 +41,6 @@ initials = {
     "TC": "terminallyCapricious",
     "CA": "caligulasAquarium",
     "CC": "cuttlefishCuller",
-    # "": "", # TODO: this is lazy. does it even work?
 }
 
 pestercolors = {
@@ -72,25 +65,24 @@ pestercolors = {
 }
 
 
-# TODO: aradiasprite and equius and probably the rest
 spritecolors = {
     "ジョン": "0715cd",
-    "デイブ": "e00707", # TODO: choose dave spelling
-    "デイヴ": "e00707", # TODO: choose dave spelling
+    "デイブ": "e00707",
+    "デイヴ": "e00707",
     "ローズ": "b536da",
-    "ジェイド": "4ac925", # there better not be an alternate spelling of this
+    "ジェイド": "4ac925",
     "ナンナスプライト": "00d5f2",
     "ヤスパーススプライト": "f141ef",
     "カルスプライト": "f2a400",
-    "デイヴスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
-    "デイブスプライト": "f2a400", # TODO: spelllllliiiiiiiiing
+    "デイヴスプライト": "f2a400",
+    "デイブスプライト": "f2a400",
     "アラディアスプライト": "a10000", # here be trolls
     "アラディアボット": "a10000", # here be trolls
     "AT": "a15000",
     "TA": "a1a100",
     "CG": "626262",
     "AC": "416600",
-    "マザースプライト": "008141", # I'm guessing it's the same as Kanaya's color
+    "マザースプライト": "008141",
     "ドラゴンスプライト": "008282",
     "AG": "005682",
     "エクィウス": "000056",
@@ -98,18 +90,6 @@ spritecolors = {
     "CA": "6a006a",
     "CC": "77003c",
     "jadesprite": "????" # NOTE: comma
-    # "AA": "a10000",
-    # "AT": "a15000",
-    # "TA": "a1a100",
-    # "CG": "626262",
-    # "AC": "416600",
-    # "GA": "008141",
-    # "GC": "008282",
-    # "AG": "005682",
-    # "CT": "000056",
-    # "TC": "2b0057",
-    # "CA": "6a006a",
-    # "CC": "77003c"
 }
 
 
@@ -129,15 +109,10 @@ replacements = {
     'ケンタウルスの精巣': 'ケンタウロスの精巣',
     'クモの巣グリップ': 'クモの握',
     'カリギュラ水族館': 'カリギュラの水族館',
-    # '］': ']',
-    # '［': '[',
 }
-# たく　ちく <-- japanese space
-
 
 def in_memo(s):
     return s.startswith('未来') or s.startswith('現在') or s.startswith('過去')
-
 
 def sanitize(s):
     res = s
@@ -240,18 +215,7 @@ def colorize(s):
         elif "[" in res:
             # [CG], [FCG], [PCG], [CCG], [?CG], [FCG2], etc.
 
-            # yeahitsthere = False
-            # for quuux in memo_prefixes:
-            #     yeahitsthere = yeahitsthere or quuux + p in res
-
             if alternianStyle:
-                # TRUTH NUKE
-                # for eng, jpn in handleTranslations.items():
-                # print("[" + p + "]")
-                # print(eng + jpn + "[" + p + "]", " --> ", spantag + eng + jpn + "[" + p + "]" + '</span>')
-
-                # print("KEY: ", p)
-
                 if p:
                     eng = initials[p]
                     jpn = handleTranslations[eng]
@@ -307,10 +271,7 @@ def main():
 
                 lines.pop(0) # just to get rid of first ----
                 while len(lines) > 1:
-                    # print("lines - ", lines[:4])
-                    # TODO: check for pesterlogs, somehow
                     page_num = lines.pop(0)
-                    # print(page_num)
                     page_id = 1900 + int(page_num) + skipped
                     page_idstr = f'{page_id:06}'
 
