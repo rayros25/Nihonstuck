@@ -24,7 +24,7 @@
 * Page 3227: Somehow make it Lord English?
 * Page 3238: Make it white
 * Page 3249: call back to calsprite?
-* Pages 3650 - 3658: stupid sbahj bullshit ahhhh
+* Pages 3650 - 3658: stupid sbahj editing ahhhh
 * Page 3709: Terezi says green sun
 * Page 3761: preserve `&gt;`
 * page 4096 - do this up in classical japanese eventually
@@ -60,13 +60,12 @@
 * Page 2828: Addiction is a powerful thing.
 * Page 2892: Same WHOP asset as Dad Egbert breaking out of Derse jail
 * Page 3015: THIS IS STUPID <--
-* Page 3041: hopy shit
+* Page 3041: いや　すごいなーこれ --> まんてこった?
 * Page 3051: Reference to page 1919, "exactly why babies should not be allowed to dual-wield flintlock pistols."
 * Page 3093: bluh bluh
 * Page 3478: 0u0 wait no that looks stupid
 * Page 3549: THIS IS STUPID
 * Page 3590: this is stupid
-* Page 3597: hopy shit
 * Page 3616: "suckers" also appears in [S] Cascade
 * Page 3632: human emotion called friendship (also zoologically dubious)
 * Page 3642: stolen from previous convo with john
@@ -84,6 +83,5 @@
 * Page 1232: がが
 
 # Flash 
-* Page 665: Lots of English (done)
 * Rose pony
 * Doc Scratch click panels
