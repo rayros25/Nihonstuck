@@ -151,7 +151,7 @@ vueHooks: [
     const jsons = [ 'psleuth', 'hsjp', 'dz_intermission', 'dz_act3', 'dz_act4',
     'dz_act5act1', 'a5a2_one', 'a5a2_two', 'a5a2_three', 'act6act1',
     'act6act2', 'act6act3', 'act6act5', 'act6int1', 'act6int2', 'act6int3-4', 
-    'a6a6a1', 'a6a6a2', 'scratchbanner' ];
+    'a6a6a1', 'a6a6a2', 'a6a6a3', 'scratchbanner' ];
     var translations = [];
 
     for (let jsonfile of jsons) {
