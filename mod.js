@@ -331,6 +331,9 @@ vueHooks: [
 
 
   computed(api) {
+const jailbreak = api.readJson('./JP_Data/jailbreak.json')
+    api.logger.info(jailbreak)
+
     const psleuth = api.readJson('./JP_Data/psleuth.json')
     api.logger.info(psleuth)
 
@@ -393,6 +396,14 @@ vueHooks: [
         //       console.log(archive.mspa.story[page_num])
         //     }
         // }
+
+        for (const page_num in jailbreak) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...jailbreak[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
 
         for (const page_num in psleuth) {
            archive.mspa.story[page_num] = {
