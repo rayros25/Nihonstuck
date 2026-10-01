@@ -240,7 +240,7 @@ module.exports = {
 
   edit: true,
 
-  footnotes: "./footnotes.json",
+  footnotes: "./JP_DATA/footnotes.json",
 
   trees: {
     "./Assets/": "assets://"
