@@ -240,7 +240,7 @@ module.exports = {
 
   edit: true,
 
-  footnotes: "./JP_DATA/footnotes.json",
+  footnotes: "./footnotes.json",
 
   trees: {
     "./Assets/": "assets://"
@@ -375,6 +375,24 @@ const jailbreak = api.readJson('./JP_Data/jailbreak.json')
 
     const act6int2 = api.readJson('./JP_Data/act6int2.json')
     api.logger.info(act6int2)
+
+    const act6int3to4 = api.readJson('./JP_Data/act6int3to4.json')
+    api.logger.info(act6int3to4)
+
+    const act6act5 = api.readJson('./JP_Data/act6act5.json')
+    api.logger.info(act6act5)
+
+    const act6int5 = api.readJson('./JP_Data/act6int5.json')
+    api.logger.info(act6int5)
+
+    const a6a6a1 = api.readJson('./JP_Data/a6a6a1.json')
+    api.logger.info(a6a6a1)
+
+    const a6a6a2 = api.readJson('./JP_Data/a6a6a2.json')
+    api.logger.info(a6a6a2)
+
+    const a6a6a3 = api.readJson('./JP_Data/a6a6a3.json')
+    api.logger.info(a6a6a3)
 
     const scratchbanner = api.readJson('./JP_Data/scratchbanner.json')
     api.logger.info(scratchbanner)
@@ -516,6 +534,54 @@ const jailbreak = api.readJson('./JP_Data/jailbreak.json')
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...act6int2[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in act6int3to4) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6int3to4[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in act6act5) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6act5[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in act6int5) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...act6int5[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in a6a6a1) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...a6a6a1[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in a6a6a2) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...a6a6a2[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in a6a6a3) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...a6a6a3[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
