@@ -394,6 +394,9 @@ const jailbreak = api.readJson('./JP_Data/jailbreak.json')
     const a6a6a3 = api.readJson('./JP_Data/a6a6a3.json')
     api.logger.info(a6a6a3)
 
+    const a6a6a4 = api.readJson('./JP_Data/a6a6a4.json')
+    api.logger.info(a6a6a4)
+
     const scratchbanner = api.readJson('./JP_Data/scratchbanner.json')
     api.logger.info(scratchbanner)
 
@@ -582,6 +585,14 @@ const jailbreak = api.readJson('./JP_Data/jailbreak.json')
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...a6a6a3[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+          for (const page_num in a6a6a4) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...a6a6a4[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
