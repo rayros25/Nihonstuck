@@ -83,12 +83,12 @@ const innerHTMLs = {
   // 'Tomorrow\'s canon, today! Homestuck still has plenty in store for you.': 'Завтрашний канон, сегодня! У Homestuck еще много для вас есть.',
   // MORE MSPA
   // Jailbreak
-  'Jailbreak': '<ruby>脱獄<rt>ジェイルブレーキ</rt></ruby>（未訳）',
+  'Jailbreak': '<ruby>脱獄<rt>ジェイルブレーキ</rt></ruby>',
   // 'A guy tries to escape from prison.': 'Парень пытается сбежать из тюрьмы.',
   // 'The very first MS Paint Adventure. Andrew Hussie ran it as a game on his personal forum, with a rule that forced him to follow the first command suggested after each post. This resulted in barely controlled chaos.': 'Самое первое MS Paint Adventure. Эндрю Хасси запустил это как игру на своем личном форуме, с правилом, которое заставляло его следовать первой команде, предложенной после каждого сообщения. Это привело к едва контролируемому хаосу.',
   // 'Jailbreak was the origin point of several long running jokes that would later return in Homestuck.': 'Jailbreak стал отправной точкой для нескольких продолжительных шуток, которые позже вернется в Homestuck.',
   // Bard Quest
-  'Bard Quest': '<ruby>吟遊詩人<rt>バード</rt></ruby>クエスト（未訳）',
+  'Bard Quest': '<ruby>吟遊詩人<rt>バード</rt></ruby>クエスト',
   // 'A young bard\'s endeavor to slay some dragons. Branching "choose your own adventure" style.': 'Юный бард пытается прикончить парочку драконов. Ветвящееся приключение в стиле "выбери сам развитие сюжета".',
   // 'The second MS Paint Adventure. The branching paths were an experiement that ultimately proved too complex to manage, dooming it to an early cancellation.': 'Второе MS Paint Adventure. Ветвящиеся пути были экспериментом, который в конечном счете оказался слишком сложным для управления, обрекая его на раннюю отмену.',
   // Problem Sleuth
@@ -334,6 +334,9 @@ vueHooks: [
 const jailbreak = api.readJson('./JP_Data/jailbreak.json')
     api.logger.info(jailbreak)
 
+    const bardquest = api.readJson('./JP_Data/bardquest.json')
+    api.logger.info(bardquest)
+
     const psleuth = api.readJson('./JP_Data/psleuth.json')
     api.logger.info(psleuth)
 
@@ -425,6 +428,14 @@ const jailbreak = api.readJson('./JP_Data/jailbreak.json')
            archive.mspa.story[page_num] = {
             ...archive.mspa.story[page_num],
             ...jailbreak[page_num]
+          }
+          console.log(archive.mspa.story[page_num])
+        }
+
+        for (const page_num in bardquest) {
+           archive.mspa.story[page_num] = {
+            ...archive.mspa.story[page_num],
+            ...bardquest[page_num]
           }
           console.log(archive.mspa.story[page_num])
         }
